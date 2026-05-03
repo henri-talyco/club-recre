@@ -8,6 +8,13 @@ const articles = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     pillar: z.enum([
+      // Lifestyle pillars (nouveau positionnement)
+      "activites",
+      "education",
+      "lifestyle",
+      "jouets-vintage",
+      "selections",
+      // Original pillars (mode vintage)
       "looks",
       "pieces-histoires",
       "marques",

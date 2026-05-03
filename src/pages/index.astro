@@ -11,90 +11,112 @@ const featured = sortedArticles.find((a) => a.data.featured) ?? sortedArticles[0
 const recent = sortedArticles.slice(0, 6);
 
 const pillarLabels: Record<string, string> = {
+  activites: "Activités",
+  education: "Éducation",
+  lifestyle: "Lifestyle",
+  "jouets-vintage": "Jouets vintage",
+  selections: "Sélections",
   looks: "Looks",
   "pieces-histoires": "Pièces & Histoires",
   marques: "Marques",
   epoques: "Époques",
   coulisses: "Coulisses",
-  "conseils-guides": "Conseils",
+  "conseils-guides": "Conseils & Guides",
   drops: "Drops",
 };
 
-const marquesPhares = [
-  { slug: "oshkosh-bgosh", name: "OshKosh B'Gosh", country: "USA" },
-  { slug: "petit-bateau", name: "Petit Bateau", country: "France" },
-  { slug: "catimini", name: "Catimini", country: "France" },
-  { slug: "cyrillus", name: "Cyrillus", country: "France" },
-  { slug: "sergent-major", name: "Sergent Major", country: "France" },
-  { slug: "jacadi", name: "Jacadi", country: "France" },
-  { slug: "dpam", name: "DPAM", country: "France" },
-  { slug: "naf-naf-kids", name: "Naf Naf Kids", country: "France" },
-  { slug: "lacoste-enfant", name: "Lacoste Enfant", country: "France" },
-  { slug: "disney-vintage", name: "Disney Vintage", country: "USA" },
-  { slug: "kookai-kids", name: "Kookaï Kids", country: "France" },
-  { slug: "marese", name: "Marèse", country: "France" },
-];
+const pillarBg: Record<string, string> = {
+  activites: "linear-gradient(135deg, #5FA68B, #1F3D2E)",
+  education: "linear-gradient(135deg, #F0C14B, #E87A3C)",
+  lifestyle: "linear-gradient(135deg, #d4a373, #b87333)",
+  "jouets-vintage": "linear-gradient(135deg, #E87A3C, #b87333)",
+  selections: "linear-gradient(135deg, #1F3D2E, #5FA68B)",
+  looks: "linear-gradient(135deg, #5FA68B, #1F3D2E)",
+  marques: "linear-gradient(135deg, #d4a373, #b87333)",
+  epoques: "linear-gradient(135deg, #5FA68B, #1F3D2E)",
+  "conseils-guides": "linear-gradient(135deg, #F0C14B, #E87A3C)",
+};
 
-const epoquesAmbiance = [
-  { slug: "cour-de-recre", name: "Cour de récré", desc: "Sweats à logos, vestes coupe-vent, t-shirts d'équipe." },
-  { slug: "ete-90", name: "Été 90", desc: "Couleurs fluo, salopettes courtes, sandales de plage." },
-  { slug: "gouter-anniversaire", name: "Goûter d'anniversaire", desc: "Chemises à carreaux, robes à smocks, polos rayés." },
-  { slug: "mercredi-apres-midi", name: "Mercredi après-midi", desc: "Joggings velours, sweats doux, t-shirts série télé." },
-  { slug: "dimanche-hiver", name: "Dimanche d'hiver", desc: "Pulls jacquard, manteaux à capuche, écharpes tricotées." },
-  { slug: "premier-jour-ecole", name: "Premier jour d'école", desc: "Cartable, jean propre, sweat. Le grand classique." },
+const piliers = [
+  { slug: "/activites", label: "Activités", desc: "Le mercredi, les anniversaires, les sorties qui sortent du Parc Astérix.", img: "/img/articles/jeux-cour-recre.jpg" },
+  { slug: "/lifestyle", label: "Lifestyle", desc: "Chambre, goûters, déco, organisation. Pour les parents qui ont du goût.", img: "/img/articles/chambre-enfant-90s.jpg" },
+  { slug: "/education", label: "Éducation", desc: "Élever un enfant moins connecté, plus autonome, plus libre. Comme on l'a été.", img: "/img/articles/enfant-deconnecte.jpg" },
+  { slug: "/jouets-vintage", label: "Jouets vintage", desc: "Playmobil, Fisher Price, Polly Pocket. Les jouets qu'on transmet vraiment.", img: "/img/articles/jouets-vintage-selection.jpg" },
+  { slug: "/vintage", label: "Mode vintage", desc: "OshKosh, Petit Bateau, Catimini. Pour habiller son enfant avec caractère.", img: "/img/articles/mercredi-apres-midi-90s.jpg" },
+  { slug: "/selections", label: "Sélections", desc: "Notre curation mensuelle : mode, jouets, livres, déco. Du sourcé à la main.", img: "/img/articles/jouets-vintage-selection.jpg" },
 ];
 ---
 
 <BaseLayout
-  title="Club Récré — Mode vintage enfant 90s, looks, marques et conseils"
-  description="Magazine vintage enfant 90s. Looks complets, guides marques, conseils pour habiller son enfant en style années 90 sans tomber dans le déguisement."
+  title="Club Récré — Magazine lifestyle pour parents qui ont grandi en 90s"
+  description="Activités, éducation, lifestyle, jouets et mode vintage. Le magazine des parents citadins qui veulent transmettre une enfance libre, à la mode des années 90."
 >
   <!-- HERO -->
   <section class="container-narrow grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-12 items-center py-16">
     <div>
       <p class="text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-4">
-        Drop de Mai · La Grande Récré
+        Le magazine des enfances libres
       </p>
-      <h1 class="font-fraunces font-bold leading-[1.02] tracking-[-0.03em] mb-6" style="font-size: clamp(2.5rem, 6vw, 4.875rem);">
-        Une enfance <em class="italic text-orange-sirop">libre</em>, en 30 pièces.
+      <h1 class="font-fraunces font-bold leading-[1.02] tracking-[-0.03em] mb-6" style="font-size: clamp(2.25rem, 5.5vw, 4.25rem);">
+        On a grandi <em class="italic text-orange-sirop">dehors</em>, on transmet pareil.
       </h1>
-      <p class="text-lg max-w-[480px] mb-8 opacity-90">
-        Le drop de mai est en ligne. Salopettes OshKosh 1989, sweats Disney d'origine, vestes coupe-vent fluo. Pour les enfants qui jouent dehors, pas pour ceux qu'on prend en photo.
+      <p class="text-lg max-w-[520px] mb-8 opacity-90">
+        Activités du mercredi, conseils d'éducation, jouets vintage, lifestyle déco, mode pour enfants stylés. Le magazine des parents qui ont 6 ans en 1995 et 35 ans en 2026.
       </p>
       <div class="flex gap-3 flex-wrap">
-        <a href="/drops" class="btn btn-primary">Voir le drop</a>
-        <a href="/le-club" class="btn btn-secondary">Rejoindre le Club</a>
+        <a href="/journal" class="btn btn-primary">Lire le journal</a>
+        <a href="/newsletter" class="btn btn-secondary">Rejoindre le Club</a>
       </div>
     </div>
 
-    <div class="aspect-[4/5] rounded-card relative overflow-hidden flex items-end p-8 text-cream-gouter shadow-[0_24px_48px_rgba(31,61,46,0.18)]"
-         style="background: radial-gradient(circle at 30% 30%, rgba(245,233,211,0.4) 0%, transparent 50%), linear-gradient(135deg, #5FA68B 0%, #F0C14B 50%, #E87A3C 100%);">
-      <div class="absolute top-6 left-6 w-[90px] h-[90px] rounded-full bg-vert-recre text-jaune-cassette flex items-center justify-center font-bagel text-[14px] text-center leading-tight transform -rotate-12">
-        DROP<br>DU<br>MOIS
-      </div>
-      <p class="font-fraunces italic text-lg max-w-[280px]">"On a 6 ans, on est libres, on a des coquelicots aux genoux."</p>
+    <div class="aspect-[4/3] rounded-card overflow-hidden shadow-[0_24px_48px_rgba(31,61,46,0.18)]">
+      <img src="/img/articles/jeux-cour-recre.jpg" alt="Photo Kodak 1995 d'enfants jouant à la marelle" class="w-full h-full object-cover" />
     </div>
   </section>
 
   <!-- NEWSLETTER -->
   <Newsletter variant="banner" />
 
-  <!-- DERNIERS ARTICLES -->
+  <!-- 6 PILIERS -->
   <section class="container-narrow py-20">
+    <div class="section-label">Le sommaire</div>
+    <h2 class="section-title">Tout pour parents stylés et un peu nostalgiques.</h2>
+    <p class="section-sub">Six rubriques, une seule idée : transmettre l'enfance qu'on a vécue, sans la caricaturer.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+      {piliers.map((p) => (
+        <a href={p.slug} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src={p.img} alt={p.label} class="w-full h-full object-cover" loading="lazy" />
+          </div>
+          <div class="p-6">
+            <h3 class="font-fraunces text-2xl font-semibold leading-tight mb-2">{p.label}</h3>
+            <p class="text-sm text-noir-reglisse opacity-85">{p.desc}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- DERNIERS ARTICLES -->
+  <section class="container-narrow py-16">
     <div class="section-label">Journal</div>
-    <h2 class="section-title">Comment bien habiller son enfant en vintage 90s.</h2>
-    <p class="section-sub">Looks, pièces, marques, époques, conseils. Une nouvelle entrée toutes les semaines.</p>
+    <h2 class="section-title">Les dernières histoires.</h2>
+    <p class="section-sub">Une nouvelle entrée toutes les semaines. Pas du clickbait — juste ce qu'on a envie de raconter.</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
       {recent.map((article) => (
         <a href={`/journal/${article.slug}`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
-          <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"
-               style={article.data.pillar === "marques" ? "background: linear-gradient(135deg, #d4a373, #b87333);" :
-                      article.data.pillar === "epoques" ? "background: linear-gradient(135deg, #5FA68B, #1F3D2E);" :
-                      article.data.pillar === "conseils-guides" ? "background: linear-gradient(135deg, #F0C14B, #E87A3C); color: #1F3D2E;" :
-                      "background: linear-gradient(135deg, #5FA68B, #1F3D2E);"}>
-            {article.data.coverAlt ?? article.data.title}
-          </div>
+          {article.data.cover ? (
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ) : (
+            <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"
+                 style={`background: ${pillarBg[article.data.pillar] ?? "linear-gradient(135deg, #5FA68B, #1F3D2E)"};`}>
+              {article.data.coverAlt ?? article.data.title}
+            </div>
+          )}
           <div class="p-6">
             <div class="text-[11px] uppercase tracking-[0.25em] text-orange-sirop font-bold mb-2">
               {pillarLabels[article.data.pillar]}
@@ -114,53 +136,32 @@ const epoquesAmbiance = [
     </div>
   </section>
 
-  <!-- MARQUES VINTAGE -->
-  <section class="bg-cream-clair border-y-2 border-vert-recre py-16 px-6">
-    <div class="container-narrow">
-      <div class="section-label">Les marques du Club</div>
-      <h2 class="section-title">Les noms qui ont fait notre enfance.</h2>
-      <p class="section-sub">Notre encyclopédie des marques vintage enfant des années 80-90.</p>
-
-      <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-10">
-        {marquesPhares.map((m) => (
-          <a href={`/marques/${m.slug}`} class="aspect-square bg-cream-gouter rounded-card flex items-center justify-center font-bagel text-sm text-center p-3 leading-tight text-vert-recre transition-all hover:bg-vert-recre hover:text-cream-gouter hover:-translate-y-1 border-2 border-transparent hover:border-vert-recre">
-            {m.name}
-          </a>
-        ))}
+  <!-- SELECTION DU MOIS BAND -->
+  <section class="bg-cream-clair border-y-2 border-vert-recre py-20 px-6">
+    <div class="container-narrow grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
+      <div class="aspect-square rounded-card overflow-hidden shadow-[0_24px_48px_rgba(31,61,46,0.18)]">
+        <img src="/img/articles/jouets-vintage-selection.jpg" alt="Sélection jouets vintage du mois" class="w-full h-full object-cover" />
       </div>
-    </div>
-  </section>
-
-  <!-- EPOQUES -->
-  <section class="container-narrow py-20">
-    <div class="section-label">Époques & ambiances</div>
-    <h2 class="section-title">Choisis ton époque.</h2>
-    <p class="section-sub">Les pièces, les looks et les histoires regroupés par moment de vie.</p>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
-      {epoquesAmbiance.map((e, i) => (
-        <a href={`/epoques/${e.slug}`} class="aspect-[5/4] rounded-card p-6 flex flex-col justify-end text-cream-gouter cursor-pointer transition-all hover:-translate-y-1"
-           style={
-             i === 0 ? "background: linear-gradient(135deg, #5FA68B 0%, #1F3D2E 100%);" :
-             i === 1 ? "background: linear-gradient(135deg, #F0C14B 0%, #E87A3C 100%); color: #1F3D2E;" :
-             i === 2 ? "background: linear-gradient(135deg, #b87333 0%, #8b4513 100%);" :
-             i === 3 ? "background: linear-gradient(135deg, #d4a373 0%, #E87A3C 100%);" :
-             i === 4 ? "background: linear-gradient(135deg, #1F3D2E 0%, #181818 100%);" :
-             "background: linear-gradient(135deg, #E87A3C 0%, #F0C14B 100%); color: #1F3D2E;"
-           }>
-          <h3 class="font-fraunces text-2xl font-semibold leading-tight mb-2">{e.name}</h3>
-          <p class="text-sm opacity-90">{e.desc}</p>
-        </a>
-      ))}
+      <div>
+        <p class="section-label">Sélection du mois</p>
+        <h2 class="section-title">La curation Club Récré.</h2>
+        <p class="text-lg mb-4 opacity-90">
+          Chaque mois, on chine et on sélectionne 30 à 50 pièces — vêtements vintage, jouets 90s, livres jeunesse, déco — qu'on a envie de transmettre à nos enfants.
+        </p>
+        <p class="text-lg mb-8 opacity-90">
+          Un seul critère : <strong>est-ce qu'on en achèterait pour nos propres enfants ?</strong> Si oui, ça rentre dans la sélection. Si non, on la laisse en friperie.
+        </p>
+        <a href="/selections" class="btn btn-primary">Voir la sélection</a>
+      </div>
     </div>
   </section>
 
   <!-- MANIFESTO BAND -->
   <section class="bg-vert-recre text-cream-gouter py-24 px-6 text-center">
-    <div class="max-w-[760px] mx-auto">
+    <div class="max-w-[820px] mx-auto">
       <p class="text-xs uppercase tracking-[0.25em] text-jaune-cassette font-bold mb-5">Le Club Récré</p>
       <p class="font-fraunces font-semibold leading-[1.3] tracking-[-0.01em]" style="font-size: clamp(1.5rem, 3vw, 2.25rem);">
-        Pas une friperie. Pas une marque sage. <em class="text-jaune-cassette italic">Une marque d'image et de nostalgie</em> qui vend une enfance libre, une esthétique 90s et un imaginaire collectif.
+        On a grandi avec un téléphone fixe et une cassette dans le walkman. <em class="text-jaune-cassette italic">On veut que nos enfants vivent ça aussi</em> — sans la nostalgie, juste avec le bon goût.
       </p>
       <a href="/le-club" class="btn mt-10 bg-cream-gouter text-vert-recre border-cream-gouter hover:bg-orange-sirop hover:text-cream-gouter hover:border-orange-sirop">
         Lire le manifeste
