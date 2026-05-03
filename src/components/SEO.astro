@@ -155,6 +155,15 @@ const faqSchema =
 <!-- RSS -->
 <link rel="alternate" type="application/rss+xml" title="Club Récré — Journal" href={`${siteUrl}/rss.xml`} />
 
+<!-- Google Analytics 4 (Club Récré dans compte Talyco) -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-D87XKDJ0F8"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-D87XKDJ0F8');
+</script>
+
 <!-- Schema.org JSON-LD -->
 <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
