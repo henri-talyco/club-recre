@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-cream-gouter text-vert-recre font-sans;
+    line-height: 1.6;
+  }
+
+  ::selection {
+    @apply bg-orange-sirop text-cream-gouter;
+  }
+}
+
+@layer components {
+  .container-narrow {
+    @apply max-w-[1280px] mx-auto px-6;
+  }
+
+  .btn {
+    @apply inline-block px-7 py-3.5 rounded-btn font-semibold text-sm uppercase tracking-[0.1em] border-2 border-vert-recre transition-all duration-200 cursor-pointer;
+  }
+
+  .btn-primary {
+    @apply bg-vert-recre text-cream-gouter hover:bg-orange-sirop hover:border-orange-sirop hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-vert-recre hover:bg-vert-recre hover:text-cream-gouter;
+  }
+
+  .badge {
+    @apply inline-block px-3 py-1 rounded-full font-semibold text-[11px] uppercase tracking-[0.1em];
+  }
+
+  .badge-orange {
+    @apply bg-orange-sirop text-cream-gouter;
+  }
+
+  .badge-jaune {
+    @apply bg-jaune-cassette text-vert-recre;
+  }
+
+  .badge-vert {
+    @apply bg-vert-pelouse text-cream-gouter;
+  }
+
+  .badge-outline {
+    @apply border-2 border-vert-recre text-vert-recre py-0.5 px-2.5;
+  }
+
+  .section-label {
+    @apply text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-3;
+  }
+
+  .section-title {
+    @apply font-fraunces font-bold leading-[1.05] tracking-[-0.02em] mb-4;
+    font-size: clamp(2rem, 4.5vw, 3.25rem);
+  }
+
+  .section-sub {
+    @apply text-lg max-w-[640px] opacity-90;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(31,61,46,0.12)];
+  }
+
+  /* Article prose styles */
+  .prose-club {
+    @apply max-w-prose;
+  }
+
+  .prose-club h2 {
+    @apply font-fraunces font-bold text-vert-recre leading-[1.15] tracking-[-0.01em] mt-14 mb-5;
+    font-size: clamp(1.75rem, 3.5vw, 2.375rem);
+  }
+
+  .prose-club h3 {
+    @apply font-fraunces font-semibold text-vert-recre text-xl mt-10 mb-3;
+  }
+
+  .prose-club p {
+    @apply text-lg leading-[1.7] mb-5 text-noir-reglisse;
+  }
+
+  .prose-club blockquote {
+    @apply font-fraunces italic text-2xl leading-[1.4] border-l-4 border-orange-sirop pl-6 py-2 my-8 text-vert-recre;
+  }
+
+  .prose-club ul {
+    @apply my-4 ml-6;
+  }
+
+  .prose-club ul li {
+    @apply text-lg leading-[1.7] mb-3 text-noir-reglisse list-disc;
+  }
+
+  .prose-club strong {
+    @apply text-vert-recre font-semibold;
+  }
+
+  .prose-club a {
+    @apply text-orange-sirop underline decoration-2 underline-offset-4 hover:text-vert-recre transition-colors;
+  }
+}

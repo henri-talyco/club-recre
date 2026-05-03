@@ -1,0 +1,162 @@
+---
+// Component SEO + GEO (Generative Engine Optimization)
+// Inclut: meta tags classiques, Open Graph, Twitter Cards, JSON-LD schema.org
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  image?: string;
+  type?: "website" | "article";
+  publishedTime?: Date;
+  modifiedTime?: Date;
+  author?: string;
+  pillar?: string;
+  tags?: string[];
+  faq?: { q: string; a: string }[];
+}
+
+const {
+  title,
+  description,
+  canonical,
+  image = "/og-default.jpg",
+  type = "website",
+  publishedTime,
+  modifiedTime,
+  author = "Club Récré",
+  pillar,
+  tags = [],
+  faq,
+} = Astro.props;
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "https://clubrecre.fr";
+const fullTitle = title.includes("Club Récré") ? title : `${title} — Club Récré`;
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteUrl).toString();
+const imageUrl = image.startsWith("http") ? image : `${siteUrl}${image}`;
+
+// Schema.org JSON-LD
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Club Récré",
+  url: siteUrl,
+  logo: `${siteUrl}/logo.png`,
+  description:
+    "Marque de vêtements enfants vintage inspirée des années 90. Magazine éditorial sur le vintage enfant, les looks, les marques et les conseils.",
+  sameAs: [
+    "https://www.instagram.com/clubrecre",
+    "https://www.tiktok.com/@clubrecre",
+    "https://www.pinterest.com/clubrecre",
+  ],
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Club Récré",
+  url: siteUrl,
+  inLanguage: "fr-FR",
+  publisher: {
+    "@type": "Organization",
+    name: "Club Récré",
+  },
+};
+
+const articleSchema =
+  type === "article" && publishedTime
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: title,
+        description,
+        image: imageUrl,
+        datePublished: publishedTime.toISOString(),
+        dateModified: (modifiedTime ?? publishedTime).toISOString(),
+        author: {
+          "@type": "Person",
+          name: author,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Club Récré",
+          logo: {
+            "@type": "ImageObject",
+            url: `${siteUrl}/logo.png`,
+          },
+        },
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": canonicalUrl,
+        },
+        keywords: tags.join(", "),
+        articleSection: pillar,
+      }
+    : null;
+
+const faqSchema =
+  faq && faq.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faq.map(({ q, a }) => ({
+          "@type": "Question",
+          name: q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: a,
+          },
+        })),
+      }
+    : null;
+---
+
+<!-- Primary -->
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="author" content={author} />
+<meta http-equiv="content-language" content="fr-FR" />
+
+<!-- Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:image" content={imageUrl} />
+<meta property="og:image:alt" content={description} />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:site_name" content="Club Récré" />
+{publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime.toISOString()} />}
+{author && type === "article" && <meta property="article:author" content={author} />}
+{pillar && <meta property="article:section" content={pillar} />}
+{tags.map((tag) => <meta property="article:tag" content={tag} />)}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Fraunces:ital,wght@0,400;0,600;0,700;1,500&family=DM+Sans:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="Club Récré — Journal" href={`${siteUrl}/rss.xml`} />
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+{articleSchema && <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />}
+{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}

@@ -1,0 +1,103 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import Newsletter from "../components/Newsletter.astro";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entry: CollectionEntry<"articles">;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const pubDateFr = data.pubDate.toLocaleDateString("fr-FR", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+});
+
+const pillarLabels: Record<string, string> = {
+  looks: "Looks",
+  "pieces-histoires": "Pièces & Histoires",
+  marques: "Marques",
+  epoques: "Époques & Thématiques",
+  coulisses: "Coulisses du Club",
+  "conseils-guides": "Conseils & Guides",
+  drops: "Drops",
+};
+---
+
+<BaseLayout
+  title={data.seoTitle ?? data.title}
+  description={data.seoDescription ?? data.description}
+  type="article"
+  publishedTime={data.pubDate}
+  modifiedTime={data.updatedDate}
+  author={data.author}
+  pillar={data.pillar}
+  tags={data.tags}
+  faq={data.faq}
+>
+  <article>
+    <header class="container-narrow max-w-[900px] py-16 text-center">
+      <div class="text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-4">
+        {pillarLabels[data.pillar]}
+      </div>
+      <h1 class="font-fraunces font-bold leading-[1.05] tracking-[-0.02em] mb-6" style="font-size: clamp(2.25rem, 5.5vw, 4rem);">
+        {data.title}
+      </h1>
+      <p class="text-sm text-gris-cartable">
+        <strong class="text-vert-recre font-semibold">{data.author}</strong> · {pubDateFr}
+        {data.readingTime && <> · {data.readingTime} min de lecture</>}
+      </p>
+    </header>
+
+    {data.cover && (
+      <div class="container-narrow max-w-[1100px] mb-12">
+        <img
+          src={data.cover}
+          alt={data.coverAlt ?? data.title}
+          class="w-full aspect-[16/9] object-cover rounded-card shadow-[0_24px_48px_rgba(31,61,46,0.18)]"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    )}
+
+    <div class="container-narrow max-w-prose pb-16">
+      <div class="prose-club">
+        <slot />
+      </div>
+
+      {data.faq && data.faq.length > 0 && (
+        <section class="mt-16 pt-10 border-t-2 border-vert-recre" itemscope itemtype="https://schema.org/FAQPage">
+          <h2 class="font-fraunces text-3xl font-bold mb-8">Questions fréquentes</h2>
+          <div class="space-y-6">
+            {data.faq.map(({ q, a }) => (
+              <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="font-fraunces text-xl font-semibold text-vert-recre mb-2" itemprop="name">{q}</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p class="text-base leading-relaxed text-noir-reglisse" itemprop="text">{a}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {data.tags.length > 0 && (
+        <div class="mt-12 pt-6 border-t border-vert-recre/20">
+          <p class="text-xs uppercase tracking-[0.2em] text-gris-cartable mb-3">Mots-clés</p>
+          <div class="flex flex-wrap gap-2">
+            {data.tags.map((tag) => (
+              <a href={`/tags/${tag}`} class="badge badge-outline hover:bg-vert-recre hover:text-cream-gouter transition-colors">
+                {tag}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <Newsletter variant="card" />
+    </div>
+  </article>
+</BaseLayout>

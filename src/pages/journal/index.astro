@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const articles = await getCollection("articles");
+const sorted = articles.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const pillarLabels: Record<string, string> = {
+  looks: "Looks",
+  "pieces-histoires": "Pièces & Histoires",
+  marques: "Marques",
+  epoques: "Époques",
+  coulisses: "Coulisses",
+  "conseils-guides": "Conseils & Guides",
+  drops: "Drops",
+};
+---
+
+<BaseLayout
+  title="Journal — Magazine vintage enfant 90s"
+  description="Le journal Club Récré : conseils, looks, marques, époques. Tout pour habiller son enfant en vintage 90s sans tomber dans le déguisement."
+>
+  <header class="container-narrow py-16 text-center">
+    <p class="section-label">Journal</p>
+    <h1 class="font-fraunces font-bold leading-[1.05] tracking-[-0.02em]" style="font-size: clamp(2.5rem, 6vw, 4rem);">
+      Tous les articles.
+    </h1>
+    <p class="text-lg max-w-[600px] mx-auto mt-4 opacity-90">
+      Looks complets, deep-dives sur les marques, conseils pour bien habiller son enfant en vintage 90s.
+    </p>
+  </header>
+
+  <section class="container-narrow pb-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {sorted.map((article) => (
+        <a href={`/journal/${article.slug}`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
+          <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"
+               style={article.data.pillar === "marques" ? "background: linear-gradient(135deg, #d4a373, #b87333);" :
+                      article.data.pillar === "epoques" ? "background: linear-gradient(135deg, #5FA68B, #1F3D2E);" :
+                      article.data.pillar === "conseils-guides" ? "background: linear-gradient(135deg, #F0C14B, #E87A3C); color: #1F3D2E;" :
+                      "background: linear-gradient(135deg, #5FA68B, #1F3D2E);"}>
+            {article.data.coverAlt ?? article.data.title}
+          </div>
+          <div class="p-6">
+            <div class="text-[11px] uppercase tracking-[0.25em] text-orange-sirop font-bold mb-2">
+              {pillarLabels[article.data.pillar]}
+            </div>
+            <h2 class="font-fraunces text-xl font-semibold leading-tight mb-2">{article.data.title}</h2>
+            <p class="text-sm text-noir-reglisse opacity-80 mb-3">{article.data.description}</p>
+            <p class="text-xs text-gris-cartable">
+              {article.data.pubDate.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}
+              {article.data.readingTime && ` · ${article.data.readingTime} min`}
+            </p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

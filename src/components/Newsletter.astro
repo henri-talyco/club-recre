@@ -1,0 +1,75 @@
+---
+interface Props {
+  variant?: "banner" | "inline" | "card";
+}
+const { variant = "banner" } = Astro.props;
+---
+
+{variant === "banner" && (
+  <section class="bg-vert-recre text-cream-gouter py-8 px-6">
+    <div class="container-narrow flex items-center justify-between flex-wrap gap-6">
+      <div>
+        <strong class="font-fraunces text-2xl font-semibold block">Rejoins le Club.</strong>
+        <span class="text-sm opacity-85">Pré-accès 24h aux drops, looks exclusifs et histoires de pièces.</span>
+      </div>
+      <form class="flex gap-2 flex-1 max-w-[480px]" onsubmit="event.preventDefault();">
+        <input
+          type="email"
+          required
+          placeholder="ton email"
+          class="flex-1 px-5 py-3.5 rounded-btn font-sans text-base bg-cream-gouter text-vert-recre border-none focus:outline-none focus:ring-2 focus:ring-orange-sirop"
+        />
+        <button
+          type="submit"
+          class="px-6 py-3.5 rounded-btn bg-orange-sirop text-cream-gouter font-semibold text-xs uppercase tracking-[0.15em] cursor-pointer hover:bg-jaune-cassette hover:text-vert-recre transition-colors"
+        >
+          Je m'inscris
+        </button>
+      </form>
+    </div>
+  </section>
+)}
+
+{variant === "card" && (
+  <div class="bg-vert-recre text-cream-gouter p-12 rounded-card text-center my-12">
+    <h3 class="font-fraunces text-3xl font-semibold mb-3 text-cream-gouter">Reçois la prochaine pièce avant tout le monde.</h3>
+    <p class="text-base max-w-[480px] mx-auto mb-6 opacity-90">
+      Les abonnés du Club ont 24h d'avance sur les drops Vinted. Une histoire de pièce dans ta boîte mail toutes les semaines.
+    </p>
+    <form class="flex gap-2 max-w-[420px] mx-auto" onsubmit="event.preventDefault();">
+      <input
+        type="email"
+        required
+        placeholder="ton email"
+        class="flex-1 px-5 py-3.5 rounded-btn font-sans text-base bg-cream-gouter text-vert-recre border-none focus:outline-none focus:ring-2 focus:ring-orange-sirop"
+      />
+      <button
+        type="submit"
+        class="px-6 py-3.5 rounded-btn bg-orange-sirop text-cream-gouter font-semibold text-xs uppercase tracking-[0.15em] cursor-pointer hover:bg-jaune-cassette hover:text-vert-recre transition-colors"
+      >
+        Je rejoins
+      </button>
+    </form>
+  </div>
+)}
+
+{variant === "inline" && (
+  <aside class="border-2 border-vert-recre rounded-card bg-cream-clair p-6 my-8">
+    <strong class="font-fraunces text-xl block mb-2">📬 Reçois les nouvelles pièces avant tout le monde.</strong>
+    <p class="text-sm mb-4 text-noir-reglisse">Les abonnés du Club ont 24h d'avance sur chaque drop Vinted. Pas de spam, une newsletter par semaine.</p>
+    <form class="flex gap-2" onsubmit="event.preventDefault();">
+      <input
+        type="email"
+        required
+        placeholder="ton email"
+        class="flex-1 px-4 py-2.5 rounded-btn font-sans text-sm bg-cream-gouter text-vert-recre border border-vert-recre/20 focus:outline-none focus:border-orange-sirop"
+      />
+      <button
+        type="submit"
+        class="px-4 py-2.5 rounded-btn bg-vert-recre text-cream-gouter font-semibold text-xs uppercase tracking-[0.15em] cursor-pointer hover:bg-orange-sirop transition-colors"
+      >
+        OK
+      </button>
+    </form>
+  </aside>
+)}

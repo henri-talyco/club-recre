@@ -1,0 +1,40 @@
+---
+const pathname = Astro.url.pathname;
+const isActive = (path: string) => pathname.startsWith(path);
+
+const links = [
+  { href: "/journal", label: "Journal" },
+  { href: "/looks", label: "Looks" },
+  { href: "/marques", label: "Marques" },
+  { href: "/epoques", label: "Époques" },
+  { href: "/le-club", label: "Le Club" },
+];
+---
+
+<header class="sticky top-0 z-50 bg-cream-gouter border-b-2 border-vert-recre">
+  <div class="container-narrow flex items-center justify-between gap-6 py-4">
+    <a href="/" class="font-bagel text-2xl tracking-wide text-vert-recre flex items-baseline gap-1">
+      <span class="text-[11px] tracking-[0.2em] mr-1">CLUB</span>RÉCRÉ
+    </a>
+
+    <nav>
+      <ul class="flex gap-6 md:gap-8 list-none">
+        {
+          links.map(({ href, label }) => (
+            <li>
+              <a
+                href={href}
+                class:list={[
+                  "text-xs md:text-sm font-semibold uppercase tracking-[0.15em] transition-colors hover:text-orange-sirop relative",
+                  isActive(href) && "text-orange-sirop after:absolute after:-bottom-2 after:left-0 after:right-0 after:h-[3px] after:bg-orange-sirop after:rounded-sm",
+                ]}
+              >
+                {label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

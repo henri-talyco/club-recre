@@ -1,0 +1,192 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Newsletter from "../../components/Newsletter.astro";
+import { getCollection } from "astro:content";
+
+// Programmatic SEO : 1 page par marque vintage
+// Données structurées : nom, pays, époque dorée, pièce signature, etc.
+
+const marquesData = {
+  "oshkosh-bgosh": {
+    name: "OshKosh B'Gosh",
+    intro: "L'icône américaine de la salopette enfant. Fondée en 1895 dans le Wisconsin, OshKosh B'Gosh est passée des champs de coton aux cours de récréation pour devenir le symbole du vêtement enfant solide, coloré et taillé pour durer.",
+    pays: "USA · Wisconsin",
+    fondee: 1895,
+    epoqueDoree: "1980-1995",
+    pieceSignature: "Salopette en denim brut",
+    prix: "18-35€ (salopette), 15-25€ (sweat)",
+    style: "Workwear américain enfant",
+    histoire: "OshKosh B'Gosh naît en 1895 comme fabricant de vêtements de travail pour adultes (cheminots, fermiers du Midwest). En 1962, elle commence à fabriquer des versions miniatures pour enfants. Dans les années 80, elle devient l'un des symboles incontournables de la mode enfant américaine. L'âge d'or s'étend de 1980 à 1995. Après son rachat par Carter's en 2005, la qualité a considérablement baissé.",
+    authenticite: [
+      "Patch arrière COUSU (pas thermocollé)",
+      "Étiquette intérieure 'Made in USA' pour les pièces vraiment vintage",
+      "Boutons en métal massif gravés 'OshKosh' en relief",
+      "Denim brut non délavé (bleu profond)",
+    ],
+    associations: "Une OshKosh appelle un sweat doux uni dessous (Disney vintage marche très bien) et des baskets blanches simples. Le truc, c'est de ne pas surcharger.",
+    article: "/journal/oshkosh-bgosh-guide-vintage-enfant",
+  },
+  "petit-bateau": {
+    name: "Petit Bateau",
+    intro: "L'incontournable français. Fondée en 1893 à Troyes, Petit Bateau est la marque enfant française par excellence. Si vous avez plus de 30 ans en France, vous en avez porté.",
+    pays: "France · Troyes",
+    fondee: 1893,
+    epoqueDoree: "1960-1995",
+    pieceSignature: "Marinière, t-shirt rayé, body coton",
+    prix: "8-20€",
+    style: "Marinière française intemporelle",
+    histoire: "Fondée en 1893 à Troyes par Pierre Valton, Petit Bateau invente le slip enfant en 1918 (révolution textile à l'époque). La marque devient un symbole de la mode enfant française premium accessible. Les pièces des années 80-90 fabriquées en France ont une qualité de coton qu'on ne retrouve plus aujourd'hui.",
+    authenticite: [
+      "Étiquette 'Made in France' pour les pièces vintage authentiques",
+      "Logo bateau brodé (le style a évolué — vintage = plus stylisé)",
+      "Coton premium dense, plus épais qu'aujourd'hui",
+      "Couleurs qui ne fadent pas après 50+ lavages",
+    ],
+    associations: "La marinière Petit Bateau se porte sous tout : sous une salopette OshKosh, sous un sweat Naf Naf, en pièce seule avec un short. C'est le basique parfait.",
+    article: "/journal/10-marques-vintage-enfant-incontournables",
+  },
+  "catimini": {
+    name: "Catimini",
+    intro: "La fantaisie française. Fondée en 1972 dans les Mauges, Catimini est la French Touch enfant des années 90 : couleurs assumées, imprimés artistiques, mélanges de motifs audacieux.",
+    pays: "France · Saint-Macaire-en-Mauges",
+    fondee: 1972,
+    epoqueDoree: "1985-1998",
+    pieceSignature: "Robes et chemises à imprimés colorés",
+    prix: "15-30€",
+    style: "Imprimés français créatifs",
+    histoire: "Catimini est lancée en 1972 par la maison française Confection des Mauges. Dans les années 80-90, c'est la marque qui ose : imprimés exclusifs renouvelés chaque saison, mélange tradition française et inspiration ethnique, couleurs primaires assumées. Catimini était l'antidote au blanc cassé de Bonpoint, le yang du yin.",
+    authenticite: [
+      "Étiquette tissée (pas imprimée)",
+      "Imprimés exclusifs identifiables saison par saison",
+      "Coupes féminines mais pratiques (pas trop ajustées)",
+      "Qualité couture irréprochable, finitions soignées",
+    ],
+    associations: "Une chemise Catimini liberty se porte avec un jean simple actuel ou une jupe en jean. Évitez de surcharger en mélangeant avec d'autres imprimés.",
+    article: "/journal/10-marques-vintage-enfant-incontournables",
+  },
+};
+
+export async function getStaticPaths() {
+  return Object.keys({
+    "oshkosh-bgosh": null,
+    "petit-bateau": null,
+    "catimini": null,
+  }).map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const marque = marquesData[slug as keyof typeof marquesData];
+
+if (!marque) {
+  return Astro.redirect("/marques");
+}
+
+const articles = await getCollection("articles");
+const relatedArticles = articles
+  .filter((a) => a.data.tags.some((t) => t.toLowerCase().includes(marque.name.toLowerCase().split(" ")[0])) || a.data.pillar === "marques")
+  .slice(0, 3);
+---
+
+<BaseLayout
+  title={`${marque.name} vintage enfant — guide complet`}
+  description={marque.intro}
+>
+  <!-- BREADCRUMB -->
+  <nav class="container-narrow pt-6 text-sm text-gris-cartable">
+    <a href="/" class="text-orange-sirop font-semibold hover:underline">Accueil</a> · <a href="/marques" class="text-orange-sirop font-semibold hover:underline">Marques</a> · <span>{marque.name}</span>
+  </nav>
+
+  <!-- HERO -->
+  <section class="container-narrow grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-12 items-center pt-10 pb-16">
+    <div>
+      <p class="section-label">Marque vintage · Mode enfant</p>
+      <h1 class="font-bagel leading-[0.95] tracking-tight mb-2" style="font-size: clamp(3.5rem, 9vw, 7rem);">
+        {marque.name}.
+      </h1>
+      <p class="font-fraunces italic text-2xl mb-6 text-vert-recre">{marque.style}</p>
+      <p class="text-lg max-w-[540px] mb-6 opacity-90">{marque.intro}</p>
+    </div>
+
+    <div class="aspect-[4/5] rounded-card relative overflow-hidden flex items-end p-8 text-cream-gouter shadow-[0_24px_48px_rgba(31,61,46,0.18)]"
+         style="background: linear-gradient(135deg, #d4a373 0%, #b87333 50%, #8b4513 100%);">
+      <div class="absolute top-6 right-6 w-[110px] h-[110px] rounded-full bg-jaune-cassette text-vert-recre flex items-center justify-center font-bagel text-sm text-center leading-tight p-3 transform -rotate-12">
+        100%<br>VINTAGE<br>{marque.pays.split(" ")[0]}
+      </div>
+      <p class="font-fraunces italic text-base max-w-[280px]">"{marque.name} — collection {marque.epoqueDoree} — pièce signature de l'époque."</p>
+    </div>
+  </section>
+
+  <!-- KEY FACTS -->
+  <section class="bg-vert-recre text-cream-gouter py-12 px-6">
+    <div class="container-narrow grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div>
+        <p class="text-[11px] uppercase tracking-[0.2em] text-jaune-cassette font-bold mb-2">Année de création</p>
+        <p class="font-fraunces text-3xl font-bold">{marque.fondee}</p>
+      </div>
+      <div>
+        <p class="text-[11px] uppercase tracking-[0.2em] text-jaune-cassette font-bold mb-2">Pays d'origine</p>
+        <p class="font-fraunces text-2xl font-bold">{marque.pays}</p>
+      </div>
+      <div>
+        <p class="text-[11px] uppercase tracking-[0.2em] text-jaune-cassette font-bold mb-2">Époque dorée</p>
+        <p class="font-fraunces text-2xl font-bold">{marque.epoqueDoree}</p>
+      </div>
+      <div>
+        <p class="text-[11px] uppercase tracking-[0.2em] text-jaune-cassette font-bold mb-2">Pièce signature</p>
+        <p class="font-fraunces text-xl font-bold leading-tight">{marque.pieceSignature}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <article class="container-narrow max-w-prose py-20">
+    <div class="prose-club">
+      <h2>L'histoire en bref</h2>
+      <p>{marque.histoire}</p>
+
+      <h2>Comment authentifier une vraie {marque.name} vintage</h2>
+      <p>Quatre critères à vérifier systématiquement avant d'acheter :</p>
+      <ul class="list-none border-2 border-vert-recre rounded-card bg-cream-clair p-8 my-8">
+        {marque.authenticite.map((point) => (
+          <li class="py-3 pl-9 relative border-b border-vert-recre/10 last:border-b-0">
+            <span class="absolute left-0 top-3 w-6 h-6 rounded-full bg-vert-pelouse text-cream-gouter flex items-center justify-center font-bold text-sm">✓</span>
+            {point}
+          </li>
+        ))}
+      </ul>
+
+      <h2>Comment associer une pièce {marque.name}</h2>
+      <p>{marque.associations}</p>
+
+      <h2>Prix moyens en 2026</h2>
+      <p>Sur Vinted en 2026, comptez : <strong>{marque.prix}</strong>. Les pièces premium (état neuf, références rares, couleurs inhabituelles) peuvent monter 30-50% au-dessus.</p>
+    </div>
+
+    <Newsletter variant="card" />
+  </article>
+
+  <!-- RELATED -->
+  {relatedArticles.length > 0 && (
+    <section class="container-narrow border-t-2 border-vert-recre py-16">
+      <p class="section-label">À lire ensuite</p>
+      <h2 class="section-title">Pour aller plus loin sur {marque.name}.</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+        {relatedArticles.map((article) => (
+          <a href={`/journal/${article.slug}`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
+            <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-sm text-center p-5"
+                 style="background: linear-gradient(135deg, #d4a373, #b87333);">
+              {article.data.title}
+            </div>
+            <div class="p-6">
+              <div class="text-[11px] uppercase tracking-[0.25em] text-orange-sirop font-bold mb-2">
+                {article.data.pillar}
+              </div>
+              <h3 class="font-fraunces text-lg font-semibold leading-tight">{article.data.title}</h3>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>

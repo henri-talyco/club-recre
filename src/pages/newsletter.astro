@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Newsletter — Pré-accès aux drops + journal éditorial Club Récré"
+  description="Inscris-toi à la newsletter Club Récré. 24h de pré-accès aux drops Vinted, sélection vintage enfant, conseils style 90s. Une lettre par semaine."
+>
+  <header class="container-narrow py-20 text-center">
+    <p class="section-label">Newsletter</p>
+    <h1 class="font-fraunces font-bold leading-[1.05] tracking-[-0.02em]" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">
+      Rejoins le Club.
+    </h1>
+    <p class="font-fraunces italic text-2xl mt-6 max-w-[680px] mx-auto opacity-90">
+      Une lettre par semaine. Zéro spam.
+    </p>
+  </header>
+
+  <section class="container-narrow max-w-[680px] pb-16">
+    <div class="bg-cream-clair border-2 border-vert-recre rounded-card p-12 text-center">
+      <h2 class="font-fraunces text-3xl font-bold mb-6">Ce que tu reçois</h2>
+      <ul class="text-left space-y-4 mb-10 text-lg list-none">
+        <li class="flex gap-3">
+          <span class="text-orange-sirop font-bold">→</span>
+          <span><strong>24 heures de pré-accès</strong> aux drops Vinted (avant le grand public)</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-orange-sirop font-bold">→</span>
+          <span><strong>Une sélection vintage enfant</strong> chinée à la main, du lundi au samedi</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-orange-sirop font-bold">→</span>
+          <span><strong>Les nouveaux articles</strong> du journal (looks, marques, conseils)</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-orange-sirop font-bold">→</span>
+          <span><strong>Des coulisses</strong> : où on chine, ce qu'on trouve, comment on travaille</span>
+        </li>
+      </ul>
+
+      <form class="flex gap-2 max-w-[420px] mx-auto" onsubmit="event.preventDefault(); alert('Newsletter à connecter à Beehiiv ou Mailchimp via API.');">
+        <input
+          type="email"
+          required
+          placeholder="ton email"
+          class="flex-1 px-5 py-3.5 rounded-btn font-sans text-base bg-cream-gouter text-vert-recre border-2 border-vert-recre focus:outline-none focus:border-orange-sirop"
+        />
+        <button
+          type="submit"
+          class="px-6 py-3.5 rounded-btn bg-vert-recre text-cream-gouter font-semibold text-xs uppercase tracking-[0.15em] cursor-pointer hover:bg-orange-sirop transition-colors"
+        >
+          Je m'inscris
+        </button>
+      </form>
+
+      <p class="text-xs text-gris-cartable mt-6">
+        Tu peux te désinscrire en un clic à tout moment. RGPD respecté.
+      </p>
+    </div>
+
+    <div class="mt-16 text-center">
+      <p class="font-fraunces italic text-xl text-vert-recre">
+        "On capture une récréation, pas un shooting mode."
+      </p>
+    </div>
+  </section>
+</BaseLayout>
