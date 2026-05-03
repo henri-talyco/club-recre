@@ -7,7 +7,6 @@ const articles = await getCollection("articles");
 const sortedArticles = articles.sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
-const featured = sortedArticles.find((a) => a.data.featured) ?? sortedArticles[0];
 const recent = sortedArticles.slice(0, 6);
 
 const pillarLabels: Record<string, string> = {
@@ -45,41 +44,149 @@ const piliers = [
   { slug: "/vintage", label: "Mode vintage", desc: "OshKosh, Petit Bateau, Catimini. Pour habiller son enfant avec caractère.", img: "/img/articles/mercredi-apres-midi-90s.jpg" },
   { slug: "/selections", label: "Sélections", desc: "Notre curation mensuelle : mode, jouets, livres, déco. Du sourcé à la main.", img: "/img/articles/jouets-vintage-selection.jpg" },
 ];
+
+// Sélection Vinted du mois — remplace les liens par tes vraies annonces
+const vintedItems = [
+  { label: "Salopette OshKosh B'Gosh", size: "2 ans", price: "18 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Polly Pocket Château années 90", size: "Vintage", price: "24 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Pull Petit Bateau rayé", size: "3 ans", price: "14 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Playmobil Ferme complète", size: "Vintage", price: "35 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Robe Catimini fleurie", size: "18 mois", price: "16 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Fisher Price Xylophone", size: "Vintage", price: "12 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Combinaison Absorba velours", size: "6 mois", price: "11 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Lego Duplo années 90", size: "Vintage", price: "22 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Manteau Jacadi laine", size: "4 ans", price: "28 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Spirographe Kenner original", size: "Vintage", price: "19 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Body Petit Bateau lot x3", size: "12 mois", price: "15 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
+  { label: "Michel et Augusta Playmobil", size: "Vintage", price: "8 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
+];
 ---
 
 <BaseLayout
-  title="Club Récré — Magazine lifestyle pour parents qui ont grandi en 90s"
-  description="Activités, éducation, lifestyle, jouets et mode vintage. Le magazine des parents citadins qui veulent transmettre une enfance libre, à la mode des années 90."
+  title="Club Récré — Sélection vintage enfant 90s | Mode & jouets sourcés à la main"
+  description="Vêtements et jouets vintage 90s sourcés à la main pour enfants : OshKosh, Petit Bateau, Playmobil, Fisher Price. Magazine lifestyle pour parents qui ont grandi en 90s."
 >
-  <!-- HERO -->
-  <section class="container-narrow grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-12 items-center py-16">
-    <div>
-      <p class="text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-4">
-        Le magazine des enfances libres
-      </p>
-      <h1 class="font-fraunces font-bold leading-[1.02] tracking-[-0.03em] mb-6" style="font-size: clamp(2.25rem, 5.5vw, 4.25rem);">
-        On a grandi <em class="italic text-orange-sirop">dehors</em>, on transmet pareil.
-      </h1>
-      <p class="text-lg max-w-[520px] mb-8 opacity-90">
-        Activités du mercredi, conseils d'éducation, jouets vintage, lifestyle déco, mode pour enfants stylés. Le magazine des parents qui ont 6 ans en 1995 et 35 ans en 2026.
-      </p>
-      <div class="flex gap-3 flex-wrap">
-        <a href="/journal" class="btn btn-primary">Lire le journal</a>
-        <a href="/newsletter" class="btn btn-secondary">Rejoindre le Club</a>
-      </div>
-    </div>
 
-    <div class="aspect-[4/3] rounded-card overflow-hidden shadow-[0_24px_48px_rgba(31,61,46,0.18)]">
-      <img src="/img/articles/jeux-cour-recre.jpg" alt="Photo Kodak 1995 d'enfants jouant à la marelle" class="w-full h-full object-cover" />
+  <!-- ═══════════════════════════════════════════
+       HERO VITRINE
+  ════════════════════════════════════════════ -->
+  <section class="bg-vert-recre text-cream-gouter py-14 px-6">
+    <div class="container-narrow grid grid-cols-1 lg:grid-cols-[1.15fr_1fr] gap-12 items-center">
+      <div>
+        <p class="text-xs uppercase tracking-[0.25em] text-jaune-cassette font-bold mb-4">
+          Sélection du mois — mai 2026
+        </p>
+        <h1 class="font-fraunces font-bold leading-[1.02] tracking-[-0.03em] mb-5" style="font-size: clamp(2rem, 5vw, 3.75rem);">
+          On chine. <em class="italic text-orange-sirop">On sélectionne.</em> Tu achètes direct.
+        </h1>
+        <p class="text-base max-w-[500px] mb-7 opacity-85">
+          Chaque mois, on sourcé 30 à 50 pièces vintage — vêtements, jouets, livres — qu'on achèterait pour nos propres enfants. Rien d'autre ne passe.
+        </p>
+        <div class="flex gap-3 flex-wrap">
+          <a href="https://www.vinted.fr/membres/clubrecre" target="_blank" rel="noopener" class="btn bg-orange-sirop text-cream-gouter border-orange-sirop hover:bg-jaune-cassette hover:text-vert-recre hover:border-jaune-cassette">
+            Voir tout sur Vinted →
+          </a>
+          <a href="/journal" class="btn btn-secondary border-cream-gouter/30 text-cream-gouter hover:bg-cream-gouter hover:text-vert-recre">
+            Lire le journal
+          </a>
+        </div>
+      </div>
+      <div class="aspect-[4/3] rounded-card overflow-hidden shadow-[0_24px_48px_rgba(0,0,0,0.3)]">
+        <img src="/img/articles/jeux-cour-recre.jpg" alt="Sélection Club Récré — pièces vintage sourcées à la main" class="w-full h-full object-cover" />
+      </div>
     </div>
   </section>
 
-  <!-- NEWSLETTER -->
+  <!-- ═══════════════════════════════════════════
+       GRILLE VINTED
+  ════════════════════════════════════════════ -->
+  <section class="container-narrow py-20">
+    <div class="flex items-baseline justify-between mb-3">
+      <div class="section-label">Disponible maintenant</div>
+      <a href="https://www.vinted.fr/membres/clubrecre" target="_blank" rel="noopener" class="text-sm font-bold text-orange-sirop hover:underline underline-offset-4">
+        Tout voir →
+      </a>
+    </div>
+    <h2 class="section-title">La sélection du mois.</h2>
+    <p class="section-sub">Sourcé, inspecté, photographié. Chaque pièce est authentique et dans l'état décrit. On ne vend que ce qu'on garderait.</p>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
+      {vintedItems.map((item) => (
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noopener"
+          class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block group"
+        >
+          <!-- Cover colorée -->
+          <div class="aspect-square flex items-center justify-center p-5 relative" style={`background: ${item.color}15;`}>
+            <div class="w-16 h-16 rounded-full flex items-center justify-center text-2xl" style={`background: ${item.color}25;`}>
+              {item.tag === "Mode" ? "👕" : "🧸"}
+            </div>
+            <span class="absolute top-2 right-2 text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full text-white" style={`background: ${item.color};`}>
+              {item.tag}
+            </span>
+          </div>
+          <!-- Infos -->
+          <div class="p-4">
+            <p class="font-fraunces text-sm font-semibold leading-tight mb-1 group-hover:text-orange-sirop transition-colors">{item.label}</p>
+            <p class="text-xs text-gris-cartable mb-3">{item.size}</p>
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-vert-recre text-base">{item.price}</span>
+              <span class="text-[11px] text-orange-sirop font-bold uppercase tracking-wider">Vinted →</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- CTA principal -->
+    <div class="text-center mt-14">
+      <p class="text-sm text-gris-cartable mb-4">Nouvelles pièces ajoutées chaque semaine</p>
+      <a
+        href="https://www.vinted.fr/membres/clubrecre"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-primary text-base px-10 py-4"
+      >
+        Voir toute la boutique sur Vinted
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       BAND "POURQUOI NOUS ?"
+  ════════════════════════════════════════════ -->
+  <section class="bg-cream-clair border-y-2 border-vert-recre/15 py-14 px-6">
+    <div class="container-narrow grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <div class="text-3xl mb-3">🔍</div>
+        <h3 class="font-fraunces text-lg font-semibold mb-2">Sourcé à la main</h3>
+        <p class="text-sm opacity-80">On chine dans les friperies, les vides-greniers et les brocantes. Rien n'est acheté en lots.</p>
+      </div>
+      <div>
+        <div class="text-3xl mb-3">✅</div>
+        <h3 class="font-fraunces text-lg font-semibold mb-2">Vérifié pièce par pièce</h3>
+        <p class="text-sm opacity-80">Chaque pièce est inspectée, lavée et photographiée. L'état décrit est l'état réel.</p>
+      </div>
+      <div>
+        <div class="text-3xl mb-3">📦</div>
+        <h3 class="font-fraunces text-lg font-semibold mb-2">Expédié sous 48h</h3>
+        <p class="text-sm opacity-80">Colis soigneusement emballé. Retours acceptés si la pièce ne correspond pas à la description.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       NEWSLETTER
+  ════════════════════════════════════════════ -->
   <Newsletter variant="banner" />
 
-  <!-- 6 PILIERS -->
+  <!-- ═══════════════════════════════════════════
+       6 PILIERS ÉDITORIAUX
+  ════════════════════════════════════════════ -->
   <section class="container-narrow py-20">
-    <div class="section-label">Le sommaire</div>
+    <div class="section-label">Le magazine</div>
     <h2 class="section-title">Tout pour parents stylés et un peu nostalgiques.</h2>
     <p class="section-sub">Six rubriques, une seule idée : transmettre l'enfance qu'on a vécue, sans la caricaturer.</p>
 
@@ -98,11 +205,13 @@ const piliers = [
     </div>
   </section>
 
-  <!-- DERNIERS ARTICLES -->
+  <!-- ═══════════════════════════════════════════
+       DERNIERS ARTICLES
+  ════════════════════════════════════════════ -->
   <section class="container-narrow py-16">
     <div class="section-label">Journal</div>
     <h2 class="section-title">Les dernières histoires.</h2>
-    <p class="section-sub">Une nouvelle entrée toutes les semaines. Pas du clickbait — juste ce qu'on a envie de raconter.</p>
+    <p class="section-sub">Activités testées, conseils vécus, adresses validées. Pas du contenu — des vrais retours de parents.</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
       {recent.map((article) => (
@@ -136,27 +245,9 @@ const piliers = [
     </div>
   </section>
 
-  <!-- SELECTION DU MOIS BAND -->
-  <section class="bg-cream-clair border-y-2 border-vert-recre py-20 px-6">
-    <div class="container-narrow grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 items-center">
-      <div class="aspect-square rounded-card overflow-hidden shadow-[0_24px_48px_rgba(31,61,46,0.18)]">
-        <img src="/img/articles/jouets-vintage-selection.jpg" alt="Sélection jouets vintage du mois" class="w-full h-full object-cover" />
-      </div>
-      <div>
-        <p class="section-label">Sélection du mois</p>
-        <h2 class="section-title">La curation Club Récré.</h2>
-        <p class="text-lg mb-4 opacity-90">
-          Chaque mois, on chine et on sélectionne 30 à 50 pièces — vêtements vintage, jouets 90s, livres jeunesse, déco — qu'on a envie de transmettre à nos enfants.
-        </p>
-        <p class="text-lg mb-8 opacity-90">
-          Un seul critère : <strong>est-ce qu'on en achèterait pour nos propres enfants ?</strong> Si oui, ça rentre dans la sélection. Si non, on la laisse en friperie.
-        </p>
-        <a href="/selections" class="btn btn-primary">Voir la sélection</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- MANIFESTO BAND -->
+  <!-- ═══════════════════════════════════════════
+       MANIFESTE
+  ════════════════════════════════════════════ -->
   <section class="bg-vert-recre text-cream-gouter py-24 px-6 text-center">
     <div class="max-w-[820px] mx-auto">
       <p class="text-xs uppercase tracking-[0.25em] text-jaune-cassette font-bold mb-5">Le Club Récré</p>
@@ -168,4 +259,5 @@ const piliers = [
       </a>
     </div>
   </section>
+
 </BaseLayout>
