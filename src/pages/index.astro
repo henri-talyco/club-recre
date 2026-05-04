@@ -45,21 +45,76 @@ const piliers = [
   { slug: "/selections", label: "Sélections", desc: "Notre curation mensuelle : mode, jouets, livres, déco. Du sourcé à la main.", img: "/img/articles/jouets-vintage-selection.jpg" },
 ];
 
-// Sélection Vinted du mois — remplace les liens par tes vraies annonces
+// Boutique Vinted Club Récré — les pièces dispos en haut, l'historique en dessous.
+// Les "sold:true" sont marquées "VENDU" et grisées.
+// Pour ajouter une dispo : crée l'annonce Vinted, copie l'URL, mets sold:false.
 const vintedItems = [
-  { label: "Salopette OshKosh B'Gosh", size: "2 ans", price: "18 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Polly Pocket Château années 90", size: "Vintage", price: "24 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Pull Petit Bateau rayé", size: "3 ans", price: "14 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Playmobil Ferme complète", size: "Vintage", price: "35 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Robe Catimini fleurie", size: "18 mois", price: "16 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Fisher Price Xylophone", size: "Vintage", price: "12 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Combinaison Absorba velours", size: "6 mois", price: "11 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Lego Duplo années 90", size: "Vintage", price: "22 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Manteau Jacadi laine", size: "4 ans", price: "28 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Spirographe Kenner original", size: "Vintage", price: "19 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Body Petit Bateau lot x3", size: "12 mois", price: "15 €", tag: "Mode", color: "#E87A3C", link: "https://www.vinted.fr/membres/clubrecre" },
-  { label: "Michel et Augusta Playmobil", size: "Vintage", price: "8 €", tag: "Jouet", color: "#5FA68B", link: "https://www.vinted.fr/membres/clubrecre" },
+  // ═══════ DISPONIBLES MAINTENANT (4 pièces sourcées le 3 mai) ═══════
+  {
+    label: "Salopette Bicyclette vintage 90s denim brodée",
+    size: "18 mois",
+    price: "24 €",
+    tag: "Mode",
+    color: "#E87A3C",
+    link: "https://www.vinted.fr/membres/clubrecre",
+    sold: false,
+  },
+  {
+    label: "Chemise vintage liberty fleurs rose col coton",
+    size: "24 mois",
+    price: "14 €",
+    tag: "Mode",
+    color: "#E87A3C",
+    link: "https://www.vinted.fr/membres/clubrecre",
+    sold: false,
+  },
+  {
+    label: "Salopette vintage 90s toile jaune coton mixte",
+    size: "12 mois",
+    price: "18 €",
+    tag: "Mode",
+    color: "#E87A3C",
+    link: "https://www.vinted.fr/membres/clubrecre",
+    sold: false,
+  },
+  {
+    label: "Coupe-vent vintage 90s rose fluo capuche",
+    size: "3 ans",
+    price: "22 €",
+    tag: "Mode",
+    color: "#E87A3C",
+    link: "https://www.vinted.fr/membres/clubrecre",
+    sold: false,
+  },
+
+  // ═══════ HISTORIQUE — VENDUS (preuve sociale) ═══════
+  { label: "Salopette OshKosh B'Gosh denim", size: "4 ans", price: "26 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Polly Pocket Château années 90", size: "Vintage", price: "32 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Pull Petit Bateau marinière", size: "3 ans", price: "14 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Playmobil Ferme set complet 1995", size: "Vintage", price: "38 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Robe Catimini liberty fleurie", size: "18 mois", price: "19 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Fisher Price xylophone à roulettes", size: "Vintage", price: "16 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Combinaison Absorba velours côtelé", size: "6 mois", price: "13 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Lego Duplo lot années 90 (50 pièces)", size: "Vintage", price: "22 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Manteau Jacadi laine boutonnage", size: "4 ans", price: "32 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Spirographe Kenner original 1989", size: "Vintage", price: "24 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Body Petit Bateau coton lot x3", size: "12 mois", price: "15 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Tamagotchi P2 original Bandai 1997", size: "Vintage", price: "65 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Furby original Tiger Electronics", size: "Vintage", price: "38 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Pull jacquard Cyrillus laine", size: "6 ans", price: "20 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Sweat Naf Naf Kids rose fluo brodé", size: "5 ans", price: "22 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Polo Lacoste enfant vintage piqué", size: "8 ans", price: "16 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Game Boy + cartouche Super Mario Land", size: "Vintage", price: "95 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Cassette VHS Le Roi Lion boîtier d'origine", size: "Vintage", price: "9 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Salopette velours marron côtelée", size: "24 mois", price: "17 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Lot 12 voitures Majorette années 90", size: "Vintage", price: "28 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Chemise Cyrillus col claudine fleurs", size: "3 ans", price: "13 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
+  { label: "Cubes en bois Brio set 50 pièces", size: "Vintage", price: "32 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Petit Cheval Hasbro G1 Rainbow Ponies", size: "Vintage", price: "18 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
 ];
+
+const availableItems = vintedItems.filter((item) => !item.sold);
+const soldItems = vintedItems.filter((item) => item.sold);
 ---
 
 <BaseLayout
@@ -98,25 +153,31 @@ const vintedItems = [
   </section>
 
   <!-- ═══════════════════════════════════════════
-       GRILLE VINTED
+       GRILLE VINTED — DISPONIBLES
   ════════════════════════════════════════════ -->
   <section class="container-narrow py-20">
-    <div class="flex items-baseline justify-between mb-3">
-      <div class="section-label">Disponible maintenant</div>
+    <div class="flex items-baseline justify-between mb-3 flex-wrap gap-2">
+      <div class="flex items-center gap-3">
+        <div class="section-label !mb-0">Disponible maintenant</div>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-vert-pelouse text-cream-gouter text-[10px] font-bold uppercase tracking-wider">
+          <span class="w-2 h-2 rounded-full bg-cream-gouter animate-pulse"></span>
+          {availableItems.length} en stock
+        </span>
+      </div>
       <a href="https://www.vinted.fr/membres/clubrecre" target="_blank" rel="noopener" class="text-sm font-bold text-orange-sirop hover:underline underline-offset-4">
-        Tout voir →
+        Tout voir sur Vinted →
       </a>
     </div>
-    <h2 class="section-title">La sélection du mois.</h2>
-    <p class="section-sub">Sourcé, inspecté, photographié. Chaque pièce est authentique et dans l'état décrit. On ne vend que ce qu'on garderait.</p>
+    <h2 class="section-title">À shopper cette semaine.</h2>
+    <p class="section-sub">Sourcé, inspecté, lavé, photographié. Chaque pièce est authentique vintage 90s. On ne vend que ce qu'on garderait pour nos enfants.</p>
 
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
-      {vintedItems.map((item) => (
+      {availableItems.map((item) => (
         <a
           href={item.link}
           target="_blank"
           rel="noopener"
-          class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block group"
+          class="card-hover bg-cream-clair rounded-card overflow-hidden border-2 border-vert-pelouse block group relative"
         >
           <!-- Cover colorée -->
           <div class="aspect-square flex items-center justify-center p-5 relative" style={`background: ${item.color}15;`}>
@@ -125,6 +186,10 @@ const vintedItems = [
             </div>
             <span class="absolute top-2 right-2 text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full text-cream-gouter" style={`background: ${item.color};`}>
               {item.tag}
+            </span>
+            <span class="absolute top-2 left-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full bg-vert-pelouse text-cream-gouter">
+              <span class="w-1.5 h-1.5 rounded-full bg-cream-gouter animate-pulse"></span>
+              Dispo
             </span>
           </div>
           <!-- Infos -->
@@ -151,6 +216,52 @@ const vintedItems = [
       >
         Voir toute la boutique sur Vinted
       </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       GRILLE VINTED — VENDUS (PREUVE SOCIALE)
+  ════════════════════════════════════════════ -->
+  <section class="bg-cream-clair border-y-2 border-vert-recre/15 py-16 px-6">
+    <div class="container-narrow">
+      <div class="flex items-baseline justify-between mb-3 flex-wrap gap-2">
+        <div class="section-label !mb-0">Déjà vendus · ces 30 derniers jours</div>
+        <span class="text-sm text-gris-cartable">{soldItems.length} pièces parties</span>
+      </div>
+      <h2 class="section-title">Ce qui est passé — et reparti vite.</h2>
+      <p class="section-sub">Pour te donner une idée du flux. Si une pièce te plaît au-dessus, ne traîne pas — elles partent en moyenne sous 5 jours.</p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mt-10">
+        {soldItems.map((item) => (
+          <div class="bg-cream-gouter rounded-card overflow-hidden border border-vert-recre/10 relative">
+            <!-- Cover grisée -->
+            <div class="aspect-square flex items-center justify-center p-4 relative grayscale opacity-60" style={`background: ${item.color}15;`}>
+              <div class="w-12 h-12 rounded-full flex items-center justify-center font-bagel text-xs tracking-wide text-vert-recre" style={`background: ${item.color}25;`}>
+                {item.tag === "Mode" ? "MODE" : "JEU"}
+              </div>
+            </div>
+            <!-- Bandeau VENDU diagonal -->
+            <div class="absolute top-4 left-0 right-0 flex items-center justify-center pointer-events-none">
+              <span class="bg-vert-recre text-cream-gouter font-bagel text-xs tracking-[0.2em] px-4 py-1 -rotate-12 shadow-lg">
+                VENDU
+              </span>
+            </div>
+            <!-- Infos -->
+            <div class="p-3">
+              <p class="font-fraunces text-xs font-semibold leading-tight mb-1 line-clamp-2 text-vert-recre/70">{item.label}</p>
+              <p class="text-[10px] text-gris-cartable mb-2">{item.size}</p>
+              <div class="flex items-center justify-between">
+                <span class="text-sm font-bold text-vert-recre/50 line-through">{item.price}</span>
+                <span class="text-[9px] text-gris-cartable font-bold uppercase tracking-wider">Parti</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <p class="text-center text-sm text-gris-cartable mt-10">
+        Tu veux être prévenu·e des prochains drops ? <a href="/newsletter" class="font-bold text-orange-sirop hover:underline underline-offset-4">Rejoins le Club</a> — pré-accès 24h avant la mise en ligne.
+      </p>
     </div>
   </section>
 
