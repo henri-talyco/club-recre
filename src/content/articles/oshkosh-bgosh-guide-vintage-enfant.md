@@ -4,6 +4,7 @@ description: "Histoire, époque dorée, pièces signatures, comment authentifier
 pubDate: 2026-04-25
 pillar: "marques"
 tags: ["oshkosh", "marques", "vintage", "salopette", "denim"]
+cover: "/img/articles/oshkosh-salopette-enfant-90s.jpg"
 coverAlt: "Salopette OshKosh B'Gosh vintage 1989"
 author: "Club Récré"
 readingTime: 7

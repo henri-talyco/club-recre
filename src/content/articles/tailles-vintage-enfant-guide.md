@@ -4,6 +4,7 @@ description: "Comment décoder les tailles vintage enfant des années 80-90. Éq
 pubDate: 2026-04-15
 pillar: "conseils-guides"
 tags: ["tailles", "guide", "vintage", "achat"]
+cover: "/img/articles/tailles-vintage-enfant-etiquette.jpg"
 coverAlt: "Mesure d'une pièce enfant vintage à plat"
 author: "Club Récré"
 readingTime: 5

@@ -4,6 +4,7 @@ description: "La méthode infaillible pour distinguer un vrai vintage 90s d'une 
 pubDate: 2026-04-19
 pillar: "conseils-guides"
 tags: ["authentification", "vintage", "guide", "années 90"]
+cover: "/img/articles/authentifier-vintage-enfant-label.jpg"
 coverAlt: "Étiquette intérieure vintage enfant Made in France 1992"
 author: "Club Récré"
 readingTime: 6

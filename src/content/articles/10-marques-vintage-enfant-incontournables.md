@@ -4,6 +4,7 @@ description: "OshKosh, Petit Bateau, Catimini, Cyrillus... Le guide complet des 
 pubDate: 2026-04-28
 pillar: "marques"
 tags: ["marques", "vintage", "années 90", "guide"]
+cover: "/img/articles/marques-vintage-enfant-labels.jpg"
 coverAlt: "Étiquettes vintage Petit Bateau OshKosh Catimini"
 author: "Club Récré"
 readingTime: 8

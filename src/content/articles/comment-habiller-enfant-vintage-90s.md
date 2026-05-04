@@ -4,6 +4,7 @@ description: "Le guide complet pour habiller son enfant en vintage années 90 av
 pubDate: 2026-05-01
 pillar: "conseils-guides"
 tags: ["vintage", "années 90", "guide", "mode enfant", "conseils"]
+cover: "/img/articles/enfant-tenue-vintage-90s.jpg"
 coverAlt: "Enfant en salopette OshKosh vintage, été 90s"
 author: "Club Récré"
 readingTime: 9

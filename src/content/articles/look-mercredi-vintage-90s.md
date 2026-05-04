@@ -4,6 +4,7 @@ description: "Look complet vintage 90s pour un mercredi après-midi : salopette 
 pubDate: 2026-04-22
 pillar: "looks"
 tags: ["look", "mercredi", "salopette", "OshKosh", "90s"]
+cover: "/img/articles/look-mercredi-enfant-vintage.jpg"
 coverAlt: "Léo 6 ans en salopette OshKosh fluo pour la récré"
 author: "Club Récré"
 readingTime: 5
