@@ -27,11 +27,11 @@ const pillarLabels: Record<string, string> = {
 const pillarBg: Record<string, string> = {
   activites: "linear-gradient(135deg, #5FA68B, #1F3D2E)",
   education: "linear-gradient(135deg, #F0C14B, #E87A3C)",
-  lifestyle: "linear-gradient(135deg, #d4a373, #b87333)",
-  "jouets-vintage": "linear-gradient(135deg, #E87A3C, #b87333)",
+  lifestyle: "linear-gradient(135deg, #F5E9D3, #F0C14B)",
+  "jouets-vintage": "linear-gradient(135deg, #E87A3C, #1F3D2E)",
   selections: "linear-gradient(135deg, #1F3D2E, #5FA68B)",
   looks: "linear-gradient(135deg, #5FA68B, #1F3D2E)",
-  marques: "linear-gradient(135deg, #d4a373, #b87333)",
+  marques: "linear-gradient(135deg, #F0C14B, #E87A3C)",
   epoques: "linear-gradient(135deg, #5FA68B, #1F3D2E)",
   "conseils-guides": "linear-gradient(135deg, #F0C14B, #E87A3C)",
 };
@@ -80,7 +80,7 @@ const vintedItems = [
           On chine. <em class="italic text-orange-sirop">On sélectionne.</em> Tu achètes direct.
         </h1>
         <p class="text-base max-w-[500px] mb-7 opacity-85">
-          Chaque mois, on sourcé 30 à 50 pièces vintage — vêtements, jouets, livres — qu'on achèterait pour nos propres enfants. Rien d'autre ne passe.
+          Chaque mois, on source 30 à 50 pièces vintage — vêtements, jouets, livres — qu'on achèterait pour nos propres enfants. Rien d'autre ne passe.
         </p>
         <div class="flex gap-3 flex-wrap">
           <a href="https://www.vinted.fr/membres/clubrecre" target="_blank" rel="noopener" class="btn bg-orange-sirop text-cream-gouter border-orange-sirop hover:bg-jaune-cassette hover:text-vert-recre hover:border-jaune-cassette">
@@ -120,10 +120,10 @@ const vintedItems = [
         >
           <!-- Cover colorée -->
           <div class="aspect-square flex items-center justify-center p-5 relative" style={`background: ${item.color}15;`}>
-            <div class="w-16 h-16 rounded-full flex items-center justify-center text-2xl" style={`background: ${item.color}25;`}>
-              {item.tag === "Mode" ? "👕" : "🧸"}
+            <div class="w-16 h-16 rounded-full flex items-center justify-center font-bagel text-sm tracking-wide text-vert-recre" style={`background: ${item.color}25;`}>
+              {item.tag === "Mode" ? "MODE" : "JEU"}
             </div>
-            <span class="absolute top-2 right-2 text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full text-white" style={`background: ${item.color};`}>
+            <span class="absolute top-2 right-2 text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full text-cream-gouter" style={`background: ${item.color};`}>
               {item.tag}
             </span>
           </div>

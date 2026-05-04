@@ -9,7 +9,7 @@
   }
 
   body {
-    @apply bg-cream-gouter text-vert-recre font-sans;
+    @apply bg-cream-gouter text-noir-reglisse font-sans;
     line-height: 1.6;
   }
 
@@ -21,6 +21,49 @@
 @layer components {
   .container-narrow {
     @apply max-w-[1280px] mx-auto px-6;
+  }
+
+  .club-wordmark {
+    @apply inline-flex flex-col items-start leading-none text-vert-recre;
+  }
+
+  .club-wordmark__club {
+    @apply font-bagel uppercase tracking-[0.28em] text-[10px] md:text-xs;
+  }
+
+  .club-wordmark__recre {
+    @apply font-bagel tracking-wide text-[2rem] md:text-[2.45rem];
+    color: theme("colors.cream-gouter");
+    -webkit-text-stroke: 1.5px theme("colors.vert-recre");
+    text-shadow:
+      1px 1px 0 theme("colors.vert-pelouse"),
+      3px 3px 0 theme("colors.jaune-cassette"),
+      5px 5px 0 theme("colors.orange-sirop"),
+      7px 7px 0 theme("colors.vert-recre");
+  }
+
+  .club-wordmark--compact .club-wordmark__recre {
+    @apply text-[1.6rem] md:text-[1.9rem];
+    -webkit-text-stroke-width: 1.25px;
+    text-shadow:
+      1px 1px 0 theme("colors.vert-pelouse"),
+      2px 2px 0 theme("colors.jaune-cassette"),
+      3px 3px 0 theme("colors.orange-sirop"),
+      4px 4px 0 theme("colors.vert-recre");
+  }
+
+  .club-wordmark--dark .club-wordmark__club {
+    @apply text-cream-gouter;
+  }
+
+  .club-wordmark--dark .club-wordmark__recre {
+    color: theme("colors.vert-recre");
+    -webkit-text-stroke-color: theme("colors.cream-gouter");
+    text-shadow:
+      1px 1px 0 theme("colors.vert-pelouse"),
+      3px 3px 0 theme("colors.jaune-cassette"),
+      5px 5px 0 theme("colors.orange-sirop"),
+      7px 7px 0 theme("colors.cream-gouter");
   }
 
   .btn {
@@ -53,6 +96,14 @@
 
   .badge-outline {
     @apply border-2 border-vert-recre text-vert-recre py-0.5 px-2.5;
+  }
+
+  .filter-pill {
+    @apply inline-flex items-center px-4 py-2.5 rounded-full font-semibold text-sm border-2 border-vert-recre/30 bg-cream-gouter text-vert-recre cursor-pointer transition-all duration-200 hover:border-vert-recre hover:-translate-y-0.5;
+  }
+
+  .filter-pill.is-active {
+    @apply bg-vert-recre text-cream-gouter border-vert-recre shadow-[0_4px_12px_rgba(31,61,46,0.2)];
   }
 
   .section-label {

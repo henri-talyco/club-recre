@@ -2,21 +2,24 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="bg-vert-recre text-cream-gouter pt-16 pb-8 px-6 mt-20">
+<footer class="bg-cream-footer text-vert-recre pt-16 pb-8 px-6 mt-20 border-t-2 border-vert-recre">
   <div class="container-narrow">
     <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-12">
       <div>
-        <div class="font-bagel text-3xl tracking-wide mb-3">CLUB RÉCRÉ</div>
+        <div class="club-wordmark mb-6" aria-label="Club Récré">
+          <span class="club-wordmark__club">Club</span>
+          <span class="club-wordmark__recre">Récré</span>
+        </div>
         <p class="font-fraunces italic text-lg opacity-90 max-w-[320px] mb-4">
           Le magazine lifestyle des parents qui ont grandi dans les années 90 et veulent transmettre une enfance libre.
         </p>
         <p class="text-sm opacity-75 max-w-[320px] leading-relaxed">
-          Site édité par <a href="https://talyco.io" target="_blank" rel="noopener" class="font-semibold underline decoration-jaune-cassette underline-offset-2 hover:text-orange-sirop transition-colors">Talyco — agence marketing</a>.
+          Site édité par <a href="https://talyco.io" target="_blank" rel="noopener" class="font-semibold underline decoration-orange-sirop underline-offset-2 hover:text-orange-sirop transition-colors">Talyco — agence marketing</a>.
         </p>
       </div>
 
       <div>
-        <h4 class="text-xs uppercase tracking-[0.25em] text-jaune-cassette font-bold mb-4">Lire</h4>
+        <h4 class="text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-4">Lire</h4>
         <ul class="list-none space-y-2 text-sm opacity-85">
           <li><a href="/journal" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Journal</a></li>
           <li><a href="/activites" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Activités</a></li>
@@ -28,7 +31,7 @@ const year = new Date().getFullYear();
       </div>
 
       <div>
-        <h4 class="text-xs uppercase tracking-[0.25em] text-jaune-cassette font-bold mb-4">Le Club</h4>
+        <h4 class="text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-4">Le Club</h4>
         <ul class="list-none space-y-2 text-sm opacity-85">
           <li><a href="/le-club" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Manifeste</a></li>
           <li><a href="/newsletter" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Newsletter</a></li>
@@ -39,7 +42,7 @@ const year = new Date().getFullYear();
       </div>
 
       <div>
-        <h4 class="text-xs uppercase tracking-[0.25em] text-jaune-cassette font-bold mb-4">Suivre</h4>
+        <h4 class="text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-4">Suivre</h4>
         <ul class="list-none space-y-2 text-sm opacity-85">
           <li><a href="https://www.instagram.com/clubrecre" target="_blank" rel="noopener" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Instagram</a></li>
           <li><a href="https://www.tiktok.com/@clubrecre" target="_blank" rel="noopener" class="hover:text-orange-sirop hover:opacity-100 transition-colors">TikTok</a></li>
@@ -49,7 +52,7 @@ const year = new Date().getFullYear();
       </div>
     </div>
 
-    <div class="mt-12 pt-6 border-t border-cream-gouter/20 flex justify-between text-xs opacity-70 flex-wrap gap-3">
+    <div class="mt-12 pt-6 border-t border-vert-recre/20 flex justify-between text-xs opacity-70 flex-wrap gap-3">
       <span>© {year} Club Récré · Édité par <a href="https://talyco.io" target="_blank" rel="noopener" class="hover:text-orange-sirop">Talyco, agence marketing</a></span>
       <span><a href="/mentions-legales" class="hover:text-orange-sirop">Mentions légales</a> · <a href="/cgv" class="hover:text-orange-sirop">CGV</a> · <a href="/confidentialite" class="hover:text-orange-sirop">Confidentialité</a></span>
     </div>

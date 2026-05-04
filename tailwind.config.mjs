@@ -8,6 +8,7 @@ export default {
         "vert-recre": "#1F3D2E",
         "cream-gouter": "#F5E9D3",
         "cream-clair": "#FBF4E5",
+        "cream-footer": "#EBDDC0",
         "orange-sirop": "#E87A3C",
         "jaune-cassette": "#F0C14B",
         "vert-pelouse": "#5FA68B",
@@ -21,7 +22,7 @@ export default {
       },
       borderRadius: {
         btn: "8px",
-        card: "16px",
+        card: "12px",
       },
       maxWidth: {
         prose: "720px",
