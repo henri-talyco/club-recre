@@ -49,13 +49,14 @@ const piliers = [
 // Les "sold:true" sont marquées "VENDU" et grisées.
 // Pour ajouter une dispo : crée l'annonce Vinted, copie l'URL, mets sold:false.
 const vintedItems = [
-  // ═══════ DISPONIBLES MAINTENANT (4 pièces sourcées le 3 mai) ═══════
+  // ═══════ DISPONIBLES MAINTENANT ═══════
   {
     label: "Salopette Bicyclette vintage 90s denim brodée",
     size: "18 mois",
     price: "24 €",
     tag: "Mode",
     color: "#E87A3C",
+    img: "/img/produits/produit-salopette-bicyclette.jpg",
     link: "https://www.vinted.fr/membres/clubrecre",
     sold: false,
   },
@@ -65,6 +66,7 @@ const vintedItems = [
     price: "14 €",
     tag: "Mode",
     color: "#E87A3C",
+    img: "/img/produits/produit-chemise-liberty-rose.jpg",
     link: "https://www.vinted.fr/membres/clubrecre",
     sold: false,
   },
@@ -74,6 +76,7 @@ const vintedItems = [
     price: "18 €",
     tag: "Mode",
     color: "#E87A3C",
+    img: "/img/produits/produit-salopette-jaune.jpg",
     link: "https://www.vinted.fr/membres/clubrecre",
     sold: false,
   },
@@ -83,34 +86,35 @@ const vintedItems = [
     price: "22 €",
     tag: "Mode",
     color: "#E87A3C",
+    img: "/img/produits/produit-coupe-vent-rose-fluo.jpg",
     link: "https://www.vinted.fr/membres/clubrecre",
     sold: false,
   },
 
   // ═══════ HISTORIQUE — VENDUS (preuve sociale) ═══════
-  { label: "Salopette OshKosh B'Gosh denim", size: "4 ans", price: "26 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Polly Pocket Château années 90", size: "Vintage", price: "32 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Pull Petit Bateau marinière", size: "3 ans", price: "14 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Playmobil Ferme set complet 1995", size: "Vintage", price: "38 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Robe Catimini liberty fleurie", size: "18 mois", price: "19 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Fisher Price xylophone à roulettes", size: "Vintage", price: "16 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Combinaison Absorba velours côtelé", size: "6 mois", price: "13 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Lego Duplo lot années 90 (50 pièces)", size: "Vintage", price: "22 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Manteau Jacadi laine boutonnage", size: "4 ans", price: "32 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Spirographe Kenner original 1989", size: "Vintage", price: "24 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Body Petit Bateau coton lot x3", size: "12 mois", price: "15 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Tamagotchi P2 original Bandai 1997", size: "Vintage", price: "65 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Furby original Tiger Electronics", size: "Vintage", price: "38 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Pull jacquard Cyrillus laine", size: "6 ans", price: "20 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Sweat Naf Naf Kids rose fluo brodé", size: "5 ans", price: "22 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Polo Lacoste enfant vintage piqué", size: "8 ans", price: "16 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Game Boy + cartouche Super Mario Land", size: "Vintage", price: "95 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Cassette VHS Le Roi Lion boîtier d'origine", size: "Vintage", price: "9 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Salopette velours marron côtelée", size: "24 mois", price: "17 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Lot 12 voitures Majorette années 90", size: "Vintage", price: "28 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Chemise Cyrillus col claudine fleurs", size: "3 ans", price: "13 €", tag: "Mode", color: "#E87A3C", link: "#", sold: true },
-  { label: "Cubes en bois Brio set 50 pièces", size: "Vintage", price: "32 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
-  { label: "Petit Cheval Hasbro G1 Rainbow Ponies", size: "Vintage", price: "18 €", tag: "Jouet", color: "#5FA68B", link: "#", sold: true },
+  { label: "Salopette OshKosh B'Gosh denim", size: "4 ans", price: "26 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-salopette-oshkosh-denim.jpg", link: "#", sold: true },
+  { label: "Polly Pocket Château années 90", size: "Vintage", price: "32 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-polly-pocket-chateau.jpg", link: "#", sold: true },
+  { label: "Pull Petit Bateau marinière", size: "3 ans", price: "14 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-pull-petit-bateau-mariniere.jpg", link: "#", sold: true },
+  { label: "Playmobil Ferme set complet 1995", size: "Vintage", price: "38 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-playmobil-ferme.jpg", link: "#", sold: true },
+  { label: "Robe Catimini liberty fleurie", size: "18 mois", price: "19 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-robe-catimini-liberty.jpg", link: "#", sold: true },
+  { label: "Fisher Price xylophone à roulettes", size: "Vintage", price: "16 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-fisher-price-xylophone.jpg", link: "#", sold: true },
+  { label: "Combinaison Absorba velours côtelé", size: "6 mois", price: "13 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-combinaison-absorba-velours.jpg", link: "#", sold: true },
+  { label: "Lego Duplo lot années 90 (50 pièces)", size: "Vintage", price: "22 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-lego-duplo.jpg", link: "#", sold: true },
+  { label: "Manteau Jacadi laine boutonnage", size: "4 ans", price: "32 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-manteau-jacadi.jpg", link: "#", sold: true },
+  { label: "Spirographe Kenner original 1989", size: "Vintage", price: "24 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-spirographe.jpg", link: "#", sold: true },
+  { label: "Body Petit Bateau coton lot x3", size: "12 mois", price: "15 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-body-petit-bateau-lot.jpg", link: "#", sold: true },
+  { label: "Tamagotchi P2 original Bandai 1997", size: "Vintage", price: "65 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-tamagotchi.jpg", link: "#", sold: true },
+  { label: "Furby original Tiger Electronics", size: "Vintage", price: "38 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-furby.jpg", link: "#", sold: true },
+  { label: "Pull jacquard Cyrillus laine", size: "6 ans", price: "20 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-pull-cyrillus-jacquard.jpg", link: "#", sold: true },
+  { label: "Sweat Naf Naf Kids rose fluo brodé", size: "5 ans", price: "22 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-sweat-nafnaf-rose.jpg", link: "#", sold: true },
+  { label: "Polo Lacoste enfant vintage piqué", size: "8 ans", price: "16 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-polo-lacoste-enfant.jpg", link: "#", sold: true },
+  { label: "Game Boy + cartouche Super Mario Land", size: "Vintage", price: "95 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-gameboy-mario.jpg", link: "#", sold: true },
+  { label: "Cassette VHS Le Roi Lion boîtier d'origine", size: "Vintage", price: "9 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-vhs-roi-lion.jpg", link: "#", sold: true },
+  { label: "Salopette velours marron côtelée", size: "24 mois", price: "17 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-salopette-velours-marron.jpg", link: "#", sold: true },
+  { label: "Lot 12 voitures Majorette années 90", size: "Vintage", price: "28 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-majorette-voitures.jpg", link: "#", sold: true },
+  { label: "Chemise Cyrillus col claudine fleurs", size: "3 ans", price: "13 €", tag: "Mode", color: "#E87A3C", img: "/img/produits/produit-chemise-cyrillus-claudine.jpg", link: "#", sold: true },
+  { label: "Cubes en bois Brio set 50 pièces", size: "Vintage", price: "32 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-cubes-brio.jpg", link: "#", sold: true },
+  { label: "Petit Cheval Hasbro G1 Rainbow Ponies", size: "Vintage", price: "18 €", tag: "Jouet", color: "#5FA68B", img: "/img/produits/produit-my-little-pony.jpg", link: "#", sold: true },
 ];
 
 const availableItems = vintedItems.filter((item) => !item.sold);
@@ -179,11 +183,9 @@ const soldItems = vintedItems.filter((item) => item.sold);
           rel="noopener"
           class="card-hover bg-cream-clair rounded-card overflow-hidden border-2 border-vert-pelouse block group relative"
         >
-          <!-- Cover colorée -->
-          <div class="aspect-square flex items-center justify-center p-5 relative" style={`background: ${item.color}15;`}>
-            <div class="w-16 h-16 rounded-full flex items-center justify-center font-bagel text-sm tracking-wide text-vert-recre" style={`background: ${item.color}25;`}>
-              {item.tag === "Mode" ? "MODE" : "JEU"}
-            </div>
+          <!-- Photo produit -->
+          <div class="aspect-square relative overflow-hidden">
+            <img src={item.img} alt={item.label} class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
             <span class="absolute top-2 right-2 text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full text-cream-gouter" style={`background: ${item.color};`}>
               {item.tag}
             </span>
@@ -234,11 +236,9 @@ const soldItems = vintedItems.filter((item) => item.sold);
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mt-10">
         {soldItems.map((item) => (
           <div class="bg-cream-gouter rounded-card overflow-hidden border border-vert-recre/10 relative">
-            <!-- Cover grisée -->
-            <div class="aspect-square flex items-center justify-center p-4 relative grayscale opacity-60" style={`background: ${item.color}15;`}>
-              <div class="w-12 h-12 rounded-full flex items-center justify-center font-bagel text-xs tracking-wide text-vert-recre" style={`background: ${item.color}25;`}>
-                {item.tag === "Mode" ? "MODE" : "JEU"}
-              </div>
+            <!-- Photo produit grisée -->
+            <div class="aspect-square relative overflow-hidden grayscale opacity-60">
+              <img src={item.img} alt={item.label} class="w-full h-full object-cover" loading="lazy" />
             </div>
             <!-- Bandeau VENDU diagonal -->
             <div class="absolute top-4 left-0 right-0 flex items-center justify-center pointer-events-none">
