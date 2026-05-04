@@ -3,13 +3,13 @@ const pathname = Astro.url.pathname;
 const isActive = (path: string) => pathname.startsWith(path);
 
 const links = [
-  { href: "/journal", label: "Journal" },
   { href: "/activites", label: "Activités" },
   { href: "/lifestyle", label: "Lifestyle" },
-  { href: "/education", label: "Éducation" },
   { href: "/vintage", label: "Vintage" },
-  { href: "/selections", label: "Sélections" },
+  { href: "/education", label: "Conseils" },
 ];
+
+const VINTED_URL = "https://www.vinted.fr/membres/clubrecre";
 ---
 
 <header class="sticky top-0 z-50 bg-cream-gouter border-b-2 border-vert-recre">
@@ -19,8 +19,8 @@ const links = [
       <span class="club-wordmark__recre">Récré</span>
     </a>
 
-    <nav>
-      <ul class="flex gap-3 lg:gap-6 list-none flex-wrap justify-end">
+    <nav class="flex items-center gap-3 lg:gap-5">
+      <ul class="hidden sm:flex gap-3 lg:gap-5 list-none flex-wrap justify-end items-center">
         {
           links.map(({ href, label }) => (
             <li>
@@ -37,6 +37,16 @@ const links = [
           ))
         }
       </ul>
+
+      <!-- CTA Boutique -->
+      <a
+        href={VINTED_URL}
+        target="_blank"
+        rel="noopener"
+        class="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-btn bg-orange-sirop text-cream-gouter text-[11px] lg:text-sm font-bold uppercase tracking-[0.1em] border-2 border-orange-sirop hover:bg-jaune-cassette hover:text-vert-recre hover:border-jaune-cassette transition-all duration-200 whitespace-nowrap"
+      >
+        <span>🛍️</span> La Boutique
+      </a>
     </nav>
   </div>
 </header>
