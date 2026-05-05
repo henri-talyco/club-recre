@@ -35,5 +35,59 @@ const props = Astro.props;
       <slot />
     </main>
     <Footer />
+
+    <script>
+      // Newsletter forms — POST vers Web3Forms (gratuit, 250 submissions/mois)
+      // L'access_key est public (côté client) — pour la régénérer : https://web3forms.com/
+      const WEB3FORMS_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY || "";
+
+      document.querySelectorAll<HTMLFormElement>("form.js-newsletter-form").forEach((form) => {
+        form.addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const emailInput = form.querySelector<HTMLInputElement>('input[type="email"]');
+          const button = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+          if (!emailInput || !button) return;
+
+          const email = emailInput.value.trim();
+          if (!email) return;
+
+          if (!WEB3FORMS_KEY) {
+            alert("Newsletter en cours d'activation. Reviens dans quelques heures !");
+            return;
+          }
+
+          const originalLabel = button.textContent;
+          button.disabled = true;
+          button.textContent = "...";
+
+          try {
+            const res = await fetch("https://api.web3forms.com/submit", {
+              method: "POST",
+              headers: { "Content-Type": "application/json", Accept: "application/json" },
+              body: JSON.stringify({
+                access_key: WEB3FORMS_KEY,
+                email,
+                subject: "Nouvelle inscription newsletter Club Récré",
+                from_name: "Club Récré — Site",
+                source: window.location.pathname,
+              }),
+            });
+            const data = await res.json();
+            if (data.success) {
+              form.innerHTML =
+                '<p class="font-fraunces text-lg text-vert-recre">Merci ! Tu fais partie du Club. Vérifie ta boîte mail.</p>';
+            } else {
+              alert("Une erreur est survenue. Réessaie dans un instant.");
+              button.disabled = false;
+              button.textContent = originalLabel;
+            }
+          } catch (err) {
+            alert("Connexion impossible. Réessaie plus tard.");
+            button.disabled = false;
+            button.textContent = originalLabel;
+          }
+        });
+      });
+    </script>
   </body>
 </html>

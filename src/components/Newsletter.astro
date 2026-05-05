@@ -12,7 +12,7 @@ const { variant = "banner" } = Astro.props;
         <strong class="font-fraunces text-2xl font-semibold block">Rejoins le Club.</strong>
         <span class="text-sm opacity-85">Pré-accès 24h aux drops, looks exclusifs et histoires de pièces.</span>
       </div>
-      <form class="flex gap-2 flex-1 max-w-[480px]" onsubmit="event.preventDefault();">
+      <form class="js-newsletter-form flex gap-2 flex-1 max-w-[480px]">
         <input
           type="email"
           required
@@ -36,7 +36,7 @@ const { variant = "banner" } = Astro.props;
     <p class="text-base max-w-[480px] mx-auto mb-6 opacity-90">
       Les abonnés du Club ont 24h d'avance sur les drops Vinted. Une histoire de pièce dans ta boîte mail toutes les semaines.
     </p>
-    <form class="flex gap-2 max-w-[420px] mx-auto" onsubmit="event.preventDefault();">
+    <form class="js-newsletter-form flex gap-2 max-w-[420px] mx-auto">
       <input
         type="email"
         required
@@ -57,7 +57,7 @@ const { variant = "banner" } = Astro.props;
   <aside class="border-2 border-vert-recre rounded-card bg-cream-clair p-6 my-8">
     <strong class="font-fraunces text-xl block mb-2">📬 Reçois les nouvelles pièces avant tout le monde.</strong>
     <p class="text-sm mb-4 text-noir-reglisse">Les abonnés du Club ont 24h d'avance sur chaque drop Vinted. Pas de spam, une newsletter par semaine.</p>
-    <form class="flex gap-2" onsubmit="event.preventDefault();">
+    <form class="js-newsletter-form flex gap-2">
       <input
         type="email"
         required
