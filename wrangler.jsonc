@@ -6,6 +6,17 @@
   "compatibility_date": "2026-08-25",
   "account_id": "9fa83bed81c1eb3d7808d7c580dd646e",
   "main": "src/worker.js",
+  // URL de secours, toujours joignable meme si le domaine est mal configure.
+  // Sans cette ligne, wrangler la desactive silencieusement au deploiement.
+  "workers_dev": true,
+  // Routes et non "custom_domain" : une route intercepte le trafic avant
+  // l'origine, donc le worker repond sans qu'on ait a supprimer d'abord les
+  // enregistrements A qui pointent encore vers Vercel. Aucune coupure, et
+  // Vercel n'est plus jamais appele. Les A pourront etre nettoyes ensuite.
+  "routes": [
+    { "pattern": "clubrecre.fr/*", "zone_name": "clubrecre.fr" },
+    { "pattern": "www.clubrecre.fr/*", "zone_name": "clubrecre.fr" }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
