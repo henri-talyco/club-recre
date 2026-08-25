@@ -7,7 +7,11 @@ name: Article quotidien
 
 on:
   schedule:
-    - cron: "0 6 * * *" # 8h a Paris en heure d'ete, 7h en hiver
+    # 00h17 UTC, soit 2h17 a Paris en heure d'ete et 1h17 en hiver. La nuit,
+    # pour ne pas consommer les quotas d'abonnement pendant la journee de
+    # travail. Minute decalee volontairement : les crons a l'heure pile sont
+    # les plus charges chez GitHub et partent souvent avec du retard.
+    - cron: "17 0 * * *"
   workflow_dispatch:
     inputs:
       sujet:

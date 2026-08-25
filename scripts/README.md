@@ -1,8 +1,10 @@
 # Le robot d'articles
 
-Chaque matin, il prend le premier sujet de `file-sujets.json`, fait écrire l'article par Claude, vérifie que le site build, et ouvre une pull request. Tu relis, tu merges, Vercel déploie en 30 secondes.
+Chaque nuit à 2h17, il prend le premier sujet de `file-sujets.json`, fait écrire l'article par Claude, vérifie que le site build, publie sur `main` et met en ligne sur Cloudflare. Personne ne relit, ce sont les garde-fous plus bas qui font barrage.
 
 Tout se passe sur GitHub. Ton Mac peut rester éteint.
+
+L'horaire est nocturne pour ne pas consommer les quotas d'abonnement pendant la journée de travail.
 
 La rédaction passe par ton abonnement Claude, pas par l'API facturée à l'usage. Le robot lance le CLI `claude` avec un token d'abonnement.
 
@@ -34,9 +36,9 @@ DRY_RUN=1 npm run article
 
 `DRY_RUN=1` affiche l'article sans rien écrire ni toucher à la file.
 
-## Publier sans relire
+## Relire avant publication
 
-Dans `.github/workflows/article-quotidien.yml`, remplacer `MODE: pr` par `MODE: direct`. L'article part alors sur `main` chaque matin, donc en ligne, sans que personne ne l'ait lu.
+Le robot est en publication directe. Pour repasser à une relecture, remplacer `MODE: direct` par `MODE: pr` dans `.github/workflows/article-quotidien.yml`. Il ouvrira alors une pull request chaque nuit au lieu de publier, et tu la merges quand tu veux.
 
 ## La file de sujets
 
