@@ -1,0 +1,18 @@
+{
+  // Site statique Astro servi par Cloudflare Workers (assets seuls, aucun code
+  // a executer). Deploiement : npm run build puis npx wrangler deploy.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "club-recre",
+  "compatibility_date": "2026-08-25",
+  "account_id": "9fa83bed81c1eb3d7808d7c580dd646e",
+  "main": "src/worker.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    // Le worker doit voir chaque requete pour servir les URLs sans slash final
+    // en 200 au lieu d'une redirection. Voir le commentaire de src/worker.js.
+    "run_worker_first": true
+  }
+}

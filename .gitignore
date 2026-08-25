@@ -31,3 +31,6 @@ pnpm-debug.log*
 
 # Temporary
 *.log
+
+# Cloudflare
+.wrangler/
