@@ -1,0 +1,461 @@
+{
+  "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
+  "_maj": "2026-08-24",
+  "sujets": [
+    {
+      "slug": "activite-enfant-2-ans",
+      "titre": "Activité enfant 2 ans : que faire pour éviter les écrans",
+      "keyword": "activite enfant 2 ans",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush+gsc",
+      "volume": 390,
+      "kd": 17,
+      "note": "Position 16,9 en GSC sur 49 impressions, aucun article dedie. Gisement direct."
+    },
+    {
+      "slug": "activite-bebe-1-an",
+      "titre": "Activité bébé 1 an : 25 idées pour éveiller sans écran",
+      "keyword": "activite bebe 1 an",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc",
+      "note": "57 impressions, position 25,9. La requete la plus vue du site sans article dedie."
+    },
+    {
+      "slug": "marques-annees-90-disparues",
+      "titre": "Marques des années 90 disparues : celles qu'on ne retrouve plus",
+      "keyword": "marques des annees 90 disparues",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "gsc",
+      "note": "Position 3,45 et 12% de CTR, le meilleur ratio du site. Merite son article dedie."
+    },
+    {
+      "slug": "polly-pocket-vintage",
+      "titre": "Polly Pocket vintage : guide, cote, et où trouver les plus rares",
+      "keyword": "polly pocket vintage",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "semrush",
+      "volume": 1900,
+      "kd": 27
+    },
+    {
+      "slug": "activites-toulouse-enfant-1-an",
+      "titre": "Activités à Toulouse avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an toulouse",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activite-enfant-3-ans",
+      "titre": "Activité enfant 3 ans : 30 idées pour le mercredi",
+      "keyword": "activite enfant 3 ans",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 480,
+      "kd": 12
+    },
+    {
+      "slug": "activites-nantes-enfant-1-an",
+      "titre": "Activités à Nantes avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an nantes",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "jouet-annee-90",
+      "titre": "Jouet année 90 : les 30 jouets cultes et leur cote en 2026",
+      "keyword": "jouet annee 90",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "semrush",
+      "volume": 1600,
+      "kd": 21
+    },
+    {
+      "slug": "activites-toulouse-enfant-2-ans",
+      "titre": "Activités à Toulouse avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans toulouse",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "cartable-rentree-enfant",
+      "titre": "Cartable rentrée enfant : bien choisir et le garder plusieurs années",
+      "keyword": "cartable enfant",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "saison-rentree",
+      "note": "A publier avant mi-septembre."
+    },
+    {
+      "slug": "activites-lille-enfant-1-an",
+      "titre": "Activités à Lille avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an lille",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "playmobil-vintage",
+      "titre": "Playmobil vintage : le guide complet du collectionneur",
+      "keyword": "playmobil vintage",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "semrush",
+      "volume": 320,
+      "kd": 17
+    },
+    {
+      "slug": "activites-nantes-enfant-2-ans",
+      "titre": "Activités à Nantes avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans nantes",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activite-interieur-enfant",
+      "titre": "Activité intérieur enfant : 25 idées sans écran",
+      "keyword": "activite interieur enfant",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 590,
+      "kd": 22
+    },
+    {
+      "slug": "activites-strasbourg-enfant-1-an",
+      "titre": "Activités à Strasbourg avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an strasbourg",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "deguisement-halloween-enfant",
+      "titre": "Déguisement Halloween enfant : les costumes 90s qu'on adore",
+      "keyword": "deguisement halloween enfant",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "semrush",
+      "volume": 8100,
+      "kd": 26,
+      "note": "A publier debut octobre au plus tard."
+    },
+    {
+      "slug": "activites-lille-enfant-2-ans",
+      "titre": "Activités à Lille avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans lille",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "polly-pocket-annees-90",
+      "titre": "Polly Pocket années 90 : les modèles qui valent de l'or",
+      "keyword": "polly pocket annee 90",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "semrush+gsc",
+      "volume": 480,
+      "kd": 21,
+      "note": "100 impressions en GSC pour 1% de CTR, position 7,4. Article dedie manquant."
+    },
+    {
+      "slug": "activites-montpellier-enfant-1-an",
+      "titre": "Activités à Montpellier avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an montpellier",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "anniversaire-enfant-paris",
+      "titre": "Anniversaire enfant Paris : les meilleures adresses par âge",
+      "keyword": "anniversaire enfant paris",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "semrush",
+      "volume": 590,
+      "kd": 15
+    },
+    {
+      "slug": "activites-nice-enfant-1-an",
+      "titre": "Activités à Nice avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an nice",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "jeux-societe-enfant-5-ans",
+      "titre": "Jeux de société enfant 5 ans : les classiques intemporels",
+      "keyword": "jeux de societe enfant 5 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 480,
+      "kd": 13
+    },
+    {
+      "slug": "activites-rennes-enfant-1-an",
+      "titre": "Activités à Rennes avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an rennes",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "gouter-anniversaire-enfant",
+      "titre": "Goûter anniversaire enfant : le goûter parfait à préparer soi-même",
+      "keyword": "gouter anniversaire enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 390,
+      "kd": 18
+    },
+    {
+      "slug": "activites-montpellier-enfant-2-ans",
+      "titre": "Activités à Montpellier avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans montpellier",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "invitation-anniversaire-enfant",
+      "titre": "Invitation anniversaire enfant : modèles à imprimer et idées DIY",
+      "keyword": "invitation anniversaire enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 4400,
+      "kd": 22
+    },
+    {
+      "slug": "activites-grenoble-enfant-1-an",
+      "titre": "Activités à Grenoble avec un enfant de 1 an : nos adresses testées",
+      "keyword": "activite bebe 1 an grenoble",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "anniversaire-enfant-5-ans",
+      "titre": "Anniversaire enfant 5 ans : thème, gâteau, activités",
+      "keyword": "anniversaire enfant 5 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 320,
+      "kd": 19
+    },
+    {
+      "slug": "activites-nice-enfant-2-ans",
+      "titre": "Activités à Nice avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans nice",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "calendrier-avent-enfant",
+      "titre": "Calendrier de l'avent enfant : le faire soi-même comme avant",
+      "keyword": "calendrier de l avent enfant",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "saison-noel",
+      "note": "A publier avant mi-novembre."
+    },
+    {
+      "slug": "activites-rennes-enfant-2-ans",
+      "titre": "Activités à Rennes avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans rennes",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "bricolage-noel-enfant",
+      "titre": "Bricolage Noël enfant : 15 idées faciles à faire ensemble",
+      "keyword": "bricolage noel enfant",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "semrush",
+      "volume": 590,
+      "kd": 17,
+      "note": "A publier en novembre."
+    },
+    {
+      "slug": "activites-bordeaux-enfant-4-ans",
+      "titre": "Activités à Bordeaux avec un enfant de 4 ans : nos adresses testées",
+      "keyword": "activite enfant 4 ans bordeaux",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "deguisement-enfant-4-ans",
+      "titre": "Déguisement enfant 4 ans : les costumes préférés",
+      "keyword": "deguisement enfant 4 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 720,
+      "kd": 12
+    },
+    {
+      "slug": "activites-grenoble-enfant-2-ans",
+      "titre": "Activités à Grenoble avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans grenoble",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "musee-enfant-paris",
+      "titre": "Musée enfant Paris : les meilleurs pour les petits curieux",
+      "keyword": "musee enfant paris",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "semrush",
+      "volume": 2400,
+      "kd": 32
+    },
+    {
+      "slug": "activites-paris-enfant-4-ans",
+      "titre": "Activités à Paris avec un enfant de 4 ans : nos adresses testées",
+      "keyword": "activite enfant 4 ans paris",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "dessin-anime-annees-90",
+      "titre": "Dessin animé années 90 : les séries qui ont marqué notre enfance",
+      "keyword": "dessin anime annee 90",
+      "pillar": "epoques",
+      "type": "guide",
+      "source": "semrush",
+      "volume": 590,
+      "kd": 33
+    },
+    {
+      "slug": "activites-lyon-enfant-4-ans",
+      "titre": "Activités à Lyon avec un enfant de 4 ans : nos adresses testées",
+      "keyword": "activite enfant 4 ans lyon",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "sortie-enfant-paris",
+      "titre": "Sortie enfant Paris : les 30 meilleures activités par âge",
+      "keyword": "sortie enfant paris",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "semrush",
+      "volume": 1600,
+      "kd": 31
+    },
+    {
+      "slug": "activites-marseille-enfant-4-ans",
+      "titre": "Activités à Marseille avec un enfant de 4 ans : nos adresses testées",
+      "keyword": "activite enfant 4 ans marseille",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville",
+      "note": "Marseille 2 ans fait 66 clics par mois, c'est la ville qui rend le mieux."
+    },
+    {
+      "slug": "activite-enfant-paris",
+      "titre": "Activité enfant Paris : le guide complet par âge et par saison",
+      "keyword": "activite enfant paris",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "semrush",
+      "volume": 1600,
+      "kd": 31
+    },
+    {
+      "slug": "activites-toulouse-enfant-3-ans",
+      "titre": "Activités à Toulouse avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans toulouse",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-nantes-enfant-3-ans",
+      "titre": "Activités à Nantes avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans nantes",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-lille-enfant-3-ans",
+      "titre": "Activités à Lille avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans lille",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-strasbourg-enfant-2-ans",
+      "titre": "Activités à Strasbourg avec un enfant de 2 ans : nos adresses testées",
+      "keyword": "activite enfant 2 ans strasbourg",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-montpellier-enfant-3-ans",
+      "titre": "Activités à Montpellier avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans montpellier",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-nice-enfant-3-ans",
+      "titre": "Activités à Nice avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans nice",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-rennes-enfant-3-ans",
+      "titre": "Activités à Rennes avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans rennes",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-grenoble-enfant-3-ans",
+      "titre": "Activités à Grenoble avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans grenoble",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-strasbourg-enfant-3-ans",
+      "titre": "Activités à Strasbourg avec un enfant de 3 ans : nos adresses testées",
+      "keyword": "activite enfant 3 ans strasbourg",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "pattern-ville"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+name: Article quotidien
+
+# Chaque matin, le robot prend le premier sujet de scripts/file-sujets.json,
+# fait rediger l'article, verifie que le site build, et ouvre une pull request.
+#
+# Pour publier directement sur main sans relecture, passer MODE a "direct".
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 8h a Paris en heure d'ete, 7h en hiver
+  workflow_dispatch:
+    inputs:
+      sujet:
+        description: "Slug precis a traiter (vide = premier de la file)"
+        required: false
+      effort:
+        description: "Effort du modele (low, medium, high, xhigh, max)"
+        required: false
+        default: "high"
+
+env:
+  MODE: pr # "pr" pour relire avant publication, "direct" pour publier tout de suite
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: article-quotidien
+  cancel-in-progress: false
+
+jobs:
+  rediger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Installer les dependances
+        run: |
+          npm ci
+          npm install -g @anthropic-ai/claude-code
+          claude --version
+
+      - name: Lister les articles deja en attente de relecture
+        id: attente
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          slugs=$(gh pr list --state open --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("article/")) | sub("^article/"; "")] | join(",")')
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+
+      - name: Rediger l'article
+        id: redaction
+        env:
+          # Token d'abonnement, pas de cle API : la generation ne coute rien.
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          EXCLUS: ${{ steps.attente.outputs.slugs }}
+          SUJET: ${{ inputs.sujet }}
+          EFFORT: ${{ inputs.effort || 'high' }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::error::Le secret CLAUDE_CODE_OAUTH_TOKEN est absent. Génère-le avec 'claude setup-token' puis ajoute-le dans Settings, Secrets and variables, Actions."
+            exit 1
+          fi
+          set +e
+          node scripts/redige-article.mjs
+          code=$?
+          set -e
+          if [ $code -eq 3 ]; then
+            echo "vide=1" >> "$GITHUB_OUTPUT"
+            echo "::notice::File de sujets vide, rien a publier."
+            exit 0
+          fi
+          exit $code
+
+      - name: Verifier que le site build
+        if: steps.redaction.outputs.vide != '1'
+        run: npm run build
+
+      - name: Ouvrir la pull request
+        if: steps.redaction.outputs.vide != '1' && env.MODE == 'pr'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLUG: ${{ steps.redaction.outputs.slug }}
+          TITRE: ${{ steps.redaction.outputs.titre }}
+          KEYWORD: ${{ steps.redaction.outputs.keyword }}
+          RESTANTS: ${{ steps.redaction.outputs.restants }}
+          MOTS: ${{ steps.redaction.outputs.mots }}
+          COUT: ${{ steps.redaction.outputs.cout }}
+          SERIE: ${{ github.run_id }}
+        run: |
+          git config user.name "Robot Club Récré"
+          git config user.email "actions@github.com"
+          git checkout -b "article/$SLUG"
+          git add src/content/articles scripts/file-sujets.json
+          git commit -m "article: $SLUG"
+          git push --force-with-lease origin "article/$SLUG"
+          gh pr create \
+            --title "Article : $TITRE" \
+            --body "$(printf '%s\n' \
+              "Expression cible : \`$KEYWORD\`" \
+              "" \
+              "- $MOTS mots" \
+              "- coût de génération : $COUT \$" \
+              "- il reste $RESTANTS sujets dans la file" \
+              "" \
+              "Le site build. Relis, puis merge pour publier (Vercel déploie en 30 s)." \
+              "" \
+              "Si l'article ne va pas : ferme la PR. Le sujet repassera demain. Pour l'écarter définitivement, retire-le aussi de \`scripts/file-sujets.json\`." \
+              "" \
+              "[Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/$SERIE)")" \
+            --head "article/$SLUG" \
+            --base main
+
+      - name: Publier directement sur main
+        if: steps.redaction.outputs.vide != '1' && env.MODE == 'direct'
+        env:
+          SLUG: ${{ steps.redaction.outputs.slug }}
+        run: |
+          git config user.name "Robot Club Récré"
+          git config user.email "actions@github.com"
+          git add src/content/articles scripts/file-sujets.json
+          git commit -m "article: $SLUG"
+          git push origin HEAD:main
+
+      - name: Alerter quand la file s'epuise
+        if: steps.redaction.outputs.vide == '1' || fromJSON(steps.redaction.outputs.restants || '99') < 10
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RESTANTS: ${{ steps.redaction.outputs.restants || '0' }}
+        run: |
+          ouvertes=$(gh issue list --state open --search "File de sujets in:title" --json number --jq 'length')
+          if [ "$ouvertes" = "0" ]; then
+            gh issue create \
+              --title "File de sujets bientôt vide ($RESTANTS restants)" \
+              --body "$(printf '%s\n' \
+                "Le robot d'articles arrive au bout de \`scripts/file-sujets.json\`, il reste $RESTANTS sujets." \
+                "" \
+                "Pour la réalimenter, ouvre une session Claude Code sur le repo et demande les prochains sujets à partir de la Search Console : les requêtes en position 8 à 30 qui ont des impressions et pas encore d'article dédié, plus les extensions du motif ville x âge qui fonctionne déjà.")"
+          fi
