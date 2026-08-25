@@ -19,7 +19,7 @@ on:
         default: "high"
 
 env:
-  MODE: pr # "pr" pour relire avant publication, "direct" pour publier tout de suite
+  MODE: direct # "direct" publie sans relecture, "pr" ouvre une pull request a valider
 
 permissions:
   contents: write
@@ -122,12 +122,25 @@ jobs:
         if: steps.redaction.outputs.vide != '1' && env.MODE == 'direct'
         env:
           SLUG: ${{ steps.redaction.outputs.slug }}
+          TITRE: ${{ steps.redaction.outputs.titre }}
+          MOTS: ${{ steps.redaction.outputs.mots }}
+          RESTANTS: ${{ steps.redaction.outputs.restants }}
         run: |
           git config user.name "Robot Club Récré"
           git config user.email "actions@github.com"
           git add src/content/articles scripts/file-sujets.json
           git commit -m "article: $SLUG"
           git push origin HEAD:main
+          echo "::notice::Publié : $TITRE ($MOTS mots). Il reste $RESTANTS sujets."
+
+      # Un push fait par un workflow ne declenche pas d'autre workflow (garde-fou
+      # anti-boucle de GitHub) : deploy-cloudflare.yml ne partirait jamais en mode
+      # direct. On met donc en ligne ici, le build de l'etape precedente est deja la.
+      - name: Mettre en ligne sur Cloudflare
+        if: steps.redaction.outputs.vide != '1' && env.MODE == 'direct'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx wrangler deploy
 
       - name: Alerter quand la file s'epuise
         if: steps.redaction.outputs.vide == '1' || fromJSON(steps.redaction.outputs.restants || '99') < 10
