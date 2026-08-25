@@ -107,7 +107,7 @@ jobs:
               "Expression cible : \`$KEYWORD\`" \
               "" \
               "- $MOTS mots" \
-              "- coût de génération : $COUT \$" \
+              "- coût de génération : $COUT" \
               "- il reste $RESTANTS sujets dans la file" \
               "" \
               "Le site build. Relis, puis merge pour publier (Vercel déploie en 30 s)." \
