@@ -1,17 +1,7 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-08-26",
+  "_maj": "2026-08-27",
   "sujets": [
-    {
-      "slug": "polly-pocket-vintage",
-      "titre": "Polly Pocket vintage : guide, cote, et où trouver les plus rares",
-      "keyword": "polly pocket vintage",
-      "pillar": "jouets-vintage",
-      "type": "jouet",
-      "source": "semrush",
-      "volume": 1900,
-      "kd": 27
-    },
     {
       "slug": "activites-toulouse-enfant-1-an",
       "titre": "Activités à Toulouse avec un enfant de 1 an : nos adresses testées",
