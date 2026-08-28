@@ -1,0 +1,74 @@
+name: Veille de sujets
+
+# Chaque lundi, Semrush est interroge sur deux piliers du site (par rotation) et
+# la file de sujets se complete toute seule avec ce qui a du volume.
+#
+# Pourquoi : la file etait ecrite au jugement, et le passage au crible du
+# 28/08/2026 a montre que plus d'un tiers des sujets ne valait rien, dont huit
+# a zero recherche par mois. Un sujet entre desormais parce qu'un volume le
+# justifie, pas parce qu'il sonnait bien.
+
+on:
+  schedule:
+    # Lundi 05h11 UTC. Comme pour l'article quotidien, GitHub retarde ses crons :
+    # ce n'est pas grave ici, rien ne depend de l'heure exacte.
+    - cron: "11 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      volume_minimum:
+        description: "Recherches par mois minimum (defaut 100)"
+        required: false
+      sujets:
+        description: "Combien de sujets ajouter (defaut 7)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-sujets
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Chercher les sujets de la semaine
+        id: veille
+        env:
+          SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
+          VOLUME_MINIMUM: ${{ inputs.volume_minimum || '100' }}
+          SUJETS_VOULUS: ${{ inputs.sujets || '7' }}
+        run: |
+          if [ -z "$SEMRUSH_API_KEY" ]; then
+            echo "::error::Le secret SEMRUSH_API_KEY est absent. Recupere la cle sur semrush.com (Profil, Subscription info, API units) puis ajoute-la dans Settings, Secrets and variables, Actions."
+            exit 1
+          fi
+          node scripts/veille-sujets.mjs
+
+      - name: Enregistrer la file
+        if: steps.veille.outputs.ajoutes != '' && steps.veille.outputs.ajoutes != '0'
+        env:
+          AJOUTES: ${{ steps.veille.outputs.ajoutes }}
+          TOTAL: ${{ steps.veille.outputs.total }}
+          RESUME: ${{ steps.veille.outputs.resume }}
+        run: |
+          git config user.name "Robot Club Récré"
+          git config user.email "actions@github.com"
+          if git diff --quiet scripts/file-sujets.json; then
+            echo "::notice::La file n'a pas bougé."
+            exit 0
+          fi
+          git add scripts/file-sujets.json
+          git commit -m "veille: $AJOUTES sujets ajoutés depuis Semrush
+
+          $RESUME
+
+          La file compte désormais $TOTAL sujets."
+          git push origin HEAD:main
+          echo "::notice::$AJOUTES sujets ajoutés, file à $TOTAL. $RESUME"
