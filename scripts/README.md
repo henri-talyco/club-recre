@@ -77,6 +77,8 @@ Chaque article reçoit une illustration générée par Gemini, dans le style val
 
 L'image est écrite dans `public/img/articles/<slug>.jpg`, redimensionnée à 1200 px de large, et le frontmatter reçoit `cover` et `coverAlt`.
 
+Modèle par défaut : `gemini-3.1-flash-lite-image` (Nano Banana 2 Lite), 0,034 $ l'image, soit une dizaine d'euros par an à un article par jour. `MODELE_IMAGE` permet d'en essayer un autre.
+
 Elle n'est jamais bloquante. Sans le secret `GEMINI_API_KEY`, ou si la génération échoue, l'article part quand même et le site affiche un dégradé à la place.
 
 ## Ce que ça coûte

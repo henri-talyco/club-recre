@@ -13,7 +13,11 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const MODELE = process.env.MODELE_IMAGE || "gemini-3.1-flash-image";
+// Nano Banana 2 Lite : 0,034 $ l'image en 1024 px, soit la moitie du prix de
+// gemini-3.1-flash-image, pour un rendu au moins aussi bon sur ce style la
+// (compare le 28/08/2026 sur la meme scene). A un article par jour, ~11 euros
+// par an. Les modeles image de Gemini n'ont pas de palier gratuit.
+const MODELE = process.env.MODELE_IMAGE || "gemini-3.1-flash-lite-image";
 const BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
 // Le modele glisse volontiers un logo ou une legende quand on ne l'interdit
