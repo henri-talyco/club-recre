@@ -4,8 +4,8 @@ description: "Goûter enfant maison : 20 recettes classiques des années 90 à f
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["goûter", "enfant", "recette", "maison", "90s"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Goûter maison pour enfant style années 90"
+cover: "/img/articles/gouter-enfant-maison.jpg"
+coverAlt: "Photo d'illustration, Goûter enfant maison : 20 recettes façon années 90"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Goûter enfant maison : 20 recettes façon 90s à faire soi-même"

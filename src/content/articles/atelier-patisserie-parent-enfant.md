@@ -4,8 +4,8 @@ description: "Atelier pâtisserie parent-enfant à Paris : les meilleures adress
 pubDate: 2026-05-04
 pillar: "activites"
 tags: ["atelier", "pâtisserie", "parent-enfant", "Paris", "activité"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Atelier pâtisserie parent et enfant à Paris"
+cover: "/img/articles/atelier-patisserie-parent-enfant.jpg"
+coverAlt: "Photo d'illustration, Atelier pâtisserie parent-enfant : les meilleures adresses Paris"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Atelier pâtisserie parent enfant Paris : meilleures adresses 2026"

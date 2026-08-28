@@ -4,8 +4,8 @@ description: "Cadeau Noël enfant 3 ans : jouets intemporels, jeux de société 
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["cadeau", "Noël", "enfant", "3 ans", "jouets"]
-cover: "/img/articles/anniversaire-90s.jpg"
-coverAlt: "Cadeaux de Noël pour enfant de 3 ans"
+cover: "/img/articles/cadeau-noel-enfant-3-ans.jpg"
+coverAlt: "Photo d'illustration, Cadeau Noël enfant 3 ans : notre sélection jouets intemporels"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Cadeau Noël enfant 3 ans : jouets intemporels et classiques 2026"

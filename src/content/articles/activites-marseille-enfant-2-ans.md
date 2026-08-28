@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Marseille avec un enfa
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["marseille", "2 ans", "tout-petit", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfant de 2 ans jouant sur la plage à Marseille"
+cover: "/img/articles/activites-marseille-enfant-2-ans.jpg"
+coverAlt: "Photo d'illustration, Activités à Marseille avec un enfant de 2 ans : 8 idées testées en 2026"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Marseille avec un enfant de 2 ans : 8 activités (guide 2026)"

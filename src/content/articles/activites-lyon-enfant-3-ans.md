@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Lyon avec un enfant de
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["lyon", "3 ans", "tout-petit", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfant de 3 ans explorant Lyon en famille"
+cover: "/img/articles/activites-lyon-enfant-3-ans.jpg"
+coverAlt: "Photo d'illustration, Activités à Lyon avec un enfant de 3 ans : 9 idées testées en 2026"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Lyon avec un enfant de 3 ans : 9 activités (guide 2026)"

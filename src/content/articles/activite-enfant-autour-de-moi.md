@@ -4,8 +4,8 @@ description: "Activité enfant autour de moi : comment trouver les meilleures so
 pubDate: 2026-05-04
 pillar: "activites"
 tags: ["activité", "enfant", "local", "sortie", "proximité"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Activités pour enfants proches de chez soi"
+cover: "/img/articles/activite-enfant-autour-de-moi.jpg"
+coverAlt: "Photo d'illustration, Activité enfant autour de moi : comment trouver les meilleures"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Activité enfant autour de moi : trouver les meilleures sorties"

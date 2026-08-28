@@ -4,8 +4,8 @@ description: "Le guide complet pour aménager une chambre d'enfant style 90s : m
 pubDate: 2026-04-27
 pillar: "lifestyle"
 tags: ["chambre", "déco", "vintage", "lifestyle", "années 90", "mobilier"]
-cover: "/img/articles/chambre-enfant-90s.jpg"
-coverAlt: "Chambre d'enfant aménagée style vintage 90s"
+cover: "/img/articles/chambre-enfant-90s-vintage.jpg"
+coverAlt: "Photo d'illustration, Aménager la chambre vintage 90s parfaite pour ton enfant"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Chambre enfant vintage 90s : guide d'aménagement complet"

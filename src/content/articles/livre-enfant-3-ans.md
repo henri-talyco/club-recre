@@ -4,8 +4,8 @@ description: "Livre enfant 3 ans : sélection de titres incontournables, albums 
 pubDate: 2026-05-04
 pillar: "education"
 tags: ["livre", "enfant", "3 ans", "album", "lecture"]
-cover: "/img/articles/coin-lecture-enfant.jpg"
-coverAlt: "Livres pour enfant de 3 ans"
+cover: "/img/articles/livre-enfant-3-ans.jpg"
+coverAlt: "Photo d'illustration, Livre enfant 3 ans : nos coups de cœur, classiques et nouveaux"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Livre enfant 3 ans : sélection incontournable 2026"

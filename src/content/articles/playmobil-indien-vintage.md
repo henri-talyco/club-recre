@@ -4,8 +4,8 @@ description: "Playmobil indien vintage : les sets les plus rares, leur cote en 2
 pubDate: 2026-05-04
 pillar: "jouets-vintage"
 tags: ["playmobil", "indien", "vintage", "collectionneur", "jouets 90s"]
-cover: "/img/articles/jouets-vintage-selection.jpg"
-coverAlt: "Playmobil vintage série western et indiens"
+cover: "/img/articles/playmobil-indien-vintage.jpg"
+coverAlt: "Photo d'illustration, Playmobil indien vintage : guide et cote des sets les plus rares"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Playmobil indien vintage : cote et guide collectionneur 2026"

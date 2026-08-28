@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Marseille avec un béb
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["marseille", "1 an", "bébé", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Sortie famille à Marseille avec un bébé de 1 an au bord de l'eau"
+cover: "/img/articles/activites-marseille-enfant-1-an.jpg"
+coverAlt: "Photo d'illustration, Activités à Marseille avec un enfant de 1 an : 8 idées testées en 2026"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Marseille avec un enfant de 1 an : 8 activités (guide 2026)"

@@ -4,8 +4,8 @@ description: "Cadeau Noël enfant 7 ans : idées originales, jeux de société, 
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["cadeau", "Noël", "enfant", "7 ans", "jouets"]
-cover: "/img/articles/anniversaire-90s.jpg"
-coverAlt: "Cadeaux de Noël pour enfant de 7 ans"
+cover: "/img/articles/cadeau-noel-enfant-7-ans.jpg"
+coverAlt: "Photo d'illustration, Cadeau Noël enfant 7 ans : idées originales dont le vintage"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Cadeau Noël enfant 7 ans : idées originales et vintage 2026"

@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Marseille avec un enfa
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["marseille", "3 ans", "tout-petit", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfant de 3 ans lors d'une sortie famille à Marseille"
+cover: "/img/articles/activites-marseille-enfant-3-ans.jpg"
+coverAlt: "Photo d'illustration, Activités à Marseille avec un enfant de 3 ans : 9 idées testées en 2026"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Marseille avec un enfant de 3 ans : 9 activités (guide 2026)"

@@ -4,8 +4,8 @@ description: "Marques vêtements enfant qui durent vraiment : Petit Bateau, Bonp
 pubDate: 2026-05-04
 pillar: "marques"
 tags: ["marques", "vêtements", "enfant", "qualité", "vintage"]
-cover: "/img/articles/marques-vintage-enfant-labels.jpg"
-coverAlt: "Marques de vêtements enfant de qualité"
+cover: "/img/articles/marque-vetement-enfant.jpg"
+coverAlt: "Photo d'illustration, Marques vêtements enfant qui durent : le guide complet"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Marques vêtements enfant qui durent : guide qualité 2026"

@@ -4,8 +4,8 @@ description: "Décoration gâteau anniversaire enfant : idées maison, sans fond
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["gâteau", "anniversaire", "décoration", "enfant", "90s"]
-cover: "/img/articles/anniversaire-90s.jpg"
-coverAlt: "Gâteau d'anniversaire décoré pour enfant"
+cover: "/img/articles/decoration-gateau-anniversaire-enfant.jpg"
+coverAlt: "Photo d'illustration, Décoration gâteau anniversaire enfant : idées maison façon 90s"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Décoration gâteau anniversaire enfant : 15 idées maison 90s"

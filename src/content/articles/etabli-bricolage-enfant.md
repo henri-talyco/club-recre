@@ -4,8 +4,8 @@ description: "Établi bricolage enfant : les meilleurs modèles en bois, les plu
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["établi", "bricolage", "enfant", "jouet", "bois"]
-cover: "/img/articles/chambre-enfant-90s.jpg"
-coverAlt: "Établi de bricolage pour enfant en bois"
+cover: "/img/articles/etabli-bricolage-enfant.jpg"
+coverAlt: "Photo d'illustration, Établi bricolage enfant : les meilleurs pour jouer comme Papa"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Établi bricolage enfant : comparatif et guide d'achat 2026"

@@ -4,8 +4,8 @@ description: "Crumble pomme, gâteau au yaourt, tartines Nutella maison... Les 8
 pubDate: 2026-04-21
 pillar: "lifestyle"
 tags: ["goûter", "recettes", "années 90", "lifestyle", "cuisine"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Goûter 90s sur table en bois : pain, lait, biscuits, banane"
+cover: "/img/articles/gouter-90s-recettes-culte.jpg"
+coverAlt: "Photo d'illustration, Le goûter des années 90 : 8 recettes cultes à refaire avec ton enfant"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Goûter années 90 : 8 recettes cultes pour ton enfant"

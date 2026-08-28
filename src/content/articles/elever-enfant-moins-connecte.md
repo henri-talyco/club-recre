@@ -4,8 +4,8 @@ description: "Comment limiter les écrans de ton enfant sans drame, sans culpabi
 pubDate: 2026-04-30
 pillar: "education"
 tags: ["éducation", "écrans", "parentalité", "années 90", "anti-écran"]
-cover: "/img/articles/enfant-deconnecte.jpg"
-coverAlt: "Enfant lisant un livre près de la fenêtre, sans écran"
+cover: "/img/articles/elever-enfant-moins-connecte.jpg"
+coverAlt: "Photo d'illustration, Élever un enfant moins connecté en 2026 : 5 principes 90s qui marchent encore"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Enfant moins connecté : 5 principes 90s qui marchent (2026)"

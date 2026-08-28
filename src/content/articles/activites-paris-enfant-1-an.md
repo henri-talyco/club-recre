@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Paris avec un bébé d
 pubDate: 2026-04-15
 pillar: "activites"
 tags: ["paris", "1 an", "bébé", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Sortie famille à Paris avec un bébé de 1 an"
+cover: "/img/articles/activites-paris-enfant-1-an.jpg"
+coverAlt: "Photo d'illustration, Activités à Paris avec un enfant de 1 an : 8 idées testées en 2026"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Paris avec un enfant de 1 an : 8 activités (guide 2026)"

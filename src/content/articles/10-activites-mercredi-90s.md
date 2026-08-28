@@ -4,8 +4,8 @@ description: "Des idées d'activités vraiment 90s pour occuper ton enfant le me
 pubDate: 2026-05-02
 pillar: "activites"
 tags: ["mercredi", "activités", "années 90", "anti-écran", "DIY"]
-cover: "/img/articles/mercredi-apres-midi-90s.jpg"
-coverAlt: "Mercredi après-midi en famille, salon 90s, jouets éparpillés"
+cover: "/img/articles/10-activites-mercredi-90s.jpg"
+coverAlt: "Photo d'illustration, 10 activités 90s à faire avec ton enfant le mercredi après-midi"
 author: "Club Récré"
 readingTime: 7
 featured: true

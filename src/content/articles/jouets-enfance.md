@@ -4,8 +4,8 @@ description: "Les jouets d'enfance des années 90 qu'on veut tous retrouver : Po
 pubDate: 2026-05-04
 pillar: "jouets-vintage"
 tags: ["jouets", "enfance", "vintage", "90s", "nostalgie"]
-cover: "/img/articles/jouets-vintage-enfant.jpg"
-coverAlt: "Jouets d'enfance vintage des années 90"
+cover: "/img/articles/jouets-enfance.jpg"
+coverAlt: "Photo d'illustration, Jouets d'enfance qu'on cherche tous à retrouver"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Jouets d'enfance des années 90 : retrouver les classics vintage"

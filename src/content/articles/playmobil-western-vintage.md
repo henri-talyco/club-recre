@@ -4,8 +4,8 @@ description: "Playmobil western vintage : cowboys, ranch, fort, diligence. Les s
 pubDate: 2026-05-04
 pillar: "jouets-vintage"
 tags: ["playmobil", "western", "vintage", "collectionneur", "jouets 90s"]
-cover: "/img/articles/jouets-vintage-selection.jpg"
-coverAlt: "Playmobil western vintage cowboys et ranch"
+cover: "/img/articles/playmobil-western-vintage.jpg"
+coverAlt: "Photo d'illustration, Playmobil western vintage : les sets cowboys et ranch à collectionner"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Playmobil western vintage : cote et guide collectionneur 2026"

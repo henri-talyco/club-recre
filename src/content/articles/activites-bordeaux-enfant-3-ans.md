@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Bordeaux avec un enfan
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["bordeaux", "3 ans", "tout-petit", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfant de 3 ans lors d'une sortie famille à Bordeaux"
+cover: "/img/articles/activites-bordeaux-enfant-3-ans.jpg"
+coverAlt: "Photo d'illustration, Activités à Bordeaux avec un enfant de 3 ans : 8 idées testées en 2026"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Bordeaux avec un enfant de 3 ans : 8 activités (guide 2026)"

@@ -4,8 +4,8 @@ description: "Les meilleurs jeux de société pour enfant de 7 ans : classiques 
 pubDate: 2026-05-04
 pillar: "education"
 tags: ["jeux de société", "7 ans", "famille", "jouets", "éducation"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfants jouant ensemble"
+cover: "/img/articles/jeux-societe-enfant-7-ans.jpg"
+coverAlt: "Photo d'illustration, Jeux de société enfant 7 ans : les meilleurs classiques et nouveautés"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Jeux de société enfant 7 ans : top 15 testés et approuvés"

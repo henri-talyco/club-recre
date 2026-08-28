@@ -4,8 +4,8 @@ description: "Déguisement animaux enfant : lion, lapin, renard, ours. Les costu
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["déguisement", "animaux", "costume", "carnaval", "enfant"]
-cover: "/img/articles/anniversaire-90s.jpg"
-coverAlt: "Enfant déguisé en animal pour carnaval"
+cover: "/img/articles/deguisement-animaux-enfant.jpg"
+coverAlt: "Photo d'illustration, Déguisement animaux enfant : les costumes qu'on adorait dans les 90s"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Déguisement animaux enfant : idées et DIY façon 90s"

@@ -4,8 +4,8 @@ description: "Recette enfant facile : 15 classiques des années 90 à refaire av
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["recette", "enfant", "cuisine", "90s", "famille"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Recettes faciles à faire avec les enfants"
+cover: "/img/articles/recette-enfant-facile.jpg"
+coverAlt: "Photo d'illustration, Recette enfant facile : 15 recettes qu'on faisait avec nos parents"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Recette enfant facile : 15 classiques 90s à faire ensemble"

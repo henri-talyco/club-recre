@@ -4,8 +4,8 @@ description: "Polly Pocket 1990 : cote actuelle, sets les plus rares, comment au
 pubDate: 2026-05-04
 pillar: "jouets-vintage"
 tags: ["polly pocket", "vintage", "1990", "collectionneur", "jouets 90s"]
-cover: "/img/articles/jouets-vintage-enfant.jpg"
-coverAlt: "Polly Pocket vintage années 90 boîtier compact"
+cover: "/img/articles/polly-pocket-1990-prix.jpg"
+coverAlt: "Photo d'illustration, Polly Pocket 1990 : prix, cote et comment les authentifier"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Polly Pocket 1990 prix : cote et guide authentification 2026"

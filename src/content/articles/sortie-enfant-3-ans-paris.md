@@ -4,8 +4,8 @@ description: "Sortie enfant 3 ans Paris : les meilleures adresses testées, parc
 pubDate: 2026-05-04
 pillar: "activites"
 tags: ["sortie", "enfant", "Paris", "3 ans", "activité"]
-cover: "/img/articles/mercredi-apres-midi-90s.jpg"
-coverAlt: "Sortie avec enfant de 3 ans à Paris"
+cover: "/img/articles/sortie-enfant-3-ans-paris.jpg"
+coverAlt: "Photo d'illustration, Sortie enfant 3 ans Paris : nos adresses préférées"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Sortie enfant 3 ans Paris : adresses testées et conseils 2026"

@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Paris avec un enfant d
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["paris", "3 ans", "tout-petit", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Sortie famille à Paris avec un enfant de 3 ans au jardin"
+cover: "/img/articles/activites-paris-enfant-3-ans.jpg"
+coverAlt: "Photo d'illustration, Activités à Paris avec un enfant de 3 ans : 9 idées testées en 2026"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Paris avec un enfant de 3 ans : 9 activités (guide 2026)"

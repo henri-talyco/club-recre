@@ -4,8 +4,8 @@ description: "Le guide des activités à faire à Paris avec un enfant de 2 ans 
 pubDate: 2026-04-14
 pillar: "activites"
 tags: ["paris", "2 ans", "activités", "famille", "sortie"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfant de 2 ans dans un parc parisien"
+cover: "/img/articles/activites-paris-enfant-2-ans.jpg"
+coverAlt: "Photo d'illustration, Activités à Paris avec un enfant de 2 ans : 8 idées en 2026"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Paris avec un enfant de 2 ans : 8 activités (guide 2026)"

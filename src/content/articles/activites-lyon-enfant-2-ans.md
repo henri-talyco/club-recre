@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Lyon avec un enfant de
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["lyon", "2 ans", "tout-petit", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfant de 2 ans jouant au Parc de la Tête d'Or à Lyon"
+cover: "/img/articles/activites-lyon-enfant-2-ans.jpg"
+coverAlt: "Photo d'illustration, Activités à Lyon avec un enfant de 2 ans : 8 idées testées en 2026"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Lyon avec un enfant de 2 ans : 8 activités (guide 2026)"

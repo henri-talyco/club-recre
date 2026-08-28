@@ -4,8 +4,8 @@ description: "Activité enfant 3 ans Paris : musées, parcs, ateliers, piscines.
 pubDate: 2026-05-04
 pillar: "activites"
 tags: ["activité", "enfant", "Paris", "3 ans", "sortie"]
-cover: "/img/articles/mercredi-apres-midi-90s.jpg"
-coverAlt: "Activité avec enfant de 3 ans à Paris"
+cover: "/img/articles/activite-enfant-3-ans-paris.jpg"
+coverAlt: "Photo d'illustration, Activité enfant 3 ans Paris : 15 idées testées et approuvées"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Activité enfant 3 ans Paris : 15 idées testées 2026"

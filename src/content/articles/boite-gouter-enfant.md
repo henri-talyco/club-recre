@@ -4,8 +4,8 @@ description: "Boite à goûter enfant : inox, bento, sans plastique. Comparatif 
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["boite à goûter", "école", "inox", "sans plastique", "goûter"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Goûter maison pour enfant avec boîte à goûter"
+cover: "/img/articles/boite-gouter-enfant.jpg"
+coverAlt: "Photo d'illustration, Boite à goûter enfant : notre guide complet (inox, sans plastique, vintage)"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Boite à goûter enfant : le comparatif inox vs bento 2026"

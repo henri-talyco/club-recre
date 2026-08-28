@@ -4,8 +4,8 @@ description: "Marelle, élastique, billes, 1-2-3 soleil, chat perché... Les 10 
 pubDate: 2026-04-18
 pillar: "activites"
 tags: ["jeux", "cour de récré", "années 90", "extérieur", "activités"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfants jouant à la marelle, photo Kodak 1995"
+cover: "/img/articles/jeux-cour-recre-transmettre.jpg"
+coverAlt: "Photo d'illustration, 10 jeux de cour de récré à transmettre absolument à ton enfant"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "10 jeux cour de récré à transmettre à ton enfant en 2026"

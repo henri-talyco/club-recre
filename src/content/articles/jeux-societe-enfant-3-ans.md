@@ -4,8 +4,8 @@ description: "Jeux de société enfant 3 ans : les meilleurs jeux pour commencer
 pubDate: 2026-05-04
 pillar: "education"
 tags: ["jeux de société", "enfant", "3 ans", "classique", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Jeux de société pour enfant de 3 ans"
+cover: "/img/articles/jeux-societe-enfant-3-ans.jpg"
+coverAlt: "Photo d'illustration, Jeux de société enfant 3 ans : les classiques qu'on rejoue"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Jeux de société enfant 3 ans : les meilleurs classiques 2026"

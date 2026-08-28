@@ -4,8 +4,8 @@ description: "Livre enfant 4 ans : albums, séries et premiers livres illustrés
 pubDate: 2026-05-04
 pillar: "education"
 tags: ["livre", "enfant", "4 ans", "album", "lecture"]
-cover: "/img/articles/coin-lecture-enfant.jpg"
-coverAlt: "Livres pour enfant de 4 ans"
+cover: "/img/articles/livre-enfant-4-ans.jpg"
+coverAlt: "Photo d'illustration, Livre enfant 4 ans : sélection de titres qu'on lit en boucle"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Livre enfant 4 ans : sélection albums et séries à lire ensemble"

@@ -4,8 +4,8 @@ description: "Kit pâtisserie enfant : les meilleurs kits et ustensiles pour cui
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["pâtisserie", "enfant", "kit", "cuisine", "activité"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Kit pâtisserie pour enfant avec ustensiles"
+cover: "/img/articles/kit-patisserie-enfant.jpg"
+coverAlt: "Photo d'illustration, Kit pâtisserie enfant : notre sélection et recettes à faire ensemble"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Kit pâtisserie enfant : sélection et recettes 2026"

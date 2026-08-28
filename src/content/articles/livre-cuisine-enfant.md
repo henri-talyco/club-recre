@@ -4,8 +4,8 @@ description: "Livre cuisine enfant : les meilleurs livres de recettes pour cuisi
 pubDate: 2026-05-04
 pillar: "education"
 tags: ["livre", "cuisine", "enfant", "recette", "activité"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Livre de cuisine pour enfant"
+cover: "/img/articles/livre-cuisine-enfant.jpg"
+coverAlt: "Photo d'illustration, Livre cuisine enfant : nos favoris pour cuisiner dès 3 ans"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Livre cuisine enfant : sélection des meilleurs 2026"

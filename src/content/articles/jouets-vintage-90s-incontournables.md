@@ -4,8 +4,8 @@ description: "Playmobil, Polly Pocket, Fisher Price, Tamagotchi : les 10 jouets 
 pubDate: 2026-04-24
 pillar: "jouets-vintage"
 tags: ["jouets", "vintage", "années 90", "playmobil", "fisher price", "polly pocket"]
-cover: "/img/articles/jouets-vintage-selection.jpg"
-coverAlt: "Sélection de jouets vintage 90s sur fond cream"
+cover: "/img/articles/jouets-vintage-90s-incontournables.jpg"
+coverAlt: "Photo d'illustration, 10 jouets vintage 90s qui valent vraiment le détour en 2026"
 author: "Club Récré"
 readingTime: 9
 seoTitle: "10 jouets vintage 90s incontournables : guide d'achat 2026"

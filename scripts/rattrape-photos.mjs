@@ -17,11 +17,14 @@
  *   node scripts/rattrape-photos.mjs            tous les articles sans photo
  *   node scripts/rattrape-photos.mjs --max 3    s'arrete apres 3 photos
  *   node scripts/rattrape-photos.mjs <slug>...  seulement ces articles
+ *   node scripts/rattrape-photos.mjs --liste    montre le travail sans rien ecrire
+ *   node scripts/rattrape-photos.mjs --cle      passe par la cle API (quota abo a sec)
  */
 
 import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
+import crypto from "node:crypto";
 import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
@@ -51,24 +54,63 @@ function champ(fm, nom) {
   return m ? m[1].trim() : null;
 }
 
-/** Un article est a rattraper si son cover manque ou pointe dans le vide. */
+function empreinte(chemin) {
+  return crypto.createHash("md5").update(fs.readFileSync(chemin)).digest("hex");
+}
+
+/**
+ * Un article est a rattraper si sa photo manque, pointe dans le vide, ou n'est
+ * pas la sienne. Ce dernier cas est le plus frequent : le site est parti avec
+ * une vingtaine d'illustrations thematiques partagees, dont une servait a elle
+ * seule 17 articles. Deux articles voisins affichaient donc la meme photo dans
+ * la meme grille, ce qui se voit tout de suite.
+ */
 function aRattraper() {
-  return fs.readdirSync(ARTICLES).filter((f) => f.endsWith(".md")).sort()
+  const articles = fs.readdirSync(ARTICLES).filter((f) => f.endsWith(".md")).sort()
     .map((f) => {
       const chemin = path.join(ARTICLES, f);
       const texte = fs.readFileSync(chemin, "utf8");
       const fm = frontmatter(texte);
       const cover = champ(fm, "cover");
-      const existe = cover && fs.existsSync(path.join(RACINE, "public", cover.replace(/^\//, "")));
+      const fichier = cover ? path.join(RACINE, "public", cover.replace(/^\//, "")) : null;
       return {
-        slug: f.replace(/\.md$/, ""), chemin, texte,
+        slug: f.replace(/\.md$/, ""), chemin, texte, cover,
+        fichier: fichier && fs.existsSync(fichier) ? fichier : null,
         titre: champ(fm, "title") || "", description: champ(fm, "description") || "",
         pubDate: champ(fm, "pubDate") || "1995-01-01",
-        manque: !cover || !existe,
-        raison: !cover ? "aucune photo" : "photo introuvable sur le disque",
       };
-    })
-    .filter((a) => a.manque);
+    });
+
+  // Deux partages possibles : le meme chemin, ou deux fichiers au contenu egal.
+  const parCle = new Map();
+  for (const a of articles) {
+    if (!a.fichier) continue;
+    const cle = empreinte(a.fichier);
+    parCle.set(cle, [...(parCle.get(cle) || []), a.slug]);
+  }
+
+  return articles.map((a) => {
+    if (!a.cover) return { ...a, raison: "aucune photo" };
+    if (!a.fichier) return { ...a, raison: "photo introuvable sur le disque" };
+    const voisins = parCle.get(empreinte(a.fichier)) || [];
+    if (voisins.length > 1) {
+      return { ...a, raison: `photo partagee avec ${voisins.length - 1} autre(s) article(s)` };
+    }
+    return null;
+  }).filter(Boolean);
+}
+
+/** Les infos d'un seul article, sans passer par la detection. */
+function infosArticle(slug) {
+  const chemin = path.join(ARTICLES, `${slug}.md`);
+  if (!fs.existsSync(chemin)) { log(`  slug inconnu, ignore : ${slug}`); return null; }
+  const texte = fs.readFileSync(chemin, "utf8");
+  const fm = frontmatter(texte);
+  return {
+    slug, chemin, texte, cover: champ(fm, "cover"), fichier: null,
+    titre: champ(fm, "title") || "", description: champ(fm, "description") || "",
+    pubDate: champ(fm, "pubDate") || "1995-01-01",
+  };
 }
 
 // -------------------------------------------------------------------- agy
@@ -107,7 +149,14 @@ function lanceAgy(prompt, dossier) {
   });
 }
 
-/** L'image la plus recente ecrite par agy depuis `depuis`. */
+// Empreintes deja posees dans cette execution. agy garde ses rendus dans le
+// meme dossier d'un appel a l'autre : sans ce garde-fou, un appel qui ne produit
+// rien fait reprendre l'image du precedent, et deux articles repartent avec la
+// meme photo. C'est exactement ce qui est arrive le 28/08 a marques-annees-90
+// et polly-pocket-vintage.
+const dejaPosees = new Set();
+
+/** L'image la plus recente ecrite par agy depuis `depuis`, jamais une deja vue. */
 function derniereImage(depuis) {
   const candidats = [];
   for (const racine of SORTIES_AGY) {
@@ -126,7 +175,56 @@ function derniereImage(depuis) {
     }
   }
   candidats.sort((a, b) => b.t - a.t);
-  return candidats[0]?.p || null;
+  for (const c of candidats) {
+    const e = empreinte(c.p);
+    if (dejaPosees.has(e)) continue;
+    dejaPosees.add(e);
+    return c.p;
+  }
+  return null;
+}
+
+// ------------------------------------------------------- moteur de secours
+
+/**
+ * L'abonnement Google plafonne vite : 5 images le 28/08 avant
+ * "Individual quota reached ... Resets in 167h". Pour un lot de plusieurs
+ * dizaines d'images il faut donc la cle API, comme le robot nocturne.
+ * On demande d'abord la scene a un modele texte bon marche, puis l'image.
+ */
+async function viaCleApi(article) {
+  const { genereImage } = await import("./genere-image.mjs");
+  const cle = process.env.GEMINI_API_KEY;
+  if (!cle) throw new Error("GEMINI_API_KEY absente");
+
+  const consigne = [
+    "Tu prepares l'illustration d'un article de magazine pour parents.",
+    `Titre : ${article.titre}`,
+    article.description ? `Resume : ${article.description}` : "",
+    "",
+    "Decris EN ANGLAIS, en 25 a 50 mots, une scene de vie de famille ordinaire",
+    "en rapport direct avec ce sujet : des gens qui font quelque chose, jamais un",
+    "objet pose sur un fond. Ne decris ni style, ni pellicule, ni cadrage, ni date.",
+    "Reponds uniquement par la description, sans preambule.",
+  ].filter(Boolean).join("\n");
+
+  const rep = await fetch(
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent",
+    {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-goog-api-key": cle },
+      body: JSON.stringify({ contents: [{ parts: [{ text: consigne }] }] }),
+      signal: AbortSignal.timeout(90_000),
+    });
+  if (!rep.ok) throw new Error(`scene refusee (${rep.status})`);
+  const scene = (await rep.json())?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+  if (!scene) throw new Error("le modele n'a rendu aucune scene");
+
+  const photo = await genereImage({
+    slug: article.slug, scene, aujourdhui: article.pubDate, racine: RACINE,
+  });
+  if (!photo.ok) throw new Error(photo.raison);
+  return photo.poids;
 }
 
 // ------------------------------------------------------------------- ecriture
@@ -167,23 +265,41 @@ function ecritCover(article, alt) {
 
 // ----------------------------------------------------------------------- main
 
-if (!fs.existsSync(AGY)) {
+if (!fs.existsSync(AGY) && !process.argv.includes("--cle")) {
   console.error(`ECHEC: le CLI Antigravity est introuvable (${AGY}).`);
   console.error("Installe-le avec : curl -fsSL https://antigravity.google/cli/install.sh | bash");
   process.exit(1);
 }
 
 const args = process.argv.slice(2);
+const FORCE = args.includes("--force"); // refait meme si la photo est deja propre
+const CLE = args.includes("--cle");  // moteur payant, quand le quota abo est a sec
+const LISTER = args.includes("--liste"); // n'ecrit rien, montre le travail
 const iMax = args.indexOf("--max");
 const max = iMax !== -1 ? Number(args[iMax + 1]) : Infinity;
 const slugsVoulus = args.filter((a) => !a.startsWith("--") && a !== String(max));
 
 let liste = aRattraper();
-if (slugsVoulus.length) liste = liste.filter((a) => slugsVoulus.includes(a.slug));
+if (slugsVoulus.length) {
+  // --force refait une photo meme si l'article n'a rien a se reprocher : sert
+  // quand le rendu est hors style, ce qu'aucun controle mecanique ne voit.
+  liste = FORCE
+    ? slugsVoulus.map((s) => infosArticle(s)).filter(Boolean)
+        .map((a) => ({ ...a, raison: "regeneration forcee" }))
+    : liste.filter((a) => slugsVoulus.includes(a.slug));
+}
 liste = liste.slice(0, max);
 
 if (!liste.length) {
   log("Tous les articles ont deja leur photo, rien a faire.");
+  process.exit(0);
+}
+
+for (const a of aRattraper()) if (a.fichier) dejaPosees.add(empreinte(a.fichier));
+
+if (LISTER) {
+  log(`${liste.length} article(s) a illustrer :`);
+  for (const a of liste) log(`  ${a.slug.padEnd(42)} ${a.raison}`);
   process.exit(0);
 }
 
@@ -209,10 +325,15 @@ for (const [i, article] of liste.entries()) {
 
   const depart = Date.now();
   try {
-    await lanceAgy(prompt, RACINE);
-    const source = derniereImage(depart - 5000);
-    if (!source) throw new Error("agy n'a produit aucun fichier image");
-    const poids = await poseImage(source, article.slug);
+    let poids;
+    if (CLE) {
+      poids = await viaCleApi(article);
+    } else {
+      await lanceAgy(prompt, RACINE);
+      const source = derniereImage(depart - 5000);
+      if (!source) throw new Error("agy n'a produit aucun fichier image");
+      poids = await poseImage(source, article.slug);
+    }
     ecritCover(article, `Photo d'illustration, ${article.titre}`);
     log(`    ok, ${poids} Ko -> public/img/articles/${article.slug}.jpg\n`);
     faits++;

@@ -4,8 +4,8 @@ description: "Cadeau anniversaire enfant : idées originales vintage et intempor
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["cadeau", "anniversaire", "enfant", "vintage", "jouets"]
-cover: "/img/articles/anniversaire-90s.jpg"
-coverAlt: "Cadeaux d'anniversaire pour enfant vintage"
+cover: "/img/articles/cadeau-anniversaire-enfant.jpg"
+coverAlt: "Photo d'illustration, Cadeau anniversaire enfant : la sélection vintage qu'on adore"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Cadeau anniversaire enfant : idées vintage et intemporelles 2026"

@@ -4,8 +4,8 @@ description: "20 recettes pour enfant de 2 ans : finger food, purées évoluées
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["recette", "2 ans", "cuisine", "goûter", "repas"]
-cover: "/img/articles/gouter-90s.jpg"
-coverAlt: "Goûter maison pour enfant"
+cover: "/img/articles/recette-enfant-2-ans.jpg"
+coverAlt: "Photo d'illustration, Recette enfant 2 ans : 20 idées simples et gourmandes"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Recette enfant 2 ans : 20 idées simples à faire ensemble"

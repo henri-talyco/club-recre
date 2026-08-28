@@ -4,8 +4,8 @@ description: "Le guide complet des activités à faire à Lyon avec un bébé de
 pubDate: 2026-05-03
 pillar: "activites"
 tags: ["lyon", "1 an", "bébé", "activités", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Sortie famille à Lyon avec un bébé de 1 an au Parc de la Tête d'Or"
+cover: "/img/articles/activites-lyon-enfant-1-an.jpg"
+coverAlt: "Photo d'illustration, Activités à Lyon avec un enfant de 1 an : 8 idées testées en 2026"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Lyon avec un enfant de 1 an : 8 activités (guide 2026)"

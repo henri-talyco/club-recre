@@ -4,8 +4,8 @@ description: "Les meilleurs jeux de société pour enfant de 2 ans : premiers je
 pubDate: 2026-05-04
 pillar: "education"
 tags: ["jeux de société", "2 ans", "premier jeu", "éveil", "famille"]
-cover: "/img/articles/jeux-cour-recre.jpg"
-coverAlt: "Enfant jouant à un jeu de société"
+cover: "/img/articles/jeux-societe-enfant-2-ans.jpg"
+coverAlt: "Photo d'illustration, Jeux de société enfant 2 ans : les premiers jeux pour jouer ensemble"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Jeux de société enfant 2 ans : les meilleurs premiers jeux"

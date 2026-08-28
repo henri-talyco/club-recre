@@ -4,8 +4,8 @@ description: "Bureau enfant vintage : où trouver les plus belles pièces des an
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["bureau", "vintage", "chambre enfant", "mobilier", "décoration"]
-cover: "/img/articles/chambre-enfant-90s.jpg"
-coverAlt: "Bureau enfant vintage en bois dans une chambre"
+cover: "/img/articles/bureau-enfant-vintage.jpg"
+coverAlt: "Photo d'illustration, Bureau enfant vintage : les plus belles trouvailles pour sa chambre"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Bureau enfant vintage : guide des meilleures trouvailles 2026"

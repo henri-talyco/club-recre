@@ -4,8 +4,8 @@ description: "Comment créer une chambre enfant vintage années 90 : mobilier, c
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["chambre", "vintage", "décoration", "années 90", "enfant"]
-cover: "/img/articles/chambre-enfant-90s.jpg"
-coverAlt: "Chambre enfant vintage années 90 avec mobilier bois"
+cover: "/img/articles/chambre-enfant-vintage.jpg"
+coverAlt: "Photo d'illustration, Chambre enfant vintage : créer l'ambiance années 90 parfaite"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Chambre enfant vintage années 90 : idées déco complètes"

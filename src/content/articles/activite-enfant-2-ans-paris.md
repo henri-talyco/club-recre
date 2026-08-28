@@ -4,8 +4,8 @@ description: "Activité enfant 2 ans Paris : parcs, musées adaptés, ateliers s
 pubDate: 2026-05-04
 pillar: "activites"
 tags: ["activité", "enfant", "Paris", "2 ans", "sortie"]
-cover: "/img/articles/mercredi-apres-midi-90s.jpg"
-coverAlt: "Sortie et activité avec enfant de 2 ans à Paris"
+cover: "/img/articles/activite-enfant-2-ans-paris.jpg"
+coverAlt: "Photo d'illustration, Activité enfant 2 ans Paris : sorties et idées testées"
 author: "Club Récré"
 readingTime: 6
 seoTitle: "Activité enfant 2 ans Paris : sorties testées et approuvées 2026"

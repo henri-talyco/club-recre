@@ -4,8 +4,8 @@ description: "Téléphone sans écran pour enfant : dumbphones, montres GPS, wal
 pubDate: 2026-05-04
 pillar: "education"
 tags: ["téléphone", "écran", "enfant", "éducation", "autonomie"]
-cover: "/img/articles/enfant-deconnecte.jpg"
-coverAlt: "Enfant jouant dehors sans téléphone"
+cover: "/img/articles/telephone-sans-ecran-enfant.jpg"
+coverAlt: "Photo d'illustration, Téléphone sans écran pour enfant : les meilleures alternatives en 2026"
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Téléphone sans écran enfant : 8 alternatives testées 2026"
