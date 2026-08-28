@@ -81,8 +81,6 @@ Un cadeau vintage à 7 ans, c'est quelque chose d'unique — pas le même jouet 
 
 **Spirographe original** : les vrais Spirographes des années 70-90 produisent des résultats qu'aucune version moderne ne dépasse. Un enfant de 7 ans peut en profiter pleinement.
 
-Tu peux retrouver notre sélection de jouets vintage pour enfants sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
-
 ## L'expérience : le cadeau qu'on n'oublie pas
 
 Un cadeau d'expérience à 7 ans peut marquer une vie.

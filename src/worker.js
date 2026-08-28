@@ -9,9 +9,20 @@
  * n'transfere pas proprement le signal SEO. On resout donc l'index.html
  * nous-memes, sans redirection.
  */
+// Pages retirees le 28/08/2026 avec l'arret de la vente. Elles etaient
+// indexees : une 301 vaut mieux qu'une 404, le signal SEO passe a la cible.
+const REDIRECTIONS = {
+  "/selections": "/journal",
+  "/selections/": "/journal",
+};
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+
+    const cible = REDIRECTIONS[url.pathname];
+    if (cible) return Response.redirect(new URL(cible, url).toString(), 301);
+
     const dernierSegment = url.pathname.split("/").pop();
     const sansSlash = url.pathname !== "/" && !url.pathname.endsWith("/");
     const estUnFichier = dernierSegment.includes(".");

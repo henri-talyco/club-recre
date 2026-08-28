@@ -7,11 +7,19 @@ name: Article quotidien
 
 on:
   schedule:
-    # 00h17 UTC, soit 2h17 a Paris en heure d'ete et 1h17 en hiver. La nuit,
-    # pour ne pas consommer les quotas d'abonnement pendant la journee de
-    # travail. Minute decalee volontairement : les crons a l'heure pile sont
-    # les plus charges chez GitHub et partent souvent avec du retard.
-    - cron: "17 0 * * *"
+    # Quatre creneaux nocturnes, et non un seul. GitHub ne garantit pas l'heure
+    # d'un cron : il le met en file et le retard grandit sur les depots peu
+    # actifs. Constate ici du 26 au 28/08/2026 avec un cron unique a 00h17 UTC,
+    # parti a 01h56, puis 09h42, puis 11h19, soit 13h19 a Paris, en plein dans
+    # la journee de travail alors que le but etait justement de l'eviter.
+    #
+    # Avec quatre departs, le premier qui sort a l'heure fait le travail et les
+    # suivants s'arretent sur la garde du job "garde" (un article par jour).
+    # En heure d'ete cela donne 01h17, 02h23, 03h31 et 04h43 a Paris.
+    - cron: "17 23 * * *"
+    - cron: "23 0 * * *"
+    - cron: "31 1 * * *"
+    - cron: "43 2 * * *"
   workflow_dispatch:
     inputs:
       sujet:
@@ -24,6 +32,7 @@ on:
 
 env:
   MODE: direct # "direct" publie sans relecture, "pr" ouvre une pull request a valider
+  ARTICLES_PAR_JOUR: "1" # combien d'articles au maximum dans une meme journee
 
 permissions:
   contents: write
@@ -34,7 +43,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Les quatre crons nocturnes visent un seul article : le premier qui part
+  # ecrit, les autres s'arretent ici sans reveiller le modele ni entamer les
+  # quotas. Un declenchement manuel passe outre, c'est le sens du bouton.
+  garde:
+    runs-on: ubuntu-latest
+    outputs:
+      rediger: ${{ steps.compte.outputs.rediger }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compter les articles deja publies aujourd'hui
+        id: compte
+        run: |
+          jour=$(TZ=Europe/Paris date +%F)
+          deja=$(grep -rlE "^pubDate: \"?$jour\"?$" src/content/articles/ 2>/dev/null | wc -l | tr -d ' ')
+          echo "Le $jour, $deja article(s) publie(s), plafond $ARTICLES_PAR_JOUR."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "rediger=oui" >> "$GITHUB_OUTPUT"
+            echo "::notice::Declenchement manuel, la garde du jour ne s'applique pas."
+          elif [ "$deja" -lt "$ARTICLES_PAR_JOUR" ]; then
+            echo "rediger=oui" >> "$GITHUB_OUTPUT"
+          else
+            echo "rediger=non" >> "$GITHUB_OUTPUT"
+            echo "::notice::Le quota du jour est atteint ($deja/$ARTICLES_PAR_JOUR), rien a ecrire."
+          fi
+
   rediger:
+    needs: garde
+    if: needs.garde.outputs.rediger == 'oui'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -64,6 +101,9 @@ jobs:
         env:
           # Token d'abonnement, pas de cle API : la generation ne coute rien.
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Illustration de l'article. Absente, l'article part sans photo : le
+          # site sait afficher un degrade a la place, rien ne casse.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           EXCLUS: ${{ steps.attente.outputs.slugs }}
           SUJET: ${{ inputs.sujet }}
           EFFORT: ${{ inputs.effort || 'high' }}
@@ -102,7 +142,7 @@ jobs:
           git config user.name "Robot Club Récré"
           git config user.email "actions@github.com"
           git checkout -b "article/$SLUG"
-          git add src/content/articles scripts/file-sujets.json
+          git add src/content/articles scripts/file-sujets.json public/img/articles
           git commit -m "article: $SLUG"
           git push --force-with-lease origin "article/$SLUG"
           gh pr create \
@@ -132,7 +172,7 @@ jobs:
         run: |
           git config user.name "Robot Club Récré"
           git config user.email "actions@github.com"
-          git add src/content/articles scripts/file-sujets.json
+          git add src/content/articles scripts/file-sujets.json public/img/articles
           git commit -m "article: $SLUG"
           git push origin HEAD:main
           echo "::notice::Publié : $TITRE ($MOTS mots). Il reste $RESTANTS sujets."

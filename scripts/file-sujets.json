@@ -1,6 +1,6 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-08-27",
+  "_maj": "2026-08-28",
   "sujets": [
     {
       "slug": "activites-toulouse-enfant-1-an",
@@ -417,6 +417,366 @@
       "pillar": "activites",
       "type": "ville",
       "source": "pattern-ville"
+    },
+    {
+      "slug": "activites-paris-enfant-18-mois",
+      "titre": "Activités à Paris avec un enfant de 18 mois : nos adresses testées",
+      "keyword": "activite bebe 18 mois paris",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "gsc-pattern-ville"
+    },
+    {
+      "slug": "activites-lyon-enfant-18-mois",
+      "titre": "Activités à Lyon avec un enfant de 18 mois : nos adresses testées",
+      "keyword": "activite bebe 18 mois lyon",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "gsc-pattern-ville"
+    },
+    {
+      "slug": "activites-marseille-enfant-18-mois",
+      "titre": "Activités à Marseille avec un enfant de 18 mois : nos adresses testées",
+      "keyword": "activite bebe 18 mois marseille",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "gsc-pattern-ville"
+    },
+    {
+      "slug": "activites-bordeaux-enfant-18-mois",
+      "titre": "Activités à Bordeaux avec un enfant de 18 mois : nos adresses testées",
+      "keyword": "activite bebe 18 mois bordeaux",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "gsc-pattern-ville"
+    },
+    {
+      "slug": "activite-bebe-1-an-exterieur",
+      "titre": "Activité bébé 1 an en extérieur : 20 idées par tous les temps",
+      "keyword": "activite bebe 1 an exterieur",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "activite-interieur-bebe-1-an",
+      "titre": "Activité intérieur bébé 1 an : que faire quand il pleut",
+      "keyword": "activite interieur bebe 1 an",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "activite-enfant-2-ans-et-demi",
+      "titre": "Activité enfant 2 ans et demi : l'âge où tout change",
+      "keyword": "activite enfant 2 ans et demi",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "activite-enfant-4-ans",
+      "titre": "Activité enfant 4 ans : 30 idées qui tiennent une après-midi",
+      "keyword": "activite enfant 4 ans",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "activite-enfant-5-ans",
+      "titre": "Activité enfant 5 ans : occuper sans écran, vraiment",
+      "keyword": "activite enfant 5 ans",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "sortie-bebe-1-an",
+      "titre": "Sortie bébé 1 an : où aller vraiment, et à quelle heure",
+      "keyword": "sortie bebe 1 an",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "parc-attraction-bebe-1-an",
+      "titre": "Parc d'attraction avec un bébé de 1 an : lesquels valent le coup",
+      "keyword": "parc attraction bebe 1 an",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "activite-enfant-vacances-scolaires",
+      "titre": "Activité enfant pendant les vacances scolaires : le planning qui tient",
+      "keyword": "activite enfant vacances scolaires",
+      "pillar": "activites",
+      "type": "saison",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "activite-enfant-quand-il-pleut",
+      "titre": "Activité enfant quand il pleut : 25 idées sans écran",
+      "keyword": "activite enfant quand il pleut",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "week-end-avec-enfant-2-ans",
+      "titre": "Week-end avec un enfant de 2 ans : le programme réaliste",
+      "keyword": "week end avec un enfant de 2 ans",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "livre-enfant-5-ans",
+      "titre": "Livre enfant 5 ans : les histoires qui accrochent vraiment",
+      "keyword": "livre enfant 5 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "livre-enfant-2-ans",
+      "titre": "Livre enfant 2 ans : les imagiers et les premières histoires",
+      "keyword": "livre enfant 2 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "jeux-societe-enfant-4-ans",
+      "titre": "Jeu de société enfant 4 ans : ceux qui marchent à la maison",
+      "keyword": "jeu de societe enfant 4 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "jeux-societe-enfant-6-ans",
+      "titre": "Jeu de société enfant 6 ans : le retour des classiques",
+      "keyword": "jeu de societe enfant 6 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "jouet-enfant-1-an",
+      "titre": "Jouet enfant 1 an : ce qui sert vraiment, ce qui prend la poussière",
+      "keyword": "jouet enfant 1 an",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "jouet-enfant-3-ans",
+      "titre": "Jouet enfant 3 ans : les valeurs sûres, neuves ou chinées",
+      "keyword": "jouet enfant 3 ans",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "jouet-en-bois-enfant",
+      "titre": "Jouet en bois : pourquoi ça dure, et comment bien choisir",
+      "keyword": "jouet en bois enfant",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "enfant-sans-ecran",
+      "titre": "Élever un enfant sans écran : ce que ça donne vraiment",
+      "keyword": "enfant sans ecran",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "temps-ecran-enfant-3-ans",
+      "titre": "Temps d'écran enfant 3 ans : les repères, sans culpabiliser",
+      "keyword": "temps ecran enfant 3 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "autonomie-enfant-3-ans",
+      "titre": "Autonomie enfant 3 ans : ce qu'il peut faire seul, vraiment",
+      "keyword": "autonomie enfant 3 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "colere-enfant-2-ans",
+      "titre": "Colère enfant 2 ans : comprendre avant de gérer",
+      "keyword": "colere enfant 2 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "sommeil-enfant-2-ans",
+      "titre": "Sommeil enfant 2 ans : les nuits qui se réparent",
+      "keyword": "sommeil enfant 2 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "rentree-maternelle-preparer",
+      "titre": "Préparer la rentrée en maternelle : les trois semaines qui comptent",
+      "keyword": "preparer rentree maternelle",
+      "pillar": "education",
+      "type": "saison",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "laisser-enfant-jouer-seul",
+      "titre": "Laisser un enfant jouer seul : l'ennui comme méthode",
+      "keyword": "laisser enfant jouer seul",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "enfant-dehors-tous-les-jours",
+      "titre": "Sortir dehors tous les jours avec un enfant : la règle des 90 minutes",
+      "keyword": "enfant dehors tous les jours",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "gouter-enfant-idees",
+      "titre": "Goûter enfant : 20 idées qui ne sont pas des biscuits industriels",
+      "keyword": "idee gouter enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "lunch-box-enfant",
+      "titre": "Lunch box enfant : ce qui tient jusqu'à midi",
+      "keyword": "lunch box enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "chambre-enfant-rangement",
+      "titre": "Rangement chambre enfant : le système qui tient trois mois",
+      "keyword": "rangement chambre enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "anniversaire-enfant-3-ans",
+      "titre": "Anniversaire enfant 3 ans : le format qui marche",
+      "keyword": "anniversaire enfant 3 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "anniversaire-enfant-6-ans",
+      "titre": "Anniversaire enfant 6 ans : les jeux qui tiennent deux heures",
+      "keyword": "anniversaire enfant 6 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "organiser-journee-enfant-2-ans",
+      "titre": "Organiser la journée d'un enfant de 2 ans : le rythme qui marche",
+      "keyword": "organiser journee enfant 2 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "chaussures-enfant-premiers-pas",
+      "titre": "Chaussures premiers pas : ce qui compte vraiment",
+      "keyword": "chaussure premier pas bebe",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "manteau-hiver-enfant",
+      "titre": "Manteau d'hiver enfant : bien choisir et le garder deux saisons",
+      "keyword": "manteau hiver enfant",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "marque-vetement-enfant-annee-90",
+      "titre": "Marque de vêtement enfant des années 90 : le guide complet",
+      "keyword": "marque vetement enfant annee 90",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "mode-enfant-annee-90",
+      "titre": "Mode enfant années 90 : ce qui revient et ce qui reste ringard",
+      "keyword": "mode enfant annee 90",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "jouet-annee-80",
+      "titre": "Jouet des années 80 : les cultes et leur cote en 2026",
+      "keyword": "jouet annee 80",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "tamagotchi-vintage-prix",
+      "titre": "Tamagotchi vintage : reconnaître un P1 et connaître sa cote",
+      "keyword": "tamagotchi vintage prix",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "fisher-price-vintage",
+      "titre": "Fisher Price vintage : les modèles qui valent le détour",
+      "keyword": "fisher price vintage",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "playmobil-annee-90-cote",
+      "titre": "Playmobil années 90 : les sets recherchés et leur prix",
+      "keyword": "playmobil annee 90 prix",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "game-boy-enfant-aujourdhui",
+      "titre": "Une Game Boy pour son enfant en 2026 : bonne ou mauvaise idée",
+      "keyword": "game boy enfant",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-requetes"
+    },
+    {
+      "slug": "petit-bateau-vintage",
+      "titre": "Petit Bateau vintage : reconnaître les vraies pièces d'époque",
+      "keyword": "petit bateau vintage",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "gsc-requetes"
     }
   ]
 }

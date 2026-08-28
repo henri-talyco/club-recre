@@ -9,7 +9,6 @@ const links = [
   { href: "/education", label: "Conseils" },
 ];
 
-const VINTED_URL = "https://www.vinted.fr/membres/clubrecre";
 ---
 
 <header class="sticky top-0 z-50 bg-cream-gouter border-b-2 border-vert-recre">
@@ -38,14 +37,12 @@ const VINTED_URL = "https://www.vinted.fr/membres/clubrecre";
         }
       </ul>
 
-      <!-- CTA Boutique -->
+      <!-- Le Club est un magazine : le seul appel a l'action est la newsletter -->
       <a
-        href={VINTED_URL}
-        target="_blank"
-        rel="noopener"
+        href="/newsletter"
         class="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-btn bg-orange-sirop text-cream-gouter text-[11px] lg:text-sm font-bold uppercase tracking-[0.1em] border-2 border-orange-sirop hover:bg-jaune-cassette hover:text-vert-recre hover:border-jaune-cassette transition-all duration-200 whitespace-nowrap"
       >
-        <span>🛍️</span> La Boutique
+        Newsletter
       </a>
     </nav>
   </div>

@@ -79,8 +79,6 @@ La question se pose car des reproductions et des copies existent sur certains ma
 
 **Leboncoin** : idéal pour les lots locaux. Possibilité de voir les pièces avant d'acheter. Cherche "lot playmobil" dans ta région et trie par date de publication.
 
-Tu peux aussi retrouver notre sélection de jouets vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
-
 ## Restaurer et compléter ses sets
 
 Les Playmobil se restaurent facilement. Le plastique se nettoie à l'eau tiède avec une brosse à dents et du savon. Les pièces ternes se raviven avec un peu de vaseline ou d'huile minérale (appliquer, laisser 10 min, essuyer).

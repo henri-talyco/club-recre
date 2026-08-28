@@ -67,8 +67,6 @@ Cette tradition mérite absolument d'être perpétuée. Une petite scène de Pla
 
 Pour les figurines comestibles, les magasins de décoration de gâteaux vendent des personnages en sucre ou en wafer paper. Mais les figurines en plastique lavées posées sur le gâteau (à retirer avant de servir) restent notre préférence.
 
-Tu peux retrouver notre sélection de figurines et jouets vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
-
 ## Le glaçage au beurre : 5 couleurs, 5 ambiances
 
 Le buttercream (glaçage au beurre) est le meilleur ami du décorateur de gâteau. Il se travaille bien, se colore facilement, adhère au gâteau, et contrairement au fondant, ça se mange avec plaisir.

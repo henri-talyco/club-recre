@@ -16,14 +16,12 @@ faq:
   - q: "Comment reconnaître un vrai Polly Pocket 1990 d'une contrefaçon ?"
     a: "Les Polly Pocket originaux Bluebird (1989-1998) se distinguent par : le marquage 'Bluebird' moulé à l'intérieur du compact ou sur la charnière (pas 'Mattel' qui a racheté la marque en 1998), le plastique lourd et mat (les copies sont légères et brillantes), les détails peints précis sur les décors intérieurs, et les figurines avec des cheveux moulés très nets. La charnière doit s'ouvrir avec résistance et se fermer avec un clic net. Les contrefaçons ont des charnières molles. Le compact fermé doit être parfaitement étanche — les loquets s'engagent sans forcer."
   - q: "Où acheter des Polly Pocket 1990 originaux en bon état ?"
-    a: "Les meilleures sources pour acheter du Polly Pocket 1990 : Ebay (le plus grand choix, vérifie toujours que le vendeur mentionne 'Bluebird' et montre l'intérieur du compact en photo), Vinted (alertes sur 'polly pocket vintage' et 'polly pocket 90'), les conventions de jouets vintage, et les vide-greniers ciblés. Les vendeurs espagnols et italiens sur Ebay ont souvent d'excellentes pièces car ces marchés reçoivent moins d'acheteurs internationaux. Notre boutique Vinted propose régulièrement des Polly Pocket sélectionnées et vérifiées."
+    a: "Les meilleures sources pour acheter du Polly Pocket 1990 : Ebay (le plus grand choix, vérifie toujours que le vendeur mentionne 'Bluebird' et montre l'intérieur du compact en photo), Vinted (alertes sur 'polly pocket vintage' et 'polly pocket 90'), les conventions de jouets vintage, et les vide-greniers ciblés. Les vendeurs espagnols et italiens sur Ebay ont souvent d'excellentes pièces car ces marchés reçoivent moins d'acheteurs internationaux."
 ---
 
 Le Polly Pocket 1990, dans les années 90, c'était le jouet de poche par excellence. Ce petit compact qui tenait dans la main, avec son monde minuscule à l'intérieur, ses figurines de quelques millimètres, ses décors fourmillant de détails. On l'emportait partout — dans le cartable, dans la voiture, chez Mamie. C'était un objet presque magique dans sa miniaturisation.
 
 En 2026, les Polly Pocket d'époque sont devenus des objets de collection sérieux. La première génération Bluebird (1989-1998) est particulièrement recherchée. Club Récré t'explique tout ce qu'il faut savoir sur la cote, l'authentification, et où trouver les meilleures pièces.
-
-Tu peux retrouver notre sélection de Polly Pocket vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
 
 ## L'histoire du Polly Pocket : 1989-2000
 

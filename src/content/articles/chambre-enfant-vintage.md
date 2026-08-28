@@ -76,8 +76,6 @@ Une vitrine basse (type vitrine de vieille pharmacie ou bibliothèque vitrée) p
 
 Les jouets vintage deviennent ainsi une partie de la déco. Ça raconte quelque chose sur ta famille, sur ce que tu transmets à ton enfant.
 
-Tu peux retrouver notre sélection de jouets vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
-
 ## L'éclairage : chaud et doux
 
 L'éclairage fait tout. Une chambre enfant vintage s'éclaire en lumière chaude (2700K maximum), jamais en LED froide blanc bleuté.

@@ -52,7 +52,7 @@ Le robot est en publication directe. Pour repasser à une relecture, remplacer `
 | `type` | `ville`, `jouet`, `mode`, `saison` ou `guide`. Change les consignes de rédaction |
 | `source` | D'où vient le sujet. `gsc` veut dire qu'il sort de la Search Console |
 
-Le `type` compte. Un article `ville` va chercher de vraies adresses sur le web. Un article `jouet` ou `mode` doit contenir un lien vers la boutique Vinted, sinon il est rejeté.
+Le `type` compte. Un article `ville` va chercher de vraies adresses sur le web. Un article `jouet` ou `mode` doit vérifier ses cotes et ses dates par recherche web, sinon il est rejeté.
 
 Quand il reste moins de 10 sujets, le robot ouvre une issue pour prévenir. Pour réalimenter la file, le bon réflexe est de partir de la Search Console, en cherchant les requêtes en position 8 à 30 qui ont des impressions et pas encore d'article dédié.
 
@@ -63,14 +63,21 @@ Le robot refuse de publier et sort en erreur si l'un de ces points n'est pas res
 - Moins de 1200 mots
 - Un article `ville`, `jouet` ou `mode` écrit sans aucune recherche web. Ces sujets reposent sur des adresses, des cotes et des dates. Zéro recherche veut dire que le modèle a écrit de mémoire, donc qu'il a pu inventer
 - Un tiret cadratin quelque part
-- L'expression cible absente du titre SEO ou du texte
+- L'expression cible absente du titre SEO ou du texte. Les mots doivent s'y trouver dans l'ordre, le pluriel et les petits mots de liaison intercalés sont acceptés
 - Moins de 3 questions en FAQ
 - Un titre trop long pour le schéma (100, 200, 70 ou 180 caractères selon le champ)
 - Du HTML ou un titre H1 dans le corps
-- Un article jouet ou mode sans lien Vinted
 - Un build Astro qui casse
 
-En cas de rejet, rien n'est écrit et rien n'est publié. L'échec apparaît dans l'onglet Actions.
+En cas de rejet, le modèle reçoit le verdict du contrôle et recrit une fois. Si la seconde version est refusée elle aussi, rien n'est écrit ni publié, et l'échec apparaît dans l'onglet Actions. Le sujet repassera le lendemain.
+
+## La photo de l'article
+
+Chaque article reçoit une illustration générée par Gemini, dans le style validé : pellicule Kodak Gold 200, page d'album de famille, cadrage volontairement raté, date orange incrustée. Le modèle qui écrit l'article décrit lui-même la scène à photographier, dans le champ `scenePhoto` de sa réponse.
+
+L'image est écrite dans `public/img/articles/<slug>.jpg`, redimensionnée à 1200 px de large, et le frontmatter reçoit `cover` et `coverAlt`.
+
+Elle n'est jamais bloquante. Sans le secret `GEMINI_API_KEY`, ou si la génération échoue, l'article part quand même et le site affiche un dégradé à la place.
 
 ## Ce que ça coûte
 

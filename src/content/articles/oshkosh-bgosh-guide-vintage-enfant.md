@@ -119,7 +119,7 @@ Une salopette OshKosh appelle un **sweat doux dessous** (Disney vintage marche t
 Tapez "OshKosh vintage" + filtrez par taille. Vous trouverez 200-500 références à tout moment. **Conseil pro :** trier par prix croissant et chercher les vendeurs particuliers qui n'ont pas conscience de la valeur.
 
 ### Sites de curation
-Beebs, Petit Kiwi, Club Récré font le tri pour vous. Plus cher (30-50% au-dessus de Vinted) mais qualité garantie et photos packshot propres.
+Des sites comme Beebs ou Petit Kiwi font le tri pour vous. Plus cher (30-50% au-dessus de Vinted) mais qualité garantie et photos packshot propres.
 
 ### Friperies pro
 Le Relais, Yes We Vintage, Emmaüs. Prix imbattables si vous savez chercher. Préparez-vous à fouiller pendant 2h pour trouver une pièce.

@@ -16,14 +16,12 @@ faq:
   - q: "Comment distinguer les Playmobil western vintage des versions récentes ?"
     a: "Les Playmobil western des années 1974-1995 se distinguent par plusieurs signes : le plastique est plus dense et plus lourd, les couleurs sont légèrement plus ternes (pas de plastique brillant contemporain), les décorations peintes ont de légères irrégularités artisanales. Les figurines cowboy authentiques ont souvent un chapeau en plastique dur d'une seule pièce, très différent des versions récentes. Le logo Playmobil moulé sous les pieds ou dans le dos est indispensable — les contrefaçons l'omettent souvent ou le reproduisent mal."
   - q: "Où trouver des Playmobil western vintage complets en bon état ?"
-    a: "Les meilleures sources pour les Playmobil western vintage : Ebay (le marché le plus profond, vendeurs allemands et français souvent bien fournis), Vinted avec l'alerte 'playmobil western' et 'playmobil cowboy', Leboncoin pour les lots locaux où tu peux voir avant d'acheter, et les bourses aux jouets spécialisées. Les greniers familiaux sont une mine : beaucoup de familles ont conservé des sets entiers dans des cartons depuis 30 ans sans réaliser leur valeur. Notre boutique Vinted Club Récré propose régulièrement des pièces western sélectionnées."
+    a: "Les meilleures sources pour les Playmobil western vintage : Ebay (le marché le plus profond, vendeurs allemands et français souvent bien fournis), Vinted avec l'alerte 'playmobil western' et 'playmobil cowboy', Leboncoin pour les lots locaux où tu peux voir avant d'acheter, et les bourses aux jouets spécialisées. Les greniers familiaux sont une mine : beaucoup de familles ont conservé des sets entiers dans des cartons depuis 30 ans sans réaliser leur valeur."
 ---
 
 Le Playmobil western vintage, dans les années 90, c'était l'univers complet. Le fort avec sa palissade, la diligence qui traversait le salon, les cowboys et les indiens qui s'affrontaient sur le tapis du couloir. Ces sets avaient une dimension narrative que peu de jouets atteignaient : tout un territoire à construire, à habiter, à faire vivre.
 
 En 2026, les Playmobil western vintage sont devenus des pièces de collection sérieuses. La fin de la production (Playmobil a progressivement abandonné la gamme après 2000), combinée à la nostalgie des parents nés dans les années 70-80, a fait monter les prix de façon significative. Club Récré fait le point sur ce qu'il faut savoir.
-
-Tu peux retrouver notre sélection de Playmobil western vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
 
 ## L'histoire des Playmobil western : une gamme fondatrice
 

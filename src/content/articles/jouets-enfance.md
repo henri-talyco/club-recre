@@ -16,14 +16,12 @@ faq:
   - q: "Est-ce que les jouets d'enfance vintage sont sûrs pour les enfants d'aujourd'hui ?"
     a: "Les jouets vintages des années 90 ont été conçus selon les normes de sécurité de l'époque, moins strictes qu'aujourd'hui. Les points de vigilance : les jouets avec petites pièces ne conviennent pas aux enfants de moins de 3 ans (risque d'ingestion), certains plastiques anciens peuvent contenir du BPA ou des phtalates (rincer avant utilisation), les piles doivent être remplacées si elles fuitent. Pour les jouets en bois, vérifier qu'il n'y a pas d'éclats ni de peinture écaillée (certaines peintures d'avant 2000 contenaient du plomb). En général, les jouets Playmobil, Fisher Price, et Brio des années 90 sont sûrs et solides."
   - q: "Comment retrouver les jouets de son enfance pour les offrir à ses enfants ?"
-    a: "Les meilleures stratégies pour retrouver les jouets de son enfance : Ebay (le plus grand choix mondial, utilise le nom exact du jouet + 'vintage'), Vinted (alertes sur les noms de jouets + 'ancien' ou '90s'), Leboncoin pour les lots locaux, les vide-greniers spécialisés jouets, et Selency pour les jouets en bois et mobilier. Les greniers familiaux sont une mine inexploitée — beaucoup de grands-parents ont conservé des jouets en parfait état. Notre boutique Vinted Club Récré propose une sélection de jouets d'enfance 90s soigneusement choisis."
+    a: "Les meilleures stratégies pour retrouver les jouets de son enfance : Ebay (le plus grand choix mondial, utilise le nom exact du jouet + 'vintage'), Vinted (alertes sur les noms de jouets + 'ancien' ou '90s'), Leboncoin pour les lots locaux, les vide-greniers spécialisés jouets, et Selency pour les jouets en bois et mobilier. Les greniers familiaux sont une mine inexploitée — beaucoup de grands-parents ont conservé des jouets en parfait état."
 ---
 
 Les jouets d'enfance, dans les années 90, on n'en prenait pas soin de la même façon qu'aujourd'hui. On jouait avec, vraiment — par terre, dans le jardin, dans la voiture. On les perdait, on les réparait, on les passait à un cousin. Et puis un jour ils ont disparu, dans un carton, chez Mamie, à la brocante du quartier.
 
-En 2026, on les cherche. On fouille Vinted et Ebay le soir en pensant qu'on voudrait les faire toucher à son gamin, lui montrer ce que c'était. Club Récré t'aide à retrouver les pièces qui comptaient vraiment.
-
-Tu peux retrouver notre sélection de jouets d'enfance vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
+En 2026, on les cherche. On fouille Vinted et Ebay le soir en pensant qu'on voudrait les faire toucher à son gamin, lui montrer ce que c'était.
 
 ## Pourquoi on cherche les jouets de son enfance
 

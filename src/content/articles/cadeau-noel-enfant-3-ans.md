@@ -45,8 +45,6 @@ Playmobil a une gamme spécifique pour les tout-petits : le 1.2.3. Des figurines
 
 **En vintage** : les Playmobil des années 90 ont un plastique plus épais et des sets plus denses qu'aujourd'hui. Un set ferme ou pompiers Playmobil vintage des années 90 trouvé d'occasion est souvent supérieur au neuf contemporain.
 
-Tu peux retrouver notre sélection Playmobil vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
-
 ## Les puzzles en bois : la progression naturelle
 
 À 3 ans, l'enfant peut commencer les puzzles de 12-24 pièces. La manipulation des pièces, la reconnaissance des formes, la satisfaction de compléter l'image — tout cela est très engageant.

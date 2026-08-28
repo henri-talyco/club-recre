@@ -29,8 +29,6 @@ Un Playmobil des années 90 en bon état a souvent plus de qualité qu'un set Pl
 
 Les jouets intemporels ont aussi l'avantage de la durée. Un Lego bien choisi, un jeu de société classique, un instrument d'éveil — ces cadeaux durent des années. Pas des semaines.
 
-Tu peux retrouver notre sélection de jouets et cadeaux vintage sur notre boutique Vinted : https://www.vinted.fr/membres/clubrecre
-
 ## Les classiques qui ne ratent jamais
 
 **Lego** : la valeur sûre par excellence. Un coffret Lego adapté à l'âge (Duplo de 1 à 5 ans, Lego Classic de 4 à 99 ans, sets thématiques à partir de 6 ans) est toujours bien reçu. Astuce : les gros coffrets de briques de base (Lego Classic 10698, 1500 pièces) permettent de construire sans instructions, ce qui développe davantage la créativité.
