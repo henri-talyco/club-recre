@@ -16,7 +16,7 @@
  *   SEMRUSH_API_KEY   requis
  *   VOLUME_MINIMUM    defaut 100 recherches par mois
  *   KD_MAXIMUM        defaut 35 (au dela, le site ne passe pas devant)
- *   SUJETS_VOULUS     defaut 7, soit une semaine
+ *   SUJETS_VOULUS     defaut 7 ; le workflow demande 14, le rythme etant de 2 par jour
  */
 
 import fs from "node:fs";
@@ -128,7 +128,9 @@ const motsConnus = new Set(file.sujets.map((s) => s.keyword));
 log(`File actuelle : ${file.sujets.length} sujets, ${publies.size} articles publies.`);
 
 const semaine = numeroSemaine();
-const choisies = [GRAINES[(semaine * 2) % GRAINES.length], GRAINES[(semaine * 2 + 1) % GRAINES.length]];
+// Trois graines : a deux articles par jour il faut 14 sujets, et deux graines
+// n'en fournissent pas assez une fois les enseignes et les doublons ecartes.
+const choisies = [0, 1, 2].map((i) => GRAINES[(semaine * 3 + i) % GRAINES.length]);
 log(`Semaine ${semaine}, graines interrogees : ${choisies.map((g) => g.phrase).join(", ")}\n`);
 
 const candidats = [];

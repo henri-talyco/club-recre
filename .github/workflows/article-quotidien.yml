@@ -13,13 +13,16 @@ on:
     # parti a 01h56, puis 09h42, puis 11h19, soit 13h19 a Paris, en plein dans
     # la journee de travail alors que le but etait justement de l'eviter.
     #
-    # Avec quatre departs, le premier qui sort a l'heure fait le travail et les
-    # suivants s'arretent sur la garde du job "garde" (un article par jour).
-    # En heure d'ete cela donne 01h17, 02h23, 03h31 et 04h43 a Paris.
-    - cron: "17 23 * * *"
-    - cron: "23 0 * * *"
-    - cron: "31 1 * * *"
-    - cron: "43 2 * * *"
+    # Six departs pour deux articles par jour : les deux premiers qui sortent
+    # ecrivent, les suivants s'arretent sur la garde du job "garde". Il en faut
+    # plus que d'articles voulus, puisqu'un depart peut partir avec des heures
+    # de retard. En heure d'ete : 00h17, 01h23, 02h31, 03h43, 04h53 et 05h37.
+    - cron: "17 22 * * *"
+    - cron: "23 23 * * *"
+    - cron: "31 0 * * *"
+    - cron: "43 1 * * *"
+    - cron: "53 2 * * *"
+    - cron: "37 3 * * *"
   workflow_dispatch:
     inputs:
       sujet:
@@ -32,7 +35,7 @@ on:
 
 env:
   MODE: direct # "direct" publie sans relecture, "pr" ouvre une pull request a valider
-  ARTICLES_PAR_JOUR: "1" # combien d'articles au maximum dans une meme journee
+  ARTICLES_PAR_JOUR: "2" # combien d'articles au maximum dans une meme journee
 
 permissions:
   contents: write
@@ -43,9 +46,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Les quatre crons nocturnes visent un seul article : le premier qui part
-  # ecrit, les autres s'arretent ici sans reveiller le modele ni entamer les
-  # quotas. Un declenchement manuel passe outre, c'est le sens du bouton.
+  # Les six crons nocturnes visent ARTICLES_PAR_JOUR articles : les premiers
+  # departs ecrivent, les suivants s'arretent ici sans reveiller le modele ni
+  # entamer les quotas. Un declenchement manuel passe outre, c'est le bouton.
   garde:
     runs-on: ubuntu-latest
     outputs:
@@ -174,6 +177,7 @@ jobs:
           git config user.email "actions@github.com"
           git add src/content/articles scripts/file-sujets.json public/img/articles
           git commit -m "article: $SLUG"
+          git pull --rebase --quiet origin main
           git push origin HEAD:main
           echo "::notice::Publié : $TITRE ($MOTS mots). Il reste $RESTANTS sujets."
 

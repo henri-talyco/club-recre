@@ -1,7 +1,10 @@
 name: Veille de sujets
 
-# Chaque lundi, Semrush est interroge sur deux piliers du site (par rotation) et
+# Chaque lundi, Semrush est interroge sur trois piliers du site (par rotation) et
 # la file de sujets se complete toute seule avec ce qui a du volume.
+#
+# 14 sujets par semaine, calibre sur le rythme de publication : a deux articles
+# par jour le robot en consomme 14. En ajouter 7 ferait fondre la file.
 #
 # Pourquoi : la file etait ecrite au jugement, et le passage au crible du
 # 28/08/2026 a montre que plus d'un tiers des sujets ne valait rien, dont huit
@@ -19,7 +22,7 @@ on:
         description: "Recherches par mois minimum (defaut 100)"
         required: false
       sujets:
-        description: "Combien de sujets ajouter (defaut 7)"
+        description: "Combien de sujets ajouter (defaut 14, soit deux semaines a 1 article, une semaine a 2)"
         required: false
 
 permissions:
@@ -43,7 +46,7 @@ jobs:
         env:
           SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
           VOLUME_MINIMUM: ${{ inputs.volume_minimum || '100' }}
-          SUJETS_VOULUS: ${{ inputs.sujets || '7' }}
+          SUJETS_VOULUS: ${{ inputs.sujets || '14' }}
         run: |
           if [ -z "$SEMRUSH_API_KEY" ]; then
             echo "::error::Le secret SEMRUSH_API_KEY est absent. Recupere la cle sur semrush.com (Profil, Subscription info, API units) puis ajoute-la dans Settings, Secrets and variables, Actions."
