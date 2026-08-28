@@ -48,14 +48,6 @@
       "note": "A publier avant mi-septembre."
     },
     {
-      "slug": "activites-lille-enfant-1-an",
-      "titre": "Activités à Lille avec un enfant de 1 an : nos adresses testées",
-      "keyword": "activite bebe 1 an lille",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
       "slug": "playmobil-vintage",
       "titre": "Playmobil vintage : le guide complet du collectionneur",
       "keyword": "playmobil vintage",
@@ -84,14 +76,6 @@
       "kd": 22
     },
     {
-      "slug": "activites-strasbourg-enfant-1-an",
-      "titre": "Activités à Strasbourg avec un enfant de 1 an : nos adresses testées",
-      "keyword": "activite bebe 1 an strasbourg",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
       "slug": "deguisement-halloween-enfant",
       "titre": "Déguisement Halloween enfant : les costumes 90s qu'on adore",
       "keyword": "deguisement halloween enfant",
@@ -101,14 +85,6 @@
       "volume": 8100,
       "kd": 26,
       "note": "A publier debut octobre au plus tard."
-    },
-    {
-      "slug": "activites-lille-enfant-2-ans",
-      "titre": "Activités à Lille avec un enfant de 2 ans : nos adresses testées",
-      "keyword": "activite enfant 2 ans lille",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
     },
     {
       "slug": "polly-pocket-annees-90",
@@ -122,14 +98,6 @@
       "note": "100 impressions en GSC pour 1% de CTR, position 7,4. Article dedie manquant."
     },
     {
-      "slug": "activites-montpellier-enfant-1-an",
-      "titre": "Activités à Montpellier avec un enfant de 1 an : nos adresses testées",
-      "keyword": "activite bebe 1 an montpellier",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
       "slug": "anniversaire-enfant-paris",
       "titre": "Anniversaire enfant Paris : les meilleures adresses par âge",
       "keyword": "anniversaire enfant paris",
@@ -138,14 +106,6 @@
       "source": "semrush",
       "volume": 590,
       "kd": 15
-    },
-    {
-      "slug": "activites-nice-enfant-1-an",
-      "titre": "Activités à Nice avec un enfant de 1 an : nos adresses testées",
-      "keyword": "activite bebe 1 an nice",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
     },
     {
       "slug": "jeux-societe-enfant-5-ans",
@@ -158,14 +118,6 @@
       "kd": 13
     },
     {
-      "slug": "activites-rennes-enfant-1-an",
-      "titre": "Activités à Rennes avec un enfant de 1 an : nos adresses testées",
-      "keyword": "activite bebe 1 an rennes",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
       "slug": "gouter-anniversaire-enfant",
       "titre": "Goûter anniversaire enfant : le goûter parfait à préparer soi-même",
       "keyword": "gouter anniversaire enfant",
@@ -174,14 +126,6 @@
       "source": "semrush",
       "volume": 390,
       "kd": 18
-    },
-    {
-      "slug": "activites-montpellier-enfant-2-ans",
-      "titre": "Activités à Montpellier avec un enfant de 2 ans : nos adresses testées",
-      "keyword": "activite enfant 2 ans montpellier",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
     },
     {
       "slug": "invitation-anniversaire-enfant",
@@ -194,14 +138,6 @@
       "kd": 22
     },
     {
-      "slug": "activites-grenoble-enfant-1-an",
-      "titre": "Activités à Grenoble avec un enfant de 1 an : nos adresses testées",
-      "keyword": "activite bebe 1 an grenoble",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
       "slug": "anniversaire-enfant-5-ans",
       "titre": "Anniversaire enfant 5 ans : thème, gâteau, activités",
       "keyword": "anniversaire enfant 5 ans",
@@ -212,14 +148,6 @@
       "kd": 19
     },
     {
-      "slug": "activites-nice-enfant-2-ans",
-      "titre": "Activités à Nice avec un enfant de 2 ans : nos adresses testées",
-      "keyword": "activite enfant 2 ans nice",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
       "slug": "calendrier-avent-enfant",
       "titre": "Calendrier de l'avent enfant : le faire soi-même comme avant",
       "keyword": "calendrier de l avent enfant",
@@ -227,14 +155,6 @@
       "type": "saison",
       "source": "saison-noel",
       "note": "A publier avant mi-novembre."
-    },
-    {
-      "slug": "activites-rennes-enfant-2-ans",
-      "titre": "Activités à Rennes avec un enfant de 2 ans : nos adresses testées",
-      "keyword": "activite enfant 2 ans rennes",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
     },
     {
       "slug": "bricolage-noel-enfant",
@@ -264,14 +184,6 @@
       "source": "semrush",
       "volume": 720,
       "kd": 12
-    },
-    {
-      "slug": "activites-grenoble-enfant-2-ans",
-      "titre": "Activités à Grenoble avec un enfant de 2 ans : nos adresses testées",
-      "keyword": "activite enfant 2 ans grenoble",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
     },
     {
       "slug": "musee-enfant-paris",
@@ -350,62 +262,6 @@
       "slug": "activites-nantes-enfant-3-ans",
       "titre": "Activités à Nantes avec un enfant de 3 ans : nos adresses testées",
       "keyword": "activite enfant 3 ans nantes",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
-      "slug": "activites-lille-enfant-3-ans",
-      "titre": "Activités à Lille avec un enfant de 3 ans : nos adresses testées",
-      "keyword": "activite enfant 3 ans lille",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
-      "slug": "activites-strasbourg-enfant-2-ans",
-      "titre": "Activités à Strasbourg avec un enfant de 2 ans : nos adresses testées",
-      "keyword": "activite enfant 2 ans strasbourg",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
-      "slug": "activites-montpellier-enfant-3-ans",
-      "titre": "Activités à Montpellier avec un enfant de 3 ans : nos adresses testées",
-      "keyword": "activite enfant 3 ans montpellier",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
-      "slug": "activites-nice-enfant-3-ans",
-      "titre": "Activités à Nice avec un enfant de 3 ans : nos adresses testées",
-      "keyword": "activite enfant 3 ans nice",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
-      "slug": "activites-rennes-enfant-3-ans",
-      "titre": "Activités à Rennes avec un enfant de 3 ans : nos adresses testées",
-      "keyword": "activite enfant 3 ans rennes",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
-      "slug": "activites-grenoble-enfant-3-ans",
-      "titre": "Activités à Grenoble avec un enfant de 3 ans : nos adresses testées",
-      "keyword": "activite enfant 3 ans grenoble",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "pattern-ville"
-    },
-    {
-      "slug": "activites-strasbourg-enfant-3-ans",
-      "titre": "Activités à Strasbourg avec un enfant de 3 ans : nos adresses testées",
-      "keyword": "activite enfant 3 ans strasbourg",
       "pillar": "activites",
       "type": "ville",
       "source": "pattern-ville"
@@ -769,6 +625,246 @@
       "pillar": "marques",
       "type": "mode",
       "source": "gsc-requetes"
+    },
+    {
+      "slug": "serie-tele-enfant-annee-90",
+      "titre": "Séries télé de notre enfance : lesquelles tiennent encore en 2026",
+      "keyword": "serie annee 90 enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "jeux-cour-recreation",
+      "titre": "Jeux de cour de récré : 25 classiques à réapprendre à ses enfants",
+      "keyword": "jeux de cour de recreation",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "musique-enfant-annee-90",
+      "titre": "La musique des années 90 pour les enfants : la playlist qui passe encore",
+      "keyword": "musique annee 90 enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "bd-enfant-annee-90",
+      "titre": "BD des années 90 pour enfants : les séries qui n'ont pas vieilli",
+      "keyword": "bd enfant annee 90",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "console-retro-enfant",
+      "titre": "Une console rétro pour son enfant : laquelle, à quel âge, à quel prix",
+      "keyword": "console retro enfant",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "gouter-annee-90",
+      "titre": "Les goûters des années 90 : ce qui existe encore, ce qu'on refait maison",
+      "keyword": "gouter annee 90",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "carte-collection-enfant",
+      "titre": "Cartes à collectionner : gérer la passion sans y laisser le budget",
+      "keyword": "carte collection enfant",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "apprentissage-proprete-enfant",
+      "titre": "Apprentissage de la propreté : les signes, le rythme, les ratés",
+      "keyword": "apprentissage proprete enfant",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "coucher-enfant-3-ans",
+      "titre": "Le coucher d'un enfant de 3 ans : la routine qui tient vraiment",
+      "keyword": "coucher enfant 3 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "gerer-colere-enfant",
+      "titre": "Gérer les colères : comprendre avant de corriger",
+      "keyword": "gerer colere enfant",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "premier-jour-maternelle",
+      "titre": "Premier jour de maternelle : préparer sans dramatiser",
+      "keyword": "premier jour maternelle",
+      "pillar": "education",
+      "type": "saison",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "apprendre-a-lire-enfant",
+      "titre": "Apprendre à lire : ce qui aide vraiment à la maison",
+      "keyword": "apprendre a lire enfant",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "argent-de-poche-enfant",
+      "titre": "Argent de poche : à quel âge, combien, et pour quoi faire",
+      "keyword": "argent de poche enfant",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "taches-menageres-enfant",
+      "titre": "Faire participer un enfant aux tâches : ce qu'il peut tenir par âge",
+      "keyword": "taches menageres enfant",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "enfant-timide-socialisation",
+      "titre": "Un enfant réservé n'est pas un problème à régler",
+      "keyword": "enfant timide",
+      "pillar": "education",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "repas-enfant-difficile",
+      "titre": "Enfant difficile à table : sortir du rapport de force",
+      "keyword": "enfant difficile a table",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "menu-semaine-enfant",
+      "titre": "Menu de la semaine pour toute la famille : la méthode qui tient",
+      "keyword": "menu semaine enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "routine-du-soir-enfant",
+      "titre": "Routine du soir : l'heure qui décide de la nuit",
+      "keyword": "routine du soir enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "voyage-voiture-avec-enfant",
+      "titre": "Long trajet en voiture avec un enfant, sans écran",
+      "keyword": "voyage voiture avec enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "avion-avec-bebe",
+      "titre": "Prendre l'avion avec un bébé : ce qui compte vraiment",
+      "keyword": "avion avec bebe",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "chambre-partagee-freres-soeurs",
+      "titre": "Chambre partagée entre frères et sœurs : l'organiser sans conflit",
+      "keyword": "chambre partagee frere soeur",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "photo-enfant-reussir",
+      "titre": "Réussir ses photos d'enfants sans les faire poser",
+      "keyword": "photo enfant reussir",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "halloween-enfant-idees",
+      "titre": "Halloween avec des enfants : déguisements et jeux sans acheter neuf",
+      "keyword": "halloween enfant idees",
+      "pillar": "activites",
+      "type": "saison",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "vacances-ete-enfant-occuper",
+      "titre": "Occuper les enfants tout l'été sans partir loin",
+      "keyword": "occuper enfant vacances ete",
+      "pillar": "activites",
+      "type": "saison",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "cadeau-noel-enfant-5-ans",
+      "titre": "Cadeau de Noël pour un enfant de 5 ans : la sélection utile",
+      "keyword": "cadeau noel enfant 5 ans",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "activite-enfant-hiver-interieur",
+      "titre": "Que faire avec un enfant quand il fait froid et nuit à 17h",
+      "keyword": "activite enfant hiver",
+      "pillar": "activites",
+      "type": "saison",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "vetement-enfant-occasion-guide",
+      "titre": "Habiller son enfant en occasion : le guide qui fait gagner du temps",
+      "keyword": "vetement enfant occasion",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "taille-vetement-enfant-guide",
+      "titre": "Tailles de vêtements enfant : s'y retrouver entre les marques",
+      "keyword": "taille vetement enfant",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "chaussure-enfant-choisir",
+      "titre": "Chaussures d'enfant : ce qui compte, marque par marque",
+      "keyword": "chaussure enfant marque",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "ligne-editoriale"
+    },
+    {
+      "slug": "pyjama-enfant-choisir",
+      "titre": "Pyjama enfant : matières, tailles, et ce qui dure",
+      "keyword": "pyjama enfant",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "ligne-editoriale"
     }
   ]
 }
