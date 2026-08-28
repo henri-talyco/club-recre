@@ -5,7 +5,7 @@ pubDate: 2026-05-05
 pillar: "lifestyle"
 tags: ["gateau", "vintage 90s", "enfant", "parents"]
 cover: "/img/articles/gateau-anniversaire-enfant.jpg"
-coverAlt: "Photo style Kodak années 90 illustrant gateau anniversaire enfant"
+coverAlt: "Photo d'illustration, Gâteau anniversaire enfant : les 10 recettes inratables"
 author: "Club Récré"
 readingTime: 7
 seoTitle: "Gâteau anniversaire enfant : les 10 recettes inratables"

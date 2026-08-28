@@ -5,6 +5,8 @@ pubDate: 2026-08-26
 pillar: "marques"
 tags: ["marques", "annees 90", "seconde main", "mode enfant", "nostalgie", "vintage"]
 author: "Club Récré"
+cover: "/img/articles/marques-annees-90-disparues.jpg"
+coverAlt: "Photo d'illustration, Marques des années 90 disparues : celles qu'on ne retrouve plus"
 readingTime: 8
 seoTitle: "Marques des années 90 disparues : celles qu'on ne retrouve plus"
 seoDescription: "Naf Naf, Kookaï, Chipie, Camaïeu : le vrai statut des marques des années 90 disparues, rachetées ou relancées, et où trouver les pièces d'origine."

@@ -5,6 +5,8 @@ pubDate: 2026-08-25
 pillar: "activites"
 tags: ["activites", "sans ecran", "2 ans", "motricite fine", "jeu libre"]
 author: "Club Récré"
+cover: "/img/articles/activite-enfant-2-ans.jpg"
+coverAlt: "Photo d'illustration, Activité enfant 2 ans : que faire à la maison pour éviter les écrans"
 readingTime: 8
 seoTitle: "Activité enfant 2 ans : que faire sans écran, le guide"
 seoDescription: "Activité enfant 2 ans : ce qu'il sait faire, ce que disent les recommandations écrans, et des idées concrètes pour occuper les 24-36 mois sans tablette."

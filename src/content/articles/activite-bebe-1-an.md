@@ -5,6 +5,8 @@ pubDate: 2026-08-25
 pillar: "activites"
 tags: ["activites", "bebe", "eveil", "sans-ecran", "montessori", "motricite"]
 author: "Club Récré"
+cover: "/img/articles/activite-bebe-1-an.jpg"
+coverAlt: "Photo d'illustration, Activité bébé 1 an : 25 idées pour éveiller sans écran"
 readingTime: 8
 seoTitle: "Activité bébé 1 an : 25 idées pour éveiller sans écran"
 seoDescription: "25 idées d'activité bébé 1 an testables ce soir : motricité, transvasement, sensoriel, langage, dehors. Repères de développement et sécurité inclus."

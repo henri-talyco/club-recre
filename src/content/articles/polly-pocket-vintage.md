@@ -5,6 +5,8 @@ pubDate: 2026-08-27
 pillar: "jouets-vintage"
 tags: ["jouets-vintage", "polly-pocket", "collection", "annees-90", "chine-brocante"]
 author: "Club Récré"
+cover: "/img/articles/polly-pocket-vintage.jpg"
+coverAlt: "Photo d'illustration, Polly Pocket vintage : guide, cote, et où trouver les plus rares"
 readingTime: 8
 seoTitle: "Polly Pocket vintage : guide, cote et où trouver les rares"
 seoDescription: "Guide Polly Pocket vintage : authentifier un Bluebird, comprendre la cote, fourchettes de prix 2026 et où chercher les modèles rares sans se faire avoir."
