@@ -628,6 +628,146 @@
       "type": "ville",
       "source": "gsc-pattern-ville",
       "volume": null
+    },
+    {
+      "slug": "activite-a-faire",
+      "titre": "Activite a faire : le guide complet",
+      "keyword": "activite a faire",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 2900,
+      "kd": 25
+    },
+    {
+      "slug": "activites-enfants-paris",
+      "titre": "Activités enfants paris : le guide complet",
+      "keyword": "activités enfants paris",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 2900,
+      "kd": 33
+    },
+    {
+      "slug": "activite-en-famille",
+      "titre": "Activité en famille : le guide complet",
+      "keyword": "activité en famille",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 2400,
+      "kd": 29
+    },
+    {
+      "slug": "mmeceline-com-sortie-famille",
+      "titre": "Mmeceline.com sortie famille : le guide complet",
+      "keyword": "mmeceline.com sortie famille",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 1300,
+      "kd": 14
+    },
+    {
+      "slug": "sortie-famille-mmeceline-com",
+      "titre": "Sortie famille mmeceline.com : le guide complet",
+      "keyword": "sortie famille mmeceline.com",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 2400,
+      "kd": 32
+    },
+    {
+      "slug": "activites-a-proximite",
+      "titre": "Activités à proximité : le guide complet",
+      "keyword": "activités à proximité",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 2400,
+      "kd": 35
+    },
+    {
+      "slug": "animation-anniversaire-enfant",
+      "titre": "Animation anniversaire enfant : le guide complet",
+      "keyword": "animation anniversaire enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 1600,
+      "kd": 24
+    },
+    {
+      "slug": "activites-en-famille",
+      "titre": "Activités en famille : le guide complet",
+      "keyword": "activités en famille",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 1900,
+      "kd": 33
+    },
+    {
+      "slug": "anniversaire-5-ans",
+      "titre": "Anniversaire 5 ans : le guide complet",
+      "keyword": "anniversaire 5 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 720,
+      "kd": 12
+    },
+    {
+      "slug": "activite-pour-anniversaire",
+      "titre": "Activité pour anniversaire : le guide complet",
+      "keyword": "activité pour anniversaire",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 1000,
+      "kd": 19
+    },
+    {
+      "slug": "activiter-a-faire",
+      "titre": "Activiter a faire : le guide complet",
+      "keyword": "activiter a faire",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 1300,
+      "kd": 31
+    },
+    {
+      "slug": "anniversaire-6-ans",
+      "titre": "Anniversaire 6 ans : le guide complet",
+      "keyword": "anniversaire 6 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 590,
+      "kd": 13
+    },
+    {
+      "slug": "ou-feter-anniversaire-enfant",
+      "titre": "Ou feter anniversaire enfant : le guide complet",
+      "keyword": "ou feter anniversaire enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 720,
+      "kd": 19
+    },
+    {
+      "slug": "organisation-anniversaire-enfant",
+      "titre": "Organisation anniversaire enfant : le guide complet",
+      "keyword": "organisation anniversaire enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s36",
+      "volume": 720,
+      "kd": 20
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush."
