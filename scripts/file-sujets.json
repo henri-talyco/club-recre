@@ -1,17 +1,7 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-09-01",
+  "_maj": "2026-09-02",
   "sujets": [
-    {
-      "slug": "idee-cadeau-fille-10-ans",
-      "titre": "Idée cadeau fille 10 ans : le guide complet",
-      "keyword": "idée cadeau fille 10 ans",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "semrush-s35",
-      "volume": 3600,
-      "kd": 27
-    },
     {
       "slug": "jouet-enfant-1-an",
       "titre": "Jouet enfant 1 an : ce qui sert vraiment, ce qui prend la poussière",
