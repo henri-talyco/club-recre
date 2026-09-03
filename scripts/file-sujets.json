@@ -1,16 +1,7 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-09-02",
+  "_maj": "2026-09-03",
   "sujets": [
-    {
-      "slug": "chambre-enfant-rangement",
-      "titre": "Rangement chambre enfant : le système qui tient trois mois",
-      "keyword": "rangement chambre enfant",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "gsc-requetes",
-      "volume": 2900
-    },
     {
       "slug": "cadeau-fille-5-ans",
       "titre": "Cadeau fille 5 ans : le guide complet",
