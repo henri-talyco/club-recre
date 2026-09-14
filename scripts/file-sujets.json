@@ -487,6 +487,146 @@
       "source": "semrush-s36",
       "volume": 720,
       "kd": 20
+    },
+    {
+      "slug": "okaidi-a-proximite",
+      "titre": "Okaïdi à proximité : le guide complet",
+      "keyword": "okaïdi à proximité",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "semrush-s38",
+      "volume": 5400,
+      "kd": 29
+    },
+    {
+      "slug": "jeu-de-societe-4-joueurs-famille",
+      "titre": "Jeu de societe 4 joueurs famille : le guide complet",
+      "keyword": "jeu de societe 4 joueurs famille",
+      "pillar": "education",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2900,
+      "kd": 14
+    },
+    {
+      "slug": "bebe-garcon-vetement",
+      "titre": "Bebe garcon vetement : le guide complet",
+      "keyword": "bebe garcon vetement",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "semrush-s38",
+      "volume": 3600,
+      "kd": 19
+    },
+    {
+      "slug": "vetement-garcon-bebe",
+      "titre": "Vetement garcon bebe : le guide complet",
+      "keyword": "vetement garcon bebe",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "semrush-s38",
+      "volume": 3600,
+      "kd": 20
+    },
+    {
+      "slug": "jeu-de-plateau",
+      "titre": "Jeu de plateau : le guide complet",
+      "keyword": "jeu de plateau",
+      "pillar": "education",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2900,
+      "kd": 17
+    },
+    {
+      "slug": "deco-chambre-bebe",
+      "titre": "Deco chambre bebe : le guide complet",
+      "keyword": "deco chambre bebe",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 3600,
+      "kd": 24
+    },
+    {
+      "slug": "rangement-chambre-enfant",
+      "titre": "Rangement chambre enfant : le guide complet",
+      "keyword": "rangement chambre enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2900,
+      "kd": 19
+    },
+    {
+      "slug": "jeux-de-plateau",
+      "titre": "Jeux de plateau : le guide complet",
+      "keyword": "jeux de plateau",
+      "pillar": "education",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2400,
+      "kd": 18
+    },
+    {
+      "slug": "deco-chambre-enfant",
+      "titre": "Deco chambre enfant : le guide complet",
+      "keyword": "deco chambre enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2400,
+      "kd": 21
+    },
+    {
+      "slug": "decoration-chambre-enfant",
+      "titre": "Decoration chambre enfant : le guide complet",
+      "keyword": "decoration chambre enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2400,
+      "kd": 21
+    },
+    {
+      "slug": "lit-enfant-but",
+      "titre": "Lit enfant but : le guide complet",
+      "keyword": "lit enfant but",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2900,
+      "kd": 27
+    },
+    {
+      "slug": "jeux-de-societe-4-ans",
+      "titre": "Jeux de société 4 ans : le guide complet",
+      "keyword": "jeux de société 4 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 1900,
+      "kd": 16
+    },
+    {
+      "slug": "orchestra-saint-aunes",
+      "titre": "Orchestra saint aunes : le guide complet",
+      "keyword": "orchestra saint aunes",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "semrush-s38",
+      "volume": 2900,
+      "kd": 29
+    },
+    {
+      "slug": "meuble-chambre-enfant",
+      "titre": "Meuble chambre enfant : le guide complet",
+      "keyword": "meuble chambre enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s38",
+      "volume": 2400,
+      "kd": 24
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush."
