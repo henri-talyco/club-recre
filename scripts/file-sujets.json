@@ -1,16 +1,7 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-09-15",
+  "_maj": "2026-09-16",
   "sujets": [
-    {
-      "slug": "chaussures-enfant-premiers-pas",
-      "titre": "Chaussures premiers pas : ce qui compte vraiment",
-      "keyword": "chaussure premier pas bebe",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "gsc-requetes",
-      "volume": 390
-    },
     {
       "slug": "playmobil-vintage",
       "titre": "Playmobil vintage : le guide complet du collectionneur",
