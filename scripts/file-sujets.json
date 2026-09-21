@@ -498,6 +498,146 @@
       "source": "semrush-s38",
       "volume": 2400,
       "kd": 24
+    },
+    {
+      "slug": "cadeau-enfant-4-ans",
+      "titre": "Cadeau enfant 4 ans : le guide complet",
+      "keyword": "cadeau enfant 4 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 3600,
+      "kd": 19
+    },
+    {
+      "slug": "cadeau-fille-4-ans",
+      "titre": "Cadeau fille 4 ans : le guide complet",
+      "keyword": "cadeau fille 4 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 2900,
+      "kd": 18
+    },
+    {
+      "slug": "cadeau-enfant-10-ans",
+      "titre": "Cadeau enfant 10 ans : le guide complet",
+      "keyword": "cadeau enfant 10 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 2900,
+      "kd": 19
+    },
+    {
+      "slug": "deguisement-carnaval-enfant",
+      "titre": "Deguisement carnaval enfant : le guide complet",
+      "keyword": "deguisement carnaval enfant",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "semrush-s39",
+      "volume": 2400,
+      "kd": 19
+    },
+    {
+      "slug": "cadeau-garcon-10-ans",
+      "titre": "Cadeau garçon 10 ans : le guide complet",
+      "keyword": "cadeau garçon 10 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 2400,
+      "kd": 19
+    },
+    {
+      "slug": "jouets-pour-fillette",
+      "titre": "Jouets pour fillette : le guide complet",
+      "keyword": "jouets pour fillette",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 2400,
+      "kd": 22
+    },
+    {
+      "slug": "idee-cadeau-enfant-4-ans",
+      "titre": "Idee cadeau enfant 4 ans : le guide complet",
+      "keyword": "idee cadeau enfant 4 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 1900,
+      "kd": 17
+    },
+    {
+      "slug": "idee-cadeau-garcon-8-ans",
+      "titre": "Idée cadeau garçon 8 ans : le guide complet",
+      "keyword": "idée cadeau garçon 8 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 1600,
+      "kd": 14
+    },
+    {
+      "slug": "gateau-pour-le-gouter",
+      "titre": "Gateau pour le gouter : le guide complet",
+      "keyword": "gateau pour le gouter",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 2400,
+      "kd": 25
+    },
+    {
+      "slug": "cadeau-fille-3-ans",
+      "titre": "Cadeau fille 3 ans : le guide complet",
+      "keyword": "cadeau fille 3 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 2400,
+      "kd": 25
+    },
+    {
+      "slug": "idee-cadeau-fille-4-ans",
+      "titre": "Idée cadeau fille 4 ans : le guide complet",
+      "keyword": "idée cadeau fille 4 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 1600,
+      "kd": 16
+    },
+    {
+      "slug": "cadeau-garcon-8-ans",
+      "titre": "Cadeau garçon 8 ans : le guide complet",
+      "keyword": "cadeau garçon 8 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 1600,
+      "kd": 18
+    },
+    {
+      "slug": "idee-cadeau-3-ans",
+      "titre": "Idee cadeau 3 ans : le guide complet",
+      "keyword": "idee cadeau 3 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s39",
+      "volume": 1600,
+      "kd": 18
+    },
+    {
+      "slug": "deguisements-halloween-garcon",
+      "titre": "Déguisements halloween garcon : le guide complet",
+      "keyword": "déguisements halloween garcon",
+      "pillar": "lifestyle",
+      "type": "saison",
+      "source": "semrush-s39",
+      "volume": 1600,
+      "kd": 20
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush."
