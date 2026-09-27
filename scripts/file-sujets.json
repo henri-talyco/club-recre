@@ -1,16 +1,7 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-09-26",
+  "_maj": "2026-09-27",
   "sujets": [
-    {
-      "slug": "coucher-enfant-3-ans",
-      "titre": "Le coucher d'un enfant de 3 ans : la routine qui tient vraiment",
-      "keyword": "coucher enfant 3 ans",
-      "pillar": "education",
-      "type": "guide",
-      "source": "ligne-editoriale",
-      "volume": 50
-    },
     {
       "slug": "chaussure-enfant-choisir",
       "titre": "Chaussures d'enfant : ce qui compte, marque par marque",
