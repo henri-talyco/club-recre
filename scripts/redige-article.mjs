@@ -113,7 +113,10 @@ function slugsPublies() {
 }
 
 function choisitSujet(file, publies) {
-  const restants = file.sujets.filter((s) => !publies.has(s.slug));
+  // Un enrichissement porte le slug d'un article DEJA publie (c'est lui qu'on
+  // reecrit) ; un nouveau sujet, jamais. Depuis le 28/09/2026, Taly (robot SEO)
+  // met en file des deux sortes, au meme rythme de publication.
+  const restants = file.sujets.filter((s) => (s.mode === "enrichir" ? publies.has(s.slug) : !publies.has(s.slug)));
   if (process.env.SUJET) {
     const force = restants.find((s) => s.slug === process.env.SUJET);
     if (!force) echec(`sujet "${process.env.SUJET}" absent de la file ou deja publie`);
@@ -126,6 +129,7 @@ function choisitSujet(file, publies) {
   const deja = [...publies];
   const doublons = new Set();
   const utiles = restants.filter((s) => {
+    if (s.mode === "enrichir") return true;
     const r = repete(s.keyword, deja) || repete(s.slug, deja);
     if (r) { log(`Ecarte, repete un article publie : ${s.slug} (deja ecrit : ${r})`); doublons.add(s.slug); }
     return !r;
@@ -237,6 +241,62 @@ function appelleCli(args, options) {
   });
 }
 
+/** Le frontmatter et le corps d'un article existant, sans dependance YAML. */
+function litArticle(slug) {
+  const brut = fs.readFileSync(path.join(DOSSIER_ARTICLES, `${slug}.md`), "utf8");
+  const m = brut.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  if (!m) echec(`frontmatter illisible dans ${slug}.md`);
+  const champ = (nom) => {
+    const l = m[1].match(new RegExp(`^${nom}:\\s*(.*)$`, "m"));
+    return l ? l[1].trim().replace(/^"(.*)"$/, "$1") : null;
+  };
+  return { brut, front: m[1], corps: m[2].trim(), champ };
+}
+
+/**
+ * Enrichir un article qui marche deja, au lieu d'en ecrire un nouveau qui lui
+ * ferait concurrence. Google montre deja cet article sur des recherches qu'il
+ * ne couvre qu'a moitie (relevees par Taly dans la Search Console) : on le
+ * complete pour qu'il y reponde vraiment. Meme adresse, meme sujet, meme date
+ * de publication, une date de mise a jour.
+ */
+function consigneEnrichir(sujet, article, aujourdhui) {
+  const requetes = (sujet.requetes || []).map((r) => `- "${r}"`).join("\n");
+  return `Enrichis un article DEJA PUBLIE de Club Recre. Tu ne changes ni son sujet ni son angle : tu le completes.
+
+POURQUOI
+Google montre deja cet article sur les recherches ci-dessous, mais trop bas pour qu'on clique. L'article n'y repond qu'en partie. Ton travail : qu'il y reponde vraiment, avec des sections et des FAQ nouvelles, sans perdre ce qui marche deja.
+
+RECHERCHES A COUVRIR
+${requetes}
+
+CE QUI NE BOUGE PAS
+- Le sujet principal, le ton, et les passages justes de l'article actuel : garde-les, reformule le moins possible.
+- Le titre peut etre precise, pas remplace. Le seoTitle garde son expression principale.
+- Aucun fait nouveau sans recherche web dans ce meme echange (regle absolue 2).
+
+CE QUI CHANGE
+- Ajoute 2 a 4 sections H2 (ou complete les existantes) qui repondent aux recherches ci-dessus, avec leurs mots, naturellement.
+- Remplace ou complete la FAQ pour que chaque recherche y trouve sa reponse (3 a 6 questions).
+- L'article final fait AU MOINS 300 mots de plus que l'actuel.
+- Date de mise a jour : ${aujourdhui}.
+
+LA PHOTO
+Elle existe deja, on la garde : mets "scenePhoto" a "garder" et recopie le coverAlt actuel.
+
+L'ARTICLE ACTUEL
+${article.brut}
+
+FORMAT DE REPONSE
+Exactement les deux memes blocs que pour un article neuf, rien avant, rien apres :
+<meta>
+{ "title": "...", "description": "...", "tags": [...], "readingTime": 9, "seoTitle": "...", "seoDescription": "...", "scenePhoto": "garder", "coverAlt": "...", "faq": [ { "q": "...", "a": "..." } ] }
+</meta>
+<corps>
+le corps complet de l'article enrichi, en Markdown
+</corps>`;
+}
+
 async function redige(sujet, aujourdhui, refus = []) {
   // WebSearch est le seul outil ouvert: le modele cherche ses faits mais ne
   // touche pas au disque, c'est ce script qui ecrit le fichier apres validation.
@@ -254,7 +314,9 @@ async function redige(sujet, aujourdhui, refus = []) {
     : "";
 
   const args = [
-    "-p", consigneSujet(sujet, aujourdhui) + correctif,
+    "-p", (sujet.mode === "enrichir"
+      ? consigneEnrichir(sujet, litArticle(sujet.slug), aujourdhui)
+      : consigneSujet(sujet, aujourdhui)) + correctif,
     "--append-system-prompt", CONSIGNE_SYSTEME,
     "--model", MODELE,
     "--effort", EFFORT,
@@ -387,6 +449,15 @@ function valide(meta, corps, sujet, usage) {
     ...(meta.faq || []).flatMap((f) => [f?.q, f?.a])].join(" ");
   if (/[—–]/.test(toutLeTexte)) erreurs.push("tiret cadratin present (interdit)");
 
+  if (sujet.mode === "enrichir") {
+    const avant = compteMots(litArticle(sujet.slug).corps);
+    if (mots < avant + 300) erreurs.push(`enrichissement trop court: ${mots} mots contre ${avant} avant (il en faut au moins ${avant + 300})`);
+    const absentes = (sujet.requetes || []).filter((r) => !contientCible(toutLeTexte, r));
+    const plafond = Math.floor((sujet.requetes || []).length / 2);
+    if (absentes.length > plafond) erreurs.push(`recherches non couvertes: ${absentes.map((r) => `"${r}"`).join(", ")}`);
+    return erreurs;
+  }
+
   if (!contientCible(toutLeTexte, sujet.keyword)) {
     erreurs.push(`l'expression cible "${sujet.keyword}" n'apparait nulle part, meme reformulee`);
   }
@@ -399,12 +470,14 @@ function valide(meta, corps, sujet, usage) {
 
 // -------------------------------------------------------------------- ecriture
 
-function construitFichier(meta, corps, sujet, aujourdhui, cover) {
+function construitFichier(meta, corps, sujet, aujourdhui, cover, ancien = null) {
   const lignes = [
     "---",
     `title: ${yamlChaine(meta.title)}`,
     `description: ${yamlChaine(meta.description)}`,
-    `pubDate: ${aujourdhui}`,
+    // Un enrichissement garde sa date de publication et gagne une date de mise
+    // a jour : le robot de rythme compte les deux (cf article-quotidien.yml).
+    ...(ancien ? [`pubDate: ${ancien.champ("pubDate")}`, `updatedDate: ${aujourdhui}`] : [`pubDate: ${aujourdhui}`]),
     `pillar: ${yamlChaine(sujet.pillar)}`,
     `tags: [${meta.tags.map(yamlChaine).join(", ")}]`,
     `author: "Club Récré"`,
@@ -487,8 +560,13 @@ log(`Coût : ${cout} (${usage.output} tokens produits, ${usage.tours} tours)`);
 
 // L'illustration ne bloque jamais la publication : un article sans photo vaut
 // mieux qu'une journee sans article, et personne ne relit le robot la nuit.
-let cover = null;
-if (!DRY_RUN) {
+const ancien = sujet.mode === "enrichir" ? litArticle(sujet.slug) : null;
+if (ancien) {
+  sujet.pillar = ancien.champ("pillar") || sujet.pillar;
+  if (ancien.champ("coverAlt")) meta.coverAlt = ancien.champ("coverAlt");
+}
+let cover = ancien ? ancien.champ("cover") : null;
+if (!DRY_RUN && !ancien) {
   const photo = await genereImage({
     slug: sujet.slug, scene: meta.scenePhoto, aujourdhui, racine: RACINE,
   });
@@ -500,7 +578,7 @@ if (!DRY_RUN) {
   }
 }
 
-const contenu = construitFichier(meta, blocCorps, sujet, aujourdhui, cover);
+const contenu = construitFichier(meta, blocCorps, sujet, aujourdhui, cover, ancien);
 const chemin = path.join(DOSSIER_ARTICLES, `${sujet.slug}.md`);
 
 if (DRY_RUN) {

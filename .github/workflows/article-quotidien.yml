@@ -67,7 +67,9 @@ jobs:
         run: |
           jour=$(TZ=Europe/Paris date +%F)
           jour_semaine=$(TZ=Europe/Paris date +%u)
-          deja=$(grep -rlE "^pubDate: \"?$jour\"?$" src/content/articles/ 2>/dev/null | wc -l | tr -d ' ')
+          # Un article enrichi (updatedDate du jour) compte comme une publication :
+          # nouveaux et enrichis partagent le meme rythme, 3 par semaine.
+          deja=$(grep -rlE "^(pubDate|updatedDate): \"?$jour\"?$" src/content/articles/ 2>/dev/null | wc -l | tr -d ' ')
           echo "Le $jour, $deja article(s) publie(s), plafond $ARTICLES_PAR_JOUR."
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "rediger=oui" >> "$GITHUB_OUTPUT"
