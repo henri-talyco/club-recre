@@ -14,6 +14,25 @@
 const REDIRECTIONS = {
   "/selections": "/journal",
   "/selections/": "/journal",
+  // Doublons fusionnes le 28/09/2026 : deux articles sur le meme sujet se
+  // faisaient concurrence et Google n'en gardait qu'un. On garde celui qu'il
+  // prefere sur 90 jours (Search Console), l'autre renvoie vers lui en 301.
+  "/journal/activite-enfant-2-ans-paris": "/journal/activites-paris-enfant-2-ans/",
+  "/journal/activite-enfant-2-ans-paris/": "/journal/activites-paris-enfant-2-ans/",
+  "/journal/activites-paris-enfant-3-ans": "/journal/activite-enfant-3-ans-paris/",
+  "/journal/activites-paris-enfant-3-ans/": "/journal/activite-enfant-3-ans-paris/",
+  "/journal/chambre-enfant-vintage": "/journal/chambre-enfant-90s-vintage/",
+  "/journal/chambre-enfant-vintage/": "/journal/chambre-enfant-90s-vintage/",
+  "/journal/jouets-vintage-90s-incontournables": "/journal/jouets-enfance/",
+  "/journal/jouets-vintage-90s-incontournables/": "/journal/jouets-enfance/",
+  "/journal/jouet-annee-90": "/journal/jouets-enfance/",
+  "/journal/jouet-annee-90/": "/journal/jouets-enfance/",
+  "/journal/polly-pocket-vintage": "/journal/polly-pocket-1990-prix/",
+  "/journal/polly-pocket-vintage/": "/journal/polly-pocket-1990-prix/",
+  "/journal/polly-pocket-annees-90": "/journal/polly-pocket-1990-prix/",
+  "/journal/polly-pocket-annees-90/": "/journal/polly-pocket-1990-prix/",
+  "/journal/idee-cadeau-enfant-3-ans": "/journal/cadeau-enfant-3-ans/",
+  "/journal/idee-cadeau-enfant-3-ans/": "/journal/cadeau-enfant-3-ans/",
 };
 
 export default {
