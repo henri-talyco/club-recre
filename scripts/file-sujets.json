@@ -512,6 +512,76 @@
       "source": "semrush-s39",
       "volume": 1600,
       "kd": 20
+    },
+    {
+      "slug": "activite-pour-un-anniversaire",
+      "titre": "Activité pour un anniversaire : le guide complet",
+      "keyword": "activité pour un anniversaire",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s40",
+      "volume": 1000,
+      "kd": 31
+    },
+    {
+      "slug": "decoration-anniversaire-fille",
+      "titre": "Decoration anniversaire fille : le guide complet",
+      "keyword": "decoration anniversaire fille",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s40",
+      "volume": 880,
+      "kd": 30
+    },
+    {
+      "slug": "idee-anniversaire-enfant",
+      "titre": "Idee anniversaire enfant : le guide complet",
+      "keyword": "idee anniversaire enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s40",
+      "volume": 880,
+      "kd": 32
+    },
+    {
+      "slug": "organiser-des-anniversaires",
+      "titre": "Organiser des anniversaires : le guide complet",
+      "keyword": "organiser des anniversaires",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s40",
+      "volume": 590,
+      "kd": 21
+    },
+    {
+      "slug": "feter-son-anniversaire",
+      "titre": "Feter son anniversaire : le guide complet",
+      "keyword": "feter son anniversaire",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s40",
+      "volume": 590,
+      "kd": 28
+    },
+    {
+      "slug": "deco-anniversaire-fillette",
+      "titre": "Deco anniversaire fillette : le guide complet",
+      "keyword": "deco anniversaire fillette",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s40",
+      "volume": 590,
+      "kd": 30
+    },
+    {
+      "slug": "animateur-anniversaire-enfant",
+      "titre": "Animateur anniversaire enfant : le guide complet",
+      "keyword": "animateur anniversaire enfant",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s40",
+      "volume": 590,
+      "kd": 35
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush."
