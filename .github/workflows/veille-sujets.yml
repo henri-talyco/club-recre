@@ -11,11 +11,13 @@ name: Veille de sujets
 # a zero recherche par mois. Un sujet entre desormais parce qu'un volume le
 # justifie, pas parce qu'il sonnait bien.
 
+# RETIREE le 28/09/2026. La file est desormais nourrie chaque lundi par Taly, le
+# robot SEO de Talyco (Lambda taly-seo, famille sujets_blog, fiche clients/
+# clubrecre.json du depot talyco/taly-robots) : requetes PORTEUSES de la Search
+# Console d'abord, requetes demandees de Semrush ensuite, par le serveur
+# talyco-semrush. Plus aucune cle Semrush dans ce depot. Le declenchement manuel
+# reste, mais il echoue faute de cle : c'est voulu.
 on:
-  schedule:
-    # Lundi 05h11 UTC. Comme pour l'article quotidien, GitHub retarde ses crons :
-    # ce n'est pas grave ici, rien ne depend de l'heure exacte.
-    - cron: "11 5 * * 1"
   workflow_dispatch:
     inputs:
       volume_minimum:
