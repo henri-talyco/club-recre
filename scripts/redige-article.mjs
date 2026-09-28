@@ -30,6 +30,7 @@ import path from "node:path";
 import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { genereImage } from "./genere-image.mjs";
+import { repete } from "./doublons.mjs";
 
 const ICI = path.dirname(fileURLToPath(import.meta.url));
 const RACINE = path.resolve(ICI, "..");
@@ -118,7 +119,19 @@ function choisitSujet(file, publies) {
     if (!force) echec(`sujet "${process.env.SUJET}" absent de la file ou deja publie`);
     return { sujet: force, restants: restants.length };
   }
-  return { sujet: restants[0] || null, restants: restants.length };
+  // Un sujet qui repete un article deja publie est retire de la file sans etre
+  // ecrit : Google garderait l'ancien et ignorerait le nouveau (releve du
+  // 28/09/2026, cf scripts/doublons.mjs). Retire de l'objet `file`, il sort du
+  // fichier au prochain article enregistre.
+  const deja = [...publies];
+  const doublons = new Set();
+  const utiles = restants.filter((s) => {
+    const r = repete(s.keyword, deja) || repete(s.slug, deja);
+    if (r) { log(`Ecarte, repete un article publie : ${s.slug} (deja ecrit : ${r})`); doublons.add(s.slug); }
+    return !r;
+  });
+  if (doublons.size) file.sujets = file.sujets.filter((s) => !doublons.has(s.slug));
+  return { sujet: utiles[0] || null, restants: utiles.length };
 }
 
 // ------------------------------------------------------------------- consigne

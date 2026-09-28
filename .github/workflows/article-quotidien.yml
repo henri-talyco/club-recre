@@ -1,4 +1,4 @@
-name: Article quotidien
+name: Article (lundi, mercredi, vendredi)
 
 # Chaque matin, le robot prend le premier sujet de scripts/file-sujets.json,
 # fait rediger l'article, verifie que le site build, et ouvre une pull request.
@@ -35,7 +35,13 @@ on:
 
 env:
   MODE: direct # "direct" publie sans relecture, "pr" ouvre une pull request a valider
-  ARTICLES_PAR_JOUR: "2" # combien d'articles au maximum dans une meme journee
+  ARTICLES_PAR_JOUR: "1" # combien d'articles au maximum dans une meme journee
+  # Jours de publication, heure de Paris (1 = lundi ... 7 = dimanche).
+  # Passe de tous les jours a 3 par semaine le 28/09/2026 : les 68 articles
+  # publies a deux par jour depuis le 26/08 n'avaient rapporte aucun clic et
+  # Google en laissait la plupart de cote. Un site peu cite qui publie beaucoup
+  # propose plus de pages que Google n'accepte d'en ranger.
+  JOURS_PUBLICATION: "1 3 5"
 
 permissions:
   contents: write
@@ -60,11 +66,15 @@ jobs:
         id: compte
         run: |
           jour=$(TZ=Europe/Paris date +%F)
+          jour_semaine=$(TZ=Europe/Paris date +%u)
           deja=$(grep -rlE "^pubDate: \"?$jour\"?$" src/content/articles/ 2>/dev/null | wc -l | tr -d ' ')
           echo "Le $jour, $deja article(s) publie(s), plafond $ARTICLES_PAR_JOUR."
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "rediger=oui" >> "$GITHUB_OUTPUT"
             echo "::notice::Declenchement manuel, la garde du jour ne s'applique pas."
+          elif ! echo " $JOURS_PUBLICATION " | grep -q " $jour_semaine "; then
+            echo "rediger=non" >> "$GITHUB_OUTPUT"
+            echo "::notice::Pas un jour de publication (jour $jour_semaine, jours prevus : $JOURS_PUBLICATION)."
           elif [ "$deja" -lt "$ARTICLES_PAR_JOUR" ]; then
             echo "rediger=oui" >> "$GITHUB_OUTPUT"
           else

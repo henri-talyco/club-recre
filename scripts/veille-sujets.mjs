@@ -16,12 +16,13 @@
  *   SEMRUSH_API_KEY   requis
  *   VOLUME_MINIMUM    defaut 100 recherches par mois
  *   KD_MAXIMUM        defaut 35 (au dela, le site ne passe pas devant)
- *   SUJETS_VOULUS     defaut 7 ; le workflow demande 14, le rythme etant de 2 par jour
+ *   SUJETS_VOULUS     defaut 3 ; le rythme est de 3 articles par semaine depuis le 28/09/2026
  */
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { repete } from "./doublons.mjs";
 
 const ICI = path.dirname(fileURLToPath(import.meta.url));
 const RACINE = path.resolve(ICI, "..");
@@ -30,7 +31,7 @@ const FICHIER = path.join(ICI, "file-sujets.json");
 
 const VOLUME_MINIMUM = Number(process.env.VOLUME_MINIMUM || 100);
 const KD_MAXIMUM = Number(process.env.KD_MAXIMUM || 35);
-const VOULUS = Number(process.env.SUJETS_VOULUS || 7);
+const VOULUS = Number(process.env.SUJETS_VOULUS || 3);
 
 const log = (...a) => console.log(...a);
 
@@ -156,6 +157,9 @@ for (const graine of choisies) {
     if (volume < VOLUME_MINIMUM || kd > KD_MAXIMUM) continue;
     const slug = slugifie(phrase);
     if (slugsConnus.has(slug)) continue;
+    // Meme sujet sous d'autres mots (« idee cadeau 3 ans » contre « cadeau
+    // enfant 3 ans ») : on ne le met pas en file, cf scripts/doublons.mjs.
+    if (repete(phrase, [...slugsConnus, ...motsConnus])) continue;
     candidats.push({ slug, titre: titre(phrase), keyword: phrase, pillar: graine.pillar,
                      type: graine.type, source: `semrush-s${semaine}`, volume, kd });
     slugsConnus.add(slug); motsConnus.add(phrase);
