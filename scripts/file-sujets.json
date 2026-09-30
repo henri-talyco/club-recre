@@ -1,17 +1,7 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-09-28",
+  "_maj": "2026-09-30",
   "sujets": [
-    {
-      "slug": "visiter-bordeaux-avec-bebe",
-      "titre": "Visiter bordeaux avec bébé : le guide complet",
-      "keyword": "visiter bordeaux avec bébé",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "gsc-s40",
-      "impressions": 83,
-      "position": 15.5
-    },
     {
       "slug": "marque-des-annees-80-90",
       "titre": "Marque des années 80 90 : le guide complet",
@@ -30,7 +20,7 @@
       "type": "guide",
       "source": "gsc-s40",
       "impressions": 47,
-      "position": 10.0
+      "position": 10
     },
     {
       "slug": "activites-nantes-enfant-2-ans",
@@ -134,16 +124,6 @@
       "kd": 25
     },
     {
-      "slug": "activites-enfants-paris",
-      "titre": "Activités enfants paris : le guide complet",
-      "keyword": "activités enfants paris",
-      "pillar": "activites",
-      "type": "guide",
-      "source": "semrush-s36",
-      "volume": 2900,
-      "kd": 33
-    },
-    {
       "slug": "activite-en-famille",
       "titre": "Activité en famille : le guide complet",
       "keyword": "activité en famille",
@@ -204,16 +184,6 @@
       "kd": 33
     },
     {
-      "slug": "anniversaire-5-ans",
-      "titre": "Anniversaire 5 ans : le guide complet",
-      "keyword": "anniversaire 5 ans",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "semrush-s36",
-      "volume": 720,
-      "kd": 12
-    },
-    {
       "slug": "activite-pour-anniversaire",
       "titre": "Activité pour anniversaire : le guide complet",
       "keyword": "activité pour anniversaire",
@@ -232,16 +202,6 @@
       "source": "semrush-s36",
       "volume": 1300,
       "kd": 31
-    },
-    {
-      "slug": "anniversaire-6-ans",
-      "titre": "Anniversaire 6 ans : le guide complet",
-      "keyword": "anniversaire 6 ans",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "semrush-s36",
-      "volume": 590,
-      "kd": 13
     },
     {
       "slug": "ou-feter-anniversaire-enfant",
@@ -324,16 +284,6 @@
       "kd": 24
     },
     {
-      "slug": "rangement-chambre-enfant",
-      "titre": "Rangement chambre enfant : le guide complet",
-      "keyword": "rangement chambre enfant",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "semrush-s38",
-      "volume": 2900,
-      "kd": 19
-    },
-    {
       "slug": "jeux-de-plateau",
       "titre": "Jeux de plateau : le guide complet",
       "keyword": "jeux de plateau",
@@ -372,16 +322,6 @@
       "source": "semrush-s38",
       "volume": 2900,
       "kd": 27
-    },
-    {
-      "slug": "jeux-de-societe-4-ans",
-      "titre": "Jeux de société 4 ans : le guide complet",
-      "keyword": "jeux de société 4 ans",
-      "pillar": "education",
-      "type": "guide",
-      "source": "semrush-s38",
-      "volume": 1900,
-      "kd": 16
     },
     {
       "slug": "orchestra-saint-aunes",
@@ -454,16 +394,6 @@
       "kd": 19
     },
     {
-      "slug": "jouets-pour-fillette",
-      "titre": "Jouets pour fillette : le guide complet",
-      "keyword": "jouets pour fillette",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "semrush-s39",
-      "volume": 2400,
-      "kd": 22
-    },
-    {
       "slug": "idee-cadeau-enfant-4-ans",
       "titre": "Idee cadeau enfant 4 ans : le guide complet",
       "keyword": "idee cadeau enfant 4 ans",
@@ -517,16 +447,6 @@
       "slug": "cadeau-garcon-8-ans",
       "titre": "Cadeau garçon 8 ans : le guide complet",
       "keyword": "cadeau garçon 8 ans",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "semrush-s39",
-      "volume": 1600,
-      "kd": 18
-    },
-    {
-      "slug": "idee-cadeau-3-ans",
-      "titre": "Idee cadeau 3 ans : le guide complet",
-      "keyword": "idee cadeau 3 ans",
       "pillar": "lifestyle",
       "type": "guide",
       "source": "semrush-s39",
