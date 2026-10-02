@@ -139,12 +139,16 @@ jobs:
             exit 1
           fi
           set +e
-          node scripts/redige-article.mjs
-          code=$?
+          node scripts/redige-article.mjs 2>&1 | tee robot.log
+          code=${PIPESTATUS[0]}
           set -e
           if [ "$DRY_RUN" = "1" ]; then
             echo "vide=1" >> "$GITHUB_OUTPUT"
-            echo "::notice::Essai a blanc termine (code $code), rien n'est publie."
+            # Le journal d'un job ne se lit qu'avec les droits d'administrateur du
+            # depot ; les annotations, elles, se lisent avec un simple jeton. On y
+            # recopie l'essentiel de l'essai pour pouvoir le diagnostiquer a distance.
+            resume=$(grep -E "ECHEC|rejete|^  - |Produit confirme|Sans lien|Valide|Abandon|Seconde" robot.log | head -40 | sed ':a;N;$!ba;s/\n/%0A/g')
+            echo "::notice title=Essai a blanc (code $code)::$resume"
             exit $code
           fi
           if [ $code -eq 3 ]; then
