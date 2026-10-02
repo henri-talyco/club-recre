@@ -242,14 +242,18 @@ Reponds avec exactement deux blocs, rien avant, rien apres.
     { "q": "vraie question longue traine que les parents tapent sur Google", "a": "reponse de 80 a 150 mots, utile et precise" },
     { "q": "deuxieme question", "a": "reponse" },
     { "q": "troisieme question", "a": "reponse" }
-  ]
+  ]${sujet.type === "comparatif" ? `,
+  "produits": [
+    { "nom": "Marque Modele exact", "ancre": "texte exact du corps", "asin": "B0XXXXXXXX" },
+    { "nom": "...", "ancre": "...", "asin": "..." }
+  ]` : ""}
 }
 </meta>
 <corps>
 Le corps de l'article en markdown, commencant directement par le premier paragraphe d'introduction.
 </corps>
 
-Le bloc meta doit etre du JSON strictement valide. Les guillemets internes doivent etre echappes. Le bloc corps ne contient ni frontmatter, ni titre H1, ni les balises elles-memes.`;
+${sujet.type === "comparatif" ? "Le champ \"produits\" est OBLIGATOIRE dans le bloc meta, avec 5 a 8 produits : sans lui, l'article est refuse automatiquement.\n" : ""}Le bloc meta doit etre du JSON strictement valide. Les guillemets internes doivent etre echappes. Le bloc corps ne contient ni frontmatter, ni titre H1, ni les balises elles-memes.`;
 }
 
 // --------------------------------------------------------------- appel modele
