@@ -17,7 +17,9 @@ faq:
     a: "Non, c'est même le comportement normal à cet âge. Un enfant de 2 ans lit avec les mains autant qu'avec les oreilles : il manipule, saute des pages, revient en arrière, referme le livre au milieu. Suis-le plutôt que de le ramener au texte. Si la page 4 le passionne, reste page 4, nomme ce qu'il montre, ajoute un mot. Abandonne l'idée de lire l'histoire du début à la fin : ce n'est pas l'objectif avant 3 ans. Une séance de trois minutes vraiment partagée vaut mieux que dix minutes de bras de fer. Le plaisir d'abord, la linéarité viendra seule."
   - q: "Imagier ou histoire : que choisir pour un enfant de 2 ans qui parle peu ?"
     a: "Les deux, mais avec une priorité à l'imagier. Un enfant qui parle peu profite surtout d'un support simple, une image par page, un mot par image, sans intrigue à suivre. Tu pointes, tu nommes, tu laisses un blanc pour qu'il essaie. Ce blanc est le moment le plus utile de la séance. Garde quand même une histoire courte dans le rituel du soir : la narration entraîne autre chose, l'ordre des événements et l'attention. Et si à 2 ans ton enfant utilise moins de 50 mots et n'associe pas encore deux mots ensemble, parles-en à ton médecin et demande un bilan orthophonique. Ça ne coûte rien de vérifier."
+affiliation: true
 ---
+
 
 Dans les années 90, la bibliothèque d'un enfant de deux ans tenait sur une étagère : un imagier du Père Castor aux coins mous, deux ou trois Petit Ours Brun récupérés dans les Pomme d'Api de la grande sœur, un album offert à Noël. On lisait le soir, souvent le même, souvent en accéléré parce qu'il était tard. Personne ne parlait de "stimulation du langage". Ça marchait quand même.
 
@@ -56,9 +58,9 @@ Un dernier critère, sous-estimé : est-ce que toi, tu supportes de le lire tren
 
 ## Les valeurs sûres, celles que tu connais déjà
 
-Bonne nouvelle pour le Club : une bonne partie de ce qu'on lisait tourne encore. L'imagier du Père Castor, chez Flammarion, existe depuis 1952 et a été réédité en version cartonnée avec des dessins remis au goût du jour. Petit Ours Brun, né en 1975 dans Pomme d'Api sous la plume de Claude Lebrun et le crayon de Danièle Bour, publie toujours chez Bayard ; sa force, c'est qu'il fait exactement ce que fait ton enfant, il boude, il renverse, il ne veut pas dormir. T'choupi, arrivé dans les années 90, joue sur le même registre du quotidien reconnaissable.
+Bonne nouvelle pour le Club : une bonne partie de ce qu'on lisait tourne encore. [L'imagier du Père Castor](https://www.amazon.fr/dp/2080237136), chez Flammarion, existe depuis 1952 et a été réédité en version cartonnée avec des dessins remis au goût du jour. Petit Ours Brun, né en 1975 dans Pomme d'Api sous la plume de Claude Lebrun et le crayon de Danièle Bour, publie toujours chez Bayard ; sa force, c'est qu'il fait exactement ce que fait ton enfant, il boude, il renverse, il ne veut pas dormir. T'choupi, arrivé dans les années 90, joue sur le même registre du quotidien reconnaissable.
 
-Côté albums, deux titres traversent les générations sans prendre une ride. "Va-t'en, Grand Monstre Vert !" d'Ed Emberley, chez Kaléidoscope, fait apparaître puis disparaître un monstre page après page grâce à des découpes : l'enfant contrôle la peur, il la range lui-même. Et "La chenille qui fait des trous" d'Eric Carle, publié en français chez Mijade, combine les trous à mettre le doigt dedans, la répétition et le comptage.
+Côté albums, deux titres traversent les générations sans prendre une ride. "[Va-t'en, Grand Monstre Vert !](https://www.amazon.fr/dp/2378880871)" d'Ed Emberley, chez Kaléidoscope, fait apparaître puis disparaître un monstre page après page grâce à des découpes : l'enfant contrôle la peur, il la range lui-même. Et "[La chenille qui fait des trous](https://www.amazon.fr/dp/2871427534)" d'Eric Carle, publié en français chez Mijade, combine les trous à mettre le doigt dedans, la répétition et le comptage.
 
 Chez les éditeurs actuels, plusieurs collections sont taillées pour cet âge : "Mes premiers imagiers" chez Gallimard Jeunesse, "Mes tout p'tits docs" chez Milan, les imagiers d'éveil d'Auzou. Ne cherche pas le titre parfait, il n'existe pas. Cherche un livre que ton enfant réclame.
 

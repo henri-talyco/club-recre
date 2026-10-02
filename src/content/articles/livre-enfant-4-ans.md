@@ -17,7 +17,9 @@ faq:
     a: "Oui, 4 ans est un bon âge pour introduire les premières bandes dessinées. Les BD adaptées aux 4-6 ans : les Schtroumpfs (histoires simples, personnages bien différenciés), Titeuf (humour accessible, situations de cour d'école), Yakari (aventures, nature, amitié avec les animaux), et les collections de petites BD Nathan ou Fleurus. La BD développe la lecture d'image séquentielle, la capacité à reconstituer une action entre deux vignettes. Un excellent complément aux albums classiques."
   - q: "Comment savoir si un livre est adapté au niveau d'un enfant de 4 ans ?"
     a: "Pour évaluer l'adéquation d'un livre à un enfant de 4 ans : regarder le nombre de mots par page (entre 100 et 400 mots par album est la bonne fourchette), vérifier la complexité de l'intrigue (un seul fil narratif, maximum 3-4 personnages principaux), et évaluer les illustrations (toujours présentes, servir l'histoire plutôt que la déco). Le meilleur test : lire les deux premières pages à l'enfant. S'il pose des questions et veut continuer, le livre est adapté. Si ses yeux décrochent rapidement, c'est probablement trop complexe ou pas assez engageant."
+affiliation: true
 ---
+
 
 Le livre enfant 4 ans, c'est un âge charnière dans la relation aux histoires. L'enfant de 4 ans commence à pouvoir suivre des récits plus complexes, à se souvenir d'un livre d'un soir à l'autre, à poser des questions sur les personnages et leurs motivations. C'est le début d'une vraie vie littéraire.
 
@@ -36,13 +38,11 @@ Le livre qui convient à 4 ans peut donc être un peu plus long, plus complexe, 
 
 ## Les classiques qui traversent les âges
 
-**Le Gruffalo (Julia Donaldson)** : un des albums contemporains les plus réussis pour cet âge. Une petite souris qui invente un monstre pour se protéger des prédateurs — et le monstre existe vraiment. Suspense, humour, retournement final. Rhymes parfaites en version originale anglaise, très bonne traduction française.
+**[Le Gruffalo](https://www.amazon.fr/dp/2070650278) (Julia Donaldson)** : un des albums contemporains les plus réussis pour cet âge. Une petite souris qui invente un monstre pour se protéger des prédateurs — et le monstre existe vraiment. Suspense, humour, retournement final. Rhymes parfaites en version originale anglaise, très bonne traduction française.
 
-**Où est Max ? (David Wiesner)** : albums sans texte de ce maître américain de l'image. L'enfant "lit" les images et invente le texte. Develop sa capacité de narration visuelle.
+**[Ours brun, dis-moi ce que tu vois ?](https://www.amazon.fr/dp/2807700624) (Bill Martin Jr et Eric Carle)** : la structure répétitive qui permet à l'enfant d'anticiper et de participer. Un classique de la petite enfance américaine, excellent en version française.
 
-**Ours brun, ours brun, qu'est-ce que tu vois ? (Bill Martin Jr)** : la structure répétitive qui permet à l'enfant d'anticiper et de participer. Un classique de la petite enfance américaine, excellent en version française.
-
-**Les albums de Leo Lionni** : *Petit Bleu et Petit Jaune*, *Frédéric*, *Pouce-Pouce*. Des fables poétiques avec des illustrations en collages. L'univers de Lionni a une profondeur que l'enfant capte intuitivement.
+**Les albums de Leo Lionni** : *[Petit Bleu et Petit Jaune](https://www.amazon.fr/dp/2211058787)*, *[Frédéric](https://www.amazon.fr/dp/2211030262)*. Des fables poétiques avec des illustrations en collages. L'univers de Lionni a une profondeur que l'enfant capte intuitivement.
 
 ## Les séries : créer des rendez-vous
 
@@ -50,17 +50,13 @@ Le livre qui convient à 4 ans peut donc être un peu plus long, plus complexe, 
 
 **Loup (Orianne Lallemand et Éléonore Thuillier)** : la série francophone la plus populaire actuellement pour les 3-6 ans. Loup et ses amis (Cochon, Agneau, Lapin) vivent des aventures pleines d'humour. Chaque album sur un thème (la jalousie, la peur du noir, la mauvaise foi). Texte rythmé, idéal pour la lecture à voix haute.
 
-**Hugo et Toupie (Thierry Robberecht)** : deux personnages qui permettent d'explorer des émotions et des situations sociales. Accessible, bien illustré.
-
 **La famille Souris (Kazuko Iwamura)** : venant du Japon, cette série sur une grande famille de souris dans la nature mêle aventure, écologie, et tendresse. Les illustrations sont d'une douceur exceptionnelle.
-
-**Zézette (Philippe Jalbert)** : une petite licorne maladroite et attachante. Humour tendre, situations reconnaissables. Très populaire en maternelle.
 
 ## Les premières bandes dessinées
 
 4 ans est le bon âge pour introduire la BD. L'enfant de 4 ans peut lire les images séquentiellement, comprendre qu'un personnage dans une vignette fait suite à une vignette précédente.
 
-**Les Schtroumpfs** : les premiers albums de Peyo ont une qualité visuelle et narrative incomparable. L'univers est riche, les personnages bien différenciés. Commencer par *Les Schtroumpfs et le Cracoucass* ou *La Faim des Schtroumpfs*.
+**Les Schtroumpfs** : les premiers albums de Peyo ont une qualité visuelle et narrative incomparable. L'univers est riche, les personnages bien différenciés. Commencer par *[Les Schtroumpfs et le Cracoucass](https://www.amazon.fr/dp/2800101121)*.
 
 **Yakari** : le jeune indien sioux et son ami le cheval Petit-Tonnerre. Des histoires courtes avec des animaux, une connexion à la nature, une transmission entre générations. Très accessible pour les 4-6 ans.
 
@@ -70,9 +66,9 @@ Le livre qui convient à 4 ans peut donc être un peu plus long, plus complexe, 
 
 À 4 ans, les émotions sont encore intenses et parfois débordantes. Les albums qui mettent des mots sur les émotions sont des outils précieux.
 
-**Parfois je me sens... (Lauren Child)** : Charlie et Lola expliquent les émotions complexes avec une simplicité désarmante. Bonne série pour les parents aussi.
+**[Parfois je me sens...](https://www.amazon.fr/dp/2211220851) (Anthony Browne)** : un petit singe passe d'une émotion à l'autre, une par page, avec les images d'Anthony Browne. De quoi mettre des mots sur ce qu'on ressent, pour les parents aussi.
 
-**Le monstre des couleurs à l'école (Anna Llenas)** : la suite du monstre des couleurs, spécifiquement autour de l'école maternelle et de la transition vers le primaire.
+**[Le monstre des couleurs va à l'école](https://www.amazon.fr/dp/B07M6RTGTY) (Anna Llenas)** : la suite du monstre des couleurs, spécifiquement autour de l'école maternelle et de la transition vers le primaire.
 
 **Les albums de Thierry Lenain** : des albums courageux qui traitent des émotions difficiles (la peur, le deuil, l'injustice) avec une grande sensibilité.
 

@@ -12,12 +12,14 @@ seoTitle: "Jeux de société enfant 2 ans : les meilleurs premiers jeux"
 seoDescription: "Meilleurs jeux de société enfant 2 ans : Orchard, Ni Oui Ni Non, jeux de mémorisation. Les premiers jeux pour jouer ensemble dès 18 mois."
 faq:
   - q: "Quel premier jeu de société pour un enfant de 2 ans ?"
-    a: "Le premier jeu de société pour un enfant de 2 ans doit être très simple, sans lecture, avec de grandes pièces faciles à manipuler et une durée de partie courte (5-10 minutes). Les meilleurs premiers jeux : Orchard (ramasser des fruits avant que les corbeaux arrivent), les jeux de Memory avec images simples (animaux, objets du quotidien), Colorama (associer des couleurs et des formes). L'objectif est d'apprendre le concept de 'tour de jeu' et de 'jouer ensemble'."
+    a: "Le premier jeu de société pour un enfant de 2 ans doit être très simple, sans lecture, avec de grandes pièces faciles à manipuler et une durée de partie courte (5-10 minutes). Les meilleurs premiers jeux : Mon Premier Verger de HABA (ramasser des fruits avant que le corbeau arrive), les jeux de Memory avec images simples (animaux, objets du quotidien). Colorama, qui associe couleurs et formes, est indiqué dès 3 ans. L'objectif est d'apprendre le concept de 'tour de jeu' et de 'jouer ensemble'."
   - q: "Comment jouer à un jeu de société avec un enfant de 2 ans ?"
     a: "Avec un enfant de 2 ans, adaptez le jeu à ses capacités : simplifiez les règles au maximum (voire inventez vos propres règles), jouez à cartes ou pièces visibles (pas de secret), félicitez à chaque tour indépendamment du résultat, arrêtez la partie dès que l'enfant perd l'intérêt (5-10 min c'est souvent suffisant). L'apprentissage de 'attendre son tour' est la grande leçon de cet âge — patience, ça vient progressivement entre 2 et 3 ans."
   - q: "À quel âge un enfant peut-il vraiment jouer à un jeu de société ?"
     a: "Un enfant peut commencer à jouer à des jeux de société très simples dès 18 mois (puzzles à grandes pièces, tri de couleurs). Les premiers vrais jeux de société avec tour de jeu et règles simples sont accessibles vers 2-2,5 ans. À 3 ans, la plupart des enfants comprennent des règles plus complexes avec adresse ou mémoire. À 5-6 ans, le jeu de société devient vraiment une activité familiale complète avec stratégie et compétition."
+affiliation: true
 ---
+
 
 Les jeux de société pour enfant de 2 ans, dans les années 90, c'était souvent juste un Memory avec des images d'animaux, ou le jeu de la ferme en bois avec des pièces qu'on emboîtait. Simple, beau, durable. On le retrouvait 10 ans plus tard dans les cartons et il était encore impeccable.
 
@@ -33,7 +35,7 @@ Le meilleur jeu de société pour enfant de 2 ans est donc : durée courte (5-10
 
 ## Orchard : le grand classique du premier jeu
 
-Orchard (ou "Le Verger" dans sa version française) est le jeu de société pour enfant de 2 ans par excellence depuis les années 80. On lance le dé coloré, on ramasse le fruit correspondant dans le verger. Mais si le corbeau apparaît sur le dé, il avance vers le verger. Il faut tout ramasser avant qu'il arrive.
+[Le Verger](https://www.amazon.fr/dp/B0007KWRSQ) de HABA est le grand classique du premier jeu de société depuis les années 80. Il est indiqué dès 3 ans, et sa petite version, [Mon Premier Verger](https://www.amazon.fr/dp/B002C9M6F4), est pensée pour les 2 ans. On lance le dé coloré, on ramasse le fruit correspondant dans le verger. Mais si le corbeau apparaît sur le dé, il avance vers le verger. Il faut tout ramasser avant qu'il arrive.
 
 Coopératif, simple, avec de jolies pièces en bois colorées. Les enfants adorent ramasser les fruits. La règle du corbeau crée un tout petit suspense même à 2 ans. Fabriqué par Haba depuis 1986 — les mêmes règles, les mêmes pièces, le même succès.
 
@@ -49,7 +51,7 @@ Les Memory vintage des années 80-90 en carton épais, avec de belles illustrati
 
 ## Colorama : couleurs et formes
 
-Colorama (Ravensburger) est un jeu d'association de couleurs et de formes. Un plateau avec des formes colorées, des petites pièces à placer au bon endroit. Dès 18 mois en réalité, toujours amusant à 2 ans.
+[Colorama (Ravensburger)](https://www.amazon.fr/dp/B0FNNB41YC) est un jeu d'association de couleurs et de formes. Un plateau avec des formes colorées, des petites pièces à placer au bon endroit. Ravensburger l'indique dès 3 ans : à 2 ans, on se contente de trier les couleurs ensemble.
 
 Pas vraiment de compétition — c'est un jeu de tri et d'association. Mais l'enfant y joue volontiers avec un adulte, et le concept de "range la pièce au bon endroit" prépare aux jeux avec règles.
 
@@ -69,7 +71,7 @@ Les puzzles en bois des années 90, avec des pièces épaisses et des images d'a
 
 Un seul dé, une règle : lance le dé, avance ton pion. C'est tout. Le plus simple des jeux de course est accessible dès 2 ans. L'enfant comprend qu'il faut attendre son tour, qu'on avance selon ce qu'on obtient, qu'il y a un point d'arrivée.
 
-Des jeux comme Petits Escargots ou La Chenille illustrée jouent exactement sur ce principe avec des thèmes adorables et de belles pièces en bois.
+Des jeux comme [Tempo, petit escargot](https://www.amazon.fr/dp/B0FNN6Q8RD) ou La Chenille illustrée jouent exactement sur ce principe avec des thèmes adorables et de belles pièces en bois.
 
 ## Les jeux à proscrire à 2 ans
 
@@ -91,6 +93,6 @@ La vraie valeur du jeu de société à cet âge n'est pas dans le jeu lui-même.
 |---|---|---|---|---|
 | Orchard | 2-5 ans | 20-25€ | 10 min | Coopération, attente |
 | Memory | 2+ ans | 10-15€ | 10 min | Mémoire, reconnaissance |
-| Colorama | 18m+ | 20€ | Libre | Tri, formes, couleurs |
+| Colorama | 3 ans+ | 20€ | Libre | Tri, formes, couleurs |
 | Puzzle géant | 18m+ | 8-15€ | 15 min | Résolution, patience |
 | Jeu de dés | 2+ ans | 10-20€ | 10 min | Tour de jeu, compter |

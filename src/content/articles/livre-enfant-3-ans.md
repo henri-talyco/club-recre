@@ -17,7 +17,9 @@ faq:
     a: "La lecture du soir est une des routines les plus bénéfiques pour un enfant de 3 ans. Elle développe le vocabulaire, la capacité de concentration, l'imaginaire, et crée un rituel de bien-être avant le sommeil. Idéalement, 10 à 20 minutes de lecture partagée chaque soir. Si ce n'est pas possible tous les soirs, l'important est la régularité et la qualité du moment — être vraiment présent, lire avec expression, s'arrêter sur les images que l'enfant regarde. Un enfant qui a été lu dès le plus jeune âge a statistiquement un vocabulaire deux fois plus riche à l'entrée en CP."
   - q: "Comment choisir le bon livre pour un enfant de 3 ans ?"
     a: "Pour choisir un livre pour un enfant de 3 ans : regarder d'abord les illustrations (grandes, claires, expressives), évaluer la longueur du texte (entre 50 et 200 mots par page pour cet âge), vérifier le format (cartonné résiste mieux que souple), et choisir un thème qui rejoint ses intérêts du moment (animaux, construction, magie, aventure). Les meilleures recommandations viennent des libraires indépendants et des bibliothécaires jeunesse — bien plus fiables que les algorithmes de recommandation qui poussent les meilleures ventes."
+affiliation: true
 ---
+
 
 Le livre enfant 3 ans, dans les années 90, c'était souvent Martine, Petit Ours Brun, et Babar. Des séries qu'on connaissait par cœur, qu'on redemandait soir après soir jusqu'à pouvoir les réciter. Ces livres ont traversé les générations parce qu'ils captent quelque chose d'essentiel sur la façon dont les enfants de 3 ans vivent le monde.
 
@@ -31,25 +33,23 @@ Le bon livre pour 3 ans : des illustrations expressives, un texte rythmé (il ai
 
 ## Les classiques incontournables
 
-**Petit Ours Brun (Marie Aubinais)** : la série de référence pour les 2-5 ans. Situations du quotidien, personnage adorable, texte simple et rythmé. Des dizaines de titres disponibles. L'enfant se reconnaît dans les situations de Petit Ours Brun — c'est sa vie, mise en mots.
+**Petit Ours Brun (Claude Lebrun et Danièle Bour)** : la série de référence pour les 2-5 ans. Situations du quotidien, personnage adorable, texte simple et rythmé. Des dizaines de titres disponibles. L'enfant se reconnaît dans les situations de Petit Ours Brun — c'est sa vie, mise en mots.
 
 **Martine (Gilbert Delahaye et Marcel Marlier)** : les albums Martine des années 60-90 ont traversé les générations. Les illustrations de Marlier sont d'une précision et d'une douceur incomparables. Martine fait du vélo, va à la ferme, apprend à nager — des aventures simples et universelles.
 
 **Babar (Jean de Brunhoff)** : le roi des éléphants et son royaume. Les albums originaux de Jean de Brunhoff (1931-1937) ont une noblesse et une richesse visuelle que les albums modernes atteignent rarement. Trouver les éditions originales en brocante.
 
-**Les albums de Claude Ponti** : un univers singulier, fourmillant de détails, avec des histoires qui fonctionnent à plusieurs niveaux (pour l'enfant et pour le parent qui lit). *L'Album d'Adèle*, *Blaise et le château d'Anne Hiversère*, *Schmélele* — choisir selon l'humeur.
+**Les albums de Claude Ponti** : un univers singulier, fourmillant de détails, avec des histoires qui fonctionnent à plusieurs niveaux (pour l'enfant et pour le parent qui lit). *[L'Album d'Adèle](https://www.amazon.fr/dp/2070562972)*, *[Blaise et le château d'Anne Hiversère](https://www.amazon.fr/dp/2211093167)*, *Schmélele* — choisir selon l'humeur.
 
-**Max et les Maximonstres (Maurice Sendak)** : l'album classique américain sur la colère et l'imaginaire d'un enfant. Courts, percutant, avec des illustrations envahissantes qui occupent toute la page. À relire des dizaines de fois.
+**[Max et les Maximonstres](https://www.amazon.fr/dp/2211222714) (Maurice Sendak)** : l'album classique américain sur la colère et l'imaginaire d'un enfant. Courts, percutant, avec des illustrations envahissantes qui occupent toute la page. À relire des dizaines de fois.
 
 ## Les albums pour émotions et rituels
 
 À 3 ans, les émotions sont intenses et parfois incomprises. Les livres sur les émotions aident l'enfant à mettre des mots sur ce qu'il ressent.
 
-**La couleur des émotions (Anna Llenas)** : devenu un classique moderne. Le monstre des couleurs permet aux enfants de nommer leurs émotions en les associant à des couleurs. Un outil éducatif autant qu'un album.
+**[La couleur des émotions](https://www.amazon.fr/dp/B01N9H1G0S) (Anna Llenas)** : devenu un classique moderne. Le monstre des couleurs permet aux enfants de nommer leurs émotions en les associant à des couleurs. Un outil éducatif autant qu'un album.
 
-**Grosse colère (Mireille d'Allancé)** : un monstre rouge qui grossit quand on est en colère. Permet de parler de la colère sans la dramatiser. 
-
-**Bonne nuit (John Burningham)** : pour le rituel du coucher. Simple, doux, parfait pour finir la journée.
+**[Grosse colère](https://www.amazon.fr/dp/221106177X) (Mireille d'Allancé)** : un monstre rouge qui grossit quand on est en colère. Permet de parler de la colère sans la dramatiser. 
 
 ## Les albums sonores et rythmés
 
@@ -57,7 +57,7 @@ Les enfants de 3 ans adorent les textes qui sonnent — comptines, onomatopées,
 
 **La Petite Poule Rousse** : le conte traditionnel avec sa structure répétitive parfaite pour 3 ans. L'enfant anticipe les phrases et les dit avant le parent.
 
-**Plouf ! (Philippe Corentin)** : un album haletant avec des rebondissements dans l'illustration (un loup qui cache des animaux dans son ventre). Les enfants de 3 ans le trouvent très drôle.
+**[Plouf !](https://www.amazon.fr/dp/2211016162) (Philippe Corentin)** : un album haletant où un loup affamé tombe au fond d'un puits, et où d'autres animaux le suivent tour à tour. Les enfants de 3 ans le trouvent très drôle.
 
 **Le livre des chansons** : n'importe quelle collection de comptines illustrées. Les textes que l'enfant chante avec le parent créent une relation au langage très spéciale.
 
@@ -75,7 +75,7 @@ Les enfants de 3 ans adorent les textes qui sonnent — comptines, onomatopées,
 
 Les séries longues ont un avantage : l'enfant développe une relation avec les personnages, et chaque nouveau tome est attendu comme une retrouvaille.
 
-**Elmer (David McKee)** : l'éléphant bigarré et sa différence positive. Une série de plus de 30 titres, chaque album sur un thème différent.
+**[Elmer](https://www.amazon.fr/dp/2877670090) (David McKee)** : l'éléphant bigarré et sa différence positive. Une série de plus de 30 titres, chaque album sur un thème différent.
 
 **Loup (Orianne Lallemand)** : Loup et ses amis de la forêt. Texte rythmé, situations drôles, humour accessible aux 3 ans. Une des séries françaises les plus populaires actuellement.
 

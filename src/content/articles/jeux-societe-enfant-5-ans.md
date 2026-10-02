@@ -17,7 +17,9 @@ faq:
     a: "Pas systématiquement, mais pas jamais non plus. Un enfant qui a gagné plusieurs fois contre son parent construit l'assurance dont il aura besoin pour encaisser une défaite face à d'autres enfants. L'idée n'est pas de truquer la partie en permanence, c'est de doser : tu laisses passer quelques victoires au début, puis tu joues plus sérieusement à mesure qu'il encaisse mieux. Le vrai levier se situe ailleurs, dans ce que tu dis à la fin. Verbalise la défaite quand c'est toi qui perds : \"j'ai perdu mais j'ai passé un bon moment, j'ai aimé jouer avec toi\". Ton enfant apprend davantage en te regardant perdre correctement qu'en gagnant."
   - q: "Combien de jeux de société faut-il avoir à la maison pour un enfant de 5 ans ?"
     a: "Cinq ou six boîtes suffisent largement, à condition qu'elles couvrent des registres différents : un jeu de cartes rapide, un jeu de dés, un jeu de parcours, un coopératif, un jeu d'observation ou de mémoire, un jeu d'adresse. Au-delà, l'effet est contre-productif : l'enfant survole, ne maîtrise aucune règle, et l'étagère devient un placard. Un jeu joué trente fois vaut mieux que dix jeux joués trois fois, parce que c'est la répétition qui installe la stratégie, la patience et le plaisir de la revanche. Ajoute une boîte tous les six mois plutôt que quatre à Noël, et fais tourner : range celles qui dorment, ressors-les trois mois plus tard."
+affiliation: true
 ---
+
 
 Dans les années 90, le stock de jeux tenait dans le placard du salon, en bas à droite. Quatre ou cinq boîtes aux coins renforcés au scotch, un plateau plié qui ne se dépliait plus tout à fait à plat, un dé de rechange qui traînait au fond. On y allait le dimanche quand il pleuvait, et personne ne parlait de "temps de qualité". Si tu cherches aujourd'hui des jeux de société enfant de 5 ans, tu tombes sur l'inverse exact de ce placard : des centaines de références, des sélections à rallonge, des boîtes qui promettent de développer la logique, la mémoire et la confiance en soi.
 
@@ -37,25 +39,25 @@ Deuxième contrainte, la concentration. À 5 ans, on tourne autour de 10 à 15 m
 
 Le jeu de cartes est le meilleur rapport plaisir/encombrement de la maison. Il tient dans une poche, il se sort en trois secondes, il supporte d'être joué cent fois.
 
-La bataille reste la porte d'entrée. Djeco en propose une version revisitée, Bata-Waf, annoncée de 3 à 6 ans, où l'on compare des chiens gradués de 1 à 6 au lieu de valeurs abstraites : l'enfant voit la hiérarchie au lieu de la déduire. C'est exactement le bon niveau d'abstraction à 5 ans, et c'est un tremplin vers la bataille classique avec un jeu de 52 cartes.
+La bataille reste la porte d'entrée. Djeco en propose une version revisitée, [Bata-Waf](https://www.amazon.fr/dp/B000QS1SDO), annoncée de 3 à 6 ans, où l'on compare des chiens gradués de 1 à 6 au lieu de valeurs abstraites : l'enfant voit la hiérarchie au lieu de la déduire. C'est exactement le bon niveau d'abstraction à 5 ans, et c'est un tremplin vers la bataille classique avec un jeu de 52 cartes.
 
-Le Nain Jaune mérite sa réputation d'intergénérationnel. C'est un jeu de défausse avec des mises, donc trois apprentissages en un : se débarrasser de ses cartes, viser des combinaisons, comprendre qu'on peut gagner un pot. Pour le Uno, attention au détail qui compte : Mattel annonce le Uno classique à partir de 7 ans. À 5 ans, passe par Uno Junior, qui allège la lecture des symboles. Le Mistigri et le Memory complètent la panoplie : chez Ravensburger, le Grand Memory est annoncé dès 3 ans grâce à ses grandes cartes, tandis que les versions denses visent 6 ans et plus.
+Le Nain Jaune mérite sa réputation d'intergénérationnel. C'est un jeu de défausse avec des mises, donc trois apprentissages en un : se débarrasser de ses cartes, viser des combinaisons, comprendre qu'on peut gagner un pot. Pour le Uno, attention au détail qui compte : Mattel annonce le Uno classique à partir de 7 ans. À 5 ans, passe par [Uno Junior](https://www.amazon.fr/dp/B07Y94Y3JL), qui allège la lecture des symboles. Le Mistigri et le Memory complètent la panoplie : chez Ravensburger, le Grand Memory est annoncé dès 3 ans grâce à ses grandes cartes, tandis que les versions denses visent 6 ans et plus.
 
 ## Les jeux de dés et de parcours, l'école du hasard
 
 Le dé rend service : il égalise. Un enfant de 5 ans peut battre son père sans passe-droit, et il le sait. C'est pour cette raison que les jeux de parcours sont indétrônables à cet âge.
 
-Les petits chevaux, ce jeu français de parcours où l'on ramène ses pions (les chevaux) à leur maison, coche toutes les cases : compter les cases, gérer la sortie de l'écurie, encaisser de se faire renvoyer au départ. Le Yam's, dont Djeco édite une version simplifiée, apprend autre chose : lire cinq dés, repérer un brelan, choisir quoi relancer. C'est le premier vrai calcul mental déguisé en jeu.
+Les petits chevaux, ce jeu français de parcours où l'on ramène ses pions (les chevaux) à leur maison, coche toutes les cases : compter les cases, gérer la sortie de l'écurie, encaisser de se faire renvoyer au départ. Le Yam's apprend autre chose : lire cinq dés, repérer un brelan, choisir quoi relancer. C'est le premier vrai calcul mental déguisé en jeu.
 
-Dans la catégorie moderne devenue classique, Monza de Haba est annoncé dès 5 ans. Une course de voitures en bois où l'on avance selon des dés de couleur : l'enfant doit combiner plusieurs dés dans le bon ordre pour se frayer un passage. C'est de la planification à court terme, en cinq minutes, sans texte à lire. Bendomino, le domino incurvé, se joue de 2 à 4 joueurs dès 5 ans, en moins de quinze minutes.
+Dans la catégorie moderne devenue classique, [Monza](https://www.amazon.fr/dp/B01MTTZZKH) de Haba est annoncé dès 5 ans. Une course de voitures en bois où l'on avance selon des dés de couleur : l'enfant doit combiner plusieurs dés dans le bon ordre pour se frayer un passage. C'est de la planification à court terme, en cinq minutes, sans texte à lire. Bendomino, le domino incurvé, se joue de 2 à 4 joueurs dès 5 ans, en moins de quinze minutes.
 
 ## Les plateaux et l'observation : Verger, Pique-Plume, Dobble Kids
 
-Le Verger de Haba est le mètre étalon du premier jeu de société. Annoncé dès 3 ans, coopératif, il tient souvent jusqu'à 5 ou 6 ans : tout le monde récolte les fruits ensemble avant que le corbeau n'arrive. Sa version pour les tout-petits, Mon Premier Verger, existe depuis 1986, ce qui situe la longévité du principe. À 5 ans, le Verger n'est plus un défi, mais il reste la boîte que ton enfant sort pour jouer avec le petit frère, et c'est déjà beaucoup.
+[Le Verger](https://www.amazon.fr/dp/B0007KWRSQ) de Haba est le mètre étalon du premier jeu de société. Annoncé dès 3 ans, coopératif, il tient souvent jusqu'à 5 ou 6 ans : tout le monde récolte les fruits ensemble avant que le corbeau n'arrive. Le Verger existe depuis 1986, et sa version pour les tout-petits, Mon Premier Verger, a suivi, ce qui situe la longévité du principe. À 5 ans, le Verger n'est plus un défi, mais il reste la boîte que ton enfant sort pour jouer avec le petit frère, et c'est déjà beaucoup.
 
-Pique-Plume, ce jeu de course de poules avec mémorisation des tuiles, se joue de 2 à 4 joueurs dès 4 ans. Dobble Kids est annoncé dès 4 ans, avec moins de symboles par carte que le Dobble classique, réservé aux plus grands. Le Lynx, dans sa version nomade, cible les 4 à 7 ans : de la pure observation, sans lecture, avec un avantage réel pour les enfants sur les adultes.
+[Pique-Plume](https://www.amazon.fr/dp/B000059SJ5), ce jeu de course de poules avec mémorisation des tuiles, se joue de 2 à 4 joueurs dès 4 ans. [Dobble Kids](https://www.amazon.fr/dp/B08R7VGQKY) est annoncé dès 4 ans, avec moins de symboles par carte que le Dobble classique, réservé aux plus grands. [Le Lynx](https://www.amazon.fr/dp/B00SFGYHVE), dans sa version nomade, cible les 4 à 7 ans : de la pure observation, sans lecture, avec un avantage réel pour les enfants sur les adultes.
 
-Si tu veux une valeur sûre récente, L'Île des Mookies de Florian Sirieix, édité par Le Scorpion Masqué, a remporté l'As d'Or Enfant 2026 puis le Kinderspiel des Jahres 2026. Un doublé de ce type est un signal fiable : ces deux jurys testent avec de vrais enfants pendant des mois.
+Si tu veux une valeur sûre récente, [L'Île des Mookies](https://www.amazon.fr/dp/B0F9YYRSCN) de Florian Sirieix, édité par Le Scorpion Masqué, a remporté l'As d'Or Enfant 2026 puis le Kinderspiel des Jahres 2026. Un doublé de ce type est un signal fiable : ces deux jurys testent avec de vrais enfants pendant des mois.
 
 ## L'âge sur la boîte : comment le lire sans se tromper
 
@@ -67,7 +69,7 @@ La règle pratique : suis l'envie et la durée d'attention, pas le chiffre. Un j
 
 ## Coopératif ou compétitif : le vrai arbitrage
 
-À 5 ans, le coopératif n'est pas une facilité, c'est un outil. Quand tout le monde joue contre le jeu, l'enfant apprend les règles sans la charge émotionnelle de la défaite personnelle. Il parle, il propose, il discute les priorités. Le Verger fonctionne comme ça, et les jeux coopératifs de Haba comme Tour de dragon prolongent le principe pour les 5 à 7 ans.
+À 5 ans, le coopératif n'est pas une facilité, c'est un outil. Quand tout le monde joue contre le jeu, l'enfant apprend les règles sans la charge émotionnelle de la défaite personnelle. Il parle, il propose, il discute les priorités. Le Verger fonctionne comme ça, et d'autres jeux coopératifs prolongent le principe pour les 5 à 7 ans.
 
 Mais il ne faut pas s'y installer. Le compétitif reste indispensable, parce que la capacité à perdre ne s'entraîne que dans des situations où on peut perdre. Le bon équilibre chez nous : le coopératif pour introduire un nouveau mécanisme, le compétitif ensuite, quand la règle est acquise et que l'enjeu devient supportable. Alterne dans la même semaine plutôt que dans la même soirée.
 
