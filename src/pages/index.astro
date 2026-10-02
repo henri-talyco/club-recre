@@ -11,6 +11,27 @@ const sortedArticles = articles.sort(
 const [aLaUne, ...suite] = sortedArticles;
 const recent = suite.slice(0, 6);
 
+// Les guides par thème : chaque page du site est à deux clics de l'accueil. Ajouté le
+// 02/10/2026 : l'accueil ne faisait que 7 liens vers le journal, et 75 articles sur 122
+// n'avaient jamais été montrés par Google.
+import grappes from "../data/grappes.json";
+const parSlug = new Map(articles.map((a) => [a.slug, a]));
+const VILLES = ["paris", "lyon", "marseille", "bordeaux", "toulouse", "nantes", "lille", "nice"];
+const parVille = VILLES.map((v) => ({
+  ville: v.charAt(0).toUpperCase() + v.slice(1),
+  pages: articles.filter((a) => a.slug.split("-").includes(v)).sort((x, y) => x.slug.localeCompare(y.slug)),
+})).filter((x) => x.pages.length);
+const parAge = articles
+  .filter((a) => /^(livre|jeux-societe|cadeau|anniversaire|activite)-enfant-\d/.test(a.slug) || /^(livre|jeux-societe)-enfant/.test(a.slug))
+  .sort((x, y) => x.slug.localeCompare(y.slug, "fr", { numeric: true }));
+const themes = [
+  { titre: "Moins d'écrans", cle: "sans-ecran" },
+  { titre: "Jouets des années 90", cle: "jouets-annees-90" },
+  { titre: "Anniversaires", cle: "anniversaire" },
+  { titre: "Goûters et cuisine", cle: "gouter-cuisine" },
+  { titre: "Mode vintage", cle: "vintage-mode" },
+].map((t) => ({ ...t, pages: ((grappes as Record<string, unknown>)[t.cle] as string[] ?? []).map((s) => parSlug.get(s)).filter(Boolean) }));
+
 const pillarLabels: Record<string, string> = {
   activites: "Activités",
   education: "Éducation",
@@ -149,13 +170,41 @@ const piliers = [
     </div>
   </section>
 
+  <!-- Les guides par thème : tout le journal à deux clics de l'accueil -->
+  <section class="container-narrow py-16 border-t border-vert-recre/10">
+    <div class="section-label">Les guides</div>
+    <h2 class="section-title">Tout le Club, par thème.</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+      <div>
+        <h3 class="font-fraunces text-xl font-bold mb-3">Sorties par ville et par âge</h3>
+        {parVille.map(({ ville, pages }) => (
+          <p class="mb-2"><strong>{ville}</strong> : {pages.map((a, i) => (<>{i > 0 && " · "}<a href={`/journal/${a!.slug}/`} class="underline underline-offset-2 hover:text-orange-sirop">{(a!.slug.match(/(\d+)-ans?/) ?? [])[1] ? `${(a!.slug.match(/(\d+)-ans?/) ?? [])[1]} an${(a!.slug.match(/(\d+)-ans?/) ?? [])[1] === "1" ? "" : "s"}` : a!.data.title.split(":")[0]}</a></>))}</p>
+        ))}
+      </div>
+      <div>
+        <h3 class="font-fraunces text-xl font-bold mb-3">Livres, jeux et cadeaux par âge</h3>
+        <ul class="space-y-1">
+          {parAge.map((a) => (<li><a href={`/journal/${a.slug}/`} class="underline underline-offset-2 hover:text-orange-sirop">{a.data.title.split(":")[0]}</a></li>))}
+        </ul>
+      </div>
+      {themes.map((t) => (
+        <div>
+          <h3 class="font-fraunces text-xl font-bold mb-3">{t.titre}</h3>
+          <ul class="space-y-1">
+            {t.pages.map((a) => (<li><a href={`/journal/${a!.slug}/`} class="underline underline-offset-2 hover:text-orange-sirop">{a!.data.title.split(":")[0]}</a></li>))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+
   <!-- ═══════════════════════════════════════════
        DERNIERS ARTICLES
   ════════════════════════════════════════════ -->
   <section class="container-narrow py-16">
     <div class="section-label">Journal</div>
     <h2 class="section-title">Les dernières histoires.</h2>
-    <p class="section-sub">Activités testées, conseils vécus, adresses validées. Un nouvel article chaque jour.</p>
+    <p class="section-sub">Activités testées, conseils vécus, adresses validées. De nouveaux articles chaque semaine.</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
       {recent.map((article) => (
@@ -201,7 +250,7 @@ const piliers = [
     <div class="max-w-[820px] mx-auto">
       <p class="text-xs uppercase tracking-[0.25em] text-jaune-cassette font-bold mb-5">Le Club Récré</p>
       <p class="font-fraunces font-semibold leading-[1.3] tracking-[-0.01em]" style="font-size: clamp(1.5rem, 3vw, 2.25rem);">
-        On a grandi avec un téléphone fixe et une cassette dans le walkman. <em class="text-jaune-cassette italic">On veut que nos enfants vivent ça aussi</em> — sans la nostalgie, juste avec le bon goût.
+        On a grandi avec un téléphone fixe et une cassette dans le walkman. <em class="text-jaune-cassette italic">On veut que nos enfants vivent ça aussi</em>, sans la nostalgie, juste avec le bon goût.
       </p>
       <a href="/le-club" class="btn mt-10 bg-cream-gouter text-vert-recre border-cream-gouter hover:bg-orange-sirop hover:text-cream-gouter hover:border-orange-sirop">
         Lire le manifeste

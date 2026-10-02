@@ -49,7 +49,9 @@ env:
   # Repasse a tous les jours le 02/10/2026, demande d'Henri : un article Taly par jour,
   # plus un comparatif les jours JOURS_COMPARATIF. A surveiller : le 28/09, 68 articles
   # publies a deux par jour n'avaient fait aucun clic et Google en ignorait la plupart.
-  JOURS_PUBLICATION: "1 2 3 4 5 6 7"
+  # Repasse a 3 par semaine le 02/10/2026 au soir (« fais tout », plan SEO) : Google ne
+  # rangeait qu'1 article recent sur 30. Le temps que les liens entrants arrivent.
+  JOURS_PUBLICATION: "1 3 5"
   # Jours ou le robot prend un COMPARATIF de produits (scripts/file-comparatifs.json),
   # avec liens Amazon verifies page par page. Les autres jours, la file normale
   # tenue par Taly. Si la file des comparatifs est vide, il retombe sur la normale.
@@ -57,7 +59,9 @@ env:
   # Remis en route le 02/10/2026 au soir : la verification des produits passe par le
   # lecteur web de Talyco (secret TALYCO_WEB_AUTH). Essai a blanc vert : 5 produits
   # confirmes, 1 faux numero et 2 indisponibles ecartes, aucun angle enfant.
-  JOURS_COMPARATIF: "3 5"
+  JOURS_COMPARATIF: "3"
+  # "oui" : le comparatif s'AJOUTE a l'article Taly ces jours-la ; "non" : il le remplace.
+  COMPARATIF_EN_PLUS: "non"
 
 permissions:
   contents: write
@@ -88,7 +92,7 @@ jobs:
           deja=$(grep -rlE "^(pubDate|updatedDate): \"?$jour\"?$" src/content/articles/ 2>/dev/null | wc -l | tr -d ' ')
           # Les jours de comparatif, une place de plus : l'article Taly ET le comparatif.
           plafond=$ARTICLES_PAR_JOUR
-          if echo " $JOURS_COMPARATIF " | grep -q " $jour_semaine "; then plafond=$((ARTICLES_PAR_JOUR + 1)); fi
+          if [ "$COMPARATIF_EN_PLUS" = "oui" ] && echo " $JOURS_COMPARATIF " | grep -q " $jour_semaine "; then plafond=$((ARTICLES_PAR_JOUR + 1)); fi
           # Ralentissement automatique : si Google range moins de la moitie des articles
           # recents trois lundis de suite (mesure de Taly dans scripts/indexation.json),
           # on repasse a 3 articles par semaine (lundi, mercredi, vendredi), un par jour.
@@ -249,6 +253,17 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx wrangler deploy
+
+      - name: Signaler l'article a IndexNow
+        if: steps.redaction.outputs.vide != '1' && env.MODE == 'direct'
+        continue-on-error: true
+        env:
+          SLUG: ${{ steps.redaction.outputs.slug }}
+        run: |
+          CLE=dc8d6fe6be9b799f0625fde010a72024
+          curl -s -o /dev/null -w "IndexNow : %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"clubrecre.fr\",\"key\":\"$CLE\",\"keyLocation\":\"https://clubrecre.fr/$CLE.txt\",\"urlList\":[\"https://clubrecre.fr/journal/$SLUG/\"]}"
 
       - name: Alerter quand la file s'epuise
         # Jamais pendant un essai a blanc : il simule une file vide pour ne rien publier.

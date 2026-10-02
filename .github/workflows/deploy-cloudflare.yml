@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - uses: actions/setup-node@v4
         with:
@@ -39,3 +41,17 @@ jobs:
             exit 1
           fi
           npx wrangler deploy
+
+      # Prevenir Bing (et les moteurs qui partagent IndexNow, dont ChatGPT par Bing) des
+      # pages neuves ou modifiees de ce push. Gratuit, sans compte : la cle est un fichier
+      # public a la racine du site (public/<cle>.txt). Ajoute le 02/10/2026.
+      - name: Signaler les pages modifiees (IndexNow)
+        continue-on-error: true
+        run: |
+          CLE=dc8d6fe6be9b799f0625fde010a72024
+          urls=$(git diff --name-only HEAD~1 HEAD -- src/content/articles 2>/dev/null | sed -n 's#^src/content/articles/\(.*\)\.md$#https://clubrecre.fr/journal/\1/#p')
+          [ -z "$urls" ] && { echo "Aucun article modifie, rien a signaler."; exit 0; }
+          liste=$(printf '%s\n' $urls | python3 -c "import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))")
+          curl -s -o /dev/null -w "IndexNow : %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"clubrecre.fr\",\"key\":\"$CLE\",\"keyLocation\":\"https://clubrecre.fr/$CLE.txt\",\"urlList\":$liste}"
