@@ -43,7 +43,7 @@ Ce sont les seuls modèles à touches qu'on a trouvés sur au moins une liste of
 |---|---|---|---|
 | Doro Leva L30 | clapet | Orange, Free | 109,99 € (boutique Doro sur Amazon) |
 | Nokia 225 4G (TA-1610) | touches | Free | 64,99 à 80,04 € (vendeurs tiers) |
-| HMD Barbie Phone (TA-1681) | clapet | Free | 59,99 € (boutique HMD) |
+| HMD Barbie Phone (TA-1681) | clapet | Free | 59,99 € (boutique HMD), autour de 75 € sur Amazon |
 | Logicom Xtrem 40 | touches, renforcé | Bouygues | à vérifier, stock rare |
 
 ### Doro Leva L30, le seul confirmé par deux opérateurs
@@ -60,11 +60,11 @@ HMD, qui fabrique désormais les Nokia, ne le vend plus en France. On le trouve 
 
 ### HMD Barbie Phone, le clapet rose qui marche chez Free
 
-Le clin d'œil le plus assumé de la liste. Un clapet rose avec un miroir, des thèmes Barbie et un Snake rebaptisé « Malibu Snake ». Derrière le costume, c'est un vrai téléphone confirmé pour les appels 4G chez Free (référence TA-1681). Il coûte 59,99 € sur [la boutique de HMD](https://fr.shop.hmd.com/). Le design est très typé, et il n'est confirmé chez aucun autre opérateur.
+Le clin d'œil le plus assumé de la liste. Un clapet rose avec un miroir, des thèmes Barbie et un Snake rebaptisé « Malibu Snake ». Derrière le costume, c'est un vrai téléphone confirmé pour les appels 4G chez Free (référence TA-1681). Il coûte 59,99 € sur la boutique de HMD et [autour de 75 € sur Amazon](https://www.amazon.fr/dp/B0DFHKCRV2). Le design est très typé, et il n'est confirmé chez aucun autre opérateur.
 
 ### Logicom Xtrem 40, le français tout-terrain
 
-Logicom est une marque française. Le Xtrem 40 est un téléphone à touches résistant à l'eau et aux chocs (norme IP68), confirmé pour les appels 4G chez Bouygues Telecom, version Pro comprise. Pour un chantier, un vélo ou une randonnée, c'est le bon outil. Le stock se raréfie et son prix varie selon les vendeurs, on le trouve notamment [à la Fnac](https://www.fnac.com/Telephone-portable-basique-Logicom-Xtrem-40-2-4-Double-nano-SIM-128-Mo-Noir/a19856841/w-4). Son successeur, le Xtrem 60, n'apparaît sur aucune liste et n'a pas la bande 700 MHz.
+Logicom est une marque française. Le Xtrem 40 est un téléphone à touches résistant à l'eau et aux chocs (norme IP68), confirmé pour les appels 4G chez Bouygues Telecom, version Pro comprise. Pour un chantier, un vélo ou une randonnée, c'est le bon outil. Le stock se raréfie et son prix varie selon les vendeurs, on le trouve encore [sur Amazon](https://www.amazon.fr/dp/B0CWLTMVJF), en quantité limitée. Son successeur, le Xtrem 60, n'apparaît sur aucune liste et n'a pas la bande 700 MHz.
 
 ## Ceux qui font envie, sans garantie de ton opérateur
 
