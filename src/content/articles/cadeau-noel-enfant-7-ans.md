@@ -17,7 +17,9 @@ faq:
     a: "Le budget raisonnable pour un cadeau de Noël d'enfant de 7 ans : 20-40€ pour un grand-parent ou oncle/tante, 40-70€ pour les parents (cadeau principal), jusqu'à 100-120€ pour des cadeaux de très haute qualité (instrument de musique, jeu de qualité, expérience). Les familles qui pratiquent le Père Noël raisonnable (2-3 cadeaux moyens plutôt que de nombreux petits) font généralement de meilleurs choix : un cadeau qui dure vaut mieux que cinq qui seront oubliés en février."
   - q: "Quels jouets vintage conviendrait à un enfant de 7 ans pour Noël ?"
     a: "Les jouets vintage des années 80-90 parfaits pour un 7 ans à Noël : un grand set Playmobil pirates ou chevaliers (les chevaliers Playmobil des années 90 sont magnifiques en vintage), un Lego Classic des années 80-90 (les briques de base sans instruction), un Spirographe original (les enfants de 7 ans peuvent vraiment en profiter), une Game Boy originale avec une cartouche Tetris ou Mario (jouable en voyage), ou un set de Meccano mécanique. Ces jouets proposent un vrai challenge à un enfant de 7 ans et durent bien au-delà de Noël."
+affiliation: true
 ---
+
 
 Le cadeau de Noël pour enfant de 7 ans, dans les années 90, c'était l'événement de l'année. La liste au Père Noël écrite à l'encre, les catalogues Jouet Club ou La Redoute cornés à la page du jouet de rêve. Et le matin du 25, l'impatience sous le sapin.
 
@@ -25,7 +27,7 @@ En 2026, la profusion d'offres a dilué cette magie. Club Récré te guide vers 
 
 ## Ce qu'un enfant de 7 ans veut vraiment
 
-À 7 ans, l'enfant est en CP ou CE1. Il sait lire (ou commence). Il peut suivre des règles complexes. Il a des passions définies — les dinos, les foot, la magie, l'astronomie, la construction. Il peut s'engager dans une activité pendant une heure ou deux.
+À 7 ans, l'enfant est en CE1. Il sait lire (ou commence). Il peut suivre des règles complexes. Il a des passions définies — les dinos, les foot, la magie, l'astronomie, la construction. Il peut s'engager dans une activité pendant une heure ou deux.
 
 Le bon cadeau de Noël à 7 ans est celui qui répond à une passion réelle, qui challenge l'enfant (sans être trop difficile), et qui dure au-delà de Noël.
 
@@ -33,19 +35,19 @@ Le bon cadeau de Noël à 7 ans est celui qui répond à une passion réelle, qu
 
 À 7 ans, l'enfant peut accéder aux jeux de société "adultes" simplifiés — ceux qu'on joue vraiment en famille.
 
-**Catan Junior (Kosmos)** : la version accessible des Colons de Catan. Stratégie, ressources, construction — un vrai jeu de réflexion à la portée des 7 ans. Parties de 45-60 minutes. Une des meilleures introductions à la stratégie.
+**[Catan Junior](https://www.amazon.fr/dp/B07GT7WQ1Y) (Kosmos)** : la version accessible des Colons de Catan. Stratégie, ressources, construction — un vrai jeu de réflexion à la portée des 7 ans. Parties d'environ 30 minutes selon l'éditeur. Une des meilleures introductions à la stratégie.
 
-**Les Aventuriers du Rail : Mon Premier Voyage** : construire des routes de train entre les villes. Accessible, visuellement magnifique, aucune règle complexe. Excellent point d'entrée vers le grand Aventuriers du Rail.
+**[Les Aventuriers du Rail : Mon Premier Voyage](https://www.amazon.fr/dp/B0FC6QRZQD)** : construire des routes de train entre les villes. Accessible, visuellement magnifique, aucune règle complexe. Excellent point d'entrée vers le grand Aventuriers du Rail.
 
-**Dobble** : toujours excellent à 7 ans. Rapide, ludique, jouable à deux ou à dix. La vitesse est maintenant mieux gérée qu'à 4 ans.
+**[Dobble](https://www.amazon.fr/dp/B08R7VCH9X)** : toujours excellent à 7 ans. Rapide, ludique, jouable à deux ou à dix. La vitesse est maintenant mieux gérée qu'à 4 ans.
 
-**Dixit** : créer des histoires à partir d'images surréalistes. Développe la créativité narrative. Très bonne entrée vers des jeux d'expression.
+**[Dixit](https://www.amazon.fr/dp/B08V6T32QB)** : créer des histoires à partir d'images surréalistes. Développe la créativité narrative. Très bonne entrée vers des jeux d'expression.
 
 ## Les Lego : toujours là
 
 À 7 ans, les Lego Technic, Creator, ou les sets thématiques City deviennent pleinement accessibles. L'enfant peut suivre des instructions complexes, gérer de nombreuses pièces, et construire pendant plusieurs heures.
 
-**Lego Classic (grand coffret)** : les boîtes de briques de base (1000-2000 pièces, toutes couleurs) permettent une construction libre sans instructions. À 7 ans, c'est peut-être le meilleur Lego : l'imagination prime.
+**[Lego Classic](https://www.amazon.fr/dp/B00NHQF6MG) (grand coffret)** : les grandes boîtes de briques de base (790 pièces pour la plus grande boîte actuelle, toutes couleurs) permettent une construction libre sans instructions. À 7 ans, c'est peut-être le meilleur Lego : l'imagination prime.
 
 **Lego Creator 3 en 1** : chaque set peut être construit de trois façons différentes. La transformation entre les versions apprend à lire des instructions dans les deux sens.
 
@@ -59,17 +61,17 @@ Le bon cadeau de Noël à 7 ans est celui qui répond à une passion réelle, qu
 
 **Meccano / Engino** : la construction mécanique avec de vraies vis, de vrais outils. Le Meccano forme au raisonnement mécanique de façon concrète. À 7 ans, un enfant peut assembler un modèle de complexité moyenne seul.
 
-**Télescope d'initiation** : un petit télescope (Sky-Watcher Heritage 76, 50-70€) permet d'observer la Lune en détail, les cratères, les montagnes. L'astronomie pratique plutôt que théorique.
+**Télescope d'initiation** : un petit télescope de table, comme le Sky-Watcher Heritage 76, permet d'observer la Lune en détail, les cratères, les montagnes. L'astronomie pratique plutôt que théorique.
 
 ## Les livres : une valeur toujours sûre
 
-À 7 ans, l'enfant peut commencer les premières séries de littérature jeunesse un peu longues.
+À 7 ans, l'enfant peut commencer les premières séries de littérature jeunesse un peu longues. Les éditeurs conseillent souvent les titres ci-dessous à partir de 8 ans : ce sont des lectures à partager, à voix haute ou à deux, avant de les lire seul.
 
-**Percy Jackson (Rick Riordan)** : la mythologie grecque revisitée avec de l'humour contemporain. 5 tomes qui se lisent à toute vitesse. Niveau CM1 conseillé mais les CE2 passionnés s'en sortent très bien.
+**[Percy Jackson](https://www.amazon.fr/dp/2019109956) (Rick Riordan)** : la mythologie grecque revisitée avec de l'humour contemporain. 5 tomes qui se lisent à toute vitesse. Niveau CM1 conseillé mais les CE2 passionnés s'en sortent très bien.
 
-**Le Petit Nicolas (Goscinny et Sempé)** : les aventures de Nicolas et ses copains, l'école des années 60. Un humour qui traverse les générations. Les enfants de 7 ans adorent Nicolas parce que ses problèmes ressemblent aux leurs.
+**[Le Petit Nicolas](https://www.amazon.fr/dp/2070364232) (Goscinny et Sempé)** : les aventures de Nicolas et ses copains, l'école des années 60. Un humour qui traverse les générations. Les enfants de 7 ans adorent Nicolas parce que ses problèmes ressemblent aux leurs.
 
-**Harry Potter tome 1** : à 7 ans, certains enfants sont prêts pour Harry Potter. À adapter selon le niveau de lecture et la maturité. La magie du premier tome est conçue pour exactement cet âge.
+**[Harry Potter tome 1](https://www.amazon.fr/dp/2070643026)** : à 7 ans, certains enfants sont prêts pour Harry Potter. À adapter selon le niveau de lecture et la maturité. La magie du premier tome est conçue pour exactement cet âge.
 
 ## Le vintage : des cadeaux uniques
 

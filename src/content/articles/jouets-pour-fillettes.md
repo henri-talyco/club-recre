@@ -17,7 +17,9 @@ faq:
     a: "L'age sur la boite est d'abord un reperage de securite, pas une promesse pedagogique. Le pictogramme rond rouge barre avec une silhouette d'enfant signifie qu'un jouet ne convient pas aux moins de 36 mois, en general a cause de petites pieces detachables, d'elements pointus ou de cordes longues. Un jouet vendu \"des 3 ans\" a donc passe des tests, mais rien ne dit qu'il interessera ta fille a 3 ans pile. Pour la partie interet, fie-toi a ce qu'elle fait deja seule. Si elle empile, elle est prete pour de la construction. Si elle fait parler ses peluches, le jeu symbolique va la porter. Si elle attend son tour sans exploser, tu peux tenter un jeu de regles."
   - q: "Faut-il eviter les jouets roses et les poupees pour ne pas enfermer sa fille ?"
     a: "Non, et interdire fonctionne mal. Une poupee est un support de jeu symbolique tres riche : elle sert a rejouer le quotidien, a nommer des emotions, a s'entrainer aux roles sociaux. Le probleme n'est pas la poupee, c'est le menu unique. Les recherches sur les jouets genres montrent surtout un effet d'exposition : les jeux orientes construction, sciences et technique sont beaucoup plus souvent presentes aux garcons, et les filles s'entrainent donc moins au repere dans l'espace. La reponse pratique est simple : garde ce qu'elle aime, ajoute ce qu'on ne lui propose pas spontanement. Des briques a cote des poupees, pas a la place."
+affiliation: true
 ---
+
 
 En 1994, le choix se faisait au rayon du centre commercial, entre deux allees et un catalogue corne au feutre. Une Polly Pocket tenait dans une poche de jean, on jouait avec pendant six mois, puis elle finissait dans une boite a chaussures sous le lit. Aujourd'hui, le probleme s'est inverse : ce n'est plus l'offre qui manque, c'est le tri. Chercher des jouets pour fillettes en 2026, c'est ouvrir un catalogue infini ou tout se ressemble et ou la moitie des references sont des licences de dessins animes qui auront disparu au printemps.
 
@@ -61,7 +63,7 @@ Un conseil de mise en place qui vaut plus que le choix du produit : sors la cais
 
 C'est peut-etre la categorie la plus rentable du lot. Un jeu de plateau developpe l'attention, la memoire, la logique, la resolution de probleme, et il fait quelque chose que peu de jouets font : il met un adulte et un enfant a la meme table, sur un pied d'egalite. Trente minutes de partie valent deux heures de jouet solitaire.
 
-Le calibrage compte. Avant 5 ans, vise des parties de dix a quinze minutes maximum, avec des regles qui tiennent en trois phrases. Vers 6-8 ans, elle peut suivre un tour de jeu complet et anticiper. A partir de 8-10 ans, la strategie legere devient accessible : des titres comme Santorini, qui melange construction et reflexion avec des regles simples, ou 7 Wonders, prevu pour 3 a 7 joueurs et des parties d'environ 30 minutes, passent tres bien en famille.
+Le calibrage compte. Avant 5 ans, vise des parties de dix a quinze minutes maximum, avec des regles qui tiennent en trois phrases. Vers 6-8 ans, elle peut suivre un tour de jeu complet et anticiper. A partir de 8-10 ans, la strategie legere devient accessible : des titres comme Santorini, qui melange construction et reflexion avec des regles simples, ou [7 Wonders](https://www.amazon.fr/dp/B08G4RBQY4), prevu pour 3 a 7 joueurs et des parties d'environ 30 minutes, passent tres bien en famille.
 
 Regarde toujours deux chiffres avant d'acheter : la duree annoncee et le nombre de joueurs. Un jeu excellent a quatre joueurs peut etre injouable a deux, et c'est souvent a deux qu'on joue un mercredi pluvieux.
 
