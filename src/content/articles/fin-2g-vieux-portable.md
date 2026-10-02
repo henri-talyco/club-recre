@@ -10,6 +10,7 @@ coverAlt: "Un père assis dans le canapé du salon tient un gros téléphone por
 readingTime: 8
 seoTitle: "Fin de la 2G : les dates, les téléphones concernés, que faire"
 seoDescription: "Fin de la 2G en France : Orange et Free le 20 octobre 2026, SFR et Bouygues en décembre. Comment vérifier un téléphone, la VoLTE, et par quoi le remplacer."
+affiliation: true
 faq:
   - q: "Quand la 2G s'arrête-t-elle exactement en France ?"
     a: "Chez Orange, l'arrêt se fait le 6 octobre 2026 dans 44 départements puis le 20 octobre dans les 43 autres, Corse comprise. Free n'a pas de réseau 2G à lui et utilise celui d'Orange, il suit donc le même calendrier. SFR coupe le 15 novembre 2026. Bouygues Telecom coupe le 15 novembre à Brest, Guipavas, Nancy et Vandœuvre-lès-Nancy, puis partout ailleurs le 15 décembre. Dans les zones blanches réglementaires, où les quatre opérateurs partagent les mêmes antennes, l'arrêt est décalé à la première quinzaine de décembre. La 3G suivra en 2028 chez Orange et SFR, en 2029 chez Bouygues."
@@ -88,8 +89,6 @@ La règle tient en une ligne. Le nouveau téléphone doit figurer sur la liste d
 Le Nokia 3210 de 2024, qui fait tant envie, fonctionne aujourd'hui mais ne figure sur la liste d'aucun opérateur. Pour un téléphone qu'on garde cinq ans, ce n'est pas le meilleur choix. On a passé onze modèles au crible, avec leurs prix et leur compatibilité opérateur par opérateur, dans notre [guide des dumbphones qui marcheront encore après la 2G](/journal/dumbphone-telephone-sans-internet).
 
 Un dernier conseil, n'achète pas un « petit téléphone pas cher » au hasard en ligne. Des modèles uniquement 2G sont encore en vente au 2 octobre 2026, dont le Nokia 5310 et le Nokia 105 en version GSM. Ils ne capteront plus rien.
-
-Certains liens de cet article vers les boutiques peuvent rapporter une commission au Club Récré, sans changer ton prix.
 
 ## Garder son numéro et payer moins cher
 

@@ -10,6 +10,7 @@ coverAlt: "Deux adultes rient sur un banc de parc en automne, l'un ouvre un tél
 readingTime: 10
 seoTitle: "Dumbphone : les téléphones sans internet qui marchent en 2026"
 seoDescription: "Dumbphone ou téléphone sans internet : 11 modèles vendus en France, prix relevés le 2 octobre 2026, et ceux qui appellent vraiment en 4G chez ton opérateur."
+affiliation: true
 faq:
   - q: "Quel dumbphone choisir pour qu'il marche encore après la fin de la 2G ?"
     a: "Un modèle qui figure sur la liste officielle des téléphones compatibles avec les appels 4G (la VoLTE) de ton opérateur. Au 2 octobre 2026, le Doro Leva L30 est confirmé chez Orange et chez Free, le Nokia 225 4G (référence TA-1610) et le HMD Barbie Phone chez Free, le Logicom Xtrem 40 chez Bouygues Telecom. SFR n'a pas publié de liste récente, il faut donc demander en boutique. Un téléphone simplement marqué 4G ne suffit pas : beaucoup repassent en 2G ou en 3G pour téléphoner, et deviendront muets quand ces réseaux fermeront."
@@ -25,7 +26,7 @@ Sauf qu'en 2026, choisir un dumbphone demande une vérification que personne ne 
 
 On a donc fait l'inverse des listes habituelles. Pour chaque modèle, on est allé lire les listes officielles des opérateurs. Free (liste du 3 août 2026), Bouygues Telecom et Orange (consultées le 2 octobre 2026). SFR n'a publié aucune liste depuis mai 2022, elle ne contient aucun des modèles ci-dessous.
 
-Les prix indiqués sont ceux des sites des fabricants, relevés le 2 octobre 2026. Pour le prix du jour chez un revendeur, suis le lien. Certains liens vers les boutiques peuvent rapporter une commission au Club Récré, sans changer ton prix. Aucun fabricant n'a payé pour figurer ici.
+Les prix indiqués sont ceux des sites des fabricants, relevés le 2 octobre 2026. Pour le prix du jour chez un revendeur, suis le lien.
 
 ## Le piège à connaître avant d'acheter : la VoLTE
 

@@ -29,6 +29,8 @@ const articles = defineCollection({
     author: z.string().default("Club Récré"),
     readingTime: z.number().int().positive().optional(),
     featured: z.boolean().default(false),
+    // Article qui contient des liens affiliés : affiche la mention de transparence.
+    affiliation: z.boolean().default(false),
     seoTitle: z.string().max(70).optional(),
     seoDescription: z.string().max(180).optional(),
     faq: z

@@ -69,6 +69,12 @@ const pillarLabels: Record<string, string> = {
     )}
 
     <div class="container-narrow max-w-prose pb-16">
+      {data.affiliation && (
+        <p class="text-sm text-gris-cartable italic mb-8">
+          Certains liens de cet article mènent vers des boutiques partenaires. Si tu achètes après avoir cliqué,
+          le Club Récré touche une petite commission, sans que ton prix change. Aucune marque n'a payé pour être citée.
+        </p>
+      )}
       <div class="prose-club">
         <slot />
       </div>
