@@ -121,8 +121,13 @@ function slugsPublies() {
     .filter((f) => f.endsWith(".md"))
     .map((f) => f.replace(/\.md$/, ""));
   const exclus = (process.env.EXCLUS || "").split(",").map((s) => s.trim()).filter(Boolean);
+  // Les articles fusionnes (redirection 301 dans src/worker.js) comptent comme deja
+  // publies : sans ca, le robot pourrait reecrire « gouter-annee-90 », fusionne le
+  // 02/10/2026, et recreer le doublon que la fusion avait supprime.
+  const worker = fs.readFileSync(path.join(RACINE, "src", "worker.js"), "utf8");
+  const retires = [...worker.matchAll(/"\/journal\/([a-z0-9-]+)\/?":/g)].map((m) => m[1]);
   if (exclus.length) log(`Deja en attente de relecture, ignores : ${exclus.join(", ")}`);
-  return new Set([...publies, ...exclus]);
+  return new Set([...publies, ...exclus, ...retires]);
 }
 
 function choisitSujet(file, publies) {

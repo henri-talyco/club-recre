@@ -33,6 +33,15 @@ const REDIRECTIONS = {
   "/journal/polly-pocket-annees-90/": "/journal/polly-pocket-1990-prix/",
   "/journal/idee-cadeau-enfant-3-ans": "/journal/cadeau-enfant-3-ans/",
   "/journal/idee-cadeau-enfant-3-ans/": "/journal/cadeau-enfant-3-ans/",
+  // Fusions du 02/10/2026, meme regle : la page la plus affichee sur 90 jours garde.
+  "/journal/gouter-annee-90": "/journal/gouter-90s-recettes-culte/",
+  "/journal/gouter-annee-90/": "/journal/gouter-90s-recettes-culte/",
+  "/journal/gouter-enfant-idees": "/journal/gouter-enfant-maison/",
+  "/journal/gouter-enfant-idees/": "/journal/gouter-enfant-maison/",
+  "/journal/sortie-enfant-paris": "/journal/activite-enfant-paris/",
+  "/journal/sortie-enfant-paris/": "/journal/activite-enfant-paris/",
+  "/journal/sortie-enfant-3-ans-paris": "/journal/activite-enfant-3-ans-paris/",
+  "/journal/sortie-enfant-3-ans-paris/": "/journal/activite-enfant-3-ans-paris/",
 };
 
 export default {
