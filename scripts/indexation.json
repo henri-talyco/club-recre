@@ -1,0 +1,17 @@
+{
+  "_lisezmoi": "Part des articles récents (7 à 35 jours) que Google a rangés, mesurée chaque lundi par Taly (robot SEO). Sous 50 % trois mesures de suite, le robot d'articles ralentit (article-quotidien.yml).",
+  "mesures": [
+    {
+      "date": "2026-10-02",
+      "mesurees": 30,
+      "indexees": 1,
+      "part": 0.03,
+      "etats": {
+        "Détectée, actuellement non indexée": 16,
+        "Google ne reconnaît pas cette URL": 12,
+        "Envoyée et indexée": 1,
+        "Explorée, actuellement non indexée": 1
+      }
+    }
+  ]
+}
