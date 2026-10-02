@@ -51,11 +51,10 @@ env:
   # avec liens Amazon verifies page par page. Les autres jours, la file normale
   # tenue par Taly. Si la file des comparatifs est vide, il retombe sur la normale.
   # Ajoute le 02/10/2026 a la demande d'Henri : du contenu regulier qui vend.
-  # COUPE le 02/10/2026 : depuis GitHub, la lecture des pages Amazon via Jina
-  # Reader ne rend rien (4 essais a blanc, 0 produit confirme sur 15). Le robot
-  # reste sur la file normale tant que la verification n'a pas d'autre chemin.
-  # Remettre "3 5" une fois la verification reparee et un essai a blanc reussi.
-  JOURS_COMPARATIF: ""
+  # Remis en route le 02/10/2026 au soir : la verification des produits passe par le
+  # lecteur web de Talyco (secret TALYCO_WEB_AUTH). Essai a blanc vert : 5 produits
+  # confirmes, 1 faux numero et 2 indisponibles ecartes, aucun angle enfant.
+  JOURS_COMPARATIF: "3 5"
 
 permissions:
   contents: write
