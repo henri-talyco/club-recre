@@ -17,7 +17,9 @@ faq:
     a: "Souvent oui, mais pas seule. L'age imprime sur la boite melange deux choses : la securite (petites pieces) et la difficulte des regles. A 5 ans, une enfant accepte les regles, attend son tour et supporte mieux de perdre qu'a 4 ans, mais elle a encore besoin d'un adulte pour tenir le fil de la partie. Un jeu marque 6 ans se joue donc tres bien en equipe avec toi, en simplifiant une regle au debut. A l'inverse, ne descends pas en dessous de 4 ans en pensant assurer le coup : un jeu trop simple s'abandonne en deux semaines. Verifie surtout la duree annoncee : au-dela de vingt a trente minutes, l'attention decroche."
   - q: "Comment choisir la taille du velo pour une fille de 5 ans ?"
     a: "A 5 ans, on est en general sur des roues de 16 pouces, une taille conseillee pour les enfants de 4 a 6 ans mesurant a peu pres entre 105 et 120 cm. Mais l'age compte moins que la longueur des jambes et l'experience deja acquise. Le test qui tranche : assise sur la selle, elle doit poser les deux pieds a plat au sol. Si elle est sur la pointe des pieds, le velo est trop grand, et elle n'osera pas. Verifie aussi que les leviers de frein sont dimensionnes pour de petites mains et que le velo n'est pas trop lourd a relever seule. Les stabilisateurs se retirent des qu'elle tient l'equilibre."
+affiliation: true
 ---
+
 
 Dans les années 90, la question ne se posait pas trois semaines à l'avance. Le cadeau d'anniversaire, c'était un vélo posé dans le couloir le matin, une boîte de Playmobil qui a tenu quatre ans, ou un baril de planchettes en bois qu'on retrouvait encore sous le canapé à l'adolescence. Peu d'options, beaucoup d'usage.
 
@@ -56,7 +58,7 @@ Un conseil de tri : préfère un gros contenant générique à un petit set trè
 
 ## Les jeux de société, l'âge où ça devient un vrai moment
 
-À 5 ans, on quitte le jeu de hasard pur pour la première stratégie. Dragomino, la version enfant de Kingdomino, est indiqué dès 5 ans pour des parties d'un quart d'heure environ. Croque-carotte, classique de la course avec sa taupe et sa carotte à tourner, est annoncé dès 4 ans et reste très efficace à 5. Un peu au-dessus, des jeux d'observation ou d'enquête marqués 6 ans passent très bien s'ils sont joués avec toi.
+À 5 ans, on quitte le jeu de hasard pur pour la première stratégie. [Dragomino](https://www.amazon.fr/dp/B08BZFF5TX), la version enfant de Kingdomino, est indiqué dès 5 ans pour des parties d'un quart d'heure environ. [Croque-carotte](https://www.amazon.fr/dp/B00BP4FRZI), classique de la course avec sa taupe et sa carotte à tourner, est annoncé dès 4 ans et reste très efficace à 5. Un peu au-dessus, des jeux d'observation ou d'enquête marqués 6 ans passent très bien s'ils sont joués avec toi.
 
 Ce que ça apporte dépasse le jeu : attendre son tour, encaisser une défaite, tenir vingt minutes sur une même activité. Ce sont exactement les compétences que l'école demande au même moment. Et c'est le seul type de cadeau qui t'oblige, toi, à t'asseoir avec elle. Comme on faisait, quand la boîte sortait le dimanche après-midi parce qu'il pleuvait.
 

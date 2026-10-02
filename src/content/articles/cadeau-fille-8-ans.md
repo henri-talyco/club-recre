@@ -17,7 +17,9 @@ faq:
     a: "C'est un age charniere. Les avis d'experts situent l'introduction d'une montre connectee entre 6 et 10 ans, avec 8 ans comme point d'entree credible : l'enfant comprend le fonctionnement, retient les regles et gere des trajets simples. La montre est souvent presentee comme une passerelle avant le premier telephone, encore juge premature avant 11 ou 12 ans. Avant d'acheter, pose-toi la vraie question : est-ce que tu resous un besoin concret, comme un trajet ecole ou un appel a ses grands-parents, ou est-ce que tu offres un ecran de plus ? Si c'est le second cas, attends. Les reperes officiels francais tournent autour d'une heure a une heure trente d'ecran par jour a cet age, hors temps scolaire, et une montre grignote vite ce budget."
   - q: "Comment savoir si un jouet est adapte a 8 ans et sans danger ?"
     a: "Trois reflexes suffisent la plupart du temps. D'abord, verifie la presence du marquage CE : il est obligatoire, et il doit etre visible, lisible et indelebile sur le jouet ou son emballage. Ensuite, lis les avertissements imprimes sur la boite, qui precisent les usages et les restrictions d'age : ils ne sont pas decoratifs. Enfin, achete plutot en magasin ou sur des sites de marques identifiees, et mefie-toi d'un prix anormalement bas, qui cache parfois une contrefacon. Pour les jouets a piles ou avec transformateur, ouvre le compartiment et verifie qu'il se ferme a vis. Si tu croises un jouet vendu sans marquage CE, tu peux le signaler via SignalConso."
+affiliation: true
 ---
+
 
 En 1994, le cadeau des 8 ans se choisissait dans un catalogue de jouets corné à force d'être feuilleté sous la table du salon. Tu entourais trois pages au stylo bille, tu en obtenais une, et tu jouais avec pendant deux ans. Aujourd'hui tu tapes "cadeaux pour filles de 8 ans" un dimanche soir, tu tombes sur quarante listes identiques, toutes garnies de liens d'affiliation, et tu ressors avec moins d'idées qu'en entrant.
 
@@ -43,7 +45,7 @@ Et pense à l'occasion. Les jeux de société d'occasion, les vélos de seconde 
 
 ## Les jeux de société, le meilleur rapport durée-prix
 
-C'est l'âge d'or. Les huit ans marquent le seuil à partir duquel une bonne partie du catalogue adulte devient jouable en famille. Dixit est conseillé à partir de 8 ans, et Flip 7 aussi, avec l'avantage de monter jusqu'à dix joueurs, ce qui sauve un goûter d'anniversaire. Kingdomino, Les Aventuriers du Rail, Dobble ou Skyjo Junior circulent dans toutes les sélections pour cet âge. Côté actualité, Toy Battle a remporté l'As d'Or 2026, et Flip 7 figurait aussi parmi les nommés de l'année.
+C'est l'âge d'or. Les huit ans marquent le seuil à partir duquel une bonne partie du catalogue adulte devient jouable en famille. [Dixit](https://www.amazon.fr/dp/2370990821) est conseillé à partir de 8 ans, et [Flip 7](https://www.amazon.fr/dp/B07NS9QJFN) aussi, jouable de 3 à 6 selon la boîte française. [Kingdomino](https://www.amazon.fr/dp/B01N3A4070), [Les Aventuriers du Rail](https://www.amazon.fr/dp/B0FN48B3LP), Dobble ou Skyjo Junior circulent dans toutes les sélections pour cet âge. Côté actualité, [Toy Battle](https://www.amazon.fr/dp/B0DVTLFMNG) a remporté l'As d'Or 2026, et Flip 7 figurait aussi parmi les nommés de l'année.
 
 Le critère qui compte pour un cadeau fille 8 ans dans cette catégorie n'est pas la complexité, c'est la durée d'une partie. Vise vingt à trente minutes. En dessous, ça se joue trois fois de suite et c'est parfait. Au-dessus de quarante-cinq minutes, la boîte reste fermée les soirs de semaine, c'est-à-dire la plupart des soirs.
 
@@ -70,7 +72,7 @@ Deuxième piège : le matériel jouet. Des ciseaux qui ne coupent pas, une gouac
 
 ## Les livres, au moment exact où elle bascule
 
-Entre 8 et 9 ans, beaucoup d'enfants passent de la lecture-devoir à la lecture-plaisir. Les premiers romans sont faits pour ça : courts, rapides à finir, encore illustrés. Finir un livre seule, c'est une victoire, et la victoire donne envie de recommencer. Des titres comme "Apolline et le renard mauve" ou "Le voleur de sandwich" circulent régulièrement dans les sélections pour cette tranche d'âge, aux côtés des séries en plusieurs tomes.
+Entre 8 et 9 ans, beaucoup d'enfants passent de la lecture-devoir à la lecture-plaisir. Les premiers romans sont faits pour ça : courts, rapides à finir, encore illustrés. Finir un livre seule, c'est une victoire, et la victoire donne envie de recommencer. Des titres comme "[Apolline et le renard mauve](https://www.amazon.fr/dp/2408059313)" ou "[Le voleur de sandwich](https://www.amazon.fr/dp/B01B99HZHQ)s" circulent régulièrement dans les sélections pour cette tranche d'âge, aux côtés des séries en plusieurs tomes.
 
 Le format série est un excellent cadeau, justement. Tu offres le tome 1, elle réclame la suite, et tu tiens ton cadeau des six mois suivants. Ajoute une lampe de lecture à pince : ça transforme le coucher en moment à elle, ce qui est exactement le genre d'autonomie qu'elle cherche à cet âge.
 

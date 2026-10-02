@@ -17,7 +17,9 @@ faq:
     a: "L'age indique sur la boite n'est pas une note scolaire, mais il repose sur des criteres concrets : taille des pieces, complexite des regles, force necessaire, longueur des cordes. Un enfant de 3 ans peut tres bien manipuler un jeu marque 4 ans si un adulte joue avec lui, a condition qu'il ne porte plus les objets a la bouche. Le vrai point de vigilance, c'est la fratrie : un jouet a petites pieces laisse au sol devient un risque pour un petit frere de 18 mois. A l'inverse, un jeu trop en avance se solde souvent par de la frustration. En cas de doute, prends la version la plus simple, elle sera jouee tout de suite."
   - q: "Faut-il offrir une tablette ou une boite a histoires a un enfant de 3 ans ?"
     a: "Les recommandations francaises sont claires sur le principe : eviter l'exposition aux ecrans avant 3 ans, message inscrit dans le carnet de sante de l'enfant depuis le 1er janvier 2018. La regle 3-6-9-12 de Serge Tisseron va dans le meme sens et situe la limite autour d'une heure trente par jour entre 3 et 5 ans, accompagne. Une tablette n'est donc pas le cadeau evident de cet age. La boite a histoires, elle, coche la case audio sans image : l'enfant ecoute, imagine, et peut la lancer seul. Les modeles a figurines sont les plus intuitifs vers 2 ou 3 ans, les modeles interactifs prennent tout leur sens un peu plus tard."
+affiliation: true
 ---
+
 
 Dans les annees 90, le cadeau des 3 ans se choisissait dans un catalogue papier pose sur la table de la cuisine, avec des pages cornees et un stylo qui entourait trois references maximum. On offrait un truc, un seul, et il durait. Aujourd'hui, on tape « cadeau enfant 3 ans » dans une barre de recherche, on recupere des milliers de resultats qui se ressemblent tous, et on ressort avec un doute plus gros qu'au depart.
 
@@ -71,9 +73,9 @@ Astuce zero euro qui marche mieux que la moitie des accessoires vendus : ajoute 
 
 ## Premiers jeux de societe et premiers puzzles
 
-Trois ans, c'est l'age du tout premier jeu de societe. Le Verger de Haba, cree en 1986, reste la reference : un jeu cooperatif de 1 a 8 joueurs, des 3 ans, ou il faut ramasser tous les fruits avant que le puzzle du corbeau, en neuf pieces, ne soit reconstitue. Le de comporte quatre faces de couleur pour les fruits, une face panier qui permet d'en prendre deux au choix, et une face corbeau. Il existe aussi une version Mon Premier Verger des 2 ans et une version Le Petit Verger, plus compacte.
+Trois ans, c'est l'age du tout premier jeu de societe. [Le Verger de Haba](https://www.amazon.fr/dp/B0007KWRSQ), cree en 1986, reste la reference : un jeu cooperatif de 1 a 8 joueurs, des 3 ans, ou il faut ramasser tous les fruits avant que le puzzle du corbeau, en neuf pieces, ne soit reconstitue. Le de comporte quatre faces de couleur pour les fruits, une face panier qui permet d'en prendre deux au choix, et une face corbeau. Il existe aussi une version [Mon Premier Verger](https://www.amazon.fr/dp/B002C9M6F4) des 2 ans et une version [Le Petit Verger](https://www.amazon.fr/dp/B000YOXMWK), plus compacte.
 
-L'interet du cooperatif a cet age est enorme : on gagne ou on perd ensemble, ce qui evite la crise du perdant pendant encore quelques mois. D'autres classiques reviennent regulierement dans les selections pour cette tranche d'age, comme le Colorino de Ravensburger ou le tapis a dessiner a l'eau AquaDoodle de Tomy.
+L'interet du cooperatif a cet age est enorme : on gagne ou on perd ensemble, ce qui evite la crise du perdant pendant encore quelques mois. D'autres classiques reviennent regulierement dans les selections pour cette tranche d'age, comme le [Colorino](https://www.amazon.fr/dp/B01B8E8OP4) de Ravensburger ou le tapis a dessiner a l'eau [AquaDoodle](https://www.amazon.fr/dp/B0CQ55681Z) de Tomy.
 
 Cote puzzles, vise bas et progresse. Une dizaine ou une vingtaine de pieces, avec une image que l'enfant connait. Un puzzle trop dur finit dans le placard, un puzzle refait quinze fois construit vraiment quelque chose.
 

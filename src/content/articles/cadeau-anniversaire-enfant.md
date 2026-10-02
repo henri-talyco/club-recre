@@ -17,7 +17,9 @@ faq:
     a: "Le budget d'un cadeau d'anniversaire enfant varie selon la relation : pour un camarade de classe, 15-25€ est une fourchette raisonnable. Pour un cousin ou un ami proche, 25-50€. Pour un cadeau de la famille proche ou des grands-parents, 50-100€ ou plus. Les cadeaux d'expérience (atelier, sortie) peuvent paraître plus chers mais créent des souvenirs durables. Un jouet vintage bien choisi à 20-30€ d'occasion a souvent plus de valeur affective qu'un jouet neuf à 40€ acheté dans un supermarché."
   - q: "Comment choisir un cadeau d'anniversaire adapté à l'âge de l'enfant ?"
     a: "Pour choisir un cadeau adapté à l'âge : 1-3 ans → jouets sensoriels, grandes formes, matériaux naturels, livres cartonné résistants. 3-5 ans → Playmobil City/Farm, Lego Duplo, puzzles 20-30 pièces, instruments d'éveil, jeux de couleurs. 5-7 ans → premiers jeux de société (Dobble, Uno), Lego thématiques simples, livres illustrés de qualité, kit créatif. 7-10 ans → jeux de stratégie (Catan Junior, Ticket to Ride), kits de science, instruments de musique, livres de série. 10-12 ans → jeux de société adultes accessibles, kit électronique, livres de fond."
+affiliation: true
 ---
+
 
 Le cadeau anniversaire enfant, dans les années 90, c'était souvent une trouvaille. Un jouet dont on avait entendu parler chez des copains, un livre qu'une institutrice avait recommandé, quelque chose d'un peu inattendu. Pas le jouet affiché en tête de gondole chez Jouet Club le lendemain des catalogues de Noël.
 
@@ -31,11 +33,11 @@ Les jouets intemporels ont aussi l'avantage de la durée. Un Lego bien choisi, u
 
 ## Les classiques qui ne ratent jamais
 
-**Lego** : la valeur sûre par excellence. Un coffret Lego adapté à l'âge (Duplo de 1 à 5 ans, Lego Classic de 4 à 99 ans, sets thématiques à partir de 6 ans) est toujours bien reçu. Astuce : les gros coffrets de briques de base (Lego Classic 10698, 1500 pièces) permettent de construire sans instructions, ce qui développe davantage la créativité.
+**Lego** : la valeur sûre par excellence. Un coffret Lego adapté à l'âge (Duplo de 1 à 5 ans, Lego Classic de 4 à 99 ans, sets thématiques à partir de 6 ans) est toujours bien reçu. Astuce : les gros coffrets de briques de base ([Lego Classic 10698](https://www.amazon.fr/dp/B00PY3EYQO), 790 pièces) permettent de construire sans instructions, ce qui développe davantage la créativité.
 
 **Playmobil thématique** : choisir un set qui s'intègre à ce que l'enfant possède déjà (ferme, pirates, policiers) ou qui correspond à sa passion du moment. Appeler les parents en amont pour vérifier — les Playmobil se collectionnent et s'assemblent.
 
-**Jeux de société** : Dobble (dès 5 ans), Uno (dès 6 ans), Jungle Speed (dès 7 ans), Les Aventuriers du Rail Europe (dès 8 ans), Concept Kids (dès 4 ans). Ces jeux réunissent la famille, se jouent en voyage, et ne se périme pas.
+**Jeux de société** : [Dobble](https://www.amazon.fr/dp/B08R7VCH9X) (dès 5 ans), [Uno](https://www.amazon.fr/dp/B005I5M2F8) (dès 6 ans), [Jungle Speed](https://www.amazon.fr/dp/B08CH6DHB6) (dès 7 ans), [Les Aventuriers du Rail Europe](https://www.amazon.fr/dp/B000NJL2GO) (dès 8 ans), [Concept Kids](https://www.amazon.fr/dp/B07NTK7GBY) (dès 4 ans). Ces jeux réunissent la famille, se jouent en voyage, et ne se périme pas.
 
 ## Les cadeaux créatifs : pour les enfants qui font
 
@@ -43,7 +45,7 @@ Les jouets intemporels ont aussi l'avantage de la durée. Un Lego bien choisi, u
 
 **Matériel d'arts plastiques de qualité** : pas les feutres discount qui s'assèchent en deux semaines. Des Stabilo, des pastels Jovi, des crayons de couleur Faber-Castell ou Staedtler. Un carnet à dessin de format conséquent. Des enfants qui "n'aiment pas dessiner" peuvent trouver un deuxième souffle avec du bon matériel.
 
-**Argile ou pâte à modeler de qualité** : la pâte Fimo ou l'argile à cuire au four permettent de créer des objets durables. Accompagner d'un livre de modèles simples.
+**Argile ou pâte à modeler de qualité** : la pâte Fimo (conseillée par Staedtler à partir de 8 ans) ou l'argile à cuire au four permettent de créer des objets durables. Accompagner d'un livre de modèles simples.
 
 **Kit jardinage** : des graines d'aromates ou de fleurs rapides (radis, capucine, basilic), une petite pelle et un arrosoir adaptés, un petit pot ou une jardinière. Offrir la vie d'une plante depuis la graine.
 
@@ -53,7 +55,7 @@ Un livre bien choisi est un cadeau qui peut marquer une vie. Les clés pour bien
 
 **Demander à une libraire** : les librairies indépendantes ont des libraires qui connaissent leur catalogue et l'âge de développement des enfants. Dix minutes de conversation → un conseil personnalisé qu'aucun algorithme ne peut battre.
 
-**Séries qui accrochent** : pour les 6-8 ans, la collection Geronimo Stilton, le Club des cinq, les Enquêtes de Moriarty, ou Le Journal d'un Dégonflé. Pour les 8-12 ans, Percy Jackson, Narnia, His Dark Materials, ou Astérix (les classiques restent).
+**Séries qui accrochent** : pour les 6-8 ans, la collection Geronimo Stilton, le Club des cinq ou [Le Journal d'un Dégonflé](https://www.amazon.fr/dp/2021011968). Pour les 8-12 ans, [Percy Jackson](https://www.amazon.fr/dp/2017333875), Narnia, His Dark Materials, ou Astérix (les classiques restent).
 
 **Albums illustrés pour les petits** : pour les 1-5 ans, les albums de Claude Ponti, d'Antoon Krings, ou les classiques Babar et Martine sont indemodables.
 

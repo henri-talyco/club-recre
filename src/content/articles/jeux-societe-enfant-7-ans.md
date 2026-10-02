@@ -14,10 +14,12 @@ faq:
   - q: "Quel jeu de société choisir pour un enfant de 7 ans ?"
     a: "À 7 ans, un enfant peut jouer à des jeux avec des règles plus complexes : stratégie simple, mémoire, lecture des chiffres, gestion de cartes. Les meilleurs choix : Dobble (rapide, universel), Uno (règles simples, frissons inclus), Cluedo Junior (déduction, 45 min de jeu), Catan Junior (stratégie accessible), Timeline (culture générale ludique). Évite les jeux avec trop d'éléments textuels si l'enfant est en cours de lecture."
   - q: "Quel est le meilleur jeu de société pour jouer en famille avec un enfant de 7 ans ?"
-    a: "Le meilleur jeu de société familial avec un enfant de 7 ans est celui que tout le monde peut jouer sans s'ennuyer. Dobble, Uno et 7 Wonders Duel version familiale fonctionnent très bien. Pour des parties plus longues en week-end : Ticket to Ride (version Première Voyage pour enfants), Pandemic (coopératif, tout le monde gagne ou perd ensemble), ou Catan Junior. La clé : un jeu avec un peu de hasard pour que l'enfant puisse battre les adultes — c'est crucial pour la motivation."
+    a: "Le meilleur jeu de société familial avec un enfant de 7 ans est celui que tout le monde peut jouer sans s'ennuyer. Dobble, Uno et 7 Wonders Duel version familiale fonctionnent très bien. Pour des parties plus longues en week-end : Les Aventuriers du Rail (version Mon Premier Voyage pour enfants), Pandemic (coopératif, tout le monde gagne ou perd ensemble), ou Catan Junior. La clé : un jeu avec un peu de hasard pour que l'enfant puisse battre les adultes — c'est crucial pour la motivation."
   - q: "Les jeux de société vintage des années 90 valent-ils toujours le coup ?"
     a: "Oui, et souvent mieux que les versions modernes. Le Cluedo original (1994-2000) avec ses pions en métal est supérieur à la version plastique actuelle. La belote, le Tarot, le Yam's, les dominos — ces jeux n'ont pas vieilli d'un jour. Le Monopoly reste un classique malgré (ou à cause de) ses interminables parties. Les jeux vintage 90s en bon état se trouvent en brocante pour 2-8€. Vérifier que toutes les pièces sont présentes avant d'acheter."
+affiliation: true
 ---
+
 
 Les jeux de société pour enfant de 7 ans, dans les années 90, c'était le Cluedo sorti de son placard en fin de repas dominical, ou le Monopoly entamé le samedi soir et abandonné le dimanche midi. Simples, directs, souvent vieux de 20 ans déjà — et ils marchaient.
 
@@ -31,23 +33,23 @@ C'est aussi l'âge où le jeu de société devient un vrai moment social — pas
 
 ## Les grands classiques (qui tiennent toujours la route)
 
-**Dobble** : le phénomène. Chaque carte a 8 symboles, chaque paire de cartes partage exactement 1 symbole commun. Le premier à le trouver gagne la carte. Rapide, universel, rejouable à l'infini. Fonctionne de 2 à 8 joueurs, une partie dure 10-15 min. Le jeu de société pour enfant de 7 ans le plus versatile qui existe.
+**[Dobble](https://www.amazon.fr/dp/B08R7VCH9X)** : le phénomène. Chaque carte a 8 symboles, chaque paire de cartes partage exactement 1 symbole commun. Le premier à le trouver gagne la carte. Rapide, universel, rejouable à l'infini. Fonctionne de 2 à 8 joueurs, une partie dure 10-15 min. Le jeu de société pour enfant de 7 ans le plus versatile qui existe.
 
-**Uno** : 50 ans de règles, toujours aussi efficace. Les cartes +4, les renversements de sens, le "Uno !" crié trop tôt — tout ça crée des émotions fortes et des fous rires. L'enfant de 7 ans peut tenir sa main de cartes, comprend la stratégie basique, et peut battre un adulte. Parfait.
+**[Uno](https://www.amazon.fr/dp/B005I5M2F8)** : 55 ans de règles, toujours aussi efficace. Les cartes +4, les renversements de sens, le "Uno !" crié trop tôt — tout ça crée des émotions fortes et des fous rires. L'enfant de 7 ans peut tenir sa main de cartes, comprend la stratégie basique, et peut battre un adulte. Parfait.
 
-**Cluedo Junior** : la version accessible du classique policier. Décors colorés, règles allégées, parties de 30-45 min. L'enfant développe sa logique déductive, élimine des possibilités, tient un carnet d'enquête. Version vintage à chiner en brocante, version neuve à 20€.
+**[Cluedo Junior](https://www.amazon.fr/dp/B083GJLD7F)** : la version accessible du classique policier. Décors colorés, règles allégées, parties de 30-45 min. L'enfant développe sa logique déductive, élimine des possibilités, tient un carnet d'enquête. Version vintage à chiner en brocante, version neuve à 20€.
 
 **Le Memory** : un classique absolu. Les paires d'images à retrouver. La mémoire des enfants de 7 ans surpasse souvent celle des adultes — et c'est un très bon moment pour leur laisser gagner naturellement.
 
 ## Les jeux de stratégie pour commencer
 
-**Catan Junior** : version simplifiée de Catan, le jeu de stratégie des années 90 devenu mythique. On collecte des ressources, on construit des repaires de pirates, on échange avec ses adversaires. Initiation parfaite à la stratégie et à la négociation. Dès 6 ans, parfait à 7 ans.
+**[Catan Junior](https://www.amazon.fr/dp/B07GT7WQ1Y)** : version simplifiée de Catan, le jeu de stratégie des années 90 devenu mythique. On collecte des ressources, on construit des repaires de pirates, on échange avec ses adversaires. Initiation parfaite à la stratégie et à la négociation. Dès 6 ans, parfait à 7 ans.
 
-**Ticket to Ride Première Voyage** : relier des villes en posant des wagons colorés sur des routes. Facile à apprendre, difficile à maîtriser. La version Première Voyage a des cartes de destinations plus simples et une durée de jeu plus courte. Idéal pour apprendre à planifier.
+**[Les Aventuriers du Rail : Mon Premier Voyage](https://www.amazon.fr/dp/B0FC6QRZQD)** : relier des villes en posant des wagons colorés sur des routes. Facile à apprendre, difficile à maîtriser. La version Mon Premier Voyage a des cartes de destinations plus simples et une durée de jeu plus courte. Idéal pour apprendre à planifier.
 
-**Les Aventuriers du Rail** : pour les enfants qui progressent vite, la version originale (Amérique) est accessible dès 7 ans avec un peu d'aide au début. Stratégie, gestion de ressources, un peu de compétition et de stress. Durée : 45-75 min.
+**[Les Aventuriers du Rail](https://www.amazon.fr/dp/B0FN48B3LP)** : pour les enfants qui progressent vite, la version originale (Amérique) est accessible dès 7 ans avec un peu d'aide au début. Stratégie, gestion de ressources, un peu de compétition et de stress. Durée : 45-75 min.
 
-**Mastermind** : le jeu de déduction par excellence. Un joueur choisit un code, l'autre essaie de le deviner en 10 coups. Développe la pensée logique de façon remarquable. Version vintage facilement trouvable en brocante.
+**[Mastermind](https://www.amazon.fr/dp/B0DYNWM1J1)** : le jeu de déduction par excellence. Un joueur choisit un code, l'autre essaie de le deviner en 10 coups. Développe la pensée logique de façon remarquable. Version vintage facilement trouvable en brocante.
 
 ## Les jeux coopératifs : gagner ou perdre ensemble
 
@@ -55,7 +57,7 @@ La grande tendance des 15 dernières années en jeu de société, c'est le coop�
 
 **Pandemic** : sauver le monde d'épidémies en coopérant. Accessible dès 7 ans avec des adultes, très prenant, beaucoup de rejouabilité. La version originale est un peu complexe — commencer par la version junior si l'enfant est moins à l'aise avec la lecture.
 
-**Hanabi** : un jeu de cartes coopératif où tu ne vois pas ta propre main mais tu vois celle des autres. Tu dois faire jouer tes coéquipiers sans pouvoir leur montrer tes cartes. Développe la communication et la confiance. Petit format, très malin.
+**[Hanabi](https://www.amazon.fr/dp/B0CK1CR4RQ)** : un jeu de cartes coopératif où tu ne vois pas ta propre main mais tu vois celle des autres. Tu dois faire jouer tes coéquipiers sans pouvoir leur montrer tes cartes. Développe la communication et la confiance. Petit format, très malin.
 
 **Mysterium** : un joueur joue le fantôme et donne des indices visuels (des cartes illustrées très poétiques) aux autres joueurs qui doivent résoudre un mystère. Dès 10 ans en règle, mais à 7 ans avec un adulte en fantôme, ça marche très bien.
 
