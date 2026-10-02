@@ -31,11 +31,17 @@ import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { genereImage } from "./genere-image.mjs";
 import { repete } from "./doublons.mjs";
+import { verifieAsin, poseLien, prixAmazonEnDur } from "./liens-amazon.mjs";
 
 const ICI = path.dirname(fileURLToPath(import.meta.url));
 const RACINE = path.resolve(ICI, "..");
 const DOSSIER_ARTICLES = path.join(RACINE, "src", "content", "articles");
 const FICHIER_FILE = path.join(ICI, "file-sujets.json");
+// Les comparatifs de produits (02/10/2026) ont leur propre file : les jours
+// listes dans JOURS_COMPARATIF (heure de Paris, 1 = lundi), le robot y prend
+// son sujet, et retombe sur la file normale si elle est vide.
+const FICHIER_COMPARATIFS = path.join(ICI, "file-comparatifs.json");
+const PRODUITS_MINIMUM = 3;
 
 // Nom complet et non l'alias "opus" : l'alias suit la version courante du CLI,
 // verifie le 24/08/2026, "sonnet" resolvait encore vers claude-sonnet-4-6.
@@ -93,8 +99,15 @@ function compteMots(texte) {
 
 // ------------------------------------------------------------ choix du sujet
 
-function chargeFile() {
-  return JSON.parse(fs.readFileSync(FICHIER_FILE, "utf8"));
+function chargeFile(fichier = FICHIER_FILE) {
+  if (!fs.existsSync(fichier)) return { sujets: [] };
+  return JSON.parse(fs.readFileSync(fichier, "utf8"));
+}
+
+/** Le jour de la semaine a Paris, 1 = lundi ... 7 = dimanche. */
+function jourParis() {
+  const j = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Paris", weekday: "short" }).format(new Date());
+  return ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].indexOf(j) + 1;
 }
 
 /**
@@ -157,6 +170,31 @@ Une introduction de 2 a 3 paragraphes, puis 6 a 9 sections en H2 (##), puis une 
 
 Une intro type: le sujet dans les annees 90 (une phrase de contexte concret), ce qui a change en 2026, ce que l'article apporte. Sans jamais recopier cette formule mot pour mot d'un article a l'autre.`;
 
+/**
+ * Un comparatif aide a choisir entre des produits reels, vendus neufs en France,
+ * et chaque produit recoit un lien Amazon. Les produits sont verifies apres coup,
+ * page Amazon ouverte (scripts/liens-amazon.mjs) : un produit invente, un numero
+ * faux ou un produit indisponible perd son lien, et sous PRODUITS_MINIMUM
+ * produits verifies l'article est refuse.
+ */
+function consigneComparatif(sujet) {
+  const enfant = sujet.public === "enfant";
+  return `Cet article est un COMPARATIF de produits reels, pour aider le lecteur a choisir et a acheter. COMMENCE PAR CHERCHER SUR LE WEB, au moins cinq recherches, avant d'ecrire.
+
+1. Retiens 5 a 8 produits qui existent vraiment et se vendent NEUFS en France en ce moment. Pour chacun, trouve sa page sur amazon.fr par une recherche web (par exemple "site:amazon.fr" suivi du nom exact) et releve son numero produit Amazon, l'ASIN : les 10 caracteres qui suivent "/dp/" dans l'adresse. N'invente JAMAIS un ASIN. Si tu ne trouves pas la page, laisse le champ "asin" vide : le produit restera dans l'article, sans lien.
+2. Chaque numero sera ouvert automatiquement apres toi. Un produit qui n'existe pas, un numero qui mene a autre chose ou un produit indisponible sera retire des liens. Sous ${PRODUITS_MINIMUM} produits confirmes, l'article est refuse.
+3. INTERDIT : ecrire un prix Amazon. Le programme Partenaires d'Amazon interdit d'afficher ses prix en dur. Tu peux donner le prix public sur le site du FABRICANT si tu l'as trouve par recherche, en disant "sur le site de la marque", avec le mois.
+4. Pour chaque produit : ce qu'il fait, pour qui, un point fort et un point faible factuels (trouves dans des tests ou fiches), et ce qu'il faut verifier avant d'acheter.
+5. Un tableau recapitulatif en markdown (modele, pour qui, point fort, point faible), sans prix Amazon.
+6. Une section "Notre choix" qui tranche selon le profil du lecteur.
+${enfant ? `7. PUBLIC ENFANT : la loi francaise (article L. 5231-3 du code de la sante publique) interdit toute publicite pour un telephone mobile destine aux moins de 14 ans. Aucun telephone, aucune montre avec carte SIM, aucun appareil qui telephone dans la liste des produits.
+` : ""}
+Le nom de chaque produit doit apparaitre TEL QUEL dans le corps, en dehors des titres et du tableau (dans un paragraphe), au moins une fois : c'est la que le lien sera pose.
+
+Dans le bloc meta, ajoute un champ "produits" :
+"produits": [ { "nom": "Marque Modele exact", "ancre": "texte exact du corps sur lequel poser le lien, en general le nom du produit", "asin": "B0XXXXXXXX ou vide" } ]`;
+}
+
 function consigneSujet(sujet, aujourdhui) {
   const specifique = {
     ville: `Cet article est un guide de sorties reelles. COMMENCE PAR CHERCHER SUR LE WEB, au moins quatre recherches, avant d'ecrire la moindre ligne: tu ne connais pas cette ville de memoire avec assez de fiabilite pour envoyer un parent quelque part. Pour chaque lieu retenu: nom exact, quartier ou arrondissement, ce qu'on y fait, et le detail pratique qui compte pour un parent (poussette, change, duree, gratuit ou payant). Vise 8 a 10 lieux. Si tu ne trouves pas d'information fiable sur un lieu, retire-le plutot que de combler. N'invente jamais un tarif ni un horaire: si tu n'as pas la donnee, ecris que ca se verifie sur place ou sur le site du lieu. Un article de ce type sans recherche web est rejete automatiquement.`,
@@ -164,6 +202,7 @@ function consigneSujet(sujet, aujourdhui) {
     mode: `Article mode ou marques. COMMENCE PAR CHERCHER SUR LE WEB, au moins trois recherches, avant d'ecrire: verifie l'existence, les dates et l'histoire des marques citees, ainsi que leur statut actuel (encore en activite ou disparue). Termine par un paragraphe qui aide le lecteur a chercher par lui-meme: ou regarder, quoi verifier sur une piece avant de l'acheter. Un article de ce type sans recherche web est rejete automatiquement.`,
     saison: `Article saisonnier. Ancre-le dans la saison en cours sans le dater au point qu'il devienne faux l'annee prochaine. Evite "cette annee" et les millesimes dans le titre.`,
     guide: `Guide pratique. Sois exhaustif et reellement utile: c'est le fond qui fait le classement, l'originalite tient au ton. Utilise la recherche web pour tout element factuel (produits, references, recommandations d'age, reperes de developpement).`,
+    comparatif: consigneComparatif(sujet),
   }[sujet.type] || "";
 
   return `Ecris l'article du jour pour Club Recre.
@@ -449,6 +488,22 @@ function valide(meta, corps, sujet, usage) {
     ...(meta.faq || []).flatMap((f) => [f?.q, f?.a])].join(" ");
   if (/[—–]/.test(toutLeTexte)) erreurs.push("tiret cadratin present (interdit)");
 
+  if (sujet.type === "comparatif") {
+    if (usage.recherches < 3) erreurs.push(`comparatif rédigé avec ${usage.recherches} recherche(s) web, il en faut au moins 3`);
+    if (!Array.isArray(meta.produits) || meta.produits.length < PRODUITS_MINIMUM + 1) {
+      erreurs.push(`il faut au moins ${PRODUITS_MINIMUM + 1} produits dans le champ "produits"`);
+    } else {
+      meta.produits.forEach((p, i) => {
+        if (!p?.nom?.trim() || !p?.ancre?.trim()) erreurs.push(`produit ${i + 1} sans nom ou sans ancre`);
+        else if (poseLien(corps, p.ancre, "B000000000") === null) erreurs.push(`l'ancre « ${p.ancre} » n'apparait pas dans un paragraphe du corps`);
+      });
+      if (sujet.public === "enfant" && meta.produits.some((p) => /t[eé]l[eé]phone|smartphone|carte sim|montre[- ]t[eé]l[eé]phone/i.test(p?.nom || ""))) {
+        erreurs.push("un téléphone figure dans un comparatif pour enfants (publicité interdite pour les moins de 14 ans)");
+      }
+    }
+    if (prixAmazonEnDur(toutLeTexte)) erreurs.push("un prix Amazon est écrit en dur (interdit par le programme Partenaires)");
+  }
+
   if (sujet.mode === "enrichir") {
     const avant = compteMots(litArticle(sujet.slug).corps);
     if (mots < avant + 300) erreurs.push(`enrichissement trop court: ${mots} mots contre ${avant} avant (il en faut au moins ${avant + 300})`);
@@ -470,7 +525,7 @@ function valide(meta, corps, sujet, usage) {
 
 // -------------------------------------------------------------------- ecriture
 
-function construitFichier(meta, corps, sujet, aujourdhui, cover, ancien = null) {
+function construitFichier(meta, corps, sujet, aujourdhui, cover, ancien = null, affiliation = false) {
   const lignes = [
     "---",
     `title: ${yamlChaine(meta.title)}`,
@@ -486,6 +541,8 @@ function construitFichier(meta, corps, sujet, aujourdhui, cover, ancien = null) 
     `readingTime: ${meta.readingTime}`,
     `seoTitle: ${yamlChaine(meta.seoTitle)}`,
     `seoDescription: ${yamlChaine(meta.seoDescription)}`,
+    // Affiche la mention de transparence en haut de l'article (ArticleLayout).
+    ...(affiliation ? ["affiliation: true"] : []),
     "faq:",
     ...meta.faq.flatMap((f) => [`  - q: ${yamlChaine(f.q)}`, `    a: ${yamlChaine(f.a)}`]),
     "---",
@@ -499,9 +556,20 @@ function construitFichier(meta, corps, sujet, aujourdhui, cover, ancien = null) 
 // ------------------------------------------------------------------------ main
 
 const aujourdhui = new Date().toISOString().slice(0, 10);
-const file = chargeFile();
 const publies = slugsPublies();
-const { sujet, restants } = choisitSujet(file, publies);
+const joursComparatif = (process.env.JOURS_COMPARATIF || "").split(/\s+/).filter(Boolean).map(Number);
+const comparatifs = chargeFile(FICHIER_COMPARATIFS);
+let file = chargeFile();
+let fichierFile = FICHIER_FILE;
+let choix = { sujet: null, restants: 0 };
+// Un slug force se cherche dans les deux files ; sinon les jours de comparatif
+// passent d'abord par la file des comparatifs.
+if (process.env.SUJET ? comparatifs.sujets.some((s) => s.slug === process.env.SUJET) : joursComparatif.includes(jourParis())) {
+  choix = choisitSujet(comparatifs, publies);
+  if (choix.sujet) { file = comparatifs; fichierFile = FICHIER_COMPARATIFS; }
+}
+if (!choix.sujet) choix = choisitSujet(file, publies);
+const { sujet, restants } = choix;
 
 if (!sujet) {
   log("File de sujets vide, aucun article a ecrire aujourd'hui.");
@@ -538,6 +606,26 @@ for (let essai = 1; essai <= TENTATIVES; essai++) {
       erreurs = valide(meta, blocCorps, sujet, usage);
     } catch (e) {
       erreurs = [`bloc meta illisible, JSON invalide: ${e.message}`];
+    }
+  }
+
+  // Comparatif : chaque produit est ouvert sur Amazon. Les liens ne sont poses
+  // que sur les produits confirmes ; trop peu de confirmes, l'article repart.
+  if (!erreurs.length && sujet.type === "comparatif") {
+    const confirmes = [];
+    const ecartes = [];
+    for (const p of meta.produits) {
+      if (!p.asin) { ecartes.push(`${p.nom} : pas de numero produit`); continue; }
+      const v = await verifieAsin(p.asin.trim(), p.nom);
+      if (v.ok) { confirmes.push(p); log(`  Produit confirme : ${p.nom} (${p.asin})`); }
+      else ecartes.push(`${p.nom} (${p.asin}) : ${v.raison}`);
+    }
+    ecartes.forEach((e) => log(`  Sans lien : ${e}`));
+    if (confirmes.length < PRODUITS_MINIMUM) {
+      erreurs = [`seulement ${confirmes.length} produit(s) confirme(s) sur Amazon.fr, il en faut ${PRODUITS_MINIMUM}. Produits ecartes : ${ecartes.join(" ; ")}. Cherche les vraies pages amazon.fr de produits qui existent et sont disponibles.`];
+    } else {
+      for (const p of confirmes) blocCorps = poseLien(blocCorps, p.ancre, p.asin.trim()) ?? blocCorps;
+      meta.liens = confirmes.length;
     }
   }
 
@@ -578,7 +666,7 @@ if (!DRY_RUN && !ancien) {
   }
 }
 
-const contenu = construitFichier(meta, blocCorps, sujet, aujourdhui, cover, ancien);
+const contenu = construitFichier(meta, blocCorps, sujet, aujourdhui, cover, ancien, Boolean(meta.liens));
 const chemin = path.join(DOSSIER_ARTICLES, `${sujet.slug}.md`);
 
 if (DRY_RUN) {
@@ -591,7 +679,8 @@ if (DRY_RUN) {
 fs.writeFileSync(chemin, contenu, "utf8");
 file.sujets = file.sujets.filter((s) => s.slug !== sujet.slug);
 file._maj = aujourdhui;
-fs.writeFileSync(FICHIER_FILE, JSON.stringify(file, null, 2) + "\n", "utf8");
+fs.writeFileSync(fichierFile, JSON.stringify(file, null, 2) + "\n", "utf8");
+if (meta.liens) log(`Liens Amazon poses : ${meta.liens}`);
 
 log(`Ecrit : src/content/articles/${sujet.slug}.md`);
 

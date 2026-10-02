@@ -32,6 +32,11 @@ on:
         description: "Effort du modele (low, medium, high, xhigh, max)"
         required: false
         default: "high"
+      essai:
+        description: "Essai a blanc : redige et verifie, n'ecrit ni ne publie rien"
+        type: boolean
+        required: false
+        default: false
 
 env:
   MODE: direct # "direct" publie sans relecture, "pr" ouvre une pull request a valider
@@ -42,6 +47,11 @@ env:
   # Google en laissait la plupart de cote. Un site peu cite qui publie beaucoup
   # propose plus de pages que Google n'accepte d'en ranger.
   JOURS_PUBLICATION: "1 3 5"
+  # Jours ou le robot prend un COMPARATIF de produits (scripts/file-comparatifs.json),
+  # avec liens Amazon verifies page par page. Les autres jours, la file normale
+  # tenue par Taly. Si la file des comparatifs est vide, il retombe sur la normale.
+  # Ajoute le 02/10/2026 a la demande d'Henri : du contenu regulier qui vend.
+  JOURS_COMPARATIF: "3 5"
 
 permissions:
   contents: write
@@ -121,6 +131,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           EXCLUS: ${{ steps.attente.outputs.slugs }}
           SUJET: ${{ inputs.sujet }}
+          DRY_RUN: ${{ inputs.essai && '1' || '' }}
           EFFORT: ${{ inputs.effort || 'high' }}
         run: |
           if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
@@ -131,6 +142,11 @@ jobs:
           node scripts/redige-article.mjs
           code=$?
           set -e
+          if [ "$DRY_RUN" = "1" ]; then
+            echo "vide=1" >> "$GITHUB_OUTPUT"
+            echo "::notice::Essai a blanc termine (code $code), rien n'est publie."
+            exit $code
+          fi
           if [ $code -eq 3 ]; then
             echo "vide=1" >> "$GITHUB_OUTPUT"
             echo "::notice::File de sujets vide, rien a publier."
@@ -157,7 +173,7 @@ jobs:
           git config user.name "Robot Club Récré"
           git config user.email "actions@github.com"
           git checkout -b "article/$SLUG"
-          git add src/content/articles scripts/file-sujets.json public/img/articles
+          git add src/content/articles scripts/file-sujets.json scripts/file-comparatifs.json public/img/articles
           git commit -m "article: $SLUG"
           git push --force-with-lease origin "article/$SLUG"
           gh pr create \
@@ -187,7 +203,7 @@ jobs:
         run: |
           git config user.name "Robot Club Récré"
           git config user.email "actions@github.com"
-          git add src/content/articles scripts/file-sujets.json public/img/articles
+          git add src/content/articles scripts/file-sujets.json scripts/file-comparatifs.json public/img/articles
           git commit -m "article: $SLUG"
           git pull --rebase --quiet origin main
           git push origin HEAD:main
