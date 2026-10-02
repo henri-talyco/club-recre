@@ -36,22 +36,44 @@ const attendre = (ms) => new Promise((r) => setTimeout(r, ms));
  * Ouvre la page Amazon d'un ASIN et dit si elle correspond au produit nomme.
  * Rend { ok, titre, raison }.
  */
+/**
+ * Lit la page Amazon par le lecteur web de Talyco (Lambda talyco-web, Paris),
+ * quand le robot en a l'adresse et la cle (secrets GitHub TALYCO_WEB_URL et
+ * TALYCO_WEB_AUTH). Sinon, par Jina Reader en direct, qui marche depuis le Mac
+ * mais ne rend plus rien depuis les serveurs de GitHub (4 essais du 02/10/2026).
+ */
+async function litPage(asin) {
+  const adresse = `https://www.amazon.fr/dp/${asin}`;
+  if (process.env.TALYCO_WEB_URL && process.env.TALYCO_WEB_AUTH) {
+    const rep = await fetch(process.env.TALYCO_WEB_URL, {
+      method: "POST",
+      signal: AbortSignal.timeout(90_000),
+      headers: { "Content-Type": "application/json", Accept: "application/json, text/event-stream", Authorization: process.env.TALYCO_WEB_AUTH },
+      body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "tools/call", params: { name: "web_read", arguments: { url: adresse, max_chars: 0 } } }),
+    });
+    const r = JSON.parse(await rep.text());
+    const page = JSON.parse(r?.result?.content?.[0]?.text || "{}");
+    if (page.status === 404) return { titre: "Amazon.fr", texte: "" };
+    return { titre: String(page.title || "").replace(/&quot;/g, '"').trim(), texte: String(page.content || "") };
+  }
+  const rep = await fetch(`https://r.jina.ai/${adresse}`, { signal: AbortSignal.timeout(45_000) });
+  const texte = await rep.text();
+  return { titre: (texte.match(/^Title:\s*(.*)$/m) || [])[1]?.trim() || "", texte };
+}
+
 export async function verifieAsin(asin, nom, { essais = 2 } = {}) {
   if (!ASIN.test(asin || "")) return { ok: false, raison: `numero produit invalide « ${asin} »` };
+  let titre = "";
   let texte = "";
   for (let i = 1; i <= essais; i++) {
     try {
-      const rep = await fetch(`https://r.jina.ai/https://www.amazon.fr/dp/${asin}`, {
-        signal: AbortSignal.timeout(45_000),
-      });
-      texte = await rep.text();
-      if (rep.ok && /^Title:/m.test(texte)) break;
+      ({ titre, texte } = await litPage(asin));
+      if (titre) break;
     } catch {
       // reseau, delai : on retente une fois, puis on renonce au lien
     }
     await attendre(4000);
   }
-  const titre = (texte.match(/^Title:\s*(.*)$/m) || [])[1]?.trim() || "";
   if (!titre) return { ok: false, raison: "page illisible (Jina ou Amazon n'a rien rendu)" };
   if (/^amazon\.fr$/i.test(titre) || /page introuvable|page not found/i.test(titre)) {
     return { ok: false, titre, raison: "le numero produit ne mene a aucun produit" };
@@ -67,8 +89,9 @@ export async function verifieAsin(asin, nom, { essais = 2 } = {}) {
   const attendus = motsPorteurs(nom);
   const dans = new Set(motsPorteurs(titre));
   const trouves = attendus.filter((m) => dans.has(m));
-  // La marque (premier mot) doit y etre, et au moins 60 % des mots du nom.
-  if (!attendus.length || !dans.has(attendus[0]) || trouves.length / attendus.length < 0.6) {
+  // Au moins 60 % des mots du nom, et au moins deux. La marque n'est pas exigee :
+  // Amazon titre « instax Mini 12 » sans « Fujifilm » (02/10/2026).
+  if (!attendus.length || trouves.length < Math.min(2, attendus.length) || trouves.length / attendus.length < 0.6) {
     return { ok: false, titre, raison: `le titre de la page ne correspond pas au produit « ${nom} »` };
   }
   return { ok: true, titre };

@@ -133,6 +133,10 @@ jobs:
           # Illustration de l'article. Absente, l'article part sans photo : le
           # site sait afficher un degrade a la place, rien ne casse.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Verification des produits des comparatifs par le lecteur web de Talyco
+          # (Lambda talyco-web, Paris). L'adresse n'est pas secrete, la cle oui.
+          TALYCO_WEB_URL: https://i2olrxyhzyqsvic7yxd3rvo5fu0miemh.lambda-url.eu-west-3.on.aws/mcp
+          TALYCO_WEB_AUTH: ${{ secrets.TALYCO_WEB_AUTH }}
           EXCLUS: ${{ steps.attente.outputs.slugs }}
           SUJET: ${{ inputs.sujet }}
           DRY_RUN: ${{ inputs.essai && '1' || '' }}
