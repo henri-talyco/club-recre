@@ -10,7 +10,7 @@
 export const MARCHANDS = {
   amazon: {
     domaines: ["amazon.fr"],
-    tag: "", // identifiant Partenaires Amazon, de la forme « clubrecre-21 »
+    tag: "talyco-21", // compte Partenaires Amazon de Talyco, créé le 02/10/2026 (plusieurs sites)
   },
   fnac: {
     domaines: ["fnac.com"],
