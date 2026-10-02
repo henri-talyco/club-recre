@@ -56,7 +56,12 @@ export async function verifieAsin(asin, nom, { essais = 2 } = {}) {
   if (/^amazon\.fr$/i.test(titre) || /page introuvable|page not found/i.test(titre)) {
     return { ok: false, titre, raison: "le numero produit ne mene a aucun produit" };
   }
-  if (/currently unavailable|actuellement indisponible/i.test(texte)) {
+  // « Currently unavailable » apparait aussi dans les carrousels et selon le pays
+  // d'ou Jina lit la page : le 02/10/2026 depuis GitHub, le Doro Leva L30 etait
+  // vu indisponible alors qu'il se vendait. On ne refuse que si la page n'a
+  // AUCUN bouton d'achat.
+  const achat = /add to (cart|basket)|buy now|ajouter au panier|acheter maintenant/i.test(texte);
+  if (/currently unavailable|actuellement indisponible/i.test(texte) && !achat) {
     return { ok: false, titre, raison: "produit indisponible sur Amazon.fr" };
   }
   const attendus = motsPorteurs(nom);
