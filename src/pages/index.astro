@@ -9,7 +9,7 @@ const sortedArticles = articles.sort(
 );
 // Le plus recent passe en une, les six suivants alimentent la grille.
 const [aLaUne, ...suite] = sortedArticles;
-const recent = suite.slice(0, 6);
+const recent = suite.slice(0, 9);
 
 // Les guides par thème : chaque page du site est à deux clics de l'accueil. Ajouté le
 // 02/10/2026 : l'accueil ne faisait que 7 liens vers le journal, et 75 articles sur 122
@@ -31,6 +31,26 @@ const themes = [
   { titre: "Goûters et cuisine", cle: "gouter-cuisine" },
   { titre: "Mode vintage", cle: "vintage-mode" },
 ].map((t) => ({ ...t, pages: ((grappes as Record<string, unknown>)[t.cle] as string[] ?? []).map((s) => parSlug.get(s)).filter(Boolean) }));
+
+// Les rubriques mises en avant, avec photo. Ajoutées le 02/10/2026 à la demande d'Henri
+// (« plus de contenu sur l'accueil ») : les deux niches qui montent dans Google, moins
+// d'écrans et la cote des jouets des années 90, puis les guides d'achat les plus récents.
+const cartes = (slugs: string[]) => slugs.map((s) => parSlug.get(s)).filter(Boolean) as typeof articles;
+const rubriques = [
+  {
+    label: "Moins d'écrans",
+    titre: "Grandir sans smartphone.",
+    sous: "Téléphones sans internet, boîtes à histoires, appareils photo, réveils : ce qui remplace l'écran, testé et comparé.",
+    pages: cartes(["telephone-sans-ecran-enfant", "dumbphone-telephone-sans-internet", "boite-a-histoires-toniebox-lunii-yoto", "fin-2g-vieux-portable"]),
+  },
+  {
+    label: "Jouets des années 90",
+    titre: "Ce que valent nos jouets aujourd'hui.",
+    sous: "Polly Pocket, Playmobil, Fisher Price, Game Boy : les cotes, les pièges, et ce qui se transmet encore.",
+    pages: cartes(["polly-pocket-1990-prix", "playmobil-vintage", "fisher-price-vintage", "game-boy-enfant-aujourdhui"]),
+  },
+];
+const guidesAchat = sortedArticles.filter((a) => a.data.affiliation && !rubriques[0].pages.includes(a)).slice(0, 6);
 
 const pillarLabels: Record<string, string> = {
   activites: "Activités",
@@ -88,7 +108,7 @@ const piliers = [
           On a grandi dehors. <em class="italic text-orange-sirop">On transmet pareil.</em>
         </h1>
         <p class="text-base max-w-[500px] mb-7 opacity-85">
-          Activités testées, jouets qui durent, conseils qui servent. Un nouvel article chaque jour, écrit pour les parents qui avaient six ans en 1995.
+          Activités testées, jouets qui durent, conseils qui servent. Trois nouveaux articles par semaine, écrits pour les parents qui avaient six ans en 1995.
         </p>
         <div class="flex gap-3 flex-wrap">
           <a href="/journal" class="btn bg-orange-sirop text-cream-gouter border-orange-sirop hover:bg-jaune-cassette hover:text-vert-recre hover:border-jaune-cassette">
@@ -136,13 +156,13 @@ const piliers = [
       </div>
       <div>
         <div class="text-3xl mb-3">📅</div>
-        <h3 class="font-fraunces text-lg font-semibold mb-2">Un article par jour</h3>
-        <p class="text-sm opacity-80">Activités, éducation, jouets, mode, lifestyle. Le magazine s'écrit tous les jours, pas quand on a le temps.</p>
+        <h3 class="font-fraunces text-lg font-semibold mb-2">Trois articles par semaine</h3>
+        <p class="text-sm opacity-80">Activités, éducation, jouets, mode, lifestyle. Et les anciens articles sont repris quand une info change.</p>
       </div>
       <div>
-        <div class="text-3xl mb-3">🚫</div>
-        <h3 class="font-fraunces text-lg font-semibold mb-2">Rien à te vendre</h3>
-        <p class="text-sm opacity-80">Pas de boutique, pas de produit poussé. On écrit pour être utile, tu repars avec une réponse et rien dans le panier.</p>
+        <div class="text-3xl mb-3">🤝</div>
+        <h3 class="font-fraunces text-lg font-semibold mb-2">Des guides d'achat honnêtes</h3>
+        <p class="text-sm opacity-80">Certains guides renvoient vers des boutiques comme Amazon : on touche une petite commission, ton prix ne change pas. Aucune marque ne paie pour être citée.</p>
       </div>
     </div>
   </section>
@@ -169,6 +189,49 @@ const piliers = [
       ))}
     </div>
   </section>
+
+  <!-- Rubriques mises en avant, avec photo -->
+  {rubriques.map((r, i) => (
+    <section class={`py-16 px-6 ${i % 2 === 0 ? "bg-cream-clair border-y border-vert-recre/10" : ""}`}>
+      <div class="container-narrow">
+        <div class="section-label">{r.label}</div>
+        <h2 class="section-title">{r.titre}</h2>
+        <p class="section-sub">{r.sous}</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+          {r.pages.map((a) => (
+            <a href={`/journal/${a.slug}/`} class="card-hover bg-cream-gouter rounded-card overflow-hidden border border-vert-recre/10 block">
+              {a.data.cover && (
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img src={a.data.cover} alt={a.data.coverAlt ?? a.data.title} class="w-full h-full object-cover" loading="lazy" />
+                </div>
+              )}
+              <div class="p-5">
+                <h3 class="font-fraunces text-lg font-semibold leading-tight mb-2">{a.data.title}</h3>
+                <p class="text-xs opacity-75 line-clamp-3">{a.data.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Guides d'achat : les plus récents, ceux qui comparent des produits -->
+  {guidesAchat.length > 0 && (
+    <section class="container-narrow py-16">
+      <div class="section-label">Guides d'achat</div>
+      <h2 class="section-title">Comparés, vérifiés, sans marque qui paie.</h2>
+      <p class="section-sub">Chaque produit cité est vérifié sur sa page officielle avant d'être recommandé.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+        {guidesAchat.map((a) => (
+          <a href={`/journal/${a.slug}/`} class="card-hover flex gap-4 items-center bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 p-3">
+            {a.data.cover && <img src={a.data.cover} alt={a.data.coverAlt ?? a.data.title} class="w-24 h-24 object-cover rounded-lg flex-shrink-0" loading="lazy" />}
+            <h3 class="font-fraunces text-base font-semibold leading-tight">{a.data.title.split(":")[0]}</h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- Les guides par thème : tout le journal à deux clics de l'accueil -->
   <section class="container-narrow py-16 border-t border-vert-recre/10">

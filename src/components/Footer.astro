@@ -1,10 +1,20 @@
 ---
 const year = new Date().getFullYear();
+// Les guides les plus cherchés, en lien depuis toutes les pages (02/10/2026, demande
+// d'Henri). Six entrées, pas plus : la liste complète par thème reste sur l'accueil.
+const GUIDES = [
+  ["/journal/telephone-sans-ecran-enfant/", "Téléphone sans écran"],
+  ["/journal/activite-enfant-paris/", "Sorties à Paris"],
+  ["/journal/livre-enfant-4-ans/", "Livres par âge"],
+  ["/journal/jeux-societe-enfant-5-ans/", "Jeux de société par âge"],
+  ["/journal/anniversaire-enfant-5-ans/", "Anniversaires"],
+  ["/journal/polly-pocket-1990-prix/", "Cote des jouets 90"],
+];
 ---
 
 <footer class="bg-cream-footer text-vert-recre pt-16 pb-8 px-6 mt-20 border-t-2 border-vert-recre">
   <div class="container-narrow">
-    <div class="grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-12">
       <div>
         <div class="club-wordmark mb-6" aria-label="Club Récré">
           <span class="club-wordmark__club">Club</span>
@@ -27,6 +37,15 @@ const year = new Date().getFullYear();
           <li><a href="/education" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Éducation</a></li>
           <li><a href="/vintage" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Mode vintage</a></li>
           <li><a href="/jouets-vintage" class="hover:text-orange-sirop hover:opacity-100 transition-colors">Jouets vintage</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs uppercase tracking-[0.25em] text-orange-sirop font-bold mb-4">Les guides</h4>
+        <ul class="list-none space-y-2 text-sm opacity-85">
+          {GUIDES.map(([href, label]) => (
+            <li><a href={href} class="hover:text-orange-sirop hover:opacity-100 transition-colors">{label}</a></li>
+          ))}
         </ul>
       </div>
 
