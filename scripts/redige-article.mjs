@@ -187,7 +187,8 @@ function consigneComparatif(sujet) {
 4. Pour chaque produit : ce qu'il fait, pour qui, un point fort et un point faible factuels (trouves dans des tests ou fiches), et ce qu'il faut verifier avant d'acheter.
 5. Un tableau recapitulatif en markdown (modele, pour qui, point fort, point faible), sans prix Amazon.
 6. Une section "Notre choix" qui tranche selon le profil du lecteur.
-${enfant ? `7. PUBLIC ENFANT : la loi francaise (article L. 5231-3 du code de la sante publique) interdit toute publicite pour un telephone mobile destine aux moins de 14 ans. Aucun telephone, aucune montre avec carte SIM, aucun appareil qui telephone dans la liste des produits.
+7. Si le sujet porte sur des telephones, le lecteur est un ADULTE (pour lui-meme ou pour un parent age). Ne parle JAMAIS d'enfant, d'ado, de college, de 6e ni de premier telephone : la loi francaise interdit la publicite pour un mobile destine aux moins de 14 ans, et le controle automatique refuse l'article.
+${enfant ? `8. PUBLIC ENFANT : la loi francaise (article L. 5231-3 du code de la sante publique) interdit toute publicite pour un telephone mobile destine aux moins de 14 ans. Aucun telephone, aucune montre avec carte SIM, aucun appareil qui telephone dans la liste des produits.
 ` : ""}
 Le nom de chaque produit doit apparaitre TEL QUEL dans le corps, en dehors des titres et du tableau (dans un paragraphe), au moins une fois : c'est la que le lien sera pose.
 
@@ -506,6 +507,13 @@ function valide(meta, corps, sujet, usage) {
       }
     }
     if (prixAmazonEnDur(toutLeTexte)) erreurs.push("un prix Amazon est écrit en dur (interdit par le programme Partenaires)");
+    // Un comparatif de telephones ne vise jamais un enfant : la loi (art. L. 5231-3
+    // du code de la sante publique) interdit la publicite pour un mobile destine aux
+    // moins de 14 ans. Essai du 02/10/2026 : une FAQ « pour un enfant qui entre en 6e ».
+    const parleTelephone = /t[eé]l[eé]phone|dumbphone|smartphone|nokia|doro/i.test(`${sujet.keyword} ${sujet.titre}`);
+    if (parleTelephone && /\b(enfants?|ados?|adolescents?|coll[eé]giens?|6e|sixi[eè]me|coll[eè]ge|cm2|premier t[eé]l[eé]phone)\b/i.test(toutLeTexte)) {
+      erreurs.push("le comparatif de téléphones parle d'enfants ou d'ados (publicité interdite pour un mobile destiné aux moins de 14 ans) : retire toute mention d'enfant, d'ado, de collège et de premier téléphone, et vise les adultes");
+    }
   }
 
   if (sujet.mode === "enrichir") {

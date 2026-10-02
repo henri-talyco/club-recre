@@ -231,7 +231,8 @@ jobs:
         run: npx wrangler deploy
 
       - name: Alerter quand la file s'epuise
-        if: steps.redaction.outputs.vide == '1' || fromJSON(steps.redaction.outputs.restants || '99') < 10
+        # Jamais pendant un essai a blanc : il simule une file vide pour ne rien publier.
+        if: ${{ !inputs.essai && (steps.redaction.outputs.vide == '1' || fromJSON(steps.redaction.outputs.restants || '99') < 10) }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RESTANTS: ${{ steps.redaction.outputs.restants || '0' }}
