@@ -12,12 +12,14 @@ seoTitle: "Boite à goûter enfant : le comparatif inox vs bento 2026"
 seoDescription: "Boite à goûter enfant : comparatif inox, bento, sans plastique. Les meilleures boîtes à goûter pour l'école selon l'âge, testées et approuvées."
 faq:
   - q: "Quelle est la meilleure boite à goûter pour l'école maternelle ?"
-    a: "Pour la maternelle (3-6 ans), la meilleure boite à goûter doit être facile à ouvrir seul (un enfant de 3 ans doit pouvoir l'ouvrir sans aide), légère, et résistante aux chutes. Les meilleures options : Bento box en acier inoxydable avec fermetures à clip simples (Bento&co Kids, Sistema), les boîtes Tupperware résistantes avec leur grip coloré, ou les boîtes en bois avec fermeture magnétique pour les enfants plus habiles. Évite les fermetures à vis qui frustrent les petits."
+    a: "Pour la maternelle (3-6 ans), la meilleure boite à goûter doit être facile à ouvrir seul (un enfant de 3 ans doit pouvoir l'ouvrir sans aide), légère, et résistante aux chutes. Les meilleures options : Bento box en acier inoxydable avec fermetures à clip simples (Sistema), les boîtes Tupperware résistantes avec leur grip coloré, ou les boîtes en bois avec fermeture magnétique pour les enfants plus habiles. Évite les fermetures à vis qui frustrent les petits."
   - q: "Inox ou plastique pour une boite à goûter enfant ?"
     a: "L'inox est supérieur au plastique pour une boite à goûter enfant : il ne libère aucun perturbateur endocrinien (contrairement aux plastiques même sans BPA), il dure 10-15 ans sans se dégrader, il ne retient pas les odeurs, et il se lave facilement (lave-vaisselle possible). Son seul inconvénient : le prix (15-35€ vs 5-15€ pour le plastique) et le poids légèrement supérieur. Sur 10 ans d'utilisation, l'inox est nettement moins cher que de remplacer des boîtes plastique. Notre recommandation : inox dès que possible."
   - q: "Comment faire en sorte que mon enfant mange son goûter à l'école ?"
     a: "Les enfants mangent mieux leur goûter à l'école quand il est prévisible, appétissant visuellement, et varié. Stratégies qui fonctionnent : couper les fruits en morceaux (plus accessible qu'un fruit entier), varier le format d'une semaine à l'autre (taille, forme, présentation), impliquer l'enfant dans le choix du goûter de la semaine, utiliser une boîte compartimentée (les différents compartiments rendent le goûter plus ludique). Évite les goûters trop élaborés qui ne se mangent pas bien debout ou assis par terre."
+affiliation: true
 ---
+
 
 La boite à goûter enfant, dans les années 90, c'était souvent une boîte en plastique Tupperware héritée de la cuisine des parents, ou un sachet plastique fermé avec un nœud. Simple, pas cher, et ça marchait très bien. Le contenu était plus important que le contenant.
 
@@ -42,10 +44,8 @@ L'acier inoxydable 18/8 (ou 304) est le meilleur matériau pour une boite à go�
 **Praticité** : lavable au lave-vaisselle, facile à nettoyer à la main, supporte les chutes mieux que le plastique fragile.
 
 **Les meilleures boites en inox** :
-- Planet Box Rover (45-55€) : la référence américaine avec ses compartiments aimantés. Très pratique, très solide, système de fermeture simple pour les petits.
-- Bento&co Original (25-35€) : format japonais compact, fermetures à élastique simple, plusieurs tailles disponibles.
-- Klean Kanteen Kids (20-30€) : format simple, une seule case, fermeture à clip, disponible dans de belles couleurs.
-- ECOlunchbox (25-35€) : format 3 en 1 avec compartiments emboîtés.
+- PlanetBox Rover : la référence américaine avec ses compartiments aimantés. Très pratique, très solide, système de fermeture simple pour les petits.
+- [ECOlunchbox](https://www.amazon.fr/dp/B0040MH642) (25-35€) : format 3 en 1 avec compartiments emboîtés.
 
 ## Le bento : l'option compartimentée
 
@@ -55,7 +55,7 @@ Le bento (de la tradition japonaise du repas-boîte compartimenté) est parfait 
 
 **Inconvénients** : un peu plus lourd, plus complexe à laver.
 
-Les bento en plastique résistant (Lunchbots, Sistema, Bentgo) valent 10-25€. Les bento en inox (Planet Box, Lunchbots) valent 25-50€. Pour les enfants à partir de 6 ans, le bento est souvent préféré à une simple boîte.
+Les bento en plastique résistant ([Sistema](https://www.amazon.fr/dp/B071JMJNMY), [Bentgo](https://www.amazon.fr/dp/B00PKNO7HO)) sont les moins chers. Les bento en inox (PlanetBox, [Lunchbots](https://www.amazon.fr/dp/B00IHMNSV6)) coûtent plus cher mais durent des années. Pour les enfants à partir de 6 ans, le bento est souvent préféré à une simple boîte.
 
 ## Le plastique : ce qu'il faut savoir
 
@@ -67,7 +67,7 @@ Si tu choisis le plastique, quelques règles :
 
 **Évite les plastiques 3 (PVC) et 7 (polycarbonate)** : encore présents sur certains articles importés, ils sont potentiellement problématiques.
 
-**Marques fiables** : Tupperware reste une référence historique (plastique PP de qualité, garantie à vie), Sistema (plastique résistant, fermetures à clips, large gamme), Mepal (marque néerlandaise sérieuse).
+**Marques fiables** : Tupperware reste une référence historique (plastique PP de qualité, garantie à vie), Sistema (plastique résistant, fermetures à clips, large gamme), [Mepal](https://www.amazon.fr/dp/B07C22C8VD) (marque néerlandaise sérieuse).
 
 ## Les boîtes en bois : pour le style, pas pour l'école
 

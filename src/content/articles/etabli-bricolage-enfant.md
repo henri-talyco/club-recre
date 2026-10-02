@@ -14,10 +14,12 @@ faq:
   - q: "À quel âge offrir un établi de bricolage à un enfant ?"
     a: "Un établi de bricolage peut être offert dès 18 mois pour les modèles d'éveil très simples (quelques pièces à enfoncer, marteau en bois). Les vrais établis avec outils multiples (scie, tournevis, niveau) conviennent à partir de 3 ans. Les établis avec vrais mécanismes (étau fonctionnel, serre-joints) sont adaptés à partir de 5-6 ans. À 8-10 ans, un enfant peut commencer à utiliser de vrais outils sous supervision pour de petits projets de menuiserie réelle. L'important : choisir un établi adapté à l'âge pour que l'enfant puisse vraiment jouer dedans et développer une vraie motricité."
   - q: "Quel est le meilleur établi bricolage enfant en bois ?"
-    a: "Les meilleurs établis bricolage enfant en bois en 2026 : le Bosch Workbench (35-50€, résistant, bons accessoires), le Brio Builder Workbench (45-65€, compatible système Brio, qualité scandinave), le Djeco atelier bois (55-75€, matériaux naturels, design soigné), et le Legler Petit Menuisier (30-45€, compact, bien fourni). Pour les budgets serrés, les établis Hape (25-40€) offrent un bon rapport qualité-prix. Évite les établis en plastique qui se dégradent rapidement et ne transmettent pas la même sensation que le travail du bois."
+    a: "En bois, deux valeurs sûres selon l'âge : le mini-établi Djeco Bricolou dès 18 mois, puis l'Établi du Bricoleur de Hape pour les 3-5 ans. Moulin Roty propose un établi en bois clair au style vintage dans sa collection Les Jouets d'Hier, vendu sans outils. Les établis Bosch de Theo Klein et la mallette BRIO Builder sont en plastique, mais ils plaisent aux enfants qui veulent imiter les outils des parents. Un établi en bois se transmet plus facilement d'un enfant à l'autre."
   - q: "Comment choisir entre un établi jouet et un vrai petit établi pour enfant ?"
     a: "La différence entre un établi jouet et un vrai petit établi est importante. Les établis jouets (accessoires en plastique ou bois léger) conviennent pour les 2-5 ans qui imitent le bricolage sans objectif de résultat. Les vrais petits établis avec outils fonctionnels (scie douce, marteau réel, tournevis) permettent à partir de 6 ans de réaliser de petits projets concrets (assembler des planches, clouer, visser). Un enfant qui commence à 6 ans sur un vrai établi adapté peut construire une petite boîte ou un cadre en bois avant ses 8 ans. La satisfaction est incomparable."
+affiliation: true
 ---
+
 
 L'établi bricolage enfant, dans les années 90, c'était souvent un coin dans le garage de Papa. Un tabouret pour atteindre l'établi d'adulte, des clous récupérés dans une boîte de métal, un marteau trop lourd pour les petites mains. Et pourtant, on aimait ça — être là, travailler le bois, faire quelque chose de réel.
 
@@ -43,27 +45,21 @@ Et contrairement à beaucoup de jouets, l'établi a une progressivité naturelle
 
 **La praticité** : rangement des outils intégré (crochets, trous), espace de travail suffisant, possibilité de fixer une pièce pour la travailler.
 
-## Notre sélection par budget
+## Notre sélection, du plus simple au plus complet
 
-### Budget accessible (20-40€)
+### Pour démarrer, en bois
 
-**Hape Workshop Starter Set** : l'entrée de gamme la plus fiable. Bois peint, accessoires corrects, stable. Pour les 3-5 ans. Le marteau est bien proportionné, les accessoires résistent à un usage intensif.
+**[Hape Établi du Bricoleur](https://www.amazon.fr/dp/B00712Y1K0)** : l'entrée de gamme en bois peint chez Hape. Un plan de travail, des vis et des écrous à manipuler, un marteau à la taille de la main. Pour les 3-5 ans qui veulent taper, visser et recommencer.
 
-**Legler Petit Menuisier** : compact (idéal pour les petits appartements), bien fourni, solide. Le plan de travail est un peu petit mais suffisant pour les jeunes enfants.
+**Djeco Bricolou** : un mini-établi d'éveil en bois, pensé dès 18 mois. Moins un établi qu'un premier jeu de clous et de marteau, parfait avant le vrai modèle.
 
-### Budget milieu (40-65€)
+**Moulin Roty, collection Les Jouets d'Hier** : le côté vintage assumé d'une marque française historique, bois clair et design épuré. Attention, l'établi est vendu sans outils, il faut les prévoir à part.
 
-**Bosch Ixolino II Établi** : la référence de cette gamme de prix. Stabilen, nombreux accessoires, design proche des vrais outils Bosch. Plaît particulièrement aux enfants qui voient les vrais outils des parents. Dès 3 ans.
+### Pour les fans de « vrais » outils
 
-**Brio Builder Workbench** : la qualité scandinave légendaire de Brio. Compatible avec le système Builder (construction par assemblage). Bois naturel non peint, finition irréprochable. 4-8 ans.
+**Theo Klein, licence Bosch** : le fabricant allemand Theo Klein produit sous licence les établis jouets Bosch, au design copié sur les outils des parents. Deux formats : [la mallette d'établi avec la visseuse jouet Ixolino](https://www.amazon.fr/dp/B09W9MSN3S), compacte, et [le grand établi Bosch Workshop de 79 pièces](https://www.amazon.fr/dp/B001LU4324). Dès 3 ans, en plastique, et c'est souvent celui que les enfants réclament.
 
-**Moulin Roty Les P'tits Bricoleurs** : le côté vintage assumé d'une marque française historique. Bois clair, accessoires en métal brossé, design épuré. Moins fourni que ses concurrents mais beauté esthétique supérieure.
-
-### Budget qualité (65-120€)
-
-**Djeco Atelier bois** : matériaux naturels, design japonisant épuré, accessoires de qualité. Pour les parents qui veulent un objet durable et beau dans la chambre.
-
-**Klein Bosch Werkzeug Tisch** : l'établi le plus complet du marché enfant. Surface de travail ample, outils électriques jouets (perceuse, ponceuse), nombreux accessoires de chantier. Pour les vrais fans de bricolage, dès 3 ans.
+**[BRIO Builder, mallette établi](https://www.amazon.fr/dp/B09TPHYRHF)** : 59 pièces en plastique, compatibles avec tout le système de construction Builder de BRIO. On visse, on assemble, on démonte. Plutôt pour les 3-8 ans qui aiment construire que taper.
 
 ## Passer à l'étape suivante : les vrais outils
 

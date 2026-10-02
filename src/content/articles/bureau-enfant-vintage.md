@@ -17,7 +17,9 @@ faq:
     a: "La restauration d'un bureau enfant vintage suit ces étapes : 1) Ponçage léger (papier P120 puis P220) pour enlever les traces et égaliser la surface, 2) Nettoyage à l'alcool isopropylique pour enlever la graisse, 3) Traitement selon le résultat souhaité : huile dure pour le bois naturel (2 couches avec ponçage intermédiaire), peinture à la craie (Chalk Paint) pour un look patiné coloré, ou lasure pour un aspect naturel teinté. La Chalk Paint est la solution la plus simple et la plus forgiving — erreurs faciles à corriger."
   - q: "Quel âge pour un premier bureau enfant ?"
     a: "Un enfant peut commencer à avoir son bureau dès 3-4 ans pour les activités créatives (dessin, peinture, modelage), mais le bureau pour les devoirs scolaires n'est réellement utile qu'à partir du CP (6 ans). Avant cet âge, une petite table et des chaises adaptées à la hauteur suffisent. La hauteur du bureau doit être réglée pour que l'enfant soit assis avec les pieds à plat et les coudes à 90°. Les bureaux réglables en hauteur sont donc idéaux pour accompagner la croissance de 4 à 12 ans."
+affiliation: true
 ---
+
 
 Le bureau enfant vintage, dans les années 90, c'était souvent le même depuis 15 ans déjà. Un truc en pin brut avec un tiroir et une petite étagère sur le côté, acheté chez Ikea ou Conforama dans les années 80. Solide comme un roc, jamais jeté. On l'a tous eu, dans des variantes légèrement différentes.
 
@@ -33,7 +35,7 @@ Deuxième avantage : l'esthétique. Le bois naturel, les poignées en laiton, la
 
 ## Les modèles à connaître
 
-**Le bureau pin Ikea Leksvik (1980-2010)** : l'archétype du bureau vintage scandinave. Pin massif, tiroir en dessous, petite étagère rehaussée sur le côté. Des millions d'exemplaires produits pendant 30 ans. Facile à trouver, très fiable, beau naturel ou peint.
+**Le bureau en pin Ikea Leksvik** : l'archétype du bureau vintage scandinave. Pin massif, tiroir en dessous, petite étagère rehaussée sur le côté. On le croise souvent en occasion. Facile à trouver, très fiable, beau naturel ou peint.
 
 **Le bureau secrétaire abattant** : la version vintage sophistiquée. Un meuble dont la face avant s'abat pour créer la surface de travail, avec des petits rangements à l'intérieur. Pour les chambres d'enfants plus grands (8-12 ans) qui ont besoin de rangement pour leurs affaires scolaires. Très présent dans les brocantes.
 
@@ -69,7 +71,7 @@ La restauration d'un bureau enfant vintage peut aller du simple nettoyage à la 
 
 **Bois abîmé mais structure saine** : ponçage plus poussé (P80 puis P120 puis P220) pour effacer les traces, puis finition au choix : huile (aspect naturel), lasure teintée (pour changer légèrement la couleur), ou cire (protection légère).
 
-**Peindre le bureau** : la Chalk Paint (Annie Sloan, Rust-Oleum Chalked) est idéale pour les meubles vintage. Elle adhère sans apprêt, couvre bien, et donne un aspect patiné parfait pour le style 90s. Couleurs iconiques : vert sauge, bleu canard, blanc cassé, terra cotta.
+**Peindre le bureau** : la Chalk Paint (Annie Sloan, [Rust-Oleum Chalky](https://www.amazon.fr/dp/B00KHSIRMS)) est idéale pour les meubles vintage. Elle adhère sans apprêt, couvre bien, et donne un aspect patiné parfait pour le style 90s. Couleurs iconiques : vert sauge, bleu canard, blanc cassé, terra cotta.
 
 ## La chaise assortie : ne pas négliger le siège
 

@@ -17,7 +17,9 @@ faq:
     a: "Le repère le plus repris est de 10 % du poids de l'enfant, seuil fixé par une circulaire de l'Éducation nationale en 1995. Pour un enfant de 25 kg, cela fait 2,5 kg tout compris : cartable vide, trousse, cahiers, gourde, goûter. Aucune loi ne rend ce seuil obligatoire, mais le ministère a reconnu le surpoids des cartables comme un problème de santé publique dans une circulaire de janvier 2008. Les enquêtes de la FCPE situent le poids réellement porté bien au-dessus, autour du double de la recommandation. Concrètement : le poids du cartable vide compte pour beaucoup, donc pèse-le avant d'acheter, et vide le cartable avec ton enfant chaque vendredi soir."
   - q: "Cartable rigide ou sac à dos souple pour l'école primaire ?"
     a: "Le cartable rigide tient debout tout seul, protège les cahiers des coins cornés et se pose sans s'affaisser sous le porte-manteau. Il pèse plus lourd à vide, et cette différence se paie tous les matins. Le sac à dos souple est plus léger et plus polyvalent, mais il s'écrase, les feuilles se plient et il vieillit plus vite aux points de tension. En primaire, le cartable rigide reste le plus adapté tant que l'enfant transporte des cahiers grand format. Le sac à dos prend le relais plus tard, quand le contenu devient volumineux et que l'enfant tient à ne plus ressembler à un élève de CP. Les deux se portent sur les deux épaules, toujours."
+affiliation: true
 ---
+
 
 Fin août 1996. Le cartable était posé sur la table de la cuisine, encore raide, et l'odeur de plastique neuf tenait trois jours. On le choisissait en dix minutes, sur le motif, et il finissait l'année avec un coin râpé et le prénom au marqueur sous le rabat. Acheter un cartable pour enfant, c'était une formalité de rentrée, pas un dossier.
 
@@ -81,7 +83,7 @@ Le cartable rigide reste le format le plus adapté au primaire : il tient debout
 
 ## Le faire durer : SAV, réparation, entretien
 
-Regarde la garantie et le service après-vente avant de comparer les prix. Tann's, marque française créée en 1978, garantit par exemple ses cartables deux ans contre les défauts de fabrication avec un service après-vente basé en France. Une couture qui lâche ou une boucle qui casse ne signifie alors pas racheter un cartable entier. Cette information est publique, elle se vérifie en deux clics sur le site du fabricant, et elle en dit long sur ce que la marque attend de son propre produit.
+Regarde la garantie et le service après-vente avant de comparer les prix. [Tann's](https://www.amazon.fr/dp/B0975385R8), marque française créée en 1978, garantit par exemple ses cartables deux ans contre les défauts de fabrication avec un service après-vente basé en France. Une couture qui lâche ou une boucle qui casse ne signifie alors pas racheter un cartable entier. Cette information est publique, elle se vérifie en deux clics sur le site du fabricant, et elle en dit long sur ce que la marque attend de son propre produit.
 
 L'entretien tient en peu de choses. Éponge humide et savon doux, jamais la machine à laver, qui décolle les renforts et déforme le matelassage. Séchage à l'ombre, ouvert. Une tache traitée le soir même part, la même tache traitée en juin ne part plus. Et surtout, répare tôt : une couture qui commence à filer se reprend à la main en cinq minutes, la même couture ignorée trois semaines emporte la bretelle.
 

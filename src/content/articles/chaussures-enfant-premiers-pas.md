@@ -17,7 +17,9 @@ faq:
     a: "Non. L'idée vient des années 80 et 90 et elle a la vie dure, mais la cheville d'un tout-petit n'a pas besoin d'un maintien rigide : c'est en travaillant qu'elle se muscle. L'Ordre national des pédicures-podologues va dans ce sens. Une tige montante peut rassurer sur un point pratique, elle empêche la chaussure de se faire éjecter d'un coup de pied, mais elle doit rester souple au niveau de la malléole. Ce qui compte vraiment, c'est un contrefort arrière qui tient le talon en place, une semelle qui plie à l'avant-pied et un volume suffisant pour les orteils. Un modèle rigide qui bloque la cheville freine l'apprentissage plus qu'il ne le sécurise."
   - q: "Comment savoir si les chaussures de mon bébé sont devenues trop petites ?"
     a: "Ne te fie ni à la pointure affichée ni à ce que dit ton enfant : à cet âge il ne se plaint pas, il s'adapte. Mesure le pied tous les deux mois jusqu'à 2 ans, puis tous les trois mois jusqu'à 4 ans. Il faut environ 1 cm de marge entre le plus long orteil et le bout de la chaussure. Surveille aussi les signes physiques : rougeurs sur le dessus du pied, marques de couture, ongles qui bleuissent, orteils qui restent recroquevillés quand tu déchausses, enfant qui se déchausse tout le temps. Sache qu'entre 0 et 24 mois, un pied peut prendre une pointure tous les deux mois environ."
+affiliation: true
 ---
+
 
 Dans les années 90, la question se réglait en vingt minutes. Bébé tenait debout, on l'emmenait chez le chausseur du centre-ville, un vendeur lui coinçait le pied dans une planche graduée et ressortait une paire montante, rigide, cuir épais, censée « tenir la cheville ». On repartait avec, et avec le sentiment du devoir accompli. Aujourd'hui, chercher une chaussure premiers pas pour bébé, c'est tomber sur trois écoles qui se contredisent dès la première page de Google : les pro-barefoot, les partisans du maintien, et les marques qui collent l'étiquette « premiers pas » sur à peu près tout.
 
@@ -29,7 +31,7 @@ Ce guide te donne les repères concrets : quand acheter, comment mesurer, quels 
 
 C'est le point sur lequel tout le monde tombe d'accord, et c'est celui qu'on applique le moins. En intérieur, sur sol sûr, le pied nu reste la référence. Il stimule la proprioception, ces capteurs qui disent au cerveau où est le corps dans l'espace. Il oblige les orteils à s'accrocher, la cheville à corriger, les petits muscles du pied à travailler en permanence. Une chaussure, même excellente, fait une partie de ce boulot à la place de l'enfant.
 
-Concrètement, ça donne une hiérarchie simple. À la maison : pieds nus dès que la température le permet. Si le parquet est froid ou glissant, chaussettes antidérapantes, puis chaussons en cuir souple type Robeez, qui tiennent avec un élastique à la cheville et laissent le pied travailler presque librement. Dehors : chaussure fermée, mais la plus discrète possible. Ce n'est pas une position idéologique, c'est juste l'ordre logique. La chaussure protège d'un environnement, elle n'apprend rien.
+Concrètement, ça donne une hiérarchie simple. À la maison : pieds nus dès que la température le permet. Si le parquet est froid ou glissant, chaussettes antidérapantes, puis chaussons en cuir souple type [Robeez](https://www.amazon.fr/dp/B09Q6TJ88M), qui tiennent avec un élastique à la cheville et laissent le pied travailler presque librement. Dehors : chaussure fermée, mais la plus discrète possible. Ce n'est pas une position idéologique, c'est juste l'ordre logique. La chaussure protège d'un environnement, elle n'apprend rien.
 
 ## Le bon moment pour la première paire
 
@@ -79,7 +81,7 @@ Le budget se répartit donc mieux ainsi : une paire extérieur correcte, renouve
 
 L'étiquette « chaussure premiers pas pour bébé » ne garantit rien du tout. C'est une catégorie commerciale, pas une norme. Les mentions à chercher sont ailleurs : souplesse de la semelle, largeur de l'avant-pied, absence de talon marqué, doublure cuir, poids annoncé.
 
-Côté marques, plusieurs maisons européennes sont régulièrement citées par les vendeurs spécialisés et les podologues, avec deux familles distinctes. D'un côté, l'approche minimaliste, très proche du pied nu, où Froddo est l'une des références du courant barefoot enfant : cuir très souple, semelle fine, avant large. De l'autre, des modèles un peu plus structurés, avec un léger contrefort et une résistance à la torsion, comme Babybotte, Naturino, Shoo Pom, Pom d'Api ou Kickers, marque que beaucoup d'entre nous ont portée gamins. Les deux familles fonctionnent, la seconde rassure souvent les parents et convient bien aux enfants qui passent leurs journées dehors. Ce qui les disqualifie ou pas, ce sont les tests, pas le logo.
+Côté marques, plusieurs maisons européennes sont régulièrement citées par les vendeurs spécialisés et les podologues, avec deux familles distinctes. D'un côté, l'approche minimaliste, très proche du pied nu, où [Froddo](https://www.amazon.fr/dp/B0DVCF52HM) est l'une des références du courant barefoot enfant : cuir très souple, semelle fine, avant large. De l'autre, des modèles un peu plus structurés, avec un léger contrefort et une résistance à la torsion, comme Babybotte, Naturino, Shoo Pom, Pom d'Api ou Kickers, marque que beaucoup d'entre nous ont portée gamins. Les deux familles fonctionnent, la seconde rassure souvent les parents et convient bien aux enfants qui passent leurs journées dehors. Ce qui les disqualifie ou pas, ce sont les tests, pas le logo.
 
 ## La seconde main : ce qui se transmet, ce qui se jette
 
