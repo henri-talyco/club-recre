@@ -511,7 +511,7 @@ function valide(meta, corps, sujet, usage) {
     // du code de la sante publique) interdit la publicite pour un mobile destine aux
     // moins de 14 ans. Essai du 02/10/2026 : une FAQ « pour un enfant qui entre en 6e ».
     const parleTelephone = /t[eé]l[eé]phone|dumbphone|smartphone|nokia|doro/i.test(`${sujet.keyword} ${sujet.titre}`);
-    if (parleTelephone && /\b(enfants?|ados?|adolescents?|coll[eé]giens?|6e|sixi[eè]me|coll[eè]ge|cm2|premier t[eé]l[eé]phone)\b/i.test(toutLeTexte)) {
+    if (parleTelephone && /(?<!petits?-)\b(enfants?|ados?|adolescents?|coll[eé]giens?|6e|sixi[eè]me|coll[eè]ge|cm2|premier t[eé]l[eé]phone)\b/i.test(toutLeTexte)) {
       erreurs.push("le comparatif de téléphones parle d'enfants ou d'ados (publicité interdite pour un mobile destiné aux moins de 14 ans) : retire toute mention d'enfant, d'ado, de collège et de premier téléphone, et vise les adultes");
     }
   }
