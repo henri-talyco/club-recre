@@ -19,6 +19,7 @@
  *   node scripts/rattrape-photos.mjs <slug>...  seulement ces articles
  *   node scripts/rattrape-photos.mjs --liste    montre le travail sans rien ecrire
  *   node scripts/rattrape-photos.mjs --cle      passe par la cle API (quota abo a sec)
+ *   node scripts/rattrape-photos.mjs <slug> --scene "..."  impose la scene (en anglais)
  */
 
 import fs from "node:fs";
@@ -275,9 +276,13 @@ const args = process.argv.slice(2);
 const FORCE = args.includes("--force"); // refait meme si la photo est deja propre
 const CLE = args.includes("--cle");  // moteur payant, quand le quota abo est a sec
 const LISTER = args.includes("--liste"); // n'ecrit rien, montre le travail
+const iScene = args.indexOf("--scene");
+// Scene imposee : quand le modele invente une scene hors sujet ou genante
+// (un enfant a qui l'on tend un telephone sur un guide d'achat, 02/10/2026).
+const SCENE = iScene >= 0 ? args[iScene + 1] : null;
 const iMax = args.indexOf("--max");
 const max = iMax !== -1 ? Number(args[iMax + 1]) : Infinity;
-const slugsVoulus = args.filter((a) => !a.startsWith("--") && a !== String(max));
+const slugsVoulus = args.filter((a) => !a.startsWith("--") && a !== String(max) && a !== SCENE);
 
 let liste = aRattraper();
 if (slugsVoulus.length) {
@@ -315,9 +320,13 @@ for (const [i, article] of liste.entries()) {
     `Elle illustre un article de magazine intitule "${article.titre}".`,
     article.description ? `Resume de l'article : ${article.description}` : "",
     "",
-    "Imagine d'abord une scene de vie de famille ordinaire, en rapport direct avec ce sujet :",
-    "des gens qui font quelque chose, jamais un objet pose sur un fond. Un enfant peut apparaitre,",
-    "jamais en gros plan sur le visage, et aucune personne reelle ou celebre.",
+    ...(SCENE
+      ? [`Scene imposee, a respecter : ${SCENE}`, "Aucune personne reelle ou celebre, aucune marque visible."]
+      : [
+          "Imagine d'abord une scene de vie de famille ordinaire, en rapport direct avec ce sujet :",
+          "des gens qui font quelque chose, jamais un objet pose sur un fond. Un enfant peut apparaitre,",
+          "jamais en gros plan sur le visage, et aucune personne reelle ou celebre.",
+        ]),
     "",
     "Puis genere l'image avec ce style, imperativement :",
     styleKodak(article.pubDate),

@@ -1,113 +1,103 @@
 ---
 title: "Téléphone sans écran pour enfant : les meilleures alternatives en 2026"
-description: "Téléphone sans écran pour enfant : dumbphones, montres GPS, walkie-talkies. Toutes les alternatives pour garder le lien sans offrir un smartphone."
+description: "Téléphone sans écran pour enfant : dumbphone, montre-téléphone, walkie-talkie. Les repères officiels par âge, la fin de la 2G et les forfaits à deux euros."
 pubDate: 2026-05-04
+updatedDate: 2026-10-02
 pillar: "education"
 tags: ["téléphone", "écran", "enfant", "éducation", "autonomie"]
 cover: "/img/articles/telephone-sans-ecran-enfant.jpg"
 coverAlt: "Photo d'illustration, Téléphone sans écran pour enfant : les meilleures alternatives en 2026"
 author: "Club Récré"
-readingTime: 8
-seoTitle: "Téléphone sans écran enfant : 8 alternatives testées 2026"
-seoDescription: "Dumbphone, montre GPS, walkie-talkie : les meilleurs téléphones sans écran pour enfant. Guide complet 2026 avec prix et avis."
+readingTime: 10
+seoTitle: "Téléphone sans écran enfant : les alternatives en 2026"
+seoDescription: "Téléphone sans écran pour enfant : quel âge selon les recommandations officielles, dumbphone, montre ou walkie-talkie, le piège de la fin de la 2G et les forfaits."
 faq:
-  - q: "Quel est le meilleur téléphone sans écran pour un enfant de 6 ans ?"
-    a: "Pour un enfant de 6 ans, la montre GPS avec fonction appel (type Xplora X6 Play ou Kidswatch) est la meilleure option. Elle permet aux parents de contacter l'enfant, intègre un GPS, et n'a pas d'accès à internet ou aux réseaux sociaux. Comptez 60 à 120€. Pour un enfant un peu plus grand (8-9 ans), un dumbphone type Doro ou Nokia 3310 fonctionne très bien."
   - q: "À quel âge donner un premier téléphone à un enfant ?"
-    a: "La plupart des pédiatres et experts recommandent d'attendre 10-12 ans pour un premier téléphone basique, et 13-14 ans pour un smartphone. Avant 10 ans, une montre GPS connectée ou un walkie-talkie répond à 90% des besoins pratiques (joindre l'enfant, savoir où il est) sans les risques liés aux écrans et aux réseaux sociaux."
-  - q: "Comment contacter mon enfant sans lui donner un smartphone ?"
-    a: "Trois solutions fiables : 1) La montre GPS avec appel intégré — l'enfant reçoit et passe des appels depuis une liste de numéros approuvés par les parents, 2) Le dumbphone basique (Nokia, Doro) — appels et SMS uniquement, pas de connexion internet, 3) Le walkie-talkie longue portée — idéal pour les petites distances (trajet école, parc du quartier). La montre GPS est la solution la plus complète pour les 6-10 ans."
+    a: "La commission « Enfants et écrans », dont le rapport a été remis au président de la République le 30 avril 2024, estime qu'il n'est pas opportun qu'un enfant ait un téléphone portable avant 11 ans, l'âge de l'entrée au collège. De 11 à 13 ans, elle recommande un téléphone qui ne permet pas d'aller sur internet. À partir de 13 ans, un téléphone connecté peut se discuter, mais sans réseaux sociaux. En pratique, les enfants français reçoivent leur premier smartphone à 11 ans et 4 mois en moyenne, selon l'Observatoire de la parentalité et de l'éducation numérique et Ipsos en 2024."
+  - q: "Le vieux Nokia de la maison peut-il servir de premier téléphone ?"
+    a: "Probablement plus, si c'est un modèle uniquement 2G comme le Nokia 3310 d'origine. La 2G s'arrête en France le 20 octobre 2026 chez Orange et Free, le 15 novembre chez SFR, le 15 décembre chez Bouygues Telecom. Un téléphone uniquement 2G n'aura plus de réseau du tout. Même un téléphone marqué 4G doit savoir passer ses appels en 4G (la fonction VoLTE) pour fonctionner après la fin de la 3G, en 2028 et 2029. Le plus sûr est de vérifier le modèle sur la liste officielle de ton opérateur avant de le confier à ton enfant."
+  - q: "Le portable est-il interdit au collège et au lycée ?"
+    a: "Au collège, la « pause numérique » est généralisée depuis la rentrée 2025 : le téléphone reste éteint et rangé dans tout l'établissement. Au lycée, l'interdiction du portable s'applique depuis la rentrée 2026, avec la loi du 24 août 2026, et des exceptions pédagogiques possibles dans le règlement intérieur. L'interdiction des réseaux sociaux avant 15 ans, votée par le Parlement en juillet 2026, a en revanche été annulée par le Conseil constitutionnel le 14 août 2026. Une nouvelle version a été transmise à la Commission européenne en septembre, elle n'est ni votée ni en vigueur."
 ---
 
-Le téléphone sans écran pour enfant, dans les années 90, ça n'existait pas — et pourtant on rentrait de l'école tout seuls, on jouait au parc jusqu'à 19h, et nos parents ne paniquaient pas. Aujourd'hui, la question se pose différemment : comment garder le lien avec son enfant sans lui coller un smartphone entre les mains à 7 ans ?
+Dans les années 90, le téléphone sans écran pour enfant n'existait pas. Il y avait le fixe de l'entrée, avec le fil qui s'emmêlait, et la cabine à carte au coin de la rue. On rentrait de l'école à pied, on sonnait chez les copains, et nos parents ne savaient pas où on était entre 16h30 et 19h.
 
-Club Récré a passé en revue toutes les alternatives : montres GPS, dumbphones, walkie-talkies, téléphones à touches. Le guide complet pour choisir le téléphone sans écran pour enfant adapté à l'âge et aux besoins de ta famille.
+En 2026, la question se pose autrement. Comment joindre son enfant, et qu'il puisse te joindre, sans lui mettre un smartphone dans la poche à 9 ans ? Ce guide reprend les repères officiels par âge, les solutions sans internet, et un piège que beaucoup de familles vont découvrir cet automne. La 2G s'éteint, et le vieux portable qui dort dans un tiroir ne servira peut-être plus à rien.
 
-## Pourquoi éviter le smartphone avant 12 ans
+## Les repères officiels, âge par âge
 
-Le smartphone, c'est bien plus qu'un téléphone. C'est un accès illimité aux réseaux sociaux, aux jeux en ligne, à YouTube, aux contenus pour adultes. Avant 12 ans, le cerveau n'est pas encore équipé pour gérer ce flux d'informations et de sollicitations.
+Le rapport de la commission « Enfants et écrans », remis le 30 avril 2024, a posé des repères clairs. Pas de téléphone portable avant 11 ans, l'âge de l'entrée au collège. De 11 à 13 ans, un téléphone qui ne permet pas d'aller sur internet. À partir de 13 ans, un téléphone connecté, mais sans réseaux sociaux. À 15 ans, l'accès aux seuls réseaux conçus de manière éthique. Le même rapport recommande aussi zéro écran avant 3 ans.
 
-Les études sont claires : plus l'exposition aux écrans est précoce, plus les risques sont élevés — troubles de l'attention, difficultés de sommeil, anxiété sociale, baisse des résultats scolaires. Et une fois le smartphone dans la poche, très difficile de faire marche arrière.
+Dans la réalité, on en est loin. Les enfants français reçoivent leur premier smartphone à 11 ans et 4 mois en moyenne (Observatoire de la parentalité et de l'éducation numérique, Ipsos, 2024). L'étude Born Social 2025 compte 78 % d'enfants équipés d'un smartphone à 11 ans, et 93 % à 12 ans.
 
-Le téléphone sans écran pour enfant répond à un vrai besoin (joindre son enfant, savoir où il est) sans ouvrir la boîte de Pandore.
+La loi, elle, a bougé vite. La « pause numérique » est généralisée au collège depuis la rentrée 2025, téléphone éteint et rangé dans tout l'établissement. Le portable est interdit au lycée depuis la rentrée 2026. L'interdiction des réseaux sociaux avant 15 ans a été votée en juillet 2026, puis annulée par le Conseil constitutionnel le 14 août, faute d'autorisation parentale et de garanties pour la vie privée. Une nouvelle version est en route, pas encore en vigueur. Si un site t'affirme que les plateformes vérifient l'âge depuis le 1er septembre 2026, il a un train de retard.
 
-## La montre GPS avec appel : la solution complète
+Un repère utile enfin, le contrôle parental. Depuis le 13 juillet 2024, tout appareil connecté vendu en France doit proposer gratuitement d'activer un contrôle parental dès sa première mise en route.
 
-C'est l'option qui a explosé ces 5 dernières années, et pour cause. La montre GPS connectée permet tout ce dont tu as besoin :
+## Les parents qui retardent le smartphone
 
-- **Appels** depuis une liste blanche de numéros (parents, grands-parents, école) — impossible d'appeler un inconnu
-- **Localisation GPS** en temps réel depuis l'appli parentale
-- **Bouton SOS** en cas d'urgence
-- Pas d'internet, pas de réseaux sociaux, pas d'app store
+Tu n'es pas seul à vouloir attendre. Le « Pacte Smartphone » est né au printemps 2024 à Betton, près de Rennes, quand des parents d'élèves se sont engagés ensemble à ne pas équiper leurs enfants d'un smartphone, ou le plus tard possible et au moins pas avant le lycée. Le mouvement s'est étendu en France, porté par l'association « Grandir mieux sans smartphone ». Le groupe Facebook « Parents unis contre les smartphones avant 15 ans » comptait 23 000 membres début 2026.
 
-Les modèles les plus fiables en 2026 : Xplora X6 Play (89€), Kidswatch Color (79€), Vtech Kidizoom Smartwatch DX3 pour les plus jeunes (60€). L'abonnement SIM coûte entre 3 et 8€/mois selon les opérateurs.
+L'intérêt d'un pacte, c'est de casser l'argument numéro un des enfants, « tout le monde en a un ». Quand cinq familles de la même classe décident ensemble, l'argument tombe.
 
-Le seul inconvénient : l'écran existe (petit, monochrome pour certains), mais sans accès à du contenu addictif. C'est un outil de communication, pas un écran de divertissement.
+## Le premier téléphone sans internet, et le piège de la 2G
 
-## Le dumbphone : le téléphone basique qui fait le job
+Entre 11 et 13 ans, la solution qui colle aux recommandations, c'est le téléphone à touches. Il appelle, il envoie des SMS, il tient plusieurs jours sans recharge, et il n'ouvre aucune application. L'enfant apprend à gérer un téléphone, à ne pas le perdre, à le recharger, sans le fil infini.
 
-Le dumbphone, c'est le retour du Nokia 3310. Un téléphone qui téléphone, qui envoie des SMS, et c'est tout. Pas de wifi, pas d'app, pas de tentation.
+Le réflexe nostalgique, c'est de ressortir le vieux Nokia du tiroir. Mauvaise idée cette année. La 2G s'arrête le 6 et le 20 octobre 2026 chez Orange et Free, le 15 novembre chez SFR, le 15 décembre chez Bouygues Telecom. Un Nokia 3310 d'origine, ou tout autre téléphone uniquement 2G, n'aura plus de réseau du tout. On a détaillé les dates et les vérifications dans notre article sur [la fin de la 2G](/journal/fin-2g-vieux-portable).
 
-Pour les enfants à partir de 8-9 ans, le dumbphone est souvent la meilleure transition. L'enfant apprend à gérer un téléphone (ne pas le perdre, le recharger, l'utiliser avec parcimonie) sans les risques du smartphone.
+Le piège suivant est plus discret. Un téléphone neuf marqué « 4G » peut repasser en 2G ou en 3G dès qu'il passe un appel. Pour téléphoner sur la 4G, il lui faut la fonction VoLTE, validée par l'opérateur pour ce modèle précis. Sinon il deviendra muet à la fin de la 3G, en 2028 ou 2029, soit pile au moment où ton enfant de 11 ans entrera au lycée. Le fabricant français The Phone l'écrit lui-même dans sa FAQ : son premier modèle, la référence H101, y compris en reconditionné, ne fonctionne qu'en 2G et en 3G.
 
-Les dumbphones à considérer :
-- **Nokia 3310 4G** (30-40€) — icône, robuste, batterie interminable
-- **Doro 6080** (50-60€) — touches larges, son fort, très fiable
-- **Bibi Phone** — pensé spécifiquement pour les enfants, touches limitées
+Avant d'acheter, cherche donc la référence exacte du modèle sur la liste des mobiles compatibles avec les appels 4G de ton opérateur. Free, Bouygues Telecom et Orange publient la leur, SFR n'en a pas publié depuis 2022. Notre [guide des dumbphones](/journal/dumbphone-telephone-sans-internet) indique, modèle par modèle, chez quel opérateur chacun est confirmé.
 
-Astuce Club Récré : achète-le d'occasion sur Vinted ou Le Bon Coin. Un Nokia 3310 à 15€, c'est parfait pour commencer.
+## La montre-téléphone, pour les plus jeunes qui sortent seuls
 
-## Le walkie-talkie : la solution 100% sans écran
+Pour un enfant de 8 à 10 ans qui commence à faire le trajet de l'école seul, la montre-téléphone répond au besoin sans écran à faire défiler. Elle appelle et reçoit des appels depuis une liste de contacts validés par les parents, elle localise l'enfant, elle a une touche d'urgence. Pas de navigateur, pas de réseaux sociaux.
 
-Pour les enfants qui jouent dans le quartier, au parc, ou chez les voisins, le walkie-talkie longue portée est la solution la plus simple et la moins chère. Zéro abonnement, zéro internet, zéro écran.
+Le budget est réel. Une montre de marque connue comme la Xplora X6Play coûte 199,99 €, plus un abonnement de 7,99 à 10,99 € par mois. La même question de la 2G se pose. Le fabricant annonce les appels 4G « si l'opérateur la prend en charge », mais aucune liste d'opérateur ne la mentionne au 2 octobre 2026. Pose la question au vendeur avant d'acheter.
 
-Les walkie-talkies modernes affichent des portées de 3 à 10 km en terrain dégagé (réalité : 1-2 km en ville, c'est suffisant pour le périmètre maison-parc-école). L'enfant appuie sur le bouton, parle, reçoit la réponse. C'est tout.
+Et garde en tête qu'une montre reste un objet que l'enfant regarde au poignet. Pour certains enfants, c'est un compagnon discret. Pour d'autres, c'est une nouvelle source de notifications.
 
-Marques fiables : Motorola T82 Extreme (60€ la paire), Retevis RT628 (30€ la paire pour les plus jeunes). La batterie tient plusieurs jours, ils sont robustes et souvent résistants à l'eau.
+## Le walkie-talkie, la solution 100 % sans écran
 
-Bonus nostalgie : les walkie-talkies, c'est exactement ce qu'on avait dans les 90s. Ça fait toujours autant plaisir à un enfant de 7 ans.
+Pour le quartier, le parc ou la maison de vacances, le talkie-walkie reste imbattable. Il ne demande ni abonnement ni réseau, et il n'a pas d'écran. L'enfant appuie sur le bouton pour parler, le relâche pour écouter. Les portées affichées sur les boîtes sont mesurées en terrain dégagé, en ville compte plutôt quelques centaines de mètres à un ou deux kilomètres, ce qui suffit pour le trajet maison, parc, boulangerie.
 
-## Le téléphone à grandes touches pour les 4-6 ans
+Bonus nostalgie, c'est exactement le jouet qu'on avait en 1995, avec le même grésillement et le même « à toi » à la fin de chaque phrase. Un enfant de 7 ans y trouve toujours autant de plaisir.
 
-Pour les tout-petits qui ont besoin de pouvoir appeler Papa et Maman mais pas d'autre chose, les téléphones avec 2 ou 4 touches programmées sont parfaits. Chaque touche est associée à un contact avec photo.
+## Le forfait, à partir de deux euros
 
-L'enfant ne sait pas encore lire ? Aucun problème. Il voit la photo de Maman, il appuie. C'est aussi simple que ça.
+Un premier téléphone n'a pas besoin de plus que des appels et des SMS. Les petits forfaits relevés entre fin août et début octobre 2026 :
 
-Produits à regarder : Binatone E200 (20-25€), le téléphone Doro Secure 580 (version simplifiée), ou les téléphones jouets avec vraie sim comme le Kidsphone de certaines marques.
-
-## Les règles à poser dès le départ
-
-Donner un téléphone, même sans écran, ça se prépare. Quelques règles que les familles qui s'en sortent bien ont en commun :
-
-**Le téléphone ne dort pas dans la chambre.** Peu importe l'âge, peu importe le type de téléphone. La chambre, c'est un espace sans technologie la nuit.
-
-**Des plages horaires définies.** Le téléphone s'utilise pour communiquer, pas pour occuper le temps libre. Pas de téléphone pendant les repas, pas pendant les devoirs, pas pendant les activités en famille.
-
-**Le téléphone appartient aux parents.** L'enfant l'emprunte. Si les règles ne sont pas respectées, il rend l'appareil. Ce cadre clair évite 90% des conflits.
-
-## Comparaison rapide : quel téléphone sans écran choisir
-
-| Solution | Âge idéal | Prix | Pour qui |
+| Offre | Prix par mois | Contenu | Contrôle parental |
 |---|---|---|---|
-| Montre GPS | 5-10 ans | 60-120€ + abo | Enfant qui sort seul |
-| Dumbphone | 8-12 ans | 20-60€ | Enfant autonome |
-| Walkie-talkie | 4-10 ans | 15-60€ | Périmètre proche |
-| Téléphone 2 touches | 4-7 ans | 15-30€ | Urgence uniquement |
+| Free, forfait 2 € | 2 €, gratuit pour les abonnés Freebox | 2 h d'appels, SMS illimités, 50 Mo | non mentionné |
+| Sosh, forfait bloqué | dès 1,99 € | 2 h d'appels, SMS illimités, 1 Go, tout se bloque une fois épuisé | gratuit |
+| B&You, 1 Go | 1,99 € | 1 Go, SMS illimités, durée d'appels à vérifier en boutique | contrôle de base gratuit |
+| Lebara, forfait 2 heures | 3,99 € | sans internet, prépayé bloqué | non mentionné |
 
-## Les applications de contrôle parental sur smartphone : la fausse bonne idée
+Un forfait bloqué a un avantage simple. Quand il est épuisé, il s'arrête, il n'y a pas de facture surprise. Chez Orange, l'option gratuite « Filtrage parental mobile » bloque les sites pour adultes et les numéros surtaxés, mais elle ne marche pas en wifi.
 
-Certains parents optent pour un smartphone avec contrôle parental strict. En théorie, c'est séduisant. En pratique, ça ne fonctionne pas : les enfants (et les ados) trouvent toujours comment contourner les restrictions, et le smartphone reste présent avec tout son potentiel addictif.
+## Les règles à poser dès le premier jour
 
-Le vrai téléphone sans écran pour enfant n'est pas un smartphone bridé — c'est un appareil qui n'a pas la capacité d'afficher du contenu addictif, peu importe comment il est configuré.
+Donner un téléphone, même sans internet, ça se prépare. Les familles qui s'en sortent bien ont souvent les mêmes règles.
+
+**Le téléphone ne dort pas dans la chambre.** Il se recharge dans l'entrée ou la cuisine, la nuit.
+
+**Il s'utilise pour joindre quelqu'un.** Pas pendant les repas, pas pendant les devoirs, pas pendant les sorties en famille.
+
+**Il appartient aux parents.** L'enfant l'emprunte. Si les règles ne sont pas respectées, il le rend. Ce cadre posé dès le départ évite beaucoup de négociations.
+
+## Comparaison rapide
+
+| Solution | Âge indicatif | Budget | Pour qui |
+|---|---|---|---|
+| Talkie-walkie | 5-10 ans | quelques dizaines d'euros, sans abonnement | jeux et trajets courts |
+| Montre-téléphone | 8-11 ans | autour de 200 € + abonnement | enfant qui sort seul |
+| Téléphone à touches compatible appels 4G | 11-13 ans | de 50 à 110 € + forfait dès 2 € | entrée au collège |
+| Smartphone | 13 ans et plus selon le rapport, sans réseaux sociaux | variable | ado |
 
 ## Ce qu'on retenait de notre enfance
 
-Dans les 90s, on communiquait sans téléphone personnel jusqu'à 14-15 ans. On rentrait à pied de l'école, on sonnait à la porte des copains, on utilisait le téléphone fixe de la maison pour les grands cas d'urgence.
+Dans les années 90, on n'avait pas de téléphone personnel avant 14 ou 15 ans. On connaissait par cœur le numéro de la maison et celui de mamie, on savait où était la cabine, on se débrouillait. Retarder le smartphone, c'est offrir quelques années de plus de cette autonomie-là.
 
-Ce n'est pas nostalgique de le dire : on était plus autonomes, plus débrouillards, plus capables de gérer l'ennui et l'inattendu. Retarder l'entrée dans le monde des écrans, c'est offrir quelques années supplémentaires de cette liberté.
-
-Le téléphone sans écran pour enfant n'est pas une punition ou un choix rétrograde. C'est une décision parentale éclairée. Et ça, personne ne peut te l'enlever.
-
-## En résumé
-
-Pour un enfant de moins de 10 ans : la montre GPS ou le walkie-talkie selon le contexte. Pour 10-12 ans : un dumbphone basique. Le smartphone peut attendre. Tes enfants ne ratera rien d'essentiel, et ils grandiront avec quelque chose de bien plus précieux qu'un écran : leur attention.
+Un téléphone sans internet n'est pas un retour en arrière. C'est l'outil qui correspond aux repères officiels entre 11 et 13 ans. Choisis-le compatible avec la fin de la 2G, et il tiendra jusqu'au lycée.

@@ -37,6 +37,22 @@ const props = Astro.props;
     <Footer />
 
     <script>
+      // Clic vers une boutique (lien retouché au build par src/lib/marchands.mjs) :
+      // événement GA4 « clic_marchand », la mesure de l'intérêt pour un produit.
+      document.addEventListener("click", (e) => {
+        const lien = (e.target as Element | null)?.closest?.<HTMLAnchorElement>("a[data-marchand]");
+        if (!lien) return;
+        const gtag = (window as any).gtag;
+        if (typeof gtag !== "function") return;
+        gtag("event", "clic_marchand", {
+          marchand: lien.dataset.marchand,
+          produit: lien.dataset.produit,
+          page: window.location.pathname,
+        });
+      });
+    </script>
+
+    <script>
       // Newsletter forms — POST vers Web3Forms (gratuit, 250 submissions/mois)
       // L'access_key est public (côté client) — pour la régénérer : https://web3forms.com/
       const WEB3FORMS_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY || "";
