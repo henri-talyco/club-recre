@@ -89,6 +89,21 @@ jobs:
           # Les jours de comparatif, une place de plus : l'article Taly ET le comparatif.
           plafond=$ARTICLES_PAR_JOUR
           if echo " $JOURS_COMPARATIF " | grep -q " $jour_semaine "; then plafond=$((ARTICLES_PAR_JOUR + 1)); fi
+          # Ralentissement automatique : si Google range moins de la moitie des articles
+          # recents trois lundis de suite (mesure de Taly dans scripts/indexation.json),
+          # on repasse a 3 articles par semaine (lundi, mercredi, vendredi), un par jour.
+          ralenti=$(python3 -c "
+          import json
+          try:
+              m=[x['part'] for x in json.load(open('scripts/indexation.json'))['mesures'] if x.get('part') is not None][-3:]
+              print('oui' if len(m)==3 and all(p<0.5 for p in m) else 'non')
+          except Exception:
+              print('non')")
+          if [ "$ralenti" = "oui" ]; then
+            plafond=1
+            if ! echo " 1 3 5 " | grep -q " $jour_semaine "; then plafond=0; fi
+            echo "::warning::Ralenti : Google range moins de 50 % des articles recents depuis 3 semaines (scripts/indexation.json)."
+          fi
           echo "Le $jour, $deja article(s) publie(s), plafond $plafond."
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "rediger=oui" >> "$GITHUB_OUTPUT"
