@@ -567,7 +567,9 @@ function construitFichier(meta, corps, sujet, aujourdhui, cover, ancien = null, 
 
 // ------------------------------------------------------------------------ main
 
-const aujourdhui = new Date().toISOString().slice(0, 10);
+// Date de Paris, comme la garde du workflow qui compte les articles du jour : en date
+// UTC, un depart a 00h17 heure de Paris ecrivait la veille, et la garde ne le comptait pas.
+const aujourdhui = new Intl.DateTimeFormat("fr-CA", { timeZone: "Europe/Paris" }).format(new Date());
 const publies = slugsPublies();
 const joursComparatif = (process.env.JOURS_COMPARATIF || "").split(/\s+/).filter(Boolean).map(Number);
 const comparatifs = chargeFile(FICHIER_COMPARATIFS);
@@ -576,7 +578,10 @@ let fichierFile = FICHIER_FILE;
 let choix = { sujet: null, restants: 0 };
 // Un slug force se cherche dans les deux files ; sinon les jours de comparatif
 // passent d'abord par la file des comparatifs.
-if (process.env.SUJET ? comparatifs.sujets.some((s) => s.slug === process.env.SUJET) : joursComparatif.includes(jourParis())) {
+// Un seul comparatif par jour : si la file des comparatifs a deja servi aujourd'hui,
+// le second article du jour vient de la file normale (celle de Taly).
+const comparatifDuJourFait = comparatifs._maj === aujourdhui;
+if (process.env.SUJET ? comparatifs.sujets.some((s) => s.slug === process.env.SUJET) : (joursComparatif.includes(jourParis()) && !comparatifDuJourFait)) {
   choix = choisitSujet(comparatifs, publies);
   if (choix.sujet) { file = comparatifs; fichierFile = FICHIER_COMPARATIFS; }
 }
