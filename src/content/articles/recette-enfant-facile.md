@@ -14,9 +14,9 @@ faq:
   - q: "Quelle est la recette la plus facile à faire avec un enfant de 3 ans ?"
     a: "La recette la plus accessible dès 3 ans est le gâteau au yaourt : un pot de yaourt sert de mesure pour tout (1 pot de farine, 1 pot de sucre, 1/2 pot d'huile, 2 œufs, 1 sachet de levure). L'enfant peut verser, mélanger, casser les œufs avec aide. Résultat en 35 minutes. Les crêpes sont une deuxième option parfaite : l'enfant peut mélanger la pâte et, à partir de 5-6 ans, retourner la crêpe (avec surveillance). Évite les recettes qui demandent un travail précis de la pâte ou des températures élevées en solo."
   - q: "Comment rendre la cuisine fun pour un enfant sans que ce soit le bazar total ?"
-    a: "Pour cuisiner avec un enfant sans chaos : donner à chaque enfant son propre bol et sa propre cuillère pour mesurer et mélanger avant de tout rassembler, avoir un tablier enfant qui lui appartient (ça crée le rituel), préparer tous les ingrédients mesurés d'avance (mise en place), accepter que ça prenne 2 fois plus de temps qu'en solo, et choisir des recettes avec peu d'étapes critiques (température de beurre, temps de montage). Les recettes où l'enfant peut goûter en cours sont les plus engageantes — la pâte à cookies est une récompense en soi."
+    a: "Pour cuisiner avec un enfant sans chaos : donner à chaque enfant son propre bol et sa propre cuillère pour mesurer et mélanger avant de tout rassembler, avoir un tablier enfant qui lui appartient (ça crée le rituel), préparer tous les ingrédients mesurés d'avance (mise en place), accepter que ça prenne 2 fois plus de temps qu'en solo, et choisir des recettes avec peu d'étapes critiques (température de beurre, temps de montage). Les recettes où l'enfant peut goûter en cours sont les plus engageantes, la pâte à cookies est une récompense en soi."
   - q: "Quelles recettes des années 90 peut-on vraiment refaire avec ses enfants aujourd'hui ?"
-    a: "Les classiques 90s qui fonctionnent parfaitement encore : le gâteau au yaourt (la recette universelle), les crêpes du jeudi soir, le pain perdu du dimanche matin, les cookies moelleux, les madeleines maison, les sablés à découper, le quatre-quarts, les petits gâteaux au chocolat fondant. Ces recettes n'ont pas besoin d'ingrédients spéciaux, demandent peu de matériel, et produisent quelque chose de délicieux en moins d'une heure. Ce sont les mêmes recettes que ta mère t'a montrées — tu peux les montrer à tes enfants."
+    a: "Les classiques 90s qui fonctionnent parfaitement encore : le gâteau au yaourt (la recette universelle), les crêpes du jeudi soir, le pain perdu du dimanche matin, les cookies moelleux, les madeleines maison, les sablés à découper, le quatre-quarts, les petits gâteaux au chocolat fondant. Ces recettes n'ont pas besoin d'ingrédients spéciaux, demandent peu de matériel, et produisent quelque chose de délicieux en moins d'une heure. Ce sont les mêmes recettes que ta mère t'a montrées, tu peux les montrer à tes enfants."
 ---
 
 La recette enfant facile, dans les années 90, c'était le jeudi soir avec les crêpes ou le mercredi matin avec le gâteau au yaourt. Pas de robot pâtissier, pas de thermomètre de cuisson, pas de recette en 47 étapes. Un bol, une fourchette, les ingrédients du placard. Et un enfant qui pouvait aider depuis le début jusqu'à la fin.
@@ -93,9 +93,9 @@ Les cookies américains sont arrivés dans les années 90 avec les premiers McDo
 - 1 pincée de sel
 - 200g de pépites de chocolat
 
-Battre beurre + sucres jusqu'à crémer. Ajouter les œufs un par un. Incorporer farine + bicarbonate + sel. Ajouter les pépites. Former des boules et aplatir légèrement sur une plaque. Cuire 10-12 minutes à 170°C — ils sembleront pas cuits, c'est normal.
+Battre beurre + sucres jusqu'à crémer. Ajouter les œufs un par un. Incorporer farine + bicarbonate + sel. Ajouter les pépites. Former des boules et aplatir légèrement sur une plaque. Cuire 10-12 minutes à 170°C, ils sembleront pas cuits, c'est normal.
 
-**Pour les enfants :** former les boules de pâte est la mission préférée des enfants. La pâte crue est délicieuse — c'est un avantage non négligeable.
+**Pour les enfants :** former les boules de pâte est la mission préférée des enfants. La pâte crue est délicieuse, c'est un avantage non négligeable.
 
 ## Les madeleines maison
 
@@ -166,14 +166,14 @@ La brioche maison est moins intimidante qu'on ne le croit. Elle prend du temps (
 
 Mélanger farine + sucre + sel + levure dans le lait tiède. Ajouter les œufs un par un. Incorporer le beurre en morceaux. Pétrir 10 min. Laisser lever 1h30. Former des boules. Lever encore 45 min. Dorer à l'œuf. Cuire 15-20 min à 180°C.
 
-**Pour les enfants :** pétrir la pâte et former les boules sont les étapes préférées. La levée enseigne la patience — "regarde comme ça a grossi !"
+**Pour les enfants :** pétrir la pâte et former les boules sont les étapes préférées. La levée enseigne la patience, "regarde comme ça a grossi !"
 
 ## Trois règles pour que ça marche vraiment
 
 **Préparer d'avance (mise en place)** : mesurer tous les ingrédients avant de commencer. Les petits bols remplis à l'avance évitent le chaos quand l'enfant est impatient.
 
-**Donner un vrai rôle** : pas juste "tu peux mélanger un peu". L'enfant est chef de quelque chose — il mesure la farine, il casse les œufs, il verse le sucre. Sa participation est réelle.
+**Donner un vrai rôle** : pas juste "tu peux mélanger un peu". L'enfant est chef de quelque chose, il mesure la farine, il casse les œufs, il verse le sucre. Sa participation est réelle.
 
-**Accepter l'approximation** : la pâte sera sur le plan de travail. Il y aura de la farine par terre. Le cookie sera un peu brûlé d'un côté. C'est normal. Ce n'est pas un concours de pâtisserie — c'est un moment ensemble.
+**Accepter l'approximation** : la pâte sera sur le plan de travail. Il y aura de la farine par terre. Le cookie sera un peu brûlé d'un côté. C'est normal. Ce n'est pas un concours de pâtisserie, c'est un moment ensemble.
 
 La recette enfant facile n'a pas besoin d'être parfaite pour être mémorable. Ce que l'enfant retiendra dans vingt ans, c'est l'odeur de la vanille, la chaleur du four, et les mains de maman ou papa à côté des siennes.

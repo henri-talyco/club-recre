@@ -21,7 +21,7 @@ faq:
     a: "Oui. L'UGC Ciné Cité Internationale de Lyon organise des séances 'Jeunes Parents' tous les lundis à 14h. Le son est adouci, la lumière légèrement maintenue, et les pleurs de bébé sont complètement acceptés. Gratuit pour les moins de 10 mois, tarif normal pour les parents. À réserver en ligne quelques jours avant."
 ---
 
-Ton bébé a 1 an et tu es à Lyon. Entre le Parc de la Tête d'Or, les pentes de la Croix-Rousse et les berges de Saône, Lyon est une ville étonnamment bien équipée pour les tout-petits — à condition de savoir où aller.
+Ton bébé a 1 an et tu es à Lyon. Entre le Parc de la Tête d'Or, les pentes de la Croix-Rousse et les berges de Saône, Lyon est une ville étonnamment bien équipée pour les tout-petits, à condition de savoir où aller.
 
 Voici **8 activités testées** pour un bébé de 1 an à Lyon en 2026. Adresses précises, prix, et les conseils pour ne pas transformer chaque sortie en opération commando.
 
@@ -52,23 +52,23 @@ Pour un bébé de 1 an : cap sur le zoo d'abord (les animaux captivent facilemen
 
 ### 3. Le Musée d'Art Contemporain de Lyon (MAC)
 
-**Le musée lyonnais le plus baby-friendly.** Le MAC de Lyon fait un effort réel pour les parents avec bébé : prêt de porte-bébés gratuits à l'entrée, ascenseurs dans tout le bâtiment, tables à langer aux toilettes. Les grandes installations colorées et lumineuses des expositions contemporaines fascinent les bébés — leur cerveau traite les contrastes et les couleurs vives, et un MAC propose toujours des œuvres qui font exactement ça.
+**Le musée lyonnais le plus baby-friendly.** Le MAC de Lyon fait un effort réel pour les parents avec bébé : prêt de porte-bébés gratuits à l'entrée, ascenseurs dans tout le bâtiment, tables à langer aux toilettes. Les grandes installations colorées et lumineuses des expositions contemporaines fascinent les bébés, leur cerveau traite les contrastes et les couleurs vives, et un MAC propose toujours des œuvres qui font exactement ça.
 
 Ouvert mer-dim 11h-18h. Tarif adulte ~8€, gratuit pour les moins de 18 ans. Métro Foch.
 
 ### 4. Le Musée des Confluences
 
-**L'architecture fascine déjà avant d'entrer.** Le Musée des Confluences, à la jonction de la Saône et du Rhône, prête des poussettes à l'accueil et dispose de tables à langer à chaque niveau. Pour un bébé de 1 an, les galeries les plus adaptées sont celles avec des grandes vitrines d'animaux naturalisés (galerie des origines) — les gros animaux captivent longtemps.
+**L'architecture fascine déjà avant d'entrer.** Le Musée des Confluences, à la jonction de la Saône et du Rhône, prête des poussettes à l'accueil et dispose de tables à langer à chaque niveau. Pour un bébé de 1 an, les galeries les plus adaptées sont celles avec des grandes vitrines d'animaux naturalisés (galerie des origines), les gros animaux captivent longtemps.
 
 Gratuit le premier dimanche du mois pour tous. Autrement : adulte ~9€, moins de 18 ans gratuit. Tramway T1 arrêt Musée des Confluences.
 
 ### 5. Les séances Jeunes Parents à l'UGC Ciné Cité
 
-**Pour les parents autant que pour les bébés.** L'UGC Ciné Cité Internationale propose des séances "Jeunes Parents" chaque lundi à 14h. Le volume sonore est légèrement réduit, la salle reste à moitié éclairée, et les pleurs ou les babillements sont complètement tolérés par le public — qui est dans la même situation.
+**Pour les parents autant que pour les bébés.** L'UGC Ciné Cité Internationale propose des séances "Jeunes Parents" chaque lundi à 14h. Le volume sonore est légèrement réduit, la salle reste à moitié éclairée, et les pleurs ou les babillements sont complètement tolérés par le public, qui est dans la même situation.
 
 Les bébés de 1 an ne regardent pas vraiment le film, mais l'alternance lumière-son les hypnotise souvent pendant 30 à 45 minutes. Gratuit pour les moins de 10 mois, tarif normal pour les parents. Réservation en ligne.
 
-### 6. Natespa — centre aquatique du 8e
+### 6. Natespa, centre aquatique du 8e
 
 **Pour ceux qui veulent de l'eau sans l'aspect "cours" de L'Eau de Soie.** Natespa propose des séances aquatiques à partir de 6 mois dans un cadre plus classique (piscine couverte, eau chauffée). Pratique pour les familles qui habitent le sud de Lyon. Horaires et infos sur leur site.
 
@@ -80,7 +80,7 @@ Parfait pour un brunch du dimanche ou un déjeuner après la sortie au parc. Ré
 
 ### 8. Promenade Croix-Rousse et marché
 
-**Pour les parents qui ont besoin d'air autant que le bébé.** La Croix-Rousse le mardi et le jeudi matin (marché boulevard de la Croix-Rousse) est une sortie qui fait du bien aux deux. Le bébé en porte-bébé observe les couleurs, les gens, les étals — c'est de la stimulation sensorielle pure. Toi, tu achètes des légumes frais et tu bois un café.
+**Pour les parents qui ont besoin d'air autant que le bébé.** La Croix-Rousse le mardi et le jeudi matin (marché boulevard de la Croix-Rousse) est une sortie qui fait du bien aux deux. Le bébé en porte-bébé observe les couleurs, les gens, les étals, c'est de la stimulation sensorielle pure. Toi, tu achètes des légumes frais et tu bois un café.
 
 Prévoir le porte-bébé plutôt que la poussette pour les rues en pente et les traboules. Marché : mar-dim matin.
 
@@ -90,4 +90,4 @@ Prévoir le porte-bébé plutôt que la poussette pour les rues en pente et les 
 
 **Budget :** Lyon est moins chère que Paris pour les sorties famille. La plupart des musées sont gratuits pour les bébés, et plusieurs activités aquatiques sont accessibles sous les 20€ la séance parent-enfant.
 
-**La sieste en ville :** si ton bébé s'endort dans la poussette, continue à te promener sur les quais de Saône — les berges piétonnes sont plates, calmes et magnifiques. Une sieste en mouvement à Lyon, c'est presque un luxe.
+**La sieste en ville :** si ton bébé s'endort dans la poussette, continue à te promener sur les quais de Saône, les berges piétonnes sont plates, calmes et magnifiques. Une sieste en mouvement à Lyon, c'est presque un luxe.

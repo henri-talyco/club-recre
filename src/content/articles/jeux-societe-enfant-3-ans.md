@@ -16,14 +16,14 @@ faq:
   - q: "Est-ce qu'un enfant de 3 ans peut vraiment jouer à un jeu de société ?"
     a: "Oui, un enfant de 3 ans peut jouer à un jeu de société adapté. Les prérequis sont : comprendre qu'on joue à tour de rôle (concept acquis vers 2,5-3 ans), être capable de rester assis 10-15 minutes, et tolérer de ne pas gagner (apprentissage progressif). Les jeux qui fonctionnent le mieux sont simples dans leurs règles, visuels plutôt que verbaux, avec de courtes parties (10-15 min max), et si possible coopératifs (on joue ensemble contre le jeu) pour éviter la frustration de perdre face à un adulte."
   - q: "Comment apprendre les règles d'un jeu de société à un enfant de 3 ans ?"
-    a: "Pour apprendre les règles d'un jeu à un enfant de 3 ans : commencer par jouer 'à vide' sans enjeu (juste manipuler les pièces, les nommer, les trier), puis expliquer UNE règle à la fois pendant une première partie de découverte, jouer d'abord avec les cartes face visible pour que l'enfant comprenne les mécaniques sans frustration, et ne pas insister sur le respect strict des règles au début. La plupart des enfants de 3 ans ne peuvent pas mémoriser un ensemble de règles complet — ils apprennent en jouant, progressivement, sur plusieurs parties."
+    a: "Pour apprendre les règles d'un jeu à un enfant de 3 ans : commencer par jouer 'à vide' sans enjeu (juste manipuler les pièces, les nommer, les trier), puis expliquer UNE règle à la fois pendant une première partie de découverte, jouer d'abord avec les cartes face visible pour que l'enfant comprenne les mécaniques sans frustration, et ne pas insister sur le respect strict des règles au début. La plupart des enfants de 3 ans ne peuvent pas mémoriser un ensemble de règles complet, ils apprennent en jouant, progressivement, sur plusieurs parties."
 affiliation: true
 ---
 
 
 Le jeu de société enfant 3 ans, dans les années 90, c'était souvent [Le Verger](https://www.amazon.fr/dp/B0007KWRSQ), le Jeu de l'Oie, ou le Mémory. Des jeux simples, solides, avec peu de règles. On y jouait en famille, sans trop se poser de questions. Le plaisir était immédiat.
 
-En 2026, le marché du jeu de société enfant a explosé — et c'est une bonne chose. La qualité des jeux pour les 3 ans a considérablement augmenté. Club Récré sélectionne ce qui fonctionne vraiment.
+En 2026, le marché du jeu de société enfant a explosé, et c'est une bonne chose. La qualité des jeux pour les 3 ans a considérablement augmenté. Club Récré sélectionne ce qui fonctionne vraiment.
 
 ## Pourquoi les jeux de société dès 3 ans
 
@@ -41,7 +41,7 @@ Le jeu de société à 3 ans n'est pas juste un divertissement. Il développe :
 
 **Le Verger (Haba)** : LE classique absolu pour débuter les jeux de société. Un jeu coopératif où tous les joueurs jouent ensemble contre le corbeau. Objectif : cueillir tous les fruits avant que le corbeau n'arrive. Règles ultra-simples, parties de 15 minutes, accessible dès 2,5 ans. Aucune frustration de perdre "contre" quelqu'un. Versions classiques trouvables en occasion pour 5-10€.
 
-**[Dobble Kids](https://www.amazon.fr/dp/B08R7VGQKY)** : la version simplifiée du célèbre Dobble, avec des images plus grandes et plus simples. Reconnaître l'image commune entre deux cartes — c'est tout. La boîte l'indique dès 4 ans : à 3 ans, joue-le avec ton enfant, sans compter les points. La rapidité du jeu maintient l'attention.
+**[Dobble Kids](https://www.amazon.fr/dp/B08R7VGQKY)** : la version simplifiée du célèbre Dobble, avec des images plus grandes et plus simples. Reconnaître l'image commune entre deux cartes, c'est tout. La boîte l'indique dès 4 ans : à 3 ans, joue-le avec ton enfant, sans compter les points. La rapidité du jeu maintient l'attention.
 
 **[Haba Rhino Hero](https://www.amazon.fr/dp/B01M8LF7IA)** : construire une tour avec des cartes pliées en faisant avancer le rhinocéros. Le plus difficile : ne pas faire tomber la tour. Suspense, construction, motricité fine. HABA l'indique dès 5 ans : à 3 ans, on construit la tour ensemble, sans les règles.
 
@@ -55,7 +55,7 @@ Le jeu de société à 3 ans n'est pas juste un divertissement. Il développe :
 
 **[Orchard Toys Shopping List](https://www.amazon.fr/dp/B0007VTA5S)** : un jeu de mémoire et de reconnaissance sur le thème des courses. Très populaire en Grande-Bretagne, il n'existe qu'en version anglaise, ce qui ne gêne pas à cet âge où l'on montre les images. Excellente qualité des matériaux.
 
-**Imagidés (Gigamic)** : lancer les dés et inventer une histoire avec les images. Développe la créativité narrative dès 3 ans. Pas de gagnant, pas de perdant — juste l'histoire qu'on raconte ensemble.
+**Imagidés (Gigamic)** : lancer les dés et inventer une histoire avec les images. Développe la créativité narrative dès 3 ans. Pas de gagnant, pas de perdant, juste l'histoire qu'on raconte ensemble.
 
 **Les dominos images** : les dominos classiques avec des images plutôt que des points sont parfaits pour 3 ans. Appariement logique, tour à tour, règles simples.
 
@@ -71,18 +71,18 @@ Le jeu de société à 3 ans n'est pas juste un divertissement. Il développe :
 
 ## Comment bien jouer avec un enfant de 3 ans
 
-**Adapter les règles au début** : jouer avec les cartes de Mémory face visible pour les premières parties. Laisser l'enfant compter ses cartes plusieurs fois. Ce n'est pas de la triche — c'est de l'adaptation pédagogique.
+**Adapter les règles au début** : jouer avec les cartes de Mémory face visible pour les premières parties. Laisser l'enfant compter ses cartes plusieurs fois. Ce n'est pas de la triche, c'est de l'adaptation pédagogique.
 
 **Jouer coopératif avant de jouer compétitif** : les jeux coopératifs (Le Verger, La Petite Taupe) évitent la frustration de perdre face à un adulte qui joue "pour de vrai". La compétition peut attendre 4-5 ans.
 
-**Des parties courtes** : 10-15 minutes maximum pour un 3 ans. Arrêter sur une bonne note plutôt que de pousser jusqu'à l'épuisement. L'enfant demandera à rejouer — c'est l'objectif.
+**Des parties courtes** : 10-15 minutes maximum pour un 3 ans. Arrêter sur une bonne note plutôt que de pousser jusqu'à l'épuisement. L'enfant demandera à rejouer, c'est l'objectif.
 
 **Valoriser la participation plutôt que le résultat** : "tu as bien retourné la carte exactement au bon endroit" plutôt que "tu as gagné". L'apprentissage des règles est déjà une victoire à 3 ans.
 
 ## Où trouver des jeux de société en occasion
 
-Les jeux de société se trouvent facilement d'occasion en excellent état — ils vivent dans des boîtes fermées, les pièces sont rarement perdues, et les règles sont souvent là.
+Les jeux de société se trouvent facilement d'occasion en excellent état, ils vivent dans des boîtes fermées, les pièces sont rarement perdues, et les règles sont souvent là.
 
-Vinted, Leboncoin et les vide-greniers sont de bonnes sources. Le Verger Haba neuf coûte 25-30€ — on le trouve à 5-10€ d'occasion en parfait état. La qualité Haba est telle qu'après 5-10 ans d'utilisation, les pièces en bois sont souvent impeccables.
+Vinted, Leboncoin et les vide-greniers sont de bonnes sources. Le Verger Haba neuf coûte 25-30€, on le trouve à 5-10€ d'occasion en parfait état. La qualité Haba est telle qu'après 5-10 ans d'utilisation, les pièces en bois sont souvent impeccables.
 
 Le jeu de société à 3 ans, c'est le début d'une longue histoire d'amour avec les règles, la stratégie, et le plaisir de jouer ensemble. Les premières parties du Verger préparent les parties de Catane dix ans plus tard.

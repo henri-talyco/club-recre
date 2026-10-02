@@ -21,7 +21,7 @@ faq:
     a: "Trois musées parfaits pour les bébés à Paris : 1) la Cité des Enfants à la Villette (espace 2-7 ans, mais zone 0-3 ans dédiée), 2) le Muséum d'Histoire Naturelle (galerie de l'Évolution, animaux fascinants pour les petits yeux), 3) l'Aquarium de Paris (poissons hypnotiques, espace bébé). Tous ont des espaces poussette et change."
 ---
 
-Ton bébé a 1 an, tu veux profiter de Paris en famille sans transformer chaque sortie en marathon logistique. Bonne nouvelle : Paris est l'une des villes du monde les mieux équipées pour les tout-petits — à condition de connaître les bonnes adresses.
+Ton bébé a 1 an, tu veux profiter de Paris en famille sans transformer chaque sortie en marathon logistique. Bonne nouvelle : Paris est l'une des villes du monde les mieux équipées pour les tout-petits, à condition de connaître les bonnes adresses.
 
 Voici **8 activités testées** à faire à Paris avec un enfant de 12-18 mois en 2026. Adresses, prix, conseils pratiques.
 
@@ -56,7 +56,7 @@ Voici **8 activités testées** à faire à Paris avec un enfant de 12-18 mois e
 - **Prix :** 13€ adulte, 10€ enfant. Réservation obligatoire.
 - **Conseil :** Créneau de 1h30 par session. Prévoir tenue confortable (jeux d'eau).
 
-### 4. L'Aquarium de Paris — Trocadéro (16ème)
+### 4. L'Aquarium de Paris, Trocadéro (16ème)
 **Hypnotique pour les bébés.** Tunnel de poissons, requins, rayons. Espace poussette autorisé partout.
 - **Adresse :** 5 avenue Albert de Mun, 75116 Paris (Métro Trocadéro)
 - **Prix :** 25€ adulte, 19€ enfant -12 ans, gratuit -3 ans.
@@ -101,4 +101,4 @@ Sac à langer minimaliste mais complet : 3 couches, lingettes, biberon prêt, do
 
 **Un dimanche après-midi en 1995, ça ressemblait à quoi pour un parent parisien ?** Le Jardin du Luxembourg avec un goûter sorti d'un sac à dos, suivi d'un café au Bistrot du 6ème, suivi d'une balade jusqu'aux Tuileries. Le tout sans téléphone, sans planning, sans Pinterest.
 
-C'est exactement ce qu'on peut refaire en 2026 — avec moins de cigarettes au Luxembourg, mais le reste est identique.
+C'est exactement ce qu'on peut refaire en 2026, avec moins de cigarettes au Luxembourg, mais le reste est identique.

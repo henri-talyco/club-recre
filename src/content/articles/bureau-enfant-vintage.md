@@ -14,7 +14,7 @@ faq:
   - q: "Où trouver un bureau enfant vintage en bon état ?"
     a: "Les meilleures sources pour un bureau enfant vintage : Selency (plateforme de mobilier vintage curée, livraison possible, prix 50-300€), Le Bon Coin (filtrer par 'bureau enfant + bois + années 80' dans ta région), les brocantes professionnelles comme Vanves ou les marchés aux puces de ta ville, et les ressourceries Emmaüs (prix très bas mais tri nécessaire). Sur Selency, les bureaux en pin massif des années 80-90 avec leur tiroir et leur rehausse sont régulièrement disponibles entre 80 et 200€."
   - q: "Comment restaurer un bureau enfant vintage abîmé ?"
-    a: "La restauration d'un bureau enfant vintage suit ces étapes : 1) Ponçage léger (papier P120 puis P220) pour enlever les traces et égaliser la surface, 2) Nettoyage à l'alcool isopropylique pour enlever la graisse, 3) Traitement selon le résultat souhaité : huile dure pour le bois naturel (2 couches avec ponçage intermédiaire), peinture à la craie (Chalk Paint) pour un look patiné coloré, ou lasure pour un aspect naturel teinté. La Chalk Paint est la solution la plus simple et la plus forgiving — erreurs faciles à corriger."
+    a: "La restauration d'un bureau enfant vintage suit ces étapes : 1) Ponçage léger (papier P120 puis P220) pour enlever les traces et égaliser la surface, 2) Nettoyage à l'alcool isopropylique pour enlever la graisse, 3) Traitement selon le résultat souhaité : huile dure pour le bois naturel (2 couches avec ponçage intermédiaire), peinture à la craie (Chalk Paint) pour un look patiné coloré, ou lasure pour un aspect naturel teinté. La Chalk Paint est la solution la plus simple et la plus forgiving, erreurs faciles à corriger."
   - q: "Quel âge pour un premier bureau enfant ?"
     a: "Un enfant peut commencer à avoir son bureau dès 3-4 ans pour les activités créatives (dessin, peinture, modelage), mais le bureau pour les devoirs scolaires n'est réellement utile qu'à partir du CP (6 ans). Avant cet âge, une petite table et des chaises adaptées à la hauteur suffisent. La hauteur du bureau doit être réglée pour que l'enfant soit assis avec les pieds à plat et les coudes à 90°. Les bureaux réglables en hauteur sont donc idéaux pour accompagner la croissance de 4 à 12 ans."
 affiliation: true
@@ -23,11 +23,11 @@ affiliation: true
 
 Le bureau enfant vintage, dans les années 90, c'était souvent le même depuis 15 ans déjà. Un truc en pin brut avec un tiroir et une petite étagère sur le côté, acheté chez Ikea ou Conforama dans les années 80. Solide comme un roc, jamais jeté. On l'a tous eu, dans des variantes légèrement différentes.
 
-En 2026, ce bureau fait fureur. Ce qui était banal est devenu désirable — et les prix sur Selency le montrent. Club Récré t'explique comment trouver, choisir et restaurer le bureau enfant vintage parfait.
+En 2026, ce bureau fait fureur. Ce qui était banal est devenu désirable, et les prix sur Selency le montrent. Club Récré t'explique comment trouver, choisir et restaurer le bureau enfant vintage parfait.
 
 ## Pourquoi le bureau vintage est supérieur aux bureaux actuels
 
-La supériorité du bureau enfant vintage tient en un mot : le matériau. Pin massif, chêne, hêtre — du vrai bois, assemblé à mortaise et tenon ou avec des chevilles en bois. Pas de panneau de particules qui se délite à la première tache d'eau.
+La supériorité du bureau enfant vintage tient en un mot : le matériau. Pin massif, chêne, hêtre, du vrai bois, assemblé à mortaise et tenon ou avec des chevilles en bois. Pas de panneau de particules qui se délite à la première tache d'eau.
 
 Un bureau en pin massif des années 80-90, c'est du mobilier qui dure 50 ans. Il supporte des charges, résiste aux coups de crayon et aux chocs, se restaure facilement, et vieillit bien. Son homologue actuel en MDF laminé blanc vaut moins cher à l'achat mais finit à la déchetterie en 5 ans.
 
@@ -39,7 +39,7 @@ Deuxième avantage : l'esthétique. Le bois naturel, les poignées en laiton, la
 
 **Le bureau secrétaire abattant** : la version vintage sophistiquée. Un meuble dont la face avant s'abat pour créer la surface de travail, avec des petits rangements à l'intérieur. Pour les chambres d'enfants plus grands (8-12 ans) qui ont besoin de rangement pour leurs affaires scolaires. Très présent dans les brocantes.
 
-**Le bureau avec rehausse** : une surface de travail + une étagère surélevée en arrière-plan pour poser les livres et les objets. Le format le plus pratique pour les devoirs — livre ouvert sur la rehausse, cahier sur la surface.
+**Le bureau avec rehausse** : une surface de travail + une étagère surélevée en arrière-plan pour poser les livres et les objets. Le format le plus pratique pour les devoirs, livre ouvert sur la rehausse, cahier sur la surface.
 
 **Le petit bureau d'écolier en métal** : les bureaux d'école des années 50-70, avec leur plateau inclinable et leur encrier. Trop bas pour un usage quotidien, mais iconique comme pièce déco ou pour les activités créatives.
 
@@ -49,7 +49,7 @@ Deuxième avantage : l'esthétique. Le bois naturel, les poignées en laiton, la
 
 **Le Bon Coin** : la mine d'or si tu es mobile. Recherche "bureau pin enfant", "bureau bois années 80", "bureau vintage enfant" dans ta région. Prix : 20-80€ généralement. Transport à prévoir.
 
-**Brocantes et marchés aux puces** : le jackpot si tu tombes au bon endroit. Ces bureaux ne sont pas encore "tendance" dans toutes les brocantes — certains vendeurs les cèdent encore à 15-30€. Cherche surtout dans les brocantes de périphérie et les ressourceries plutôt que dans les antiquités de centre-ville.
+**Brocantes et marchés aux puces** : le jackpot si tu tombes au bon endroit. Ces bureaux ne sont pas encore "tendance" dans toutes les brocantes, certains vendeurs les cèdent encore à 15-30€. Cherche surtout dans les brocantes de périphérie et les ressourceries plutôt que dans les antiquités de centre-ville.
 
 **Emmaüs** : prix très bas (10-30€), tri nécessaire. Va tôt dans la semaine juste après les collectes.
 

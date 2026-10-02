@@ -8,8 +8,8 @@ cover: "/img/articles/activites-paris-enfant-2-ans.jpg"
 coverAlt: "Photo d'illustration, Activités à Paris avec un enfant de 2 ans : 8 idées en 2026"
 author: "Club Récré"
 readingTime: 6
-seoTitle: "Paris avec un enfant de 2 ans : 8 activités (guide 2026)"
-seoDescription: "Que faire à Paris avec un enfant de 2 ans ? 8 activités testées : musées, parcs, fermes. Adresses, prix, durée et conseils."
+seoTitle: "Activité enfant 2 ans à Paris : 8 sorties faciles avec poussette"
+seoDescription: "Activité enfant 2 ans à Paris : 8 sorties simples, musées, parcs et fermes, avec l'accès poussette, la durée et ce qui est gratuit."
 faq:
   - q: "Quelle activité préférée d'un enfant de 2 ans à Paris ?"
     a: "À 2 ans, les enfants sont fascinés par les animaux et la motricité. Le top : la Ménagerie du Jardin des Plantes (animaux à hauteur d'enfant) + l'aire de jeux du Jardin du Luxembourg dans la même journée. Les deux sont gratuits ou peu chers, accessibles en métro, et tiennent toute une après-midi sans saturation."
@@ -21,7 +21,7 @@ faq:
     a: "Cinq activités 100% gratuites pour les 2 ans à Paris : 1) Jardin du Luxembourg (aire jeux 3€ optionnelle), 2) Buttes-Chaumont (parc + manège), 3) Ferme de Paris (Bois de Vincennes), 4) Promenade plantée Coulée Verte (12ème), 5) Petite ceinture du 16ème. Total dépensé : 0€."
 ---
 
-À 2 ans, ton enfant marche stable, court (lentement), grimpe partout, comprend les consignes simples, demande à participer. C'est l'âge où les sorties parisiennes deviennent vraiment fun — il reste prudent, donc gérable, mais déjà acteur de la sortie.
+À 2 ans, ton enfant marche stable, court (lentement), grimpe partout, comprend les consignes simples, demande à participer. C'est l'âge où les sorties parisiennes deviennent vraiment fun, il reste prudent, donc gérable, mais déjà acteur de la sortie.
 
 Voici **8 activités** parfaites à faire à Paris avec un enfant de 24-36 mois en 2026.
 
@@ -45,7 +45,7 @@ Voici **8 activités** parfaites à faire à Paris avec un enfant de 24-36 mois 
 - **Durée idéale :** 1h30
 - **Conseil :** À 11h c'est l'heure du repas des animaux, le moment top.
 
-### 2. La Cité des Enfants à la Villette — Zone 2-7 ans (19ème)
+### 2. La Cité des Enfants à la Villette, Zone 2-7 ans (19ème)
 **100% interactif.** Jeux d'eau, parcours de motricité, ateliers chantier, mini-supermarché.
 - **Adresse :** 30 avenue Corentin Cariou, 75019 (Métro Porte de la Villette)
 - **Prix :** 13€ adulte, 10€ enfant
@@ -73,7 +73,7 @@ Voici **8 activités** parfaites à faire à Paris avec un enfant de 24-36 mois 
 - **Durée :** 2-3h
 - **Conseil :** Pass illimité = obligatoire à 2 ans (ils veulent tout faire 5 fois).
 
-### 6. La Galerie de l'Évolution — Muséum (5ème)
+### 6. La Galerie de l'Évolution, Muséum (5ème)
 **Dinosaures, baleine géante, défilé des animaux.** Spectaculaire et pédagogique.
 - **Adresse :** 36 rue Geoffroy Saint-Hilaire, 75005 (Métro Gare d'Austerlitz)
 - **Prix :** 12€ adulte, gratuit -3 ans

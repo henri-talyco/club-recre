@@ -1,6 +1,6 @@
 ---
 title: "Goûter enfant maison : 20 recettes façon années 90"
-description: "Goûter enfant maison : 20 recettes classiques des années 90 à faire soi-même. Pain beurre chocolat, yaourt maison, tartines cannelle — le vrai goûter d'après l'école."
+description: "Goûter enfant maison : 20 recettes classiques des années 90 à faire soi-même. Pain beurre chocolat, yaourt maison, tartines cannelle, le vrai goûter d'après l'école."
 pubDate: 2026-05-04
 pillar: "lifestyle"
 tags: ["goûter", "enfant", "recette", "maison", "90s"]
@@ -9,25 +9,25 @@ coverAlt: "Photo d'illustration, Goûter enfant maison : 20 recettes façon ann�
 author: "Club Récré"
 readingTime: 8
 seoTitle: "Goûter enfant maison : 20 recettes façon 90s à faire soi-même"
-seoDescription: "Goûter enfant maison : 20 recettes classiques années 90 rapides et gourmandes. Pain beurre chocolat, madeleines, cookies, crêpes — le vrai goûter d'enfance."
+seoDescription: "Goûter enfant maison : 20 recettes classiques années 90 rapides et gourmandes. Pain beurre chocolat, madeleines, cookies, crêpes, le vrai goûter d'enfance."
 faq:
   - q: "Qu'est-ce qu'un bon goûter maison pour un enfant d'école primaire ?"
-    a: "Un bon goûter maison pour un enfant d'école primaire : une source de glucides complexes (pain complet, pain brioché maison, galette) + un produit laitier (yaourt nature, fromage) + un fruit frais. Les recettes maison les plus adaptées : les madeleines (beurre, œufs, sucre, farine — 30 minutes), les crêpes du mercredi (pâte préparée la veille), les tartines pain au levain + beurre demi-sel + carré de chocolat noir. Évite les goûters industriels ultra-sucrés : les enfants ont une hypoglycémie post-école réelle, mais les pics de sucre rapide aggravent la fatigue au lieu de la compenser."
+    a: "Un bon goûter maison pour un enfant d'école primaire : une source de glucides complexes (pain complet, pain brioché maison, galette) + un produit laitier (yaourt nature, fromage) + un fruit frais. Les recettes maison les plus adaptées : les madeleines (beurre, œufs, sucre, farine, 30 minutes), les crêpes du mercredi (pâte préparée la veille), les tartines pain au levain + beurre demi-sel + carré de chocolat noir. Évite les goûters industriels ultra-sucrés : les enfants ont une hypoglycémie post-école réelle, mais les pics de sucre rapide aggravent la fatigue au lieu de la compenser."
   - q: "Comment faire un goûter enfant équilibré sans y passer une heure ?"
-    a: "Un goûter enfant équilibré en moins de 10 minutes : une tranche de pain complet ou une demi-baguette + beurre + deux carrés de chocolat noir + un yaourt nature + une clémentine. C'est le goûter des années 90, le plus simple qui soit. Pour varier : alterner pain/beurre/confiture maison, tartines de fromage frais + miel, galette de riz soufflé + purée d'amandes, ou des dés de fromage + raisins secs. Le goûter équilibré n'a pas besoin d'être complexe — il a besoin d'être nourrissant et non-industriel."
+    a: "Un goûter enfant équilibré en moins de 10 minutes : une tranche de pain complet ou une demi-baguette + beurre + deux carrés de chocolat noir + un yaourt nature + une clémentine. C'est le goûter des années 90, le plus simple qui soit. Pour varier : alterner pain/beurre/confiture maison, tartines de fromage frais + miel, galette de riz soufflé + purée d'amandes, ou des dés de fromage + raisins secs. Le goûter équilibré n'a pas besoin d'être complexe, il a besoin d'être nourrissant et non-industriel."
   - q: "Peut-on faire le goûter avec son enfant après l'école ?"
-    a: "Faire le goûter avec son enfant après l'école est une des meilleures activités quotidiennes. Ça occupe 30-45 minutes, ça nourrit, ça crée un moment de complicité. Les recettes les plus adaptées à ce format : les crêpes (pâte préparée en 5 min, cuisson ensemble), les tartines améliorées (pain + toppings divers que l'enfant choisit), les yaourts maison (verser du lait + ferment dans des pots, mettre au four froid 8 heures — l'enfant fait ça en 5 minutes et mange le résultat le lendemain), ou les cookies rapides (15 minutes de préparation, 10 minutes de cuisson)."
+    a: "Faire le goûter avec son enfant après l'école est une des meilleures activités quotidiennes. Ça occupe 30-45 minutes, ça nourrit, ça crée un moment de complicité. Les recettes les plus adaptées à ce format : les crêpes (pâte préparée en 5 min, cuisson ensemble), les tartines améliorées (pain + toppings divers que l'enfant choisit), les yaourts maison (verser du lait + ferment dans des pots, mettre au four froid 8 heures, l'enfant fait ça en 5 minutes et mange le résultat le lendemain), ou les cookies rapides (15 minutes de préparation, 10 minutes de cuisson)."
 ---
 
-Le goûter enfant maison, dans les années 90, c'était souvent les mêmes choses — et pourtant on les attendait toute la journée. Le pain beurre avec deux carrés de chocolat laissés par Maman sur la table. Le yaourt Danone avec la cuillère coincée sous le couvercle. Les tartines de Nutella du mercredi chez Mamie. Des goûters simples, nourrissants, sans artifice.
+Le goûter enfant maison, dans les années 90, c'était souvent les mêmes choses, et pourtant on les attendait toute la journée. Le pain beurre avec deux carrés de chocolat laissés par Maman sur la table. Le yaourt Danone avec la cuillère coincée sous le couvercle. Les tartines de Nutella du mercredi chez Mamie. Des goûters simples, nourrissants, sans artifice.
 
-En 2026, le marché du goûter industriel a explosé : biscuits "santé", compotes en gourde sucrées à mort, barres céréales qui ressemblent à du chocolat mais se prétendent saines. Club Récré te propose de revenir au goûter maison — simple, vrai, meilleur.
+En 2026, le marché du goûter industriel a explosé : biscuits "santé", compotes en gourde sucrées à mort, barres céréales qui ressemblent à du chocolat mais se prétendent saines. Club Récré te propose de revenir au goûter maison, simple, vrai, meilleur.
 
 ## Pourquoi le goûter maison est supérieur
 
 Le goûter industriel est conçu pour plaire au premier coup de langue et pour être acheté en quantité. Pas pour nourrir correctement un enfant de retour d'école avec une vraie hypoglycémie.
 
-Le vrai goûter maison a trois avantages : il nourrit vraiment (glucides complexes + protéines + fruit), il n'a pas de liste d'ingrédients incompréhensible, et il peut être préparé avec l'enfant — ce qui en fait un moment de lien.
+Le vrai goûter maison a trois avantages : il nourrit vraiment (glucides complexes + protéines + fruit), il n'a pas de liste d'ingrédients incompréhensible, et il peut être préparé avec l'enfant, ce qui en fait un moment de lien.
 
 ## Les classiques indestructibles
 
@@ -39,7 +39,7 @@ Le vrai goûter maison a trois avantages : il nourrit vraiment (glucides complex
 
 **La crêpe du mercredi** : une crêpe nature ou légèrement sucrée, beurrée, repliée en quatre. La pâte à crêpe se prépare la veille en 5 minutes et tient 48 heures au réfrigérateur.
 
-**La tranche de brioche maison** : une brioche faite le week-end tient 3-4 jours. Une tranche épaisse avec du beurre ou de la confiture — c'est le meilleur goûter qui soit.
+**La tranche de brioche maison** : une brioche faite le week-end tient 3-4 jours. Une tranche épaisse avec du beurre ou de la confiture, c'est le meilleur goûter qui soit.
 
 ## Les recettes rapides (moins de 30 minutes)
 
@@ -67,7 +67,7 @@ Mélanger sec dans un bol, liquide dans un autre. Combiner sans trop travailler.
 
 Mélanger beurre + sucre, ajouter œuf, incorporer farine, ajouter pépites. Boules sur plaque, cuire 10 min à 180°C.
 
-Les cookies sortis du four semblent pas cuits — c'est normal, ils durcissent en refroidissant.
+Les cookies sortis du four semblent pas cuits, c'est normal, ils durcissent en refroidissant.
 
 ### Le gâteau au yaourt de secours
 
@@ -109,4 +109,4 @@ Tout dans le bol, mélanger, verser dans un moule beurré, cuire 35 min à 180°
 
 Le goûter des années 90 avait une dimension sociale et rituelle. On rentrait de l'école, on posait le cartable, on s'asseyait à la table de la cuisine, et on mangeait avant de faire les devoirs. Un vrai break.
 
-En 2026, ce ritual est difficile à maintenir avec les emplois du temps chargés. Mais quand c'est possible, 20 minutes assis à la table pour manger ensemble, sans écran, avec un vrai goûter maison — c'est un des meilleurs moments de la journée pour un enfant (et pour un parent).
+En 2026, ce ritual est difficile à maintenir avec les emplois du temps chargés. Mais quand c'est possible, 20 minutes assis à la table pour manger ensemble, sans écran, avec un vrai goûter maison, c'est un des meilleurs moments de la journée pour un enfant (et pour un parent).

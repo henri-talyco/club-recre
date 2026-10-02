@@ -16,16 +16,16 @@ faq:
   - q: "Comment reconnaître un Playmobil indien vintage authentique ?"
     a: "Les Playmobil indiens authentiques des années 1974-1995 se distinguent par : la qualité du plastique (plus épais et plus lourd que les versions récentes), les marquages sur les pièces (logo Playmobil moulé en creux sur les accessoires), la couleur de la peau des figurines (teinte spécifique aux premières décennies, légèrement plus mate que le plastique actuel), et les détails de peinture (souvent peints à la main avec de légères irrégularités qui prouvent l'authenticité). La boîte originale avec le numéro de référence est la preuve ultime."
   - q: "Où acheter des Playmobil indiens vintage en bon état ?"
-    a: "Les meilleures sources pour les Playmobil indiens vintage : Ebay (le plus grand choix, vérifier les photos en détail et les notes du vendeur), Vinted (bien pour les lots familiaux, prix souvent plus raisonnables), Leboncoin (bonnes affaires locales, possibilité de voir avant d'acheter), les bourses aux jouets (événements locaux avec collectionneurs), et les brocantes spécialisées jouets. Cherche aussi dans les greniers familiaux — beaucoup de Playmobil indiens des années 80 dorment dans des cartons depuis 30 ans."
+    a: "Les meilleures sources pour les Playmobil indiens vintage : Ebay (le plus grand choix, vérifier les photos en détail et les notes du vendeur), Vinted (bien pour les lots familiaux, prix souvent plus raisonnables), Leboncoin (bonnes affaires locales, possibilité de voir avant d'acheter), les bourses aux jouets (événements locaux avec collectionneurs), et les brocantes spécialisées jouets. Cherche aussi dans les greniers familiaux, beaucoup de Playmobil indiens des années 80 dorment dans des cartons depuis 30 ans."
 ---
 
-Les Playmobil indiens vintage, dans les années 90, c'était le top du top. Ces figurines avec leurs coiffes en plumes, leurs tipis, leurs canots et leurs feux de camp — on passait des après-midis entiers à construire des villages entiers sur le sol du salon. Et ces sets étaient beaux, bien pensés, avec une vraie dimension narrative.
+Les Playmobil indiens vintage, dans les années 90, c'était le top du top. Ces figurines avec leurs coiffes en plumes, leurs tipis, leurs canots et leurs feux de camp, on passait des après-midis entiers à construire des villages entiers sur le sol du salon. Et ces sets étaient beaux, bien pensés, avec une vraie dimension narrative.
 
 Aujourd'hui, les Playmobil indiens vintage sont devenus des objets de collection sérieux. Club Récré te guide dans cet univers : les sets à connaître, les prix actuels, et où les trouver.
 
 ## L'histoire des Playmobil indiens : 1974-2000
 
-Les premiers Playmobil sont sortis en 1974 à la foire de Nuremberg. Dès les années 70, la gamme western/indiens était l'une des lignes phares de la marque allemande. Cowboys, indiens, chevaux, fort, village — tout un univers cohérent et prolifique.
+Les premiers Playmobil sont sortis en 1974 à la foire de Nuremberg. Dès les années 70, la gamme western/indiens était l'une des lignes phares de la marque allemande. Cowboys, indiens, chevaux, fort, village, tout un univers cohérent et prolifique.
 
 Les années 80 constituent l'âge d'or des Playmobil indiens. Les sets se multiplient : tipis de toutes tailles, grands villages avec maisons longues, scènes de chasse, cérémonies au coin du feu. La qualité des accessoires est exceptionnelle : coiffes en plumes détaillées, arcs et flèches fonctionnels, tomahawks, mocassins peints.
 
@@ -39,11 +39,11 @@ Ce contexte rend les sets vintage des années 70-90 particulièrement désirable
 
 **Le tipi géant** (3268, 3622) : le grand tipi de rassemblement, avec sa structure en bois et sa couverture peinte. Spectaculaire, rare en bon état. Comptez 40-100€ selon la complétude.
 
-**Le chef indien à cheval** : les chefs avec coiffe complète en plumes colorées sont les figurines les plus cherchées. La coiffe est souvent perdue ou cassée — une figurine avec coiffe complète vaut 3 à 4 fois une figurine sans coiffe.
+**Le chef indien à cheval** : les chefs avec coiffe complète en plumes colorées sont les figurines les plus cherchées. La coiffe est souvent perdue ou cassée, une figurine avec coiffe complète vaut 3 à 4 fois une figurine sans coiffe.
 
-**Les sets de chasse et de pêche** : canot en écorce, harpon, poissons, ours des bois — des accessoires minuscules qui se perdent facilement. Un set de pêche complet en boîte est particulièrement rare.
+**Les sets de chasse et de pêche** : canot en écorce, harpon, poissons, ours des bois, des accessoires minuscules qui se perdent facilement. Un set de pêche complet en boîte est particulièrement rare.
 
-**Les animaux sauvages** : mustang pie (cheval pinto), bison, ours grizzly, aigle, faucon — ces animaux spécifiques aux sets indiens sont souvent séparés des sets d'origine et vendus individuellement. Pièces relativement rares, surtout en parfait état.
+**Les animaux sauvages** : mustang pie (cheval pinto), bison, ours grizzly, aigle, faucon, ces animaux spécifiques aux sets indiens sont souvent séparés des sets d'origine et vendus individuellement. Pièces relativement rares, surtout en parfait état.
 
 ## La cote en 2026
 
@@ -63,7 +63,7 @@ Les lots mélangés (sac de Playmobil western/indiens) valent 15-40€ selon la 
 
 La question se pose car des reproductions et des copies existent sur certains marchés asiatiques.
 
-**Le poids** : les Playmobil vintage sont plus lourds que les versions récentes. Le plastique ABS de première génération est plus épais, plus dense. Tiens une figurine vintage dans une main et une figurine récente dans l'autre — la différence est perceptible.
+**Le poids** : les Playmobil vintage sont plus lourds que les versions récentes. Le plastique ABS de première génération est plus épais, plus dense. Tiens une figurine vintage dans une main et une figurine récente dans l'autre, la différence est perceptible.
 
 **Les marquages** : sur les figurines authentiques, le logo Playmobil et/ou le numéro de référence sont moulés en creux sous les pieds ou dans le dos. Les copies n'ont souvent pas ces marquages, ou ils sont mal formés.
 
@@ -87,6 +87,6 @@ Les pièces manquantes se retrouvent sur les sites de pièces détachées Playmo
 
 ## Jouer avec ses Playmobil vintage ou les exposer ?
 
-La grande question du collectionneur. Les Playmobil indiens vintage sont assez robustes pour être joués — c'est leur vocation première. Mais les pièces les plus rares et les sets en boîte originale prennent de la valeur à condition de rester en bon état.
+La grande question du collectionneur. Les Playmobil indiens vintage sont assez robustes pour être joués, c'est leur vocation première. Mais les pièces les plus rares et les sets en boîte originale prennent de la valeur à condition de rester en bon état.
 
 Notre position Club Récré : si tu as des enfants, joue avec eux. Un Playmobil dans un grenier est un Playmobil gâché. Réserve l'exposition soigneuse aux pièces vraiment rares ou particulièrement significatives. Pour le reste, c'est fait pour être utilisé.

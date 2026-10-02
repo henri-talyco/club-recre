@@ -8,8 +8,8 @@ cover: "/img/articles/oshkosh-salopette-enfant-90s.jpg"
 coverAlt: "Salopette OshKosh B'Gosh vintage 1989"
 author: "Club Récré"
 readingTime: 7
-seoTitle: "OshKosh B'Gosh vintage : le guide complet 2026"
-seoDescription: "Le guide complet OshKosh B'Gosh vintage : histoire, époque dorée, comment authentifier, où acheter, prix moyens en 2026."
+seoTitle: "OshKosh B'Gosh : la salopette culte, son histoire et le vintage"
+seoDescription: "OshKosh B'Gosh : l'histoire de la salopette des années 90, comment reconnaître une vraie pièce vintage, ses tailles et où la trouver."
 faq:
   - q: "Quelle est l'année dorée d'OshKosh B'Gosh pour le vintage ?"
     a: "L'âge d'or d'OshKosh B'Gosh pour le vintage enfant s'étend de 1980 à 1995 environ. Les pièces de cette période ont la meilleure qualité de denim, les vraies fabrications Made in USA, et les détails de finition qui ont disparu après le rachat de la marque par Carter's en 2005."
@@ -31,7 +31,7 @@ Pourquoi tant d'amour pour cette marque américaine née il y a plus d'un siècl
 
 OshKosh B'Gosh naît en 1895 dans la petite ville d'Oshkosh, au cœur du Wisconsin. La marque est fondée par deux entrepreneurs qui veulent fabriquer des **vêtements de travail solides pour les ouvriers américains** : cheminots, fermiers, ouvriers du Midwest.
 
-Pendant 65 ans, OshKosh ne fabrique que pour adultes. Du denim épais, des coutures renforcées, des coupes pratiques. La salopette en denim brut devient leur produit phare — c'est ce que portent les hommes qui travaillent dur, du Wisconsin à la Californie.
+Pendant 65 ans, OshKosh ne fabrique que pour adultes. Du denim épais, des coutures renforcées, des coupes pratiques. La salopette en denim brut devient leur produit phare, c'est ce que portent les hommes qui travaillent dur, du Wisconsin à la Californie.
 
 Tout bascule en 1962. La marque commence à fabriquer des **versions miniatures** de ses salopettes pour les enfants des employés. C'est d'abord un cadeau qu'on s'offre dans la communauté, puis ça se vend dans les magasins locaux, puis le bouche-à-oreille fait le reste.
 
@@ -48,10 +48,10 @@ C'est ce contraste qui crée la valeur du vintage aujourd'hui : on sait que les 
 ### Années 70 (très rare en France)
 Logos discrets, coupes droites, denim ultra épais. Pour collectionneurs avancés. À chiner aux États-Unis principalement.
 
-### Années 80 — l'âge d'or
+### Années 80, l'âge d'or
 Couleurs vives apparaissent (rouge, vert, jaune en plus du denim brut). Salopettes courtes pour l'été. Patches dorsaux brodés. Détails créatifs (poches plaquées, finitions contrastées). C'est le **sweet spot** qualité-prix-désirabilité.
 
-### Années 90 — démocratisation
+### Années 90, démocratisation
 Logo plus visible (le fameux patch rectangulaire blanc). Plus accessible en Europe, plus facile à trouver aujourd'hui. Qualité encore excellente. Couleurs et imprimés s'élargissent.
 
 ### Post-2000 (à éviter pour le vintage)
@@ -79,7 +79,7 @@ Les boutons post-2010 sont en plastique ou en métal léger. Ça se voit, ça se
 
 Voici les 4 points à vérifier systématiquement avant d'acheter :
 
-1. **Patch arrière cousu** (pas thermocollé). Touchez l'envers — vous devez sentir la couture qui traverse.
+1. **Patch arrière cousu** (pas thermocollé). Touchez l'envers, vous devez sentir la couture qui traverse.
 2. **Étiquette intérieure "Made in USA"**. Les pièces post-2000 sont produites au Mexique ou en Asie.
 3. **Boutons en métal massif**, lourds, gravés "OshKosh" en relief.
 4. **Couleur du denim non délavée** (denim brut, bleu profond, pas un wash clair).
@@ -115,7 +115,7 @@ Une salopette OshKosh appelle un **sweat doux dessous** (Disney vintage marche t
 
 ## Où acheter en 2026
 
-### Vinted — la plus grosse source
+### Vinted, la plus grosse source
 Tapez "OshKosh vintage" + filtrez par taille. Vous trouverez 200-500 références à tout moment. **Conseil pro :** trier par prix croissant et chercher les vendeurs particuliers qui n'ont pas conscience de la valeur.
 
 ### Sites de curation

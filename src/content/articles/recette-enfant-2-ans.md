@@ -19,9 +19,9 @@ faq:
     a: "Les stratégies qui fonctionnent vraiment : proposer les légumes sous forme de finger food (bâtonnets de carotte, mini bouquets de brocolis), les intégrer dans des préparations qu'il aime (galettes de légumes, purées mélangées, sauces pour pâtes), le faire participer à la préparation (les enfants mangent mieux ce qu'ils ont cuisiné), introduire un légume à la fois sans forcer. La règle du respect de l'appétit de l'enfant est essentielle : ne jamais forcer, proposer sans insister."
 ---
 
-La recette pour enfant de 2 ans, dans les années 90, c'était souvent ce que mangeait la famille — un peu écrasé, un peu découpé, et voilà. Pas de livres de cuisine spécialisés, pas de "baby-led weaning" ou de méthode Montessori à table. Juste de la vraie nourriture.
+La recette pour enfant de 2 ans, dans les années 90, c'était souvent ce que mangeait la famille, un peu écrasé, un peu découpé, et voilà. Pas de livres de cuisine spécialisés, pas de "baby-led weaning" ou de méthode Montessori à table. Juste de la vraie nourriture.
 
-En 2026, on complique parfois là où tout est simple. Club Récré a rassemblé 20 recettes testées et approuvées pour les enfants de 2 ans — rapides, équilibrées, à faire ensemble quand c'est possible.
+En 2026, on complique parfois là où tout est simple. Club Récré a rassemblé 20 recettes testées et approuvées pour les enfants de 2 ans, rapides, équilibrées, à faire ensemble quand c'est possible.
 
 ## Les bases : ce que mange un enfant de 2 ans
 
@@ -32,7 +32,7 @@ Ce qui fonctionne à 2 ans : **le finger food**. Les morceaux qu'on attrape avec
 ## Recettes petit-déjeuner
 
 **Pancakes banane-avoine** (10 min)
-1 banane écrasée + 2 œufs + 3 cs de flocons d'avoine. Mélanger, cuire à la poêle en petites galettes. Aucun sucre ajouté — la banane suffit. L'enfant peut écraser la banane à la fourchette.
+1 banane écrasée + 2 œufs + 3 cs de flocons d'avoine. Mélanger, cuire à la poêle en petites galettes. Aucun sucre ajouté, la banane suffit. L'enfant peut écraser la banane à la fourchette.
 
 **Pain perdu à la vanille** (5 min)
 2 tranches de pain rassis + 1 œuf + 3 cs de lait + vanille en poudre. Tremper le pain, cuire 2 min de chaque côté. Servir avec des fruits de saison. Zéro sucre ajouté.
@@ -103,6 +103,6 @@ Quelques règles pratiques : tablier à portée, tabouret stable, ingrédients p
 
 Dans les années 90, le goûter c'était souvent une tartine au beurre et un carré de chocolat. Pas de biscuit industriel avec 8 ingrédients dont 4 sucres différents.
 
-À 2 ans, le palais est encore vierge d'habitudes sucrées intenses. C'est le meilleur moment pour construire un rapport sain aux saveurs — donner le goût du vrai, du naturellement sucré (fruits, légumes-racines), du savoureux.
+À 2 ans, le palais est encore vierge d'habitudes sucrées intenses. C'est le meilleur moment pour construire un rapport sain aux saveurs, donner le goût du vrai, du naturellement sucré (fruits, légumes-racines), du savoureux.
 
 Les recettes de cette liste sont toutes sans sucres ajoutés ou avec des quantités très faibles. Pas parce qu'il faut être strict, mais parce qu'un enfant qui mange peu de sucre industriel à 2 ans sera bien mieux équipé pour faire ses propres choix à 10 ans.

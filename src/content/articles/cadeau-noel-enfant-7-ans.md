@@ -12,7 +12,7 @@ seoTitle: "Cadeau Noël enfant 7 ans : idées originales et vintage 2026"
 seoDescription: "Cadeau Noël enfant 7 ans : jeux de société, livres, vintage et kits créatifs. Sélection originale pour un Noël qui sort des rayons et laisse un souvenir."
 faq:
   - q: "Quel cadeau de Noël original offrir à un enfant de 7 ans ?"
-    a: "Pour un cadeau de Noël original à 7 ans : un jeu de stratégie comme Catan Junior ou Les Aventuriers du Rail (les enfants de 7 ans peuvent y jouer avec les adultes), un kit de magie complet avec des tours réels à apprendre, un télescope d'initiation pour observer la lune et les étoiles, une boîte de Meccano ou de Lego Technic, ou des livres d'une série de littérature jeunesse que l'enfant n'a pas encore. À 7 ans, les enfants apprécient les cadeaux qui les défient et qui leur permettent de faire quelque chose de complexe — pas les jouets passifs."
+    a: "Pour un cadeau de Noël original à 7 ans : un jeu de stratégie comme Catan Junior ou Les Aventuriers du Rail (les enfants de 7 ans peuvent y jouer avec les adultes), un kit de magie complet avec des tours réels à apprendre, un télescope d'initiation pour observer la lune et les étoiles, une boîte de Meccano ou de Lego Technic, ou des livres d'une série de littérature jeunesse que l'enfant n'a pas encore. À 7 ans, les enfants apprécient les cadeaux qui les défient et qui leur permettent de faire quelque chose de complexe, pas les jouets passifs."
   - q: "Quel budget pour le cadeau de Noël d'un enfant de 7 ans ?"
     a: "Le budget raisonnable pour un cadeau de Noël d'enfant de 7 ans : 20-40€ pour un grand-parent ou oncle/tante, 40-70€ pour les parents (cadeau principal), jusqu'à 100-120€ pour des cadeaux de très haute qualité (instrument de musique, jeu de qualité, expérience). Les familles qui pratiquent le Père Noël raisonnable (2-3 cadeaux moyens plutôt que de nombreux petits) font généralement de meilleurs choix : un cadeau qui dure vaut mieux que cinq qui seront oubliés en février."
   - q: "Quels jouets vintage conviendrait à un enfant de 7 ans pour Noël ?"
@@ -23,19 +23,19 @@ affiliation: true
 
 Le cadeau de Noël pour enfant de 7 ans, dans les années 90, c'était l'événement de l'année. La liste au Père Noël écrite à l'encre, les catalogues Jouet Club ou La Redoute cornés à la page du jouet de rêve. Et le matin du 25, l'impatience sous le sapin.
 
-En 2026, la profusion d'offres a dilué cette magie. Club Récré te guide vers des cadeaux qui la retrouvent — qui marquent vraiment l'enfant de 7 ans qu'il est.
+En 2026, la profusion d'offres a dilué cette magie. Club Récré te guide vers des cadeaux qui la retrouvent, qui marquent vraiment l'enfant de 7 ans qu'il est.
 
 ## Ce qu'un enfant de 7 ans veut vraiment
 
-À 7 ans, l'enfant est en CE1. Il sait lire (ou commence). Il peut suivre des règles complexes. Il a des passions définies — les dinos, les foot, la magie, l'astronomie, la construction. Il peut s'engager dans une activité pendant une heure ou deux.
+À 7 ans, l'enfant est en CE1. Il sait lire (ou commence). Il peut suivre des règles complexes. Il a des passions définies, les dinos, les foot, la magie, l'astronomie, la construction. Il peut s'engager dans une activité pendant une heure ou deux.
 
 Le bon cadeau de Noël à 7 ans est celui qui répond à une passion réelle, qui challenge l'enfant (sans être trop difficile), et qui dure au-delà de Noël.
 
 ## Les jeux de société : l'âge du vrai jeu
 
-À 7 ans, l'enfant peut accéder aux jeux de société "adultes" simplifiés — ceux qu'on joue vraiment en famille.
+À 7 ans, l'enfant peut accéder aux jeux de société "adultes" simplifiés, ceux qu'on joue vraiment en famille.
 
-**[Catan Junior](https://www.amazon.fr/dp/B07GT7WQ1Y) (Kosmos)** : la version accessible des Colons de Catan. Stratégie, ressources, construction — un vrai jeu de réflexion à la portée des 7 ans. Parties d'environ 30 minutes selon l'éditeur. Une des meilleures introductions à la stratégie.
+**[Catan Junior](https://www.amazon.fr/dp/B07GT7WQ1Y) (Kosmos)** : la version accessible des Colons de Catan. Stratégie, ressources, construction, un vrai jeu de réflexion à la portée des 7 ans. Parties d'environ 30 minutes selon l'éditeur. Une des meilleures introductions à la stratégie.
 
 **[Les Aventuriers du Rail : Mon Premier Voyage](https://www.amazon.fr/dp/B0FC6QRZQD)** : construire des routes de train entre les villes. Accessible, visuellement magnifique, aucune règle complexe. Excellent point d'entrée vers le grand Aventuriers du Rail.
 
@@ -75,11 +75,11 @@ Le bon cadeau de Noël à 7 ans est celui qui répond à une passion réelle, qu
 
 ## Le vintage : des cadeaux uniques
 
-Un cadeau vintage à 7 ans, c'est quelque chose d'unique — pas le même jouet que tous les copains.
+Un cadeau vintage à 7 ans, c'est quelque chose d'unique, pas le même jouet que tous les copains.
 
 **Grand set Playmobil vintage** (chevaliers, pirates, pompiers des années 80-90) : plus dense en accessoires et en qualité que les sets actuels. Un grand village médiéval Playmobil vintage peut occuper des semaines d'imagination.
 
-**Game Boy Color avec jeux** : la Game Boy originale ou la Game Boy Color avec Tetris, Mario ou Pokémon est un cadeau qui fascine les enfants de 7 ans — quelque chose de simple, de beau, de différent des écrans actuels.
+**Game Boy Color avec jeux** : la Game Boy originale ou la Game Boy Color avec Tetris, Mario ou Pokémon est un cadeau qui fascine les enfants de 7 ans, quelque chose de simple, de beau, de différent des écrans actuels.
 
 **Spirographe original** : les vrais Spirographes des années 70-90 produisent des résultats qu'aucune version moderne ne dépasse. Un enfant de 7 ans peut en profiter pleinement.
 
@@ -89,8 +89,8 @@ Un cadeau d'expérience à 7 ans peut marquer une vie.
 
 **Un cours de magie** : des tours à apprendre, à pratiquer, à montrer à la famille. La magie développe la motricité fine, la confiance en soi, et le plaisir de surprendre.
 
-**Un stage de sport** : tennis, escalade, équitation, natation — une semaine de stage pendant les vacances scolaires.
+**Un stage de sport** : tennis, escalade, équitation, natation, une semaine de stage pendant les vacances scolaires.
 
 **Un spectacle ou un concert** : emmener l'enfant voir un spectacle de marionnettes, un concert de musique classique pour enfants, ou une pièce de théâtre jeune public. Le premier spectacle qu'on voit "comme un grand" marque.
 
-À 7 ans, le Père Noël peut encore être magique. Le cadeau parfait n'est pas forcément le plus cher — c'est celui qui correspond précisément à cet enfant-là, à ce qu'il aime, à ce qui va le faire grandir un peu cette année.
+À 7 ans, le Père Noël peut encore être magique. Le cadeau parfait n'est pas forcément le plus cher, c'est celui qui correspond précisément à cet enfant-là, à ce qu'il aime, à ce qui va le faire grandir un peu cette année.

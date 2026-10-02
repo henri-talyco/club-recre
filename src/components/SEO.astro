@@ -31,7 +31,7 @@ const {
 } = Astro.props;
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "https://clubrecre.fr";
-const fullTitle = title.includes("Club Récré") ? title : `${title} — Club Récré`;
+const fullTitle = title.includes("Club Récré") ? title : `${title} | Club Récré`;
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteUrl).toString();
 const imageUrl = image.startsWith("http") ? image : `${siteUrl}${image}`;
 
@@ -153,7 +153,7 @@ const faqSchema =
 />
 
 <!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="Club Récré — Journal" href={`${siteUrl}/rss.xml`} />
+<link rel="alternate" type="application/rss+xml" title="Club Récré, le journal" href={`${siteUrl}/rss.xml`} />
 
 <!-- Google Analytics 4 (Club Récré dans compte Talyco) -->
 <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-D87XKDJ0F8"></script>

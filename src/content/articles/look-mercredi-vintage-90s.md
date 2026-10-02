@@ -25,7 +25,7 @@ On vous décompose ce look pièce par pièce. Pourquoi il marche, où trouver ch
 | Salopette | OshKosh B'Gosh | 1989 | 24€ |
 | Sweat | Disney Mickey | 1991 | 18€ |
 | Baskets | Stan Smith | 2026 (neuves) | 80€ |
-| Total vintage | — | — | **42€** |
+| Total vintage |, |, | **42€** |
 
 ## Pourquoi ce look fonctionne
 
@@ -66,7 +66,7 @@ C'est pensé pour un enfant qui bouge, pas pour une photo Instagram statique. Et
 
 **Où chercher :** Vinted "Disney vintage" ou "sweat Mickey vintage". Comptez 15-22€.
 
-**Alternative :** un sweat OshKosh ou Petit Bateau dans une couleur similaire fait l'affaire. Le Mickey n'est pas obligatoire — c'est juste la touche nostalgique.
+**Alternative :** un sweat OshKosh ou Petit Bateau dans une couleur similaire fait l'affaire. Le Mickey n'est pas obligatoire, c'est juste la touche nostalgique.
 
 ## Pièce 3 : les baskets blanches simples
 

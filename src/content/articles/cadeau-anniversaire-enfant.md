@@ -27,15 +27,15 @@ En 2026, les algorithmes te proposent les mêmes jouets à tout le monde. Club R
 
 ## Pourquoi les jouets vintage font de bons cadeaux
 
-Un Playmobil des années 90 en bon état a souvent plus de qualité qu'un set Playmobil contemporain équivalent. Le plastique est plus épais, les accessoires sont plus nombreux par rapport au prix, la finition est plus soignée. Et l'enfant reçoit quelque chose d'unique — pas le jouet que tous ses camarades ont déjà.
+Un Playmobil des années 90 en bon état a souvent plus de qualité qu'un set Playmobil contemporain équivalent. Le plastique est plus épais, les accessoires sont plus nombreux par rapport au prix, la finition est plus soignée. Et l'enfant reçoit quelque chose d'unique, pas le jouet que tous ses camarades ont déjà.
 
-Les jouets intemporels ont aussi l'avantage de la durée. Un Lego bien choisi, un jeu de société classique, un instrument d'éveil — ces cadeaux durent des années. Pas des semaines.
+Les jouets intemporels ont aussi l'avantage de la durée. Un Lego bien choisi, un jeu de société classique, un instrument d'éveil, ces cadeaux durent des années. Pas des semaines.
 
 ## Les classiques qui ne ratent jamais
 
 **Lego** : la valeur sûre par excellence. Un coffret Lego adapté à l'âge (Duplo de 1 à 5 ans, Lego Classic de 4 à 99 ans, sets thématiques à partir de 6 ans) est toujours bien reçu. Astuce : les gros coffrets de briques de base ([Lego Classic 10698](https://www.amazon.fr/dp/B00PY3EYQO), 790 pièces) permettent de construire sans instructions, ce qui développe davantage la créativité.
 
-**Playmobil thématique** : choisir un set qui s'intègre à ce que l'enfant possède déjà (ferme, pirates, policiers) ou qui correspond à sa passion du moment. Appeler les parents en amont pour vérifier — les Playmobil se collectionnent et s'assemblent.
+**Playmobil thématique** : choisir un set qui s'intègre à ce que l'enfant possède déjà (ferme, pirates, policiers) ou qui correspond à sa passion du moment. Appeler les parents en amont pour vérifier, les Playmobil se collectionnent et s'assemblent.
 
 **Jeux de société** : [Dobble](https://www.amazon.fr/dp/B08R7VCH9X) (dès 5 ans), [Uno](https://www.amazon.fr/dp/B005I5M2F8) (dès 6 ans), [Jungle Speed](https://www.amazon.fr/dp/B08CH6DHB6) (dès 7 ans), [Les Aventuriers du Rail Europe](https://www.amazon.fr/dp/B000NJL2GO) (dès 8 ans), [Concept Kids](https://www.amazon.fr/dp/B07NTK7GBY) (dès 4 ans). Ces jeux réunissent la famille, se jouent en voyage, et ne se périme pas.
 
@@ -61,7 +61,7 @@ Un livre bien choisi est un cadeau qui peut marquer une vie. Les clés pour bien
 
 ## Les expériences : cadeaux sans fond de placard
 
-**Un atelier** : pâtisserie, céramique, maroquinerie, code, escape game — les ateliers pour enfants pullulent dans toutes les grandes villes. Une expérience d'1h30 à 2 heures vaut 20-40€ et crée un souvenir bien plus vivace qu'un jouet.
+**Un atelier** : pâtisserie, céramique, maroquinerie, code, escape game, les ateliers pour enfants pullulent dans toutes les grandes villes. Une expérience d'1h30 à 2 heures vaut 20-40€ et crée un souvenir bien plus vivace qu'un jouet.
 
 **Une sortie à deux** : offrir une sortie à deux avec le parent de l'enfant (zoo, aquarium, musée, spectacle de marionnettes, cirque). Le bon souvenir d'une journée spéciale ensemble.
 
@@ -75,11 +75,11 @@ Un livre bien choisi est un cadeau qui peut marquer une vie. Les clés pour bien
 
 **Les jouets avec piles uniquement** : les jouets qui font du son et de la lumière mais n'offrent aucun espace d'imagination s'usent vite. Si c'est électronique, vérifier qu'il y a un jeu réel derrière les effets.
 
-**Le livre acheté en urgence** : un livre pas adapté à l'âge ou au niveau de lecture de l'enfant finit dans un tiroir. Prendre le temps de bien choisir — ou demander conseil.
+**Le livre acheté en urgence** : un livre pas adapté à l'âge ou au niveau de lecture de l'enfant finit dans un tiroir. Prendre le temps de bien choisir, ou demander conseil.
 
 ## L'emballage : une tradition qui compte
 
-L'emballage d'un cadeau fait partie du cadeau. Un beau papier kraft, un ruban, une petite carte écrite à la main — ça prend cinq minutes et ça change tout. Dans les années 90, les cadeaux étaient emballés avec soin, avec du papier cadeau et du bolduc multicolore. C'est une tradition qui mérite d'être perpétuée.
+L'emballage d'un cadeau fait partie du cadeau. Un beau papier kraft, un ruban, une petite carte écrite à la main, ça prend cinq minutes et ça change tout. Dans les années 90, les cadeaux étaient emballés avec soin, avec du papier cadeau et du bolduc multicolore. C'est une tradition qui mérite d'être perpétuée.
 
 Un cadeau bien emballé dit à l'enfant : quelqu'un a pensé à moi, a pris le temps de faire quelque chose de beau pour moi. Ce message vaut autant que le cadeau lui-même.
 

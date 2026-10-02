@@ -37,7 +37,7 @@ Distinguer le vrai vintage qualité du faux vintage permet :
 
 ## Les 5 critères d'authentification
 
-### Critère 1 — L'étiquette intérieure (la plus importante)
+### Critère 1, L'étiquette intérieure (la plus importante)
 
 L'étiquette intérieure est votre meilleur ami. Voici ce qu'on cherche :
 
@@ -56,7 +56,7 @@ Si une pièce "OshKosh vintage" est étiquetée "Made in China", c'est une OshKo
 
 **Les pictogrammes de lavage :** les normes ont changé en 2002. Les pictogrammes vintage (avant 2002) ont des formes légèrement différentes.
 
-### Critère 2 — La composition du tissu
+### Critère 2, La composition du tissu
 
 Les vêtements enfant des années 80-90 contenaient beaucoup plus de fibres naturelles qu'aujourd'hui. Vérifiez l'étiquette de composition :
 
@@ -75,7 +75,7 @@ Les vêtements enfant des années 80-90 contenaient beaucoup plus de fibres natu
 
 Touchez le tissu : un vrai coton vintage est **doux mais dense**, il a du poids. Un acrylique est mou, léger, et fait du statique.
 
-### Critère 3 — Les coutures
+### Critère 3, Les coutures
 
 Les coutures sont un excellent marqueur de qualité historique :
 
@@ -91,7 +91,7 @@ Les coutures sont un excellent marqueur de qualité historique :
 
 Pour vérifier, retournez le vêtement et regardez l'intérieur. Les belles finitions intérieures sont un excellent signe.
 
-### Critère 4 — Les boutons et fermetures
+### Critère 4, Les boutons et fermetures
 
 Les boutons et fermetures sont les premiers à se dégrader sur une pièce mal faite. Sur le vintage authentique :
 
@@ -110,7 +110,7 @@ Les boutons et fermetures sont les premiers à se dégrader sur une pièce mal f
 - En métal qui ne rouille pas
 - Souvent gravés au logo
 
-### Critère 5 — La patine et la "main" du tissu
+### Critère 5, La patine et la "main" du tissu
 
 Une vraie pièce vintage a vécu. Elle a une **patine** caractéristique :
 
@@ -155,22 +155,22 @@ Voici ce que vous regardez quand vous chinez une pièce :
 
 ## Les pièges les plus courants
 
-### Piège 1 — La marque générique réutilisée
+### Piège 1, La marque générique réutilisée
 Certaines marques vintage ont été rachetées et continuent à exister sous le même nom mais avec une qualité différente. Exemples : OshKosh (rachetée par Carter's en 2005), Petit Bateau (qualité maintenue mais production déplacée), Naf Naf (faillites successives).
 
 **Comment l'éviter :** vérifiez TOUJOURS le pays de fabrication.
 
-### Piège 2 — La copie chinoise vintage
+### Piège 2, La copie chinoise vintage
 Des copies de pièces vintage sont fabriquées en Asie depuis 2010, vendues sur certaines plateformes comme "vintage". Elles ont l'apparence mais pas la qualité.
 
 **Comment l'éviter :** étiquette tissée + composition 100% naturelle + coutures double-aiguille = trois critères qu'une copie chinoise ne réunit jamais.
 
-### Piège 3 — La pièce "vintage" en réalité de 2008
+### Piège 3, La pièce "vintage" en réalité de 2008
 Les pièces des années 2000-2010 sont souvent vendues comme "vintage 90s" sur Vinted. Elles n'ont pas du tout la même qualité que le vrai vintage.
 
 **Comment l'éviter :** demandez la photo de l'étiquette intérieure avant achat. Si le vendeur refuse, c'est suspect.
 
-### Piège 4 — La fausse pièce "Made in France"
+### Piège 4, La fausse pièce "Made in France"
 Certaines copies imitent l'étiquette "Made in France" mais sont fabriquées ailleurs. Détectable au toucher (coton inférieur) et aux finitions (coutures simples).
 
 **Comment l'éviter :** doublé étiquette + composition + coutures pour confirmer.

@@ -21,17 +21,17 @@ faq:
     a: "C'est l'arme classique : 'mais tout le monde a...'. Réponse : tous les parents ne font pas les mêmes choix, et c'est OK. Tu peux dire 'Chez nous c'est comme ça, parce qu'on a vu que ça te rendait plus heureux quand tu joues sans tablette'. La pression sociale s'atténue beaucoup en CE2-CM1 quand l'enfant a développé d'autres centres d'intérêt."
 ---
 
-Tu as 35 ans en 2026. Tu as vu débarquer le premier téléphone portable de la famille en 1998. Tu as eu ton premier ordinateur perso à 15 ans. Tu n'as pas grandi avec un écran dans la main — et tu vas plutôt bien, finalement.
+Tu as 35 ans en 2026. Tu as vu débarquer le premier téléphone portable de la famille en 1998. Tu as eu ton premier ordinateur perso à 15 ans. Tu n'as pas grandi avec un écran dans la main, et tu vas plutôt bien, finalement.
 
 Tu sais aussi que ton enfant qui a 7 ans aujourd'hui n'aura pas la même chance s'il grandit dans un environnement saturé d'écrans. Les études commencent à être très claires : les enfants ultra-connectés ont **plus de troubles de l'attention**, **moins d'estime de soi**, **plus de troubles du sommeil**, **moins de capacité à s'ennuyer** (et donc à inventer).
 
 Mais comment faire en 2026, quand l'école demande d'utiliser une tablette, quand tous ses copains ont un téléphone en CM2, quand TikTok est devenu la culture commune des collégiens ? Voici 5 principes 90s qui marchent encore.
 
-## Principe 1 — Pas d'écran avant 3 ans. Vraiment.
+## Principe 1, Pas d'écran avant 3 ans. Vraiment.
 
 C'est le seul principe sur lequel **tous les pédiatres du monde sont d'accord** depuis 2010. Pas de TV, pas de tablette, pas de téléphone montré à l'enfant. Pas même "juste 5 minutes pendant que je termine ma vaisselle". Zéro.
 
-Pourquoi ? Le cerveau d'un enfant de moins de 3 ans **se construit par interaction sensorielle 3D** — il a besoin de toucher, sentir, manipuler, regarder un visage humain qui réagit. Un écran ne donne aucun de ces signaux essentiels. Les enfants qui ont eu de l'écran tôt ont en moyenne **20% de retard de langage** et **30% de retard de motricité fine** à 3 ans (étude française Santé Publique 2023).
+Pourquoi ? Le cerveau d'un enfant de moins de 3 ans **se construit par interaction sensorielle 3D** : il a besoin de toucher, sentir, manipuler, regarder un visage humain qui réagit. Un écran ne donne aucun de ces signaux essentiels. Les enfants qui ont eu de l'écran tôt ont en moyenne **20% de retard de langage** et **30% de retard de motricité fine** à 3 ans (étude française Santé Publique 2023).
 
 **Comment faire en pratique :**
 - Pas de TV allumée en fond pendant les repas
@@ -40,7 +40,7 @@ Pourquoi ? Le cerveau d'un enfant de moins de 3 ans **se construit par interacti
 
 **Astuce 90s :** ce qu'on faisait en 1990 quand on devait occuper un bébé sans tablette ? On lui donnait nos clés, une cuillère, un trousseau de jouets en plastique. Ça marchait.
 
-## Principe 2 — Les 4 "pas" de Sabine Duflo
+## Principe 2, Les 4 "pas" de Sabine Duflo
 
 La psychologue clinicienne française Sabine Duflo a formulé la règle la plus simple et la plus efficace :
 
@@ -63,7 +63,7 @@ Si tu appliques ces 4 règles, tu **élimines déjà 70% des écrans** consommé
 - La chambre : un livre, un walkman, c'est tout
 - Avant de dormir : un livre, une histoire, point
 
-## Principe 3 — Cadre écrit, pas négociation au cas par cas
+## Principe 3, Cadre écrit, pas négociation au cas par cas
 
 Le piège : décider à chaque fois si oui ou non on autorise l'écran. C'est épuisant pour toi, et c'est anxiogène pour l'enfant. La solution : **les règles sont écrites au mur, et elles ne se négocient pas**.
 
@@ -79,7 +79,7 @@ Le piège : décider à chaque fois si oui ou non on autorise l'écran. C'est é
 
 L'enfant sait à quoi s'attendre. Toi tu n'as plus à prendre 50 micro-décisions par semaine. **C'est apaisant pour tout le monde.**
 
-## Principe 4 — Alternatives concrètes prêtes à dégainer
+## Principe 4, Alternatives concrètes prêtes à dégainer
 
 "Maman je m'ennuie" → "Va sur la tablette" : non.
 "Maman je m'ennuie" → "Tu veux faire une cabane / sortir tes Playmobil / dessiner / cuisiner avec moi" : oui.
@@ -93,13 +93,13 @@ L'écran est trop facile à proposer parce qu'il **occupe sans effort parental**
 4. Liste de 10 livres jeunesse pas encore lus
 5. Activité extérieure en moins de 5 min (parc à 200m, vélo dans la cour, courses chez le boulanger)
 
-## Principe 5 — Donner accès au monde, pas à l'écran
+## Principe 5, Donner accès au monde, pas à l'écran
 
-Le piège des anti-écrans : enfermer l'enfant dans un cocon protégé sans écran… mais aussi sans monde. Mauvaise idée. **L'antidote à l'écran, c'est le monde réel — pas l'absence de monde.**
+Le piège des anti-écrans : enfermer l'enfant dans un cocon protégé sans écran… mais aussi sans monde. Mauvaise idée. **L'antidote à l'écran, c'est le monde réel, pas l'absence de monde.**
 
 Donc :
 - Inscrit-le à une activité physique (foot, judo, danse, escalade) qui le sort 2-3h par semaine
-- Emmène-le dans des lieux culturels (musées, médiathèques, salles de spectacle) — gratuit ou pas cher pour les enfants
+- Emmène-le dans des lieux culturels (musées, médiathèques, salles de spectacle), gratuit ou pas cher pour les enfants
 - Fais-le rencontrer du monde (cousins, copains de l'école, voisins) souvent
 - Apprends-lui à prendre les transports en commun seul progressivement (à partir de 9-10 ans)
 - Donne-lui de **vraies responsabilités** (faire le pain le dimanche, sortir le chien, ranger sa chambre tout seul)

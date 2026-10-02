@@ -166,7 +166,7 @@ Le Nutella des années 90 était plus simple : noisettes + cacao + sucre. Tu peu
 
 ## 8. Le chocolat chaud à l'ancienne
 
-**Pas le Nesquik en poudre — le vrai chocolat chaud.** Différence : abyssale.
+**Pas le Nesquik en poudre, le vrai chocolat chaud.** Différence : abyssale.
 
 **Ingrédients (2 grandes tasses) :**
 - 500ml de lait entier

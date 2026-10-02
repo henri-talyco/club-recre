@@ -27,15 +27,15 @@ En 2026, l'inflation du gâteau d'anniversaire Instagram a créé une pression a
 
 Le fondant (la pâte à sucre qui recouvre les gâteaux comme une couverture lisse) est spectaculaire sur photo et immangeable dans la réalité. C'est du sucre pur, texturé comme de la plasticine, sans intérêt gustatif.
 
-Les enfants dans les 90s n'en mangeaient pas, et les enfants de 2026 n'en veulent pas non plus — ils l'enlèvent systématiquement et mangent le gâteau en dessous. Alors autant travailler directement ce qui compte : la génoise, la garniture, et une belle décoration naturelle.
+Les enfants dans les 90s n'en mangeaient pas, et les enfants de 2026 n'en veulent pas non plus, ils l'enlèvent systématiquement et mangent le gâteau en dessous. Alors autant travailler directement ce qui compte : la génoise, la garniture, et une belle décoration naturelle.
 
 ## La chantilly : la déco iconic des 90s
 
-La crème chantilly pochée est la décoration de gâteau d'anniversaire la plus iconique des années 90. En rosaces tout autour du gâteau, en dômes sur le dessus, en bordure festonnée — elle donne un aspect professionnel avec une technique accessible.
+La crème chantilly pochée est la décoration de gâteau d'anniversaire la plus iconique des années 90. En rosaces tout autour du gâteau, en dômes sur le dessus, en bordure festonnée, elle donne un aspect professionnel avec une technique accessible.
 
 **Recette chantilly maison** : 250ml de crème liquide entière très froide + 20g de sucre glace + 1 cc d'extrait de vanille. Monter au batteur électrique jusqu'à consistance ferme. Transférer dans une poche à douille avec douille étoile 1M. Pocher immédiatement.
 
-La chantilly se colore avec des colorants naturels en gel (rouge betterave, bleu spiruline, jaune curcuma) pour des effets pastel authentiques. Les colorants naturels donnent des teintes légèrement désaturées — exactement l'esthétique 90s.
+La chantilly se colore avec des colorants naturels en gel (rouge betterave, bleu spiruline, jaune curcuma) pour des effets pastel authentiques. Les colorants naturels donnent des teintes légèrement désaturées, exactement l'esthétique 90s.
 
 ## Les Smarties et M&M's : le classique universel
 
@@ -51,19 +51,19 @@ Les M&M's fonctionnent de la même façon. Les dragées de couleur également. C
 
 ## Les fruits frais : la décoration naturelle
 
-Les fruits frais sur un gâteau d'anniversaire, c'est beau, c'est bon, et ça compense la richesse du gâteau. Fraises en tranches disposées en spirale sur le dessus, framboises en cercles concentriques, myrtilles formant des initiales — les possibilités sont infinies.
+Les fruits frais sur un gâteau d'anniversaire, c'est beau, c'est bon, et ça compense la richesse du gâteau. Fraises en tranches disposées en spirale sur le dessus, framboises en cercles concentriques, myrtilles formant des initiales, les possibilités sont infinies.
 
 **La tarte aux fraises géante** : une génoise, une couche de crème pâtissière, des fraises entières ou en tranches disposées en rosace. Classique des années 80-90, indémodable.
 
 **Le layer cake aux fruits** : deux ou trois couches de génoise alternées avec de la chantilly et des fruits frais. Couper en tranches révèle un intérieur coloré et gourmand.
 
-Les fruits se travaillent facilement avec des enfants — les laisser disposer les fraises sur le gâteau est une activité qu'ils adoreront et dont ils seront fiers.
+Les fruits se travaillent facilement avec des enfants, les laisser disposer les fraises sur le gâteau est une activité qu'ils adoreront et dont ils seront fiers.
 
 ## Les figurines vintage : la touche qui fait tout
 
 Dans les années 90, on posait des figurines en plastique sur les gâteaux. Des Schtroumpfs, des Playmobil, des petits personnages Fisher Price. Ça ne coûtait rien, les enfants pouvaient jouer avec après, et l'effet était parfait.
 
-Cette tradition mérite absolument d'être perpétuée. Une petite scène de Playmobil sur un gâteau au chocolat, quelques animaux Fisher Price sur un gâteau vert "prairie" — c'est narratif, c'est amusant, c'est original.
+Cette tradition mérite absolument d'être perpétuée. Une petite scène de Playmobil sur un gâteau au chocolat, quelques animaux Fisher Price sur un gâteau vert "prairie", c'est narratif, c'est amusant, c'est original.
 
 Pour les figurines comestibles, les magasins de décoration de gâteaux vendent des personnages en sucre ou en wafer paper. Mais les figurines en plastique lavées posées sur le gâteau (à retirer avant de servir) restent notre préférence.
 

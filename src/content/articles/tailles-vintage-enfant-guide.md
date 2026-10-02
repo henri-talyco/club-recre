@@ -116,7 +116,7 @@ Quand vous chinez du vintage, vérifiez que les mesures du vintage correspondent
 
 ## Que faire si la pièce vintage est légèrement trop grande
 
-Une pièce vintage **légèrement trop grande** (5-10 cm de marge), ce n'est pas un problème — c'est même souhaitable pour :
+Une pièce vintage **légèrement trop grande** (5-10 cm de marge), ce n'est pas un problème, c'est même souhaitable pour :
 - Les **salopettes** (qui se portent amples par essence)
 - Les **sweats** (qui se portent baggy en mode 90s)
 - Les **vestes coupe-vent** (qui doivent permettre un sweat dessous)
@@ -134,16 +134,16 @@ Une pièce vintage **légèrement trop grande** (5-10 cm de marge), ce n'est pas
 
 ## Cas pratiques fréquents
 
-### Cas 1 — Salopette OshKosh "4T" pour mon enfant de 3 ans
+### Cas 1, Salopette OshKosh "4T" pour mon enfant de 3 ans
 **Décision :** allez-y. Les OshKosh taillent plus grand, "4T" correspondra à un 3-4 ans français. La salopette pardonnera 1 an de croissance.
 
-### Cas 2 — Chemise Cyrillus "5 ans" pour mon enfant de 5 ans pile
+### Cas 2, Chemise Cyrillus "5 ans" pour mon enfant de 5 ans pile
 **Décision :** vérifiez les mesures. Cyrillus taille juste. Si la largeur poitrine est ≥ celle du même vêtement actuel, c'est bon. Sinon passez votre tour.
 
-### Cas 3 — Sweat Disney "M" sans précision d'âge
+### Cas 3, Sweat Disney "M" sans précision d'âge
 **Décision :** demandez les mesures au vendeur. "M" peut signifier "Months" (donc bébé) ou "Medium" (donc enfant ou ado). Le contexte de la marque et de la coupe doit clarifier.
 
-### Cas 4 — Robe Catimini "10 ans" pour ma fille de 8 ans
+### Cas 4, Robe Catimini "10 ans" pour ma fille de 8 ans
 **Décision :** vérifiez les mesures. Catimini taille large, donc une "10 ans" peut équivaloir à une "9 ans" actuelle. Si trop grande, retouchez les bretelles ou la longueur.
 
 ## Conclusion
@@ -152,4 +152,4 @@ Les tailles vintage sont moins prédictibles qu'aujourd'hui, mais ce n'est pas u
 
 Astuce bonus : demandez systématiquement aux vendeurs Vinted une **photo de l'étiquette de taille** + une **photo du vêtement à plat avec un mètre ruban**. Les bons vendeurs le font sans rechigner.
 
-Bonne chine — et bonne taille.
+Bonne chine, et bonne taille.

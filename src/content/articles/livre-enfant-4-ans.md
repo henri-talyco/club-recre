@@ -8,8 +8,8 @@ cover: "/img/articles/livre-enfant-4-ans.jpg"
 coverAlt: "Photo d'illustration, Livre enfant 4 ans : sélection de titres qu'on lit en boucle"
 author: "Club Récré"
 readingTime: 7
-seoTitle: "Livre enfant 4 ans : sélection albums et séries à lire ensemble"
-seoDescription: "Livre enfant 4 ans : albums classiques, séries incontournables et nouveautés. Ce qui captive vraiment à 4 ans et comment construire une bibliothèque idéale."
+seoTitle: "Livre enfant 4 ans : les albums qu'ils redemandent chaque soir"
+seoDescription: "Livre enfant 4 ans : albums classiques, séries et nouveautés pour garçon et fille. Ce qui captive à 4 ans et comment choisir le prochain livre."
 faq:
   - q: "Quels sont les livres incontournables pour un enfant de 4 ans ?"
     a: "Les livres incontournables pour un enfant de 4 ans : les albums de Claude Ponti (univers foisonnant, humour subtil), la série Loup d'Orianne Lallemand (situations drôles et personnages attachants), Elmer de David McKee (différence et acceptation), Gruffalo de Julia Donaldson (premier suspense narratif bien géré pour cet âge), et les premières bandes dessinées comme Kika la petite sorcière illustré ou Tom-Tom et Nana. À 4 ans, l'enfant peut commencer à s'intéresser à des histoires un peu plus longues avec plusieurs rebondissements."
@@ -38,7 +38,7 @@ Le livre qui convient à 4 ans peut donc être un peu plus long, plus complexe, 
 
 ## Les classiques qui traversent les âges
 
-**[Le Gruffalo](https://www.amazon.fr/dp/2070650278) (Julia Donaldson)** : un des albums contemporains les plus réussis pour cet âge. Une petite souris qui invente un monstre pour se protéger des prédateurs — et le monstre existe vraiment. Suspense, humour, retournement final. Rhymes parfaites en version originale anglaise, très bonne traduction française.
+**[Le Gruffalo](https://www.amazon.fr/dp/2070650278) (Julia Donaldson)** : un des albums contemporains les plus réussis pour cet âge. Une petite souris qui invente un monstre pour se protéger des prédateurs, et le monstre existe vraiment. Suspense, humour, retournement final. Rhymes parfaites en version originale anglaise, très bonne traduction française.
 
 **[Ours brun, dis-moi ce que tu vois ?](https://www.amazon.fr/dp/2807700624) (Bill Martin Jr et Eric Carle)** : la structure répétitive qui permet à l'enfant d'anticiper et de participer. Un classique de la petite enfance américaine, excellent en version française.
 
@@ -46,7 +46,7 @@ Le livre qui convient à 4 ans peut donc être un peu plus long, plus complexe, 
 
 ## Les séries : créer des rendez-vous
 
-À 4 ans, la série prend toute son importance. L'enfant construit une relation avec des personnages récurrents — les retrouvailles avec un personnage connu créent une joie spécifique.
+À 4 ans, la série prend toute son importance. L'enfant construit une relation avec des personnages récurrents, les retrouvailles avec un personnage connu créent une joie spécifique.
 
 **Loup (Orianne Lallemand et Éléonore Thuillier)** : la série francophone la plus populaire actuellement pour les 3-6 ans. Loup et ses amis (Cochon, Agneau, Lapin) vivent des aventures pleines d'humour. Chaque album sur un thème (la jalousie, la peur du noir, la mauvaise foi). Texte rythmé, idéal pour la lecture à voix haute.
 
@@ -88,6 +88,6 @@ Une bibliothèque d'enfant de 4 ans bien constituée mêle :
 - 1-2 BD accessibles
 - Quelques documentaires sur les sujets qui le passionnent
 
-Les brocantes et les bibliothèques de quartier sont d'excellentes sources. Un album en bon état à 1-2€ en brocante vaut autant qu'un album neuf à 14€ — souvent même plus car il a ce cachet du livre qui a été aimé avant lui.
+Les brocantes et les bibliothèques de quartier sont d'excellentes sources. Un album en bon état à 1-2€ en brocante vaut autant qu'un album neuf à 14€, souvent même plus car il a ce cachet du livre qui a été aimé avant lui.
 
 À 4 ans, un enfant qui a accès à des livres de qualité régulièrement lus avec lui construit les bases de toute sa vie intellectuelle. C'est peut-être le plus beau cadeau qu'on puisse faire.

@@ -21,13 +21,13 @@ faq:
 
 Le déguisement animaux pour enfant, dans les années 90, c'était souvent une combinaison du bas de laine de Mamie reconvertie, des oreilles en carton peintes à la gouache, et beaucoup d'enthousiasme pour compenser l'approximation. Et pourtant, on adorait ça.
 
-Aujourd'hui le marché du déguisement est saturé de costumes synthétiques à 30€ qui tombent en lambeaux après deux carnavals. Club Récré te guide vers les vrais déguisements animaux enfant — ceux qui tiennent, qui plaisent, et qui ne ruinent pas.
+Aujourd'hui le marché du déguisement est saturé de costumes synthétiques à 30€ qui tombent en lambeaux après deux carnavals. Club Récré te guide vers les vrais déguisements animaux enfant, ceux qui tiennent, qui plaisent, et qui ne ruinent pas.
 
 ## Pourquoi l'animal est le costume roi chez les enfants
 
 L'animal, c'est l'archétype du déguisement enfant pour plusieurs raisons. D'abord, c'est universel : pas d'enjeux de personnage fictif avec droits d'auteur, pas de mode qui passe. Un lion, c'est un lion en 2026 comme en 1995.
 
-Ensuite, c'est emotionnellement fort. Les enfants s'identifient aux animaux — leurs peluches préférées, les héros de leurs livres d'images. Se déguiser en son animal favori, c'est une extension naturelle du jeu symbolique.
+Ensuite, c'est emotionnellement fort. Les enfants s'identifient aux animaux, leurs peluches préférées, les héros de leurs livres d'images. Se déguiser en son animal favori, c'est une extension naturelle du jeu symbolique.
 
 Enfin, le déguisement animal se fait facilement maison. Pas besoin de couture experte. Des bases simples + quelques accessoires = costume complet.
 
@@ -53,7 +53,7 @@ Le lapin fonctionne à tout âge de 1 à 8 ans. Mignon, doux, confortable. Parfa
 
 **Oreilles** : l'élément clé. Découper deux grandes oreilles dans du carton rigide, recouvrir de feutrine blanche à l'extérieur et rose à l'intérieur, fixer sur un serre-tête. Ou acheter des oreilles de lapin en magasin pour 2-3€.
 
-**Queue** : une boule de coton pomponnée fixée dans le dos. Certains pulls vintage des 90s avaient déjà cette petite boule de laine au dos — ils faisaient des bases de déguisement lapin parfaites.
+**Queue** : une boule de coton pomponnée fixée dans le dos. Certains pulls vintage des 90s avaient déjà cette petite boule de laine au dos, ils faisaient des bases de déguisement lapin parfaites.
 
 ## Le renard : le costume 90s qui revient
 
@@ -65,7 +65,7 @@ Le déguisement renard DIY est particulièrement réussi avec un sweat orange vi
 
 ## L'ours et l'ourson : confort avant tout
 
-L'ours est le choix parfait pour les enfants qui n'aiment pas les déguisements inconfortables. Une combinaison marron ou beige, des oreilles rondes — c'est tout. L'ours est aussi le déguisement le plus chaud pour les carnavals de février.
+L'ours est le choix parfait pour les enfants qui n'aiment pas les déguisements inconfortables. Une combinaison marron ou beige, des oreilles rondes, c'est tout. L'ours est aussi le déguisement le plus chaud pour les carnavals de février.
 
 Bonus : l'ours se décline facilement en Paddington (avec un manteau bleu et un chapeau), en Winnie (sweat jaune + pantalon rouge), ou en ours polaire (tout blanc).
 
@@ -100,4 +100,4 @@ Le déguisement animal sans maquillage est bien. Avec maquillage, il est parfait
 
 Les crayons de maquillage pour enfants (Snazaroo, Grim'tout) sont sûrs, faciles à appliquer et se retirent au savon. Une boîte de base (noir, blanc, orange) coûte 8-12€ et dure 3-4 saisons.
 
-Avec un enfant de 4 ans, le maquillage lui-même devient le moment le plus fun du déguisement — souvent plus que la fête qui suit.
+Avec un enfant de 4 ans, le maquillage lui-même devient le moment le plus fun du déguisement, souvent plus que la fête qui suit.

@@ -23,19 +23,19 @@ affiliation: true
 
 Le cadeau de Noël pour enfant de 3 ans, dans les années 90, c'était souvent une pièce de Lego Duplo supplémentaire, un nouveau Playmobil, ou un livre que les parents avaient aimé enfant. Simple, durable, transmissible.
 
-En 2026, les rayons de jouets débordent. Club Récré te guide vers ce qui vaut vraiment quelque chose — et laisse un souvenir bien après le 25 décembre.
+En 2026, les rayons de jouets débordent. Club Récré te guide vers ce qui vaut vraiment quelque chose, et laisse un souvenir bien après le 25 décembre.
 
 ## Ce qu'un enfant de 3 ans aime vraiment
 
 À 3 ans, l'enfant est dans le jeu symbolique (faire semblant), la construction, et la découverte sensorielle. Il a besoin de jouets qu'il peut manipuler avec ses mains, sur lesquels il peut projeter une histoire, et qui résistent à un usage intensif quotidien.
 
-Le meilleur cadeau de Noël à 3 ans n'est pas le plus spectaculaire le 25 décembre — c'est celui qui est encore utilisé en juillet.
+Le meilleur cadeau de Noël à 3 ans n'est pas le plus spectaculaire le 25 décembre, c'est celui qui est encore utilisé en juillet.
 
 ## Lego Duplo : la valeur absolue
 
 Lego Duplo est conçu pour les 1,5 à 5 ans. Les briques sont grandes (pas avalables), les assemblages sont simples mais satisfaisants, les thèmes sont universels (ferme, chantier, animaux, maison).
 
-**Pourquoi c'est parfait à 3 ans** : la construction libre développe la créativité. L'enfant n'a pas besoin d'instructions — il construit ce qu'il imagine. Et les briques Duplo sont compatibles avec les Lego classiques — dans deux ans, les petits frères et sœurs Lego classiques viennent s'y ajouter.
+**Pourquoi c'est parfait à 3 ans** : la construction libre développe la créativité. L'enfant n'a pas besoin d'instructions, il construit ce qu'il imagine. Et les briques Duplo sont compatibles avec les Lego classiques, dans deux ans, les petits frères et sœurs Lego classiques viennent s'y ajouter.
 
 **Quelle boîte choisir** : les grands coffrets de base ([Lego Duplo Classic 10914](https://www.amazon.fr/dp/B07WLMV14S), 85 pièces) sont préférables aux petits sets thématiques. Plus de pièces = plus de possibilités. Budget : 35-55€.
 
@@ -43,13 +43,13 @@ Lego Duplo est conçu pour les 1,5 à 5 ans. Les briques sont grandes (pas avala
 
 Playmobil a une gamme spécifique pour les tout-petits : le 1.2.3. Des figurines plus grandes, des pièces plus grosses, des sets adaptés à la motricité des tout-petits, dès 18 mois selon la marque.
 
-À 3 ans, l'enfant commence à passer aux Playmobil classiques — mais les sets 1.2.3 restent très accessibles pour les petites mains. Les fermes, les camions de pompiers, et les bateaux sont des thèmes universels.
+À 3 ans, l'enfant commence à passer aux Playmobil classiques, mais les sets 1.2.3 restent très accessibles pour les petites mains. Les fermes, les camions de pompiers, et les bateaux sont des thèmes universels.
 
 **En vintage** : les Playmobil des années 90 ont un plastique plus épais et des sets plus denses qu'aujourd'hui. Un set ferme ou pompiers Playmobil vintage des années 90 trouvé d'occasion est souvent supérieur au neuf contemporain.
 
 ## Les puzzles en bois : la progression naturelle
 
-À 3 ans, l'enfant peut commencer les puzzles de 12-24 pièces. La manipulation des pièces, la reconnaissance des formes, la satisfaction de compléter l'image — tout cela est très engageant.
+À 3 ans, l'enfant peut commencer les puzzles de 12-24 pièces. La manipulation des pièces, la reconnaissance des formes, la satisfaction de compléter l'image, tout cela est très engageant.
 
 Les puzzles en bois (Haba, Djeco, Janod) ont une qualité bien supérieure aux puzzles en carton à cet âge : les pièces ne se cornent pas, les poignées facilitent la manipulation, les images sont nettes.
 
@@ -89,4 +89,4 @@ Offrir un livre accompagné d'un engagement : "Je te lirai ce livre ce soir." Le
 
 **Les gadgets de fête** : les jouets qui paraissent spectaculaires sous le sapin mais qui n'ont aucun intérêt au-delà du premier jour.
 
-Un Noël réussi pour un enfant de 3 ans, c'est souvent un Noël simple. Un ou deux cadeaux bien choisis, des moments en famille autour du sapin, et la magie des rituels — les chants, la bûche, les câlins sous le plaid. Ce qu'il retiendra dans vingt ans n'est pas la liste des cadeaux. C'est l'ambiance de ce Noël-là.
+Un Noël réussi pour un enfant de 3 ans, c'est souvent un Noël simple. Un ou deux cadeaux bien choisis, des moments en famille autour du sapin, et la magie des rituels, les chants, la bûche, les câlins sous le plaid. Ce qu'il retiendra dans vingt ans n'est pas la liste des cadeaux. C'est l'ambiance de ce Noël-là.

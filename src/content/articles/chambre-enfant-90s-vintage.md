@@ -8,15 +8,15 @@ cover: "/img/articles/chambre-enfant-90s-vintage.jpg"
 coverAlt: "Photo d'illustration, Aménager la chambre vintage 90s parfaite pour ton enfant"
 author: "Club Récré"
 readingTime: 8
-seoTitle: "Chambre enfant vintage 90s : guide d'aménagement complet"
-seoDescription: "Comment aménager une chambre d'enfant vintage 90s : mobilier, déco, rangement, où chiner. Le guide pour parents stylés en 2026."
+seoTitle: "Chambre année 90 : recréer la chambre de notre enfance"
+seoDescription: "Chambre année 90 pour ton enfant : couleurs, posters, meubles en pin et objets cultes. Où les chiner, comment aménager sans faire musée."
 faq:
   - q: "Où trouver du mobilier enfant vintage en 2026 ?"
     a: "Les meilleures sources en 2026 : Selency (curation premium 100-500€), Le Bon Coin (filtrer par 'années 90' + livraison), Vinted Home (lancée 2024, en croissance), brocantes professionnelles (Vanves, Saint-Ouen), vide-greniers de province. Les marques à chercher : Combelle, Aubert vintage, Petit Bateau Maison."
   - q: "Combien coûte aménager une chambre d'enfant vintage en 2026 ?"
     a: "Budget réaliste pour une chambre vintage curated complète : 600-1500€ (lit vintage 200-400€, armoire 150-300€, étagère 60-150€, tapis vintage 80-200€, déco et linge 100-300€). Soit environ 2 à 3 fois moins cher qu'une chambre neuve équivalente chez Cyrillus Maison ou AM.PM Enfant."
   - q: "Mobilier vintage et sécurité enfant : que vérifier ?"
-    a: "Vérifier 4 points : 1) la peinture (les meubles avant 1990 peuvent contenir du plomb — décaper et repeindre avec peinture certifiée jouet) ; 2) la stabilité (resserrer toutes les vis, ajouter une fixation murale anti-basculement obligatoire) ; 3) les angles (poncer les angles vifs ou ajouter des protections) ; 4) la solidité du sommier (remplacer le sommier ancien pour un neuf normé)."
+    a: "Vérifier 4 points : 1) la peinture (les meubles avant 1990 peuvent contenir du plomb, décaper et repeindre avec peinture certifiée jouet) ; 2) la stabilité (resserrer toutes les vis, ajouter une fixation murale anti-basculement obligatoire) ; 3) les angles (poncer les angles vifs ou ajouter des protections) ; 4) la solidité du sommier (remplacer le sommier ancien pour un neuf normé)."
 ---
 
 Tu veux aménager la chambre de ton enfant et tu as deux options. Option 1 : le pack chambre IKEA Stuva à 800€ qui ressemble à toutes les autres chambres vues sur Instagram. Option 2 : une vraie chambre vintage avec du caractère, des pièces qui ont une histoire, et un budget équivalent (parfois moins). Tu te doutes laquelle on défend.
@@ -55,7 +55,7 @@ Une **armoire 2 portes en bois** ou une **commode à 3-4 tiroirs**. Privilégie 
 Une **étagère en bois ouverte** pour exposer livres, jouets, peluches. C'est la pièce la plus visible de la chambre et celle qui fait le plus l'âme.
 
 **Budget vintage :** 60-180€.
-**Bonus 90s :** chercher une étagère type "Stockholm" années 80 (5 cases ouvertes en bois clair) — c'est un classique increvable.
+**Bonus 90s :** chercher une étagère type "Stockholm" années 80 (5 cases ouvertes en bois clair), c'est un classique increvable.
 
 ### 4. Le tapis vintage
 
@@ -74,7 +74,7 @@ Une **lampe en céramique 70s-80s** ou une **petite lampe articulée vintage** t
 
 Pour le confort et la sécurité, **ces 5 éléments doivent être neufs** :
 
-1. **Matelas** (neuf obligatoire — hygiène, normes anti-feu, soutien colonne vertébrale)
+1. **Matelas** (neuf obligatoire, hygiène, normes anti-feu, soutien colonne vertébrale)
 2. **Couette + oreiller** (anti-acariens, lavables à 60°C)
 3. **Linge de lit** (idéalement coton bio certifié Oeko-Tex)
 4. **Rideaux occultants** (sommeil de qualité)
@@ -86,9 +86,9 @@ Pour le confort et la sécurité, **ces 5 éléments doivent être neufs** :
 
 Pour une chambre vintage 90s qui ne tombe pas dans le déguisement, **3 règles** :
 
-- **70% de tons neutres** (crème, beige, bois, blanc cassé) — base apaisante
-- **20% d'une couleur forte** (vert sapin, rouge tomate, jaune moutarde, bleu nuit) — caractère
-- **10% d'accents lumineux** (orange, rose poudré, vert d'eau) — pop
+- **70% de tons neutres** (crème, beige, bois, blanc cassé), base apaisante
+- **20% d'une couleur forte** (vert sapin, rouge tomate, jaune moutarde, bleu nuit), caractère
+- **10% d'accents lumineux** (orange, rose poudré, vert d'eau), pop
 
 **À éviter :** le rose Barbie partout, le bleu marine sombre partout, le pastel mou. La chambre doit avoir du caractère.
 
@@ -153,16 +153,16 @@ C'est ennuyeux mais c'est non négociable.
 
 | Poste | Vintage | Neuf | Total |
 |---|---|---|---|
-| Lit | 250€ | — | 250€ |
-| Armoire | 220€ | — | 220€ |
-| Étagère | 80€ | — | 80€ |
-| Tapis | 130€ | — | 130€ |
-| Lampe chevet | 50€ | — | 50€ |
-| Matelas + sommier | — | 200€ | 200€ |
-| Linge de lit | — | 100€ | 100€ |
-| Couette + oreillers | — | 80€ | 80€ |
-| Rideaux | — | 60€ | 60€ |
-| Déco (affiches, peluches) | 80€ | — | 80€ |
+| Lit | 250€ |, | 250€ |
+| Armoire | 220€ |, | 220€ |
+| Étagère | 80€ |, | 80€ |
+| Tapis | 130€ |, | 130€ |
+| Lampe chevet | 50€ |, | 50€ |
+| Matelas + sommier |, | 200€ | 200€ |
+| Linge de lit |, | 100€ | 100€ |
+| Couette + oreillers |, | 80€ | 80€ |
+| Rideaux |, | 60€ | 60€ |
+| Déco (affiches, peluches) | 80€ |, | 80€ |
 | **Total** | **810€** | **440€** | **1 250€** |
 
 Compare ça à une chambre IKEA "complète" (~1 100€) ou à une chambre AM.PM Enfant (~2 800€). Tu as une chambre **avec une vraie âme**, qui durera 15 ans, et que tu pourras revendre à 70% du prix d'achat dans 10 ans.

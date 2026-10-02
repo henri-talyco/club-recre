@@ -21,7 +21,7 @@ faq:
 
 On vous présente les 10 marques qui ont défini la mode enfant des années 80-90. C'est la base de tout vintage enfant qui se respecte. Histoire, époque dorée, pièce signature, comment les reconnaître, et où les chiner.
 
-## 1. OshKosh B'Gosh — Le graal américain
+## 1. OshKosh B'Gosh, Le graal américain
 
 **Origine** : Wisconsin, USA, fondée en 1895
 **Époque dorée** : 1980-1995
@@ -43,7 +43,7 @@ OshKosh B'Gosh est devenu le mètre-étalon du vintage enfant. La marque est né
 
 **À éviter :** les OshKosh post-2000 sont fabriquées au Mexique ou en Asie, qualité considérablement réduite après le rachat par Carter's.
 
-## 2. Petit Bateau — L'incontournable français
+## 2. Petit Bateau, L'incontournable français
 
 **Origine** : Troyes, France, fondée en 1893
 **Époque dorée** : 1960-1990 (pour le vintage)
@@ -65,7 +65,7 @@ Petit Bateau, c'est la marque enfant française par excellence. Si tu as plus de
 
 **Petit conseil :** les pièces avec étiquette "Petit Bateau Troyes" sont les plus anciennes et les plus précieuses.
 
-## 3. Catimini — La fantaisie française
+## 3. Catimini, La fantaisie française
 
 **Origine** : Saint-Macaire-en-Mauges, France, fondée en 1972
 **Époque dorée** : 1985-1998
@@ -86,7 +86,7 @@ Catimini, c'est la French Touch enfant des années 90. Couleurs assumées, impri
 - Salopettes mixtes à imprimés
 - Pulls jacquard avec motifs originaux
 
-## 4. Cyrillus — L'élégance bourgeoise française
+## 4. Cyrillus, L'élégance bourgeoise française
 
 **Origine** : France, fondée en 1977
 **Époque dorée** : 1990-2000
@@ -106,7 +106,7 @@ Cyrillus, c'est le style classique-chic à la française pour enfant. Plus sage 
 - Robes liberty pour filles
 - Cardigans en pure laine
 
-## 5. Sergent Major — Le sportswear décontracté
+## 5. Sergent Major, Le sportswear décontracté
 
 **Origine** : France, fondée en 1986
 **Époque dorée** : 1995-2005
@@ -121,7 +121,7 @@ Sergent Major était la marque "casual" française par excellence. Plus accessib
 - T-shirts manches longues couleurs primaires
 - Salopettes simples en jean
 
-## 6. Jacadi — Le luxe enfant à la française
+## 6. Jacadi, Le luxe enfant à la française
 
 **Origine** : France, fondée en 1976
 **Époque dorée** : 1985-2000
@@ -136,7 +136,7 @@ Jacadi, c'était le haut de gamme accessible. Moins cher que Bonpoint, mais larg
 - Coupes parfaites
 - Détails artisanaux (smocks faits main, broderies)
 
-## 7. DPAM — L'accessible coloré
+## 7. DPAM, L'accessible coloré
 
 **Origine** : France, fondée en 1988 (Du Pareil au Même)
 **Époque dorée** : 1990-2000
@@ -145,7 +145,7 @@ Jacadi, c'était le haut de gamme accessible. Moins cher que Bonpoint, mais larg
 
 DPAM, c'était la marque "couleur" des années 90. Pas premium, mais parfaitement correcte, avec des couleurs qu'on ne trouvait nulle part ailleurs. Idéal pour compléter une garde-robe vintage avec des basiques colorés.
 
-## 8. Naf Naf Kids — Le coupe-vent culte
+## 8. Naf Naf Kids, Le coupe-vent culte
 
 **Origine** : France, ligne enfant lancée fin années 80
 **Époque dorée** : 1990-2000
@@ -159,7 +159,7 @@ Naf Naf Kids a marqué les cours de récré des années 90 avec ses coupe-vents 
 - Bombers à logo brodé
 - Sweats à capuche couleur unie
 
-## 9. Lacoste enfant — Le polo intemporel
+## 9. Lacoste enfant, Le polo intemporel
 
 **Origine** : France, ligne enfant lancée années 70
 **Époque dorée** : 1980-2000
@@ -173,7 +173,7 @@ Lacoste enfant vintage, c'est l'élégance discrète. Les polos des années 80-9
 - Étiquette "Lacoste Chemise" (anciennes pièces)
 - Boutons en nacre véritable
 
-## 10. Disney vintage — La pop culture maîtrisée
+## 10. Disney vintage, La pop culture maîtrisée
 
 **Origine** : USA, licence enfant développée dès les années 70
 **Époque dorée** : 1985-2000

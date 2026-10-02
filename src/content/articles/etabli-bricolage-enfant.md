@@ -21,7 +21,7 @@ affiliation: true
 ---
 
 
-L'établi bricolage enfant, dans les années 90, c'était souvent un coin dans le garage de Papa. Un tabouret pour atteindre l'établi d'adulte, des clous récupérés dans une boîte de métal, un marteau trop lourd pour les petites mains. Et pourtant, on aimait ça — être là, travailler le bois, faire quelque chose de réel.
+L'établi bricolage enfant, dans les années 90, c'était souvent un coin dans le garage de Papa. Un tabouret pour atteindre l'établi d'adulte, des clous récupérés dans une boîte de métal, un marteau trop lourd pour les petites mains. Et pourtant, on aimait ça, être là, travailler le bois, faire quelque chose de réel.
 
 En 2026, les établis bricolage pour enfants sont devenus de vrais jouets pensés pour développer la motricité et introduire au plaisir de créer avec ses mains. Club Récré te guide dans cet univers.
 
@@ -29,7 +29,7 @@ En 2026, les établis bricolage pour enfants sont devenus de vrais jouets pensé
 
 L'établi bricolage est un des rares jouets qui cultive simultanément plusieurs compétences critiques. La motricité fine (visser, tenir un marteau, manier une scie douce), la coordination œil-main, la concentration (les gestes de bricolage demandent de l'attention), et la satisfaction du travail accompli.
 
-C'est aussi un des rares jouets genré où l'inversion fonctionne parfaitement — les filles adorent autant l'établi que les garçons. "Faire avec ses mains" est universel.
+C'est aussi un des rares jouets genré où l'inversion fonctionne parfaitement, les filles adorent autant l'établi que les garçons. "Faire avec ses mains" est universel.
 
 Et contrairement à beaucoup de jouets, l'établi a une progressivité naturelle : de l'imitation pure (2-3 ans) à la réalisation concrète (8-10 ans avec vrais outils). La même pièce de mobilier peut accompagner un enfant pendant 6 à 8 ans.
 
@@ -37,11 +37,11 @@ Et contrairement à beaucoup de jouets, l'établi a une progressivité naturelle
 
 **La stabilité** : un établi qui se renverse quand l'enfant tape dessus avec un marteau est dangereux et frustrant. Le poids et la largeur de la base sont critiques. Tester la stabilité avant d'acheter.
 
-**La taille** : l'établi doit être à la bonne hauteur — l'enfant doit pouvoir travailler confortablement debout. La plupart des fabricants indiquent la tranche d'âge en fonction de la taille standard des enfants. Attention aux établis trop bas qui créent de mauvaises postures.
+**La taille** : l'établi doit être à la bonne hauteur, l'enfant doit pouvoir travailler confortablement debout. La plupart des fabricants indiquent la tranche d'âge en fonction de la taille standard des enfants. Attention aux établis trop bas qui créent de mauvaises postures.
 
-**Les matériaux** : bois massif > contreplaqué qualité > MDF. Évite les établis dont le plan de travail est en MDF mince — il se déforme et se délite rapidement. Le bois massif ou le contreplaqué de qualité (au moins 12mm) supporte les chocs.
+**Les matériaux** : bois massif > contreplaqué qualité > MDF. Évite les établis dont le plan de travail est en MDF mince, il se déforme et se délite rapidement. Le bois massif ou le contreplaqué de qualité (au moins 12mm) supporte les chocs.
 
-**Les accessoires** : marteau en bois (bon haptique), tournevis (métal ou bois), scie (douce, sans danger réel), niveau à bulle, règle, serre-joints ou étau. Vérifier que les accessoires ne sont pas en plastique creux — ils doivent avoir un poids et une résistance réalistes.
+**Les accessoires** : marteau en bois (bon haptique), tournevis (métal ou bois), scie (douce, sans danger réel), niveau à bulle, règle, serre-joints ou étau. Vérifier que les accessoires ne sont pas en plastique creux, ils doivent avoir un poids et une résistance réalistes.
 
 **La praticité** : rangement des outils intégré (crochets, trous), espace de travail suffisant, possibilité de fixer une pièce pour la travailler.
 
@@ -67,7 +67,7 @@ Et contrairement à beaucoup de jouets, l'établi a une progressivité naturelle
 
 Premières réalisations possibles : un cadre photo, une petite boîte à trésors, un tabouret élémentaire, une nichoir à oiseaux. Des projets avec un résultat tangible et utilisable.
 
-La satisfaction d'un enfant qui a construit quelque chose de ses mains — et qui peut le montrer, l'offrir, l'utiliser — est incomparable à n'importe quel jouet.
+La satisfaction d'un enfant qui a construit quelque chose de ses mains, et qui peut le montrer, l'offrir, l'utiliser, est incomparable à n'importe quel jouet.
 
 ## L'établi vintage : quand Papa avait le même
 
@@ -79,7 +79,7 @@ Points de vérification avant achat en occasion : vérifier la stabilité (serre
 
 ## Associer l'établi à de vrais projets
 
-L'établi seul n'est pas suffisant — il faut des projets à réaliser pour que l'enfant reste engagé. Quelques idées :
+L'établi seul n'est pas suffisant, il faut des projets à réaliser pour que l'enfant reste engagé. Quelques idées :
 
 - Construire une petite maison pour les Playmobil ou les poupées (planches de balsa + colle à bois)
 - Fabriquer un cadre photo pour mettre une photo de famille

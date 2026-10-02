@@ -14,7 +14,7 @@ faq:
   - q: "Comment jouer à l'élastique des années 90 ?"
     a: "Il faut un grand élastique fermé en boucle (3-4m de long), 3 joueurs minimum. Deux joueurs tiennent l'élastique entre leurs chevilles, le troisième saute à l'intérieur en suivant une figure rythmée. On commence aux chevilles, puis on monte progressivement aux genoux, taille, sous les bras (level expert). Comptines accompagnent : 'Au clair de la lune', 'Quand 3 poules vont aux champs', 'Voici une lettre'."
   - q: "Quel âge minimum pour apprendre à jouer aux billes ?"
-    a: "Les enfants peuvent commencer aux billes vers 5-6 ans. Avant : risque d'avalement. Après : c'est l'âge idéal — motricité fine développée, comprend les règles simples, aime collectionner. Les jeux de base : la cocotte (mettre des billes dans un trou), le mur (taper la bille de l'adversaire contre un mur). 1 sachet de 50 billes coûte 5€ en grande surface."
+    a: "Les enfants peuvent commencer aux billes vers 5-6 ans. Avant : risque d'avalement. Après : c'est l'âge idéal, motricité fine développée, comprend les règles simples, aime collectionner. Les jeux de base : la cocotte (mettre des billes dans un trou), le mur (taper la bille de l'adversaire contre un mur). 1 sachet de 50 billes coûte 5€ en grande surface."
   - q: "Les jeux de récré sont-ils encore pratiqués en 2026 ?"
     a: "Beaucoup moins qu'avant. Selon une étude de l'Education Nationale 2024, seulement 35% des enfants en CE2 connaissent les règles de la marelle (contre 95% en 1990). Les écrans + l'aménagement des cours d'école ont tué une grande partie de cette culture orale. Transmettre ces jeux est un acte militant en 2026."
 ---
@@ -27,7 +27,7 @@ Voici les **10 jeux de cour de récré indispensables** à transmettre à ton en
 
 ## 1. La marelle
 
-**Le jeu universel** depuis 2000 ans (vraiment — déjà pratiqué dans la Rome antique).
+**Le jeu universel** depuis 2000 ans (vraiment, déjà pratiqué dans la Rome antique).
 
 **Matériel :** 1 craie de trottoir + 1 caillou plat (ou un palet).
 
@@ -104,7 +104,7 @@ Voici les **10 jeux de cour de récré indispensables** à transmettre à ton en
 2. Le chat ne peut toucher que les joueurs au sol.
 3. Quand un joueur quitte sa "perche", le chat peut le toucher.
 
-**Variante "chat-glace" :** quand le chat te touche, tu es "gelé" — un autre joueur peut te dégeler en te touchant.
+**Variante "chat-glace" :** quand le chat te touche, tu es "gelé", un autre joueur peut te dégeler en te touchant.
 
 ## 6. Cache-cache
 
@@ -118,7 +118,7 @@ Voici les **10 jeux de cour de récré indispensables** à transmettre à ton en
 
 ## 7. Le loup-garou (version cour)
 
-**Pas le jeu de société — la version cour de récré.**
+**Pas le jeu de société, la version cour de récré.**
 
 **Règles :**
 1. Un joueur est "le loup", désigné secrètement par un meneur.

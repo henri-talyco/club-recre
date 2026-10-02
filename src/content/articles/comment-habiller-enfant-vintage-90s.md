@@ -24,7 +24,7 @@ faq:
     a: "Vinted reste la plus grosse source en 2026 (millions d'articles). Pour de la curation, regarder Beebs, Petit Kiwi, ou Club Récré. Pour chiner soi-même : friperies pro (Le Relais, Yes We Vintage), brocantes, Emmaüs. Les vide-greniers du dimanche en banlieue parisienne ou en province sont des mines d'or."
 ---
 
-Tu as envie d'habiller ton enfant en vintage années 90 mais tu ne veux pas qu'il ressemble à un mini-figurant des Visiteurs ou à un gamin sorti d'une pub Lucky Strike pour ado en 1994. Bonne nouvelle : c'est tout à fait possible. Le vintage enfant bien fait ressemble à du vintage adulte bien fait — il s'intègre dans la garde-robe quotidienne, il assume une époque sans en faire une caricature.
+Tu as envie d'habiller ton enfant en vintage années 90 mais tu ne veux pas qu'il ressemble à un mini-figurant des Visiteurs ou à un gamin sorti d'une pub Lucky Strike pour ado en 1994. Bonne nouvelle : c'est tout à fait possible. Le vintage enfant bien fait ressemble à du vintage adulte bien fait, il s'intègre dans la garde-robe quotidienne, il assume une époque sans en faire une caricature.
 
 On vous a fait un guide complet, basé sur deux ans de chine en friperies, marchés et brocantes, plus l'analyse de ce qui marche vraiment sur les comptes mode enfant Instagram qui ont du goût.
 
@@ -40,13 +40,13 @@ Trois raisons.
 
 ## Les 4 règles d'or pour ne pas tomber dans le déguisement
 
-### Règle 1 — Une pièce vintage à la fois
+### Règle 1, Une pièce vintage à la fois
 
 Le piège classique : habiller votre enfant 100% vintage de la tête aux pieds. Résultat, il ressemble à un acteur du clip de "Faut Pas Rêver". La règle saine : **une pièce vintage signature** + des basiques actuels. Une salopette OshKosh + un t-shirt blanc Petit Bateau + des baskets Veja, c'est parfait. Une salopette OshKosh + un sweat Disney 1993 + des Reebok de 1996 + un sac à dos Naf Naf vintage : c'est trop.
 
 Le mantra : **le vintage doit être une exclamation, pas une phrase entière**.
 
-### Règle 2 — Choisir des pièces qui ne sont pas datées visuellement
+### Règle 2, Choisir des pièces qui ne sont pas datées visuellement
 
 Toutes les pièces vintage 90s ne se valent pas. Certaines sont intemporelles, d'autres sont absolument datées et ressemblent à du déguisement. Comment trier :
 
@@ -65,13 +65,13 @@ Toutes les pièces vintage 90s ne se valent pas. Certaines sont intemporelles, d
 - Combinaisons en jean fluo intégral
 - Pulls jacquard avec motifs de cerfs en plein milieu
 
-### Règle 3 — Privilégier la qualité du tissu, pas l'esthétique seule
+### Règle 3, Privilégier la qualité du tissu, pas l'esthétique seule
 
 Une pièce vintage qui a 30 ans, c'est aussi une pièce qui a vécu. Les vêtements en pur coton vieillissent magnifiquement. Les vêtements en synthétique des années 90 (acrylique, polyester premier prix) n'ont pas tenu : ils boulochent, ils piquent, ils ont jauni.
 
 Quand tu chines, **lis l'étiquette de composition**. Si c'est 100% coton, 100% laine, 100% lin : c'est un gardien. Si c'est 70% acrylique 30% polyester : passe ton chemin sauf si c'est une pièce signature en parfait état.
 
-### Règle 4 — Faire attention à la coupe
+### Règle 4, Faire attention à la coupe
 
 Le vintage 90s tend à tailler plus large. C'est parfait pour un enfant qui grandit, mais ça peut donner une silhouette "déguisé en clochard 90s" si la pièce est trop grande. La règle : **prends la taille qui correspond à l'âge actuel de ton enfant ou + 6 mois max, pas + 1 an**.
 
@@ -101,26 +101,26 @@ Si tu te lances, voici la liste de courses prioritaire. Pas besoin d'avoir tout 
 
 Les marques font 80% du travail dans le vintage. Une OshKosh authentique des années 80 vaut son pesant d'or, une copie chinoise de 2010 ne vaut rien. Voici les noms à mémoriser :
 
-- **OshKosh B'Gosh** (USA, années 80-90) — Salopettes en denim épais, le graal absolu
-- **Petit Bateau** (France, années 80-90) — Marinières, t-shirts, basiques de qualité
-- **Catimini** (France, années 80-90) — Imprimés colorés, motifs floraux, ambiance ensoleillée
-- **Cyrillus** (France, années 90) — Style classique chic, polos, chemises
-- **Sergent Major** (France, années 90) — Sportswear enfant, style décontracté
-- **Jacadi** (France, années 80-90) — Style classique premium, finitions impeccables
-- **DPAM** (France, années 90) — Couleurs vives, prix accessibles, qualité correcte
-- **Naf Naf Kids** (France, années 90) — Coupe-vents, bombers, sportswear
-- **Lacoste enfant** (France, années 80-90) — Polos, l'élégance discrète
-- **Disney vintage** (USA, années 80-90) — T-shirts et sweats à licence, à doser
+- **OshKosh B'Gosh** (USA, années 80-90), Salopettes en denim épais, le graal absolu
+- **Petit Bateau** (France, années 80-90), Marinières, t-shirts, basiques de qualité
+- **Catimini** (France, années 80-90), Imprimés colorés, motifs floraux, ambiance ensoleillée
+- **Cyrillus** (France, années 90), Style classique chic, polos, chemises
+- **Sergent Major** (France, années 90), Sportswear enfant, style décontracté
+- **Jacadi** (France, années 80-90), Style classique premium, finitions impeccables
+- **DPAM** (France, années 90), Couleurs vives, prix accessibles, qualité correcte
+- **Naf Naf Kids** (France, années 90), Coupe-vents, bombers, sportswear
+- **Lacoste enfant** (France, années 80-90), Polos, l'élégance discrète
+- **Disney vintage** (USA, années 80-90), T-shirts et sweats à licence, à doser
 
 ## Comment associer les pièces : 3 looks complets
 
-### Look 1 — Le mercredi après-midi parfait
+### Look 1, Le mercredi après-midi parfait
 Salopette OshKosh denim + sweat Disney Mickey 1990 + baskets blanches simples + cheveux laissés libres. Ambiance : on rentre du parc, on a 6 ans, on est libre.
 
-### Look 2 — Le goûter d'anniversaire
+### Look 2, Le goûter d'anniversaire
 Chemise liberty rose + jean simple actuel + petites ballerines en cuir. Ambiance : grand-mère qui invite pour un goûter dans le jardin, mais sans le côté sage de Bonpoint.
 
-### Look 3 — La rentrée des classes
+### Look 3, La rentrée des classes
 Polo rayé Petit Bateau + jean OshKosh + cartable beige actuel + Stan Smith. Ambiance : 1991 mais avec les codes de 2026.
 
 ## Les pièges à éviter absolument
@@ -137,7 +137,7 @@ Polo rayé Petit Bateau + jean OshKosh + cartable beige actuel + Stan Smith. Amb
 
 ## Conclusion : le vintage est une garde-robe, pas un costume
 
-Le vrai bon vintage enfant, en 2026, c'est invisible. Personne ne devrait pouvoir dire "tiens, ce gamin est en vintage 90s". Les gens devraient juste se dire "tiens, ce gamin est super stylé". Le vintage est un moyen, pas une fin. C'est de la qualité, du caractère, de l'histoire — pas une catégorie esthétique.
+Le vrai bon vintage enfant, en 2026, c'est invisible. Personne ne devrait pouvoir dire "tiens, ce gamin est en vintage 90s". Les gens devraient juste se dire "tiens, ce gamin est super stylé". Le vintage est un moyen, pas une fin. C'est de la qualité, du caractère, de l'histoire, pas une catégorie esthétique.
 
 Si tu veux te lancer, commence simple : **une salopette OshKosh + tes basiques habituels**. Vois comment ton enfant porte la pièce, comment tu la lavées, comment elle vieillit. Si ça te plaît, ajoute une chemise liberty le mois suivant. Avance pièce par pièce.
 

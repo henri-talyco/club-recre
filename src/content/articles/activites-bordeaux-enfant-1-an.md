@@ -21,7 +21,7 @@ faq:
     a: "Oui, Bordeaux a une belle offre. A Little Family (6e arr., 38 Rue Roux de Brignoles) est le repaire parent-enfant de référence avec ateliers d'éveil sensoriel, café et espace jeux. Bliss Family Concept est un lieu de vie complet (café, boutique, ateliers yoga bébé, massage) dans un cadre calme. Des adresses pensées pour que les parents soufflent pendant que les bébés explorent."
 ---
 
-Bordeaux avec un bébé de 1 an, c'est une combinaison gagnante si tu sais où aller. La ville a une vraie culture de la parentalité bienveillante — les cafés family-friendly, les musées qui prêtent des porte-bébés, les concerts spéciaux bébés. Voici ce qui vaut le détour.
+Bordeaux avec un bébé de 1 an, c'est une combinaison gagnante si tu sais où aller. La ville a une vraie culture de la parentalité bienveillante, les cafés family-friendly, les musées qui prêtent des porte-bébés, les concerts spéciaux bébés. Voici ce qui vaut le détour.
 
 **8 activités testées** pour un bébé de 1 an à Bordeaux en 2026. Adresses, prix, conseils pratiques.
 
@@ -38,45 +38,45 @@ Bordeaux avec un bébé de 1 an, c'est une combinaison gagnante si tu sais où a
 
 ## Les 8 activités à Bordeaux pour un enfant de 1 an
 
-### 1. A Little Family — espace parents-bébés
+### 1. A Little Family, espace parents-bébés
 
-**Le QG des parents bordelais avec jeunes enfants.** A Little Family, au cœur du 7e arrondissement (38 Rue Roux de Brignoles, 13006 — non, Bordeaux), propose des ateliers d'éveil sensoriel, de motricité douce et des moments de partage parents-bébés. L'espace est conçu pour que le bébé explore en sécurité pendant que les parents échangent.
+**Le QG des parents bordelais avec jeunes enfants.** A Little Family, au cœur du 7e arrondissement (38 Rue Roux de Brignoles, 13006, non, Bordeaux), propose des ateliers d'éveil sensoriel, de motricité douce et des moments de partage parents-bébés. L'espace est conçu pour que le bébé explore en sécurité pendant que les parents échangent.
 
 C'est le genre d'endroit où tu reviens toutes les semaines. L'équipe connaît les bébés du quartier par leur prénom au bout d'un mois. Programme hebdomadaire consultable sur leur site et réseaux sociaux.
 
-### 2. Bliss Family Concept — café, ateliers, bien-être
+### 2. Bliss Family Concept, café, ateliers, bien-être
 
-**Le lieu le plus complet pour les familles bordelaises.** Bliss Family Concept est un lieu de vie parentale avec café, espace jeux sécurisé, boutique de produits sélectionnés et salle d'activités. Programmes : yoga bébé, bébé signe, massage bébé, éveil musical. Le format des ateliers est court (45 minutes à 1h) — parfait pour la capacité d'attention d'un bébé de 1 an.
+**Le lieu le plus complet pour les familles bordelaises.** Bliss Family Concept est un lieu de vie parentale avec café, espace jeux sécurisé, boutique de produits sélectionnés et salle d'activités. Programmes : yoga bébé, bébé signe, massage bébé, éveil musical. Le format des ateliers est court (45 minutes à 1h), parfait pour la capacité d'attention d'un bébé de 1 an.
 
 C'est aussi un lieu où les parents peuvent souffler avec un café chaud pendant que leur bébé est en activité supervisée. Une rareté.
 
 ### 3. Les concerts bébés à l'Opéra National de Bordeaux
 
-**L'expérience musicale la plus unique pour un bébé.** L'Opéra National de Bordeaux propose des séances musicales spéciales pour les bébés : des bains sonores où les instruments entourent le public de très jeunes enfants avec des sons enveloppants, inspirés de l'univers aquatique. Les bébés réagissent souvent avec fascination — regards intenses, petits sourires, attention complète.
+**L'expérience musicale la plus unique pour un bébé.** L'Opéra National de Bordeaux propose des séances musicales spéciales pour les bébés : des bains sonores où les instruments entourent le public de très jeunes enfants avec des sons enveloppants, inspirés de l'univers aquatique. Les bébés réagissent souvent avec fascination, regards intenses, petits sourires, attention complète.
 
 Des spectacles comme "Oiseau de Lune" (dès 6 mois) ont lieu plusieurs fois par an. Consulter le programme sur le site de l'Opéra. Réservation obligatoire.
 
-### 4. Le CAPC — Cool Kids Space
+### 4. Le CAPC, Cool Kids Space
 
 **Le musée d'art contemporain qui a pensé aux tout-petits.** Le CAPC de Bordeaux dispose d'un espace dédié "Cool Kids Space" et propose chaque samedi des visites ludiques pour les tout-petits à partir de 20 mois. Pour un bébé de 1 an, les grandes installations contemporaines colorées sont visuellement stimulantes.
 
 L'accès poussette est facilité et les équipes sont habituées aux familles avec bébés. Gratuit pour les moins de 18 ans. Métro Hôtel de Ville.
 
-### 5. Le Musée des Beaux-Arts de Bordeaux — séances bébés
+### 5. Le Musée des Beaux-Arts de Bordeaux, séances bébés
 
 **Les peintures vues autrement.** Le Musée des Beaux-Arts de Bordeaux propose des séances spéciales pour les bébés de 1 à 3 ans, organisées avant l'ouverture au public : les enfants découvrent les œuvres par les sens, avec des manipulations tactiles et des jeux sensoriels adaptés.
 
-Ces séances se remplissent vite — inscription en ligne recommandée plusieurs semaines à l'avance. Gratuit pour les bébés, tarif adulte modéré.
+Ces séances se remplissent vite, inscription en ligne recommandée plusieurs semaines à l'avance. Gratuit pour les bébés, tarif adulte modéré.
 
 ### 6. Les bébés nageurs à la Piscine Judaïque Jean Boiteux
 
-**La piscine classée monument historique.** La Piscine Judaïque Jean Boiteux est une piscine classée monument historique de Bordeaux, avec une architecture splendide des années 30. Les cours de bébés nageurs qu'elle propose se déroulent dans un cadre à nul autre pareil — baigner son bébé dans une piscine Art déco, c'est un souvenir de sortie famille assez unique.
+**La piscine classée monument historique.** La Piscine Judaïque Jean Boiteux est une piscine classée monument historique de Bordeaux, avec une architecture splendide des années 30. Les cours de bébés nageurs qu'elle propose se déroulent dans un cadre à nul autre pareil, baigner son bébé dans une piscine Art déco, c'est un souvenir de sortie famille assez unique.
 
 Programme et inscriptions auprès de la ville de Bordeaux. Vérifier les horaires des créneaux bébés.
 
 ### 7. Les fermes pédagogiques en Gironde
 
-**La campagne girondine à moins d'une heure.** En Gironde, plusieurs fermes pédagogiques accueillent les familles avec tout-petits. La ferme Ecolympe et le Domaine d'Ecoline sont deux adresses recommandées pour les 0-3 ans. Pour un bébé de 1 an, voir de vrais animaux de ferme de près — les cochons, les chèvres, les poules — est une stimulation sensorielle complète.
+**La campagne girondine à moins d'une heure.** En Gironde, plusieurs fermes pédagogiques accueillent les familles avec tout-petits. La ferme Ecolympe et le Domaine d'Ecoline sont deux adresses recommandées pour les 0-3 ans. Pour un bébé de 1 an, voir de vrais animaux de ferme de près, les cochons, les chèvres, les poules, est une stimulation sensorielle complète.
 
 À organiser en demi-journée le matin. Vérifier les horaires d'ouverture et les conditions de visite avec bébé en bas âge.
 
@@ -90,4 +90,4 @@ Arrêt café à une des terrasses sur les quais. Finir par le marché des Capuci
 
 **Le tramway bordelais** est une des meilleures infrastructures de France pour les familles avec poussette : espaces larges, plancher bas, arrêts fréquents. Les lignes A et B desservent la plupart des points d'intérêt.
 
-**Ce que tu vas chercher :** les cafés baby-friendly de Bordeaux affichent souvent un pictogramme "kids" ou "family" sur leur devanture. L'écosystème parental est bien développé — l'appli Citizenkid et le site Enfant-Bordeaux.fr référencent l'agenda complet.
+**Ce que tu vas chercher :** les cafés baby-friendly de Bordeaux affichent souvent un pictogramme "kids" ou "family" sur leur devanture. L'écosystème parental est bien développé, l'appli Citizenkid et le site Enfant-Bordeaux.fr référencent l'agenda complet.

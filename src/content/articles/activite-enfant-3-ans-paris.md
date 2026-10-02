@@ -12,7 +12,7 @@ seoTitle: "Activité enfant 3 ans Paris : 15 idées testées 2026"
 seoDescription: "Activité enfant 3 ans Paris : musées, parcs, ateliers créatifs. 15 sorties concrètes et testées pour un enfant de 3 ans dans Paris et sa banlieue proche."
 faq:
   - q: "Quels musées parisiens sont adaptés aux enfants de 3 ans ?"
-    a: "Les musées les plus accessibles pour les enfants de 3 ans à Paris : le Musée des Arts et Métiers (machines et mécanismes fascinants, entrée gratuite pour les enfants), la Cité des Sciences avec sa Géode et son espace Cité des enfants (dès 2 ans, ateliers spécifiques), le Musée de la Marine (bateaux, maquettes, fascine les petits), et le Muséum National d'Histoire Naturelle (Grande Galerie de l'Évolution). Évite le Louvre et Orsay pour les 3 ans — trop grands, trop de marche, pas de contenu adapté. Préfère les musées avec des espaces tactiles et interactifs."
+    a: "Les musées les plus accessibles pour les enfants de 3 ans à Paris : le Musée des Arts et Métiers (machines et mécanismes fascinants, entrée gratuite pour les enfants), la Cité des Sciences avec sa Géode et son espace Cité des enfants (dès 2 ans, ateliers spécifiques), le Musée de la Marine (bateaux, maquettes, fascine les petits), et le Muséum National d'Histoire Naturelle (Grande Galerie de l'Évolution). Évite le Louvre et Orsay pour les 3 ans, trop grands, trop de marche, pas de contenu adapté. Préfère les musées avec des espaces tactiles et interactifs."
   - q: "Quelles activités faire gratuitement avec un enfant de 3 ans à Paris ?"
     a: "Activités gratuites à Paris avec un enfant de 3 ans : les grands parcs avec jeux (Buttes-Chaumont, Vincennes, Monceau), les carrousels du bois de Boulogne et de Vincennes (très peu chers, 2-3€ le tour), les bords de Seine réaménagés (Berges rive gauche), les fontaines des Tuileries en été (les enfants adorent jouer autour), les marchés parisiens (le marché d'Aligre ou de Raspail sont des sorties sensoriel enthousiasmantes), et la Promenade Plantée pour marcher en hauteur. Les musées nationaux sont gratuits pour les moins de 18 ans."
   - q: "Comment organiser une sortie réussie avec un enfant de 3 ans à Paris ?"
@@ -21,11 +21,11 @@ faq:
 
 L'activité enfant 3 ans Paris, dans les années 90, c'était souvent le jardin du Luxembourg ou le bois de Boulogne. Simple, concret, gratuit. On nourrissait les canards, on faisait du vélo avec les petites roues, on jouait au ballon. Pas d'application pour trouver "l'activité de la semaine".
 
-En 2026, Paris offre bien plus — mais aussi bien plus de bruit marketing. Club Récré a sélectionné 15 vraies activités, testées, pour un enfant de 3 ans à Paris. Des sorties qui fonctionnent vraiment.
+En 2026, Paris offre bien plus, mais aussi bien plus de bruit marketing. Club Récré a sélectionné 15 vraies activités, testées, pour un enfant de 3 ans à Paris. Des sorties qui fonctionnent vraiment.
 
 ## Ce qu'un enfant de 3 ans peut vraiment faire
 
-Avant de lister les activités, il faut être honnête sur ce qu'un enfant de 3 ans est capable de faire — et de supporter. Sa fenêtre d'attention active est de 20 à 40 minutes. Il ne peut pas marcher plus d'1 à 2 kilomètres sans se fatiguer. Il ne comprend pas encore les explications complexes mais adore les choses concrètes, tactiles, visuellement stimulantes.
+Avant de lister les activités, il faut être honnête sur ce qu'un enfant de 3 ans est capable de faire, et de supporter. Sa fenêtre d'attention active est de 20 à 40 minutes. Il ne peut pas marcher plus d'1 à 2 kilomètres sans se fatiguer. Il ne comprend pas encore les explications complexes mais adore les choses concrètes, tactiles, visuellement stimulantes.
 
 La meilleure activité pour un enfant de 3 ans, c'est souvent celle qui laisse de la place à l'exploration spontanée, pas à l'écoute passive d'une visite guidée.
 
@@ -61,7 +61,7 @@ Paris est riche en ateliers pâtisserie, céramique, et arts plastiques spécial
 
 Méconnu mais fascinant pour les enfants : le Musée des Arts et Métiers dans le 3e présente des machines, des instruments scientifiques, des véhicules anciens. Le pendule de Foucault dans l'ancienne église est spectaculaire. Les avions suspendus en vol captent instantanément les 3 ans.
 
-Entrée gratuite pour les moins de 26 ans. Prévoir 1h30 maximum pour un enfant de 3 ans — se concentrer sur la salle des machines et la nef de l'église.
+Entrée gratuite pour les moins de 26 ans. Prévoir 1h30 maximum pour un enfant de 3 ans, se concentrer sur la salle des machines et la nef de l'église.
 
 ## La Promenade Plantée
 
@@ -95,6 +95,6 @@ Le Théâtre du Gymnase de Paris et le Théâtre des Arts de Chatou proposent de
 
 **Ne pas surplanifier** : une grande activité par demi-journée. Un enfant de 3 ans qui a passé 2 heures à la Cité des Sciences est souvent épuisé et saturé. Ajouter une deuxième activité se termine généralement mal.
 
-**Utiliser les transports en commun** : pour un enfant de 3 ans, le métro ou le bus est en soi une partie de l'aventure. Évite la voiture dans Paris — le stationnement est un stress inutile.
+**Utiliser les transports en commun** : pour un enfant de 3 ans, le métro ou le bus est en soi une partie de l'aventure. Évite la voiture dans Paris, le stationnement est un stress inutile.
 
-Paris avec un enfant de 3 ans n'est pas compliqué — il faut juste accepter d'aller à son rythme, de s'arrêter quand il s'arrête, et de trouver fascinant ce qu'il trouve fascinant. Une bouche d'égout, un pigeon, une fontaine peuvent captiver 20 minutes. C'est ça, Paris à 3 ans.
+Paris avec un enfant de 3 ans n'est pas compliqué, il faut juste accepter d'aller à son rythme, de s'arrêter quand il s'arrête, et de trouver fascinant ce qu'il trouve fascinant. Une bouche d'égout, un pigeon, une fontaine peuvent captiver 20 minutes. C'est ça, Paris à 3 ans.

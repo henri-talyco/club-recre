@@ -32,10 +32,10 @@ Voici **8 activités testées** pour un enfant de 2 ans à Lyon en 2026. Adresse
 - Comprend les consignes simples et commence à jouer avec d'autres enfants
 - Parle de plus en plus et nomme ce qu'il voit
 - A une attention de 45 minutes à 1h sur une activité ciblée
-- Est dans une grande phase de motricité — a besoin de courir et d'explorer physiquement
+- Est dans une grande phase de motricité, a besoin de courir et d'explorer physiquement
 - Fait encore la sieste l'après-midi (en général jusqu'à 2h30-3h)
 
-**La règle d'or :** une activité physique le matin (parc, accrobranche, espace de jeux) + activité calme l'après-midi si sieste courte (atelier, musée). Pas l'inverse — un enfant de 2 ans fatigué dans un musée silencieux, c'est la combinaison parfaite pour une crise.
+**La règle d'or :** une activité physique le matin (parc, accrobranche, espace de jeux) + activité calme l'après-midi si sieste courte (atelier, musée). Pas l'inverse, un enfant de 2 ans fatigué dans un musée silencieux, c'est la combinaison parfaite pour une crise.
 
 ## Les 8 activités à Lyon pour un enfant de 2 ans
 
@@ -51,13 +51,13 @@ Conseil : arrive dès 9h30 le mercredi ou le week-end pour les manèges. L'aprè
 
 C'est une sortie idéale pour les enfants en pleine explosion motrice qui ont besoin de grimper, s'accrocher et glisser. Tarifs : ~12-15€ enfant. Site internet pour réservation.
 
-### 3. Le Musée des Beaux-Arts de Lyon — espace La Cabane
+### 3. Le Musée des Beaux-Arts de Lyon, espace La Cabane
 
 **Le musée qui a pensé aux tout-petits.** Le Musée des Beaux-Arts de Lyon propose l'espace "La Cabane", dédié aux tout-petits, et organise régulièrement des ateliers créatifs pour les familles. Le programme d'avril à juin 2026 inclut des visites thématiques avec manipulations et création sur place. Durée : 45 minutes à 1h, parfait pour l'attention d'un 2 ans.
 
 Gratuit le premier dimanche du mois. Tarif adulte ~8€ hors premier dimanche, enfants <18 ans gratuits. Métro Bellecour.
 
-### 4. La Fête du Conte à L'îloz — Grand Parc Miribel Jonage
+### 4. La Fête du Conte à L'îloz, Grand Parc Miribel Jonage
 
 **L'événement nature de la saison.** La Fête du Conte à L'îloz se tient chaque printemps au Grand Parc Miribel Jonage avec des spectacles dès 2 ans, des ateliers et des animations musicales. En 2026, la 4ème édition proposait des contes immersifs en plein air, dans un cadre naturel exceptionnel.
 
@@ -67,21 +67,21 @@ En dehors de l'événement, le Grand Parc Miribel Jonage (à 15 minutes de Lyon)
 
 **Le parc nature sous-estimé des Lyonnais.** Le Parc de la Feyssine, dans le 9e arrondissement, propose régulièrement des jeux de piste, des ateliers sur les pollinisateurs et des balades sensorielles gratuits sur inscription. En 2026, le programme du printemps (8 avril au 24 juin) a inclus des ateliers pour les familles avec tout-petits.
 
-C'est un parc plus calme que la Tête d'Or, avec des zones naturelles préservées — parfait pour les familles qui veulent explorer sans foule. Entrée gratuite. Bus C14 arrêt Feyssine.
+C'est un parc plus calme que la Tête d'Or, avec des zones naturelles préservées, parfait pour les familles qui veulent explorer sans foule. Entrée gratuite. Bus C14 arrêt Feyssine.
 
-### 6. Les Petites Familles — stages et ateliers Lyon
+### 6. Les Petites Familles, stages et ateliers Lyon
 
 **Pour les semaines de vacances ou les mercredis.** Les Petites Familles accueillent les enfants dès 2 ans dans leurs centres lyonnais avec des équipes diplômées. Thématiques immersives, sorties, activités variées. Une option rassurante pour les parents qui travaillent le mercredi et veulent autre chose que la crèche habituelle.
 
 Plusieurs centres à Lyon. Infos et inscriptions sur leur site.
 
-### 7. Le Musée des Confluences — galerie des origines
+### 7. Le Musée des Confluences, galerie des origines
 
 **Les animaux naturalisés fascinent les 2 ans.** Le Musée des Confluences reste une valeur sûre pour les jours de pluie. Pour un enfant de 2 ans, la galerie des origines avec ses grands animaux naturalisés (mammouths, grands singes, poissons géants) est captivante. La muséographie est spectaculaire et les tout-petits réagissent fort aux grandes formes.
 
 Tables à langer à chaque étage. Tramway T1 Musée des Confluences.
 
-### 8. Le Salon de thé Tonka — place Bertone, Croix-Rousse
+### 8. Le Salon de thé Tonka, place Bertone, Croix-Rousse
 
 **La sortie goûter 90s de Lyon.** Le Salon de thé Tonka, sur la place Bertone dans la Croix-Rousse, est un endroit calme et chaleureux pour finir une sortie avec un goûter digne de ce nom. Cupcakes, sablés maison, ambiance douce. Le genre d'adresse où l'enfant mange un gâteau et toi tu reprends deux secondes.
 
