@@ -3,6 +3,85 @@
   "_maj": "2026-10-02",
   "sujets": [
     {
+      "slug": "livre-enfant-4-ans",
+      "mode": "enrichir",
+      "titre": "Enrichir livre-enfant-4-ans",
+      "keyword": "livre enfant 4 ans",
+      "requetes": [
+        "livre enfant 4 ans",
+        "livre 4 ans",
+        "livre garçon 4 ans",
+        "livre 4 ans fille",
+        "cadeaux pour enfants de 4 à 7 ans livres"
+      ],
+      "pillar": "education",
+      "type": "guide",
+      "source": "correction-site-02-10"
+    },
+    {
+      "slug": "gateau-anniversaire-enfant",
+      "mode": "enrichir",
+      "titre": "Enrichir gateau-anniversaire-enfant",
+      "keyword": "gateau anniversaire enfant",
+      "requetes": [
+        "gateau anniversaire enfant",
+        "gateau anniversaire enfant facile",
+        "gateau anniversaire enfant 7 ans",
+        "recette gateau anniversaire garcon",
+        "recette de gateau pour anniversaire enfant"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "correction-site-02-10"
+    },
+    {
+      "slug": "activites-paris-enfant-1-an",
+      "mode": "enrichir",
+      "titre": "Enrichir activites-paris-enfant-1-an",
+      "keyword": "sortie bebe 1 an",
+      "requetes": [
+        "sortie bebe 1 an",
+        "activité bébé 1 an",
+        "activité bébé 1 an extérieur autour de moi",
+        "activités bébé paris",
+        "activite bebe 1 an"
+      ],
+      "pillar": "activites",
+      "type": "ville",
+      "source": "correction-site-02-10"
+    },
+    {
+      "slug": "activite-enfant-3-ans-paris",
+      "mode": "enrichir",
+      "titre": "Enrichir activite-enfant-3-ans-paris",
+      "keyword": "activite enfant 3 ans paris",
+      "requetes": [
+        "activite enfant 3 ans paris",
+        "activité pour enfant de 3 ans",
+        "paris enfant 3 ans",
+        "sortie enfant 3 ans paris",
+        "activite enfant 3 ans"
+      ],
+      "pillar": "activites",
+      "type": "ville",
+      "source": "correction-site-02-10"
+    },
+    {
+      "slug": "jeux-cour-recre-transmettre",
+      "mode": "enrichir",
+      "titre": "Enrichir jeux-cour-recre-transmettre",
+      "keyword": "jeu cour de récréation",
+      "requetes": [
+        "jeu cour de récréation",
+        "jeux de cour d'école",
+        "cour de recre",
+        "jeux de récré"
+      ],
+      "pillar": "activites",
+      "type": "guide",
+      "source": "correction-site-02-10"
+    },
+    {
       "slug": "magazine-jeunesse-annee-90",
       "titre": "Magazine jeunesse année 90 : le guide complet",
       "keyword": "magazine jeunesse année 90",
@@ -524,5 +603,12 @@
       "kd": 35
     }
   ],
-  "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush."
+  "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush.",
+  "enrichis": {
+    "livre-enfant-4-ans": "2026-10-02",
+    "gateau-anniversaire-enfant": "2026-10-02",
+    "activites-paris-enfant-1-an": "2026-10-02",
+    "activite-enfant-3-ans-paris": "2026-10-02",
+    "jeux-cour-recre-transmettre": "2026-10-02"
+  }
 }
