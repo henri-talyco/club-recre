@@ -1,0 +1,123 @@
+---
+/**
+ * Maillage interne automatique, en bas de chaque article.
+ *
+ * Pourquoi (02/10/2026) : 75 articles sur 122 n'avaient jamais ete montres par Google,
+ * la plupart « detectee, actuellement non indexee » : Google les connait mais ne
+ * prend pas la peine de les lire. Les pages d'une meme grille (livres 3 ans, 4 ans,
+ * 5 ans ; activites Lyon 1 an, 2 ans, 3 ans) ne se citaient pas entre elles. Ce bloc
+ * relie chaque page a sa serie et a ses voisines de sujet, y compris depuis les pages
+ * qui marchent, ce qui pousse Google a explorer les autres.
+ */
+import { getCollection, type CollectionEntry } from "astro:content";
+import grappes from "../data/grappes.json";
+
+interface Props {
+  entry: CollectionEntry<"articles">;
+}
+const { entry } = Astro.props;
+const tous = await getCollection("articles");
+
+const VILLES = ["paris", "lyon", "marseille", "bordeaux", "toulouse", "nantes", "lille", "nice", "strasbourg", "montpellier", "rennes"];
+const AGE = /(?:^|-)(\d{1,2})-ans?(?=-|$)/;
+
+function motif(slug: string) {
+  const age = slug.match(AGE)?.[1] ?? null;
+  const ville = VILLES.find((v) => slug.split("-").includes(v)) ?? null;
+  let squelette = slug.replace(AGE, "-AGE");
+  if (ville) squelette = squelette.split("-").map((m) => (m === ville ? "VILLE" : m)).join("-");
+  return { age, ville, squelette };
+}
+
+const ici = motif(entry.slug);
+const autres = tous.filter((a) => a.slug !== entry.slug);
+
+// Meme grille : meme squelette (age et ville remplaces), donc meme sujet a un autre age ou ailleurs.
+const serie = autres
+  .map((a) => ({ a, m: motif(a.slug) }))
+  .filter(({ m }) => (ici.age || ici.ville) && m.squelette === ici.squelette)
+  .sort((x, y) => Number(x.m.age ?? 0) - Number(y.m.age ?? 0) || String(x.m.ville).localeCompare(String(y.m.ville)))
+  .map(({ a }) => a)
+  .slice(0, 8);
+
+// Meme ville, autre sujet (activites, sorties, anniversaire...) : utile pour un parent de la ville.
+const memeVille = ici.ville
+  ? autres.filter((a) => !serie.includes(a) && motif(a.slug).ville === ici.ville).slice(0, 4)
+  : [];
+
+// Grappe thematique declaree (src/data/grappes.json) : les voisines evidentes d'abord.
+const maGrappe = Object.entries(grappes).find(([k, v]) => !k.startsWith("_") && Array.isArray(v) && v.includes(entry.slug))?.[1] as string[] | undefined;
+// Les 6 suivantes dans l'ordre de la grappe, en boucle : chaque page de la grappe recoit
+// ainsi des liens, au lieu que les 6 premieres prennent tout (8 orphelines au 02/10/2026).
+const deLaGrappe = maGrappe
+  ? (() => {
+      const i = maGrappe.indexOf(entry.slug);
+      const ordre = [...maGrappe.slice(i + 1), ...maGrappe.slice(0, i)];
+      return ordre
+        .map((slug) => autres.find((a) => a.slug === slug))
+        .filter((a): a is CollectionEntry<"articles"> => !!a && !serie.includes(a) && !memeVille.includes(a))
+        .slice(0, 6);
+    })()
+  : [];
+
+// Voisines de sujet : mots rares en commun dans l'adresse et les mots-cles, puis le pilier.
+const pris = new Set([...serie, ...memeVille, ...deLaGrappe].map((a) => a.slug));
+// Un mot-cle porte par plus de 10 % des articles (« enfant ») ne dit rien du sujet.
+const frequence = new Map<string, number>();
+for (const a of tous) for (const t of a.data.tags) frequence.set(t.toLowerCase(), (frequence.get(t.toLowerCase()) ?? 0) + 1);
+const rare = (t: string) => (frequence.get(t.toLowerCase()) ?? 0) <= tous.length * 0.1;
+const tags = new Set(entry.data.tags.map((t) => t.toLowerCase()).filter(rare));
+const freqMots = new Map<string, number>();
+const motsAdresse = (slug: string) => slug.split("-").filter((m) => m.length >= 4 && !/^\d/.test(m));
+for (const a of tous) for (const m of new Set(motsAdresse(a.slug))) freqMots.set(m, (freqMots.get(m) ?? 0) + 1);
+const mesMots = new Set(motsAdresse(entry.slug).filter((m) => (freqMots.get(m) ?? 0) <= tous.length * 0.1));
+const voisinesBrutes = autres
+  .filter((a) => !pris.has(a.slug))
+  .map((a) => ({
+    a,
+    score: a.data.tags.filter((t) => tags.has(t.toLowerCase())).length * 2
+      + motsAdresse(a.slug).filter((m) => mesMots.has(m)).length * 2
+      + (a.data.pillar === entry.data.pillar ? 1 : 0),
+  }))
+  .filter((x) => x.score >= 2)
+  .sort((x, y) => y.score - x.score || +y.a.data.pubDate - +x.a.data.pubDate)
+  .slice(0, 4)
+  .map((x) => x.a);
+const voisines = [...deLaGrappe, ...voisinesBrutes].slice(0, 6);
+
+const libelle = (a: CollectionEntry<"articles">) => a.data.title;
+---
+{(serie.length > 0 || memeVille.length > 0 || voisines.length > 0) && (
+  <nav class="mt-16 pt-10 border-t-2 border-vert-recre" aria-label="Articles de la même série">
+    {serie.length > 0 && (
+      <section class="mb-8">
+        <h2 class="font-fraunces text-2xl font-bold mb-4">Dans la même série</h2>
+        <ul class="space-y-2">
+          {serie.map((a) => (
+            <li><a href={`/journal/${a.slug}/`} class="text-vert-recre underline underline-offset-4 hover:text-orange-sirop">{libelle(a)}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {memeVille.length > 0 && (
+      <section class="mb-8">
+        <h2 class="font-fraunces text-2xl font-bold mb-4">Toujours à {ici.ville!.charAt(0).toUpperCase() + ici.ville!.slice(1)}</h2>
+        <ul class="space-y-2">
+          {memeVille.map((a) => (
+            <li><a href={`/journal/${a.slug}/`} class="text-vert-recre underline underline-offset-4 hover:text-orange-sirop">{libelle(a)}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {voisines.length > 0 && (
+      <section>
+        <h2 class="font-fraunces text-2xl font-bold mb-4">À lire aussi</h2>
+        <ul class="space-y-2">
+          {voisines.map((a) => (
+            <li><a href={`/journal/${a.slug}/`} class="text-vert-recre underline underline-offset-4 hover:text-orange-sirop">{libelle(a)}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </nav>
+)}

@@ -1,0 +1,9 @@
+{
+  "_lisezmoi": "Grappes thematiques du maillage automatique (src/components/MemeSerie.astro). Une page d'une grappe renvoie vers les autres pages de sa grappe. Les nouveaux articles sans grappe sont relies par les mots de leur adresse et leurs mots-cles.",
+  "sans-ecran": ["telephone-sans-ecran-enfant", "dumbphone-telephone-sans-internet", "fin-2g-vieux-portable", "elever-enfant-moins-connecte", "boite-a-histoires-toniebox-lunii-yoto", "appareil-photo-enfant", "reveil-enfant-jour-nuit", "game-boy-enfant-aujourdhui"],
+  "jouets-annees-90": ["polly-pocket-1990-prix", "playmobil-vintage", "playmobil-western-vintage", "playmobil-indien-vintage", "fisher-price-vintage", "jouets-enfance", "jouet-annee-80", "game-boy-enfant-aujourdhui", "dessin-anime-annees-90", "marques-annees-90-disparues", "10-marques-vintage-enfant-incontournables", "marque-des-annees-80-90"],
+  "anniversaire": ["anniversaire-enfant-3-ans", "anniversaire-enfant-5-ans", "anniversaire-enfant-6-ans", "anniversaire-enfant-paris", "gateau-anniversaire-enfant", "decoration-gateau-anniversaire-enfant", "gouter-anniversaire-enfant", "invitation-anniversaire-enfant", "cadeau-anniversaire-enfant"],
+  "gouter-cuisine": ["gouter-90s-recettes-culte", "gouter-annee-90", "gouter-enfant-idees", "gouter-enfant-maison", "boite-gouter-enfant", "lunch-box-enfant", "kit-patisserie-enfant", "atelier-patisserie-parent-enfant", "livre-cuisine-enfant", "recette-enfant-facile", "recette-enfant-2-ans", "menu-semaine-enfant"],
+  "vintage-mode": ["tailles-vintage-enfant-guide", "authentifier-vintage-enfant-90s", "comment-habiller-enfant-vintage-90s", "look-mercredi-vintage-90s", "oshkosh-bgosh-guide-vintage-enfant", "vetement-enfant-occasion-guide", "marque-vetement-enfant", "taille-vetement-enfant-guide"],
+  "chambre": ["chambre-enfant-90s-vintage", "chambre-enfant-rangement", "bureau-enfant-vintage", "etabli-bricolage-enfant"]
+}

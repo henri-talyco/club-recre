@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import Newsletter from "../components/Newsletter.astro";
+import MemeSerie from "../components/MemeSerie.astro";
 import type { CollectionEntry } from "astro:content";
 
 interface Props {
@@ -107,6 +108,8 @@ const pillarLabels: Record<string, string> = {
           </div>
         </div>
       )}
+
+      <MemeSerie entry={entry} />
 
       <Newsletter variant="card" />
     </div>
