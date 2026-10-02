@@ -77,9 +77,9 @@ Le cas qui compte le plus en famille, c'est la téléassistance, le bracelet ou 
 
 La règle tient en une ligne. Le nouveau téléphone doit figurer sur la liste des appareils compatibles avec les appels 4G de l'opérateur de la carte SIM. Pas seulement être « 4G ». Au 2 octobre 2026, voici ce qu'on a trouvé sur ces listes officielles.
 
-**Pour des parents ou des grands-parents**, le [Doro Leva L30](https://www.amazon.fr/dp/B0DHXXDGMD) est le seul modèle à touches confirmé à la fois chez Orange et chez Free. Un clapet à grosses touches, une touche d'assistance qui envoie la position GPS, un socle de charge où on le pose le soir. Il coûte autour de 110 €. Chez Bouygues, c'est son cousin le Leva L20 qui est confirmé.
+**Pour des parents ou des grands-parents**, le [Doro Leva L30](https://www.amazon.fr/dp/B0DHXXDGMD) est le seul modèle à touches confirmé à la fois chez Orange et chez Free. Un clapet à grosses touches, une touche d'assistance qui envoie la position GPS, un socle de charge où on le pose le soir. Il coûte 124,99 € sur le site de Doro. Chez Bouygues, c'est son cousin le Leva L20 qui est confirmé.
 
-**Pour un client Free qui veut rester sur un Nokia**, le Nokia 225 4G (référence TA-1610) figure sur la liste de Free. HMD ne le vend plus, mais on trouve encore [le Nokia 225 4G chez des revendeurs](https://www.amazon.fr/dp/B0D3L3RL1L), autour de 80 €.
+**Pour un client Free qui veut rester sur un Nokia**, le Nokia 225 4G (référence TA-1610) figure sur la liste de Free. HMD ne le vend plus, mais on trouve encore [le Nokia 225 4G chez des revendeurs](https://www.amazon.fr/dp/B0D3L3RL1L).
 
 **Pour un client Bouygues qui veut du solide**, le Logicom Xtrem 40, marque française, résistant à l'eau et aux chocs, est confirmé chez Bouygues Telecom.
 

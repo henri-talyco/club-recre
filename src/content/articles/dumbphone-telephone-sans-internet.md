@@ -16,7 +16,7 @@ faq:
   - q: "Existe-t-il un dumbphone avec WhatsApp ?"
     a: "Plus parmi les téléphones à touches. WhatsApp ne fonctionne plus sur les téléphones à touches équipés du système KaiOS (Nokia 6300 4G, 8110 4G, 2780 Flip) depuis le 1er février 2025. Si WhatsApp est indispensable, il faut passer à un smartphone bridé comme le Balance Phone, un Samsung Galaxy A16 5G dont le système bloque les réseaux sociaux mais garde WhatsApp, la banque et les cartes. Il coûte environ 300 euros et reste un grand écran tactile. Le Mudita Kompakt, à écran à encre électronique, peut accueillir WhatsApp installé à la main, mais Mudita ne le prend pas en charge officiellement."
   - q: "Le Nokia 3210 de 2024 fonctionne-t-il encore en France ?"
-    a: "Il fonctionne aujourd'hui, mais rien ne garantit qu'il appellera encore après la fermeture de la 3G en 2028 ou 2029. Au 2 octobre 2026, il ne figure sur la liste des appels 4G d'aucun des quatre opérateurs, et la fiche de HMD ne mentionne pas la fonction. HMD a aussi arrêté sa production pour la France : il reste du stock chez les revendeurs, autour de 80 à 90 euros sur Amazon. Pour l'objet et la nostalgie, il reste le plus réussi. Pour un téléphone qu'on garde cinq ans, mieux vaut un modèle confirmé par ton opérateur."
+    a: "Il fonctionne aujourd'hui, mais rien ne garantit qu'il appellera encore après la fermeture de la 3G en 2028 ou 2029. Au 2 octobre 2026, il ne figure sur la liste des appels 4G d'aucun des quatre opérateurs, et la fiche de HMD ne mentionne pas la fonction. HMD a aussi arrêté sa production pour la France : il reste du stock chez les revendeurs, notamment sur Amazon. Pour l'objet et la nostalgie, il reste le plus réussi. Pour un téléphone qu'on garde cinq ans, mieux vaut un modèle confirmé par ton opérateur."
 ---
 
 Le dumbphone, c'est le téléphone qui ne fait que téléphoner. Des touches, des SMS, parfois une radio et un Snake. Pas d'applications, pas de réseaux sociaux, pas de fil qui défile. Ceux qui ont eu 15 ans en 2000 en connaissent le fonctionnement par cœur. La recherche « dumbphone » est tapée 3 600 fois par mois en France, « téléphone sans internet » 2 900 fois.
@@ -25,7 +25,7 @@ Sauf qu'en 2026, choisir un dumbphone demande une vérification que personne ne 
 
 On a donc fait l'inverse des listes habituelles. Pour chaque modèle, on est allé lire les listes officielles des opérateurs. Free (liste du 3 août 2026), Bouygues Telecom et Orange (consultées le 2 octobre 2026). SFR n'a publié aucune liste depuis mai 2022, elle ne contient aucun des modèles ci-dessous.
 
-Les prix ont été relevés le 2 octobre 2026. Certains liens vers les boutiques peuvent rapporter une commission au Club Récré, sans changer ton prix. Aucun fabricant n'a payé pour figurer ici.
+Les prix indiqués sont ceux des sites des fabricants, relevés le 2 octobre 2026. Pour le prix du jour chez un revendeur, suis le lien. Certains liens vers les boutiques peuvent rapporter une commission au Club Récré, sans changer ton prix. Aucun fabricant n'a payé pour figurer ici.
 
 ## Le piège à connaître avant d'acheter : la VoLTE
 
@@ -39,28 +39,28 @@ Le test est simple une fois le téléphone en main. Coupe le wifi, appelle quelq
 
 Ce sont les seuls modèles à touches qu'on a trouvés sur au moins une liste officielle d'opérateur. La liste est courte et peu glamour, mais ces téléphones appelleront encore en 2029.
 
-| Modèle | Type | Confirmé chez | Prix relevé le 2 octobre 2026 |
+| Modèle | Type | Confirmé chez | Prix chez le fabricant, 2 octobre 2026 |
 |---|---|---|---|
-| Doro Leva L30 | clapet | Orange, Free | 109,99 € (boutique Doro sur Amazon) |
-| Nokia 225 4G (TA-1610) | touches | Free | 64,99 à 80,04 € (vendeurs tiers) |
-| HMD Barbie Phone (TA-1681) | clapet | Free | 59,99 € (boutique HMD), autour de 75 € sur Amazon |
-| Logicom Xtrem 40 | touches, renforcé | Bouygues | à vérifier, stock rare |
+| Doro Leva L30 | clapet | Orange, Free | 124,99 € |
+| Nokia 225 4G (TA-1610) | touches | Free | plus vendu par HMD, revendeurs seulement |
+| HMD Barbie Phone (TA-1681) | clapet | Free | 59,99 € |
+| Logicom Xtrem 40 | touches, renforcé | Bouygues | revendeurs seulement, stock rare |
 
 ### Doro Leva L30, le seul confirmé par deux opérateurs
 
 C'est le téléphone qu'on conseillerait à ses parents. Un clapet à grosses touches, une touche d'assistance au dos qui envoie la position GPS aux proches, un socle de charge où on le pose le soir comme le téléphone fixe de 1995. Il est confirmé pour les appels 4G chez Orange et chez Free, ce qu'aucun autre modèle de cette sélection ne peut dire.
 
-Il coûte [109,99 € sur la boutique officielle Doro d'Amazon](https://www.amazon.fr/dp/B0DHXXDGMD) et 124,99 € sur le site de Doro. C'est le plus cher des clapets, et le chargeur secteur n'est pas fourni. Dans la même gamme, le Leva L10 (touches, 104,99 €) est confirmé chez Free, le Leva L20 (clapet, 114,99 €) chez Bouygues. Les Leva E, moins chers, ne figurent sur aucune liste.
+Il coûte 124,99 € sur le site de Doro, et il est aussi [vendu par la boutique officielle Doro sur Amazon](https://www.amazon.fr/dp/B0DHXXDGMD). C'est le plus cher des clapets, et le chargeur secteur n'est pas fourni. Dans la même gamme, le Leva L10 (touches, 104,99 €) est confirmé chez Free, le Leva L20 (clapet, 114,99 €) chez Bouygues. Les Leva E, moins chers, ne figurent sur aucune liste.
 
 ### Nokia 225 4G, le Nokia à touches qui passe chez Free
 
 C'est le seul Nokia à touches présent sur une liste d'opérateur, celle de Free, sous sa référence TA-1610. Il a la forme qu'on attend d'un Nokia, un petit écran, une batterie qui tient, et rien d'autre. L'appareil photo, à 0,3 mégapixel, sert à se souvenir de ce qu'était une photo en 2003.
 
-HMD, qui fabrique désormais les Nokia, ne le vend plus en France. On le trouve encore chez des vendeurs tiers, [autour de 80 € sur Amazon](https://www.amazon.fr/dp/B0D3L3RL1L). Vérifie la référence TA-1610 avant de payer : certaines fiches de revendeurs affichent la description d'un autre modèle.
+HMD, qui fabrique désormais les Nokia, ne le vend plus en France. On le trouve encore chez des vendeurs tiers, [notamment sur Amazon](https://www.amazon.fr/dp/B0D3L3RL1L). Vérifie la référence TA-1610 avant de payer : certaines fiches de revendeurs affichent la description d'un autre modèle.
 
 ### HMD Barbie Phone, le clapet rose qui marche chez Free
 
-Le clin d'œil le plus assumé de la liste. Un clapet rose avec un miroir, des thèmes Barbie et un Snake rebaptisé « Malibu Snake ». Derrière le costume, c'est un vrai téléphone confirmé pour les appels 4G chez Free (référence TA-1681). Il coûte 59,99 € sur la boutique de HMD et [autour de 75 € sur Amazon](https://www.amazon.fr/dp/B0DFHKCRV2). Le design est très typé, et il n'est confirmé chez aucun autre opérateur.
+Le clin d'œil le plus assumé de la liste. Un clapet rose avec un miroir, des thèmes Barbie et un Snake rebaptisé « Malibu Snake ». Derrière le costume, c'est un vrai téléphone confirmé pour les appels 4G chez Free (référence TA-1681). Il coûte 59,99 € sur la boutique de HMD, et on le trouve aussi [sur Amazon](https://www.amazon.fr/dp/B0DFHKCRV2), où le prix peut être plus élevé. Le design est très typé, et il n'est confirmé chez aucun autre opérateur.
 
 ### Logicom Xtrem 40, le français tout-terrain
 
@@ -72,7 +72,7 @@ Ces modèles sont beaux, souvent mieux pensés, parfois cultes. Aucun n'est conf
 
 ### Nokia 3210 4G, l'icône
 
-Le retour du 3210 de 1999, sorti en mai 2024, avec le Snake, la radio FM et une prise USB-C. C'est l'objet le plus réussi du genre, celui qui fait sourire tout le monde sur la table. Mais il ne figure sur la liste d'aucun opérateur, sa fiche ne mentionne pas la fonction d'appel 4G, et HMD l'a arrêté en France. Il reste [87,99 € vendu par Amazon](https://www.amazon.fr/dp/B0DC742WFC). À prendre pour le plaisir, en sachant qu'il faudra peut-être le remplacer en 2028.
+Le retour du 3210 de 1999, sorti en mai 2024, avec le Snake, la radio FM et une prise USB-C. C'est l'objet le plus réussi du genre, celui qui fait sourire tout le monde sur la table. Mais il ne figure sur la liste d'aucun opérateur, sa fiche ne mentionne pas la fonction d'appel 4G, et HMD l'a arrêté en France. Il reste [en stock sur Amazon](https://www.amazon.fr/dp/B0DC742WFC). À prendre pour le plaisir, en sachant qu'il faudra peut-être le remplacer en 2028.
 
 ### HMD 2660 Flip, le clapet classique
 
@@ -88,11 +88,11 @@ L'objet le plus abouti du mouvement, conçu aux États-Unis. Un écran noir et b
 
 ### Mudita Kompakt, l'écran qui ne fatigue pas
 
-Un téléphone polonais à écran à encre électronique, comme une liseuse, avec un interrupteur physique pour passer hors ligne et des cartes consultables sans réseau. Il tient jusqu'à six jours. Des utilisateurs le font fonctionner chez Free, mais il n'est pas sur la liste des téléphones autorisés d'Orange. Il coûte [399 € vendu par Mudita sur Amazon](https://www.amazon.fr/dp/B0FBX4SNRG).
+Un téléphone polonais à écran à encre électronique, comme une liseuse, avec un interrupteur physique pour passer hors ligne et des cartes consultables sans réseau. Il tient jusqu'à six jours. Des utilisateurs le font fonctionner chez Free, mais il n'est pas sur la liste des téléphones autorisés d'Orange. Mudita le vend [sur sa boutique Amazon](https://www.amazon.fr/dp/B0FBX4SNRG).
 
 ### Balance Phone, le smartphone mis au régime
 
-Ici, internet reste là. Le Balance Phone est un Samsung Galaxy A16 5G dont le système bloque les réseaux sociaux sans possibilité de les débloquer, mais garde WhatsApp, la banque et les cartes. Le Galaxy A16 5G est confirmé pour les appels 4G chez Orange, Bouygues et Free, pas dans sa version modifiée. Il coûte [300,28 € sur Amazon](https://www.amazon.fr/dp/B0DPQTH5JR). La bonne option pour qui ne peut pas lâcher WhatsApp.
+Ici, internet reste là. Le Balance Phone est un Samsung Galaxy A16 5G dont le système bloque les réseaux sociaux sans possibilité de les débloquer, mais garde WhatsApp, la banque et les cartes. Le Galaxy A16 5G est confirmé pour les appels 4G chez Orange, Bouygues et Free, pas dans sa version modifiée. Il est vendu [sur Amazon par Balance Phone](https://www.amazon.fr/dp/B0DPQTH5JR). La bonne option pour qui ne peut pas lâcher WhatsApp.
 
 ## Ceux à ne pas acheter en 2026
 
