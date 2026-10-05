@@ -32,6 +32,7 @@ import { fileURLToPath } from "node:url";
 import { genereImage } from "./genere-image.mjs";
 import { repete } from "./doublons.mjs";
 import { verifieAsin, poseLien, prixAmazonEnDur } from "./liens-amazon.mjs";
+import { lienMarchand } from "../src/lib/marchands.mjs";
 
 const ICI = path.dirname(fileURLToPath(import.meta.url));
 const RACINE = path.resolve(ICI, "..");
@@ -323,6 +324,7 @@ CE QUI NE BOUGE PAS
 - Le sujet principal, le ton, et les passages justes de l'article actuel : garde-les, reformule le moins possible.
 - Le titre peut etre precise, pas remplace. Le seoTitle garde son expression principale.
 - Aucun fait nouveau sans recherche web dans ce meme echange (regle absolue 2).
+- Les liens vers une boutique (Amazon...) deja presents : tu les gardes TOUS, avec le produit qu'ils designent. Ils ont ete verifies un par un.
 
 CE QUI CHANGE
 - Ajoute 2 a 4 sections H2 (ou complete les existantes) qui repondent aux recherches ci-dessus, avec leurs mots, naturellement.
@@ -522,6 +524,10 @@ function valide(meta, corps, sujet, usage) {
   }
 
   if (sujet.mode === "enrichir") {
+    // 05/10/2026 : la reecriture de livre-enfant-4-ans a supprime une section entiere
+    // et deux liens Amazon verifies avec elle. Un lien boutique deja pose ne se perd pas.
+    const perdus = liensBoutique(litArticle(sujet.slug).corps).filter((l) => !corps.includes(l));
+    if (perdus.length) erreurs.push(`liens boutique supprimes, a remettre avec leur produit : ${perdus.join(", ")}`);
     const avant = compteMots(litArticle(sujet.slug).corps);
     if (mots < avant + 300) erreurs.push(`enrichissement trop court: ${mots} mots contre ${avant} avant (il en faut au moins ${avant + 300})`);
     const absentes = (sujet.requetes || []).filter((r) => !contientCible(toutLeTexte, r));
@@ -538,6 +544,17 @@ function valide(meta, corps, sujet, usage) {
   }
 
   return erreurs;
+}
+
+/** Les adresses de boutique (src/lib/marchands.mjs) citees dans un texte Markdown. */
+function liensBoutique(texte) {
+  const adresses = texte.match(/https?:\/\/[^\s)"'<>\]]+/g) || [];
+  return [...new Set(adresses.filter((a) => lienMarchand(a)))];
+}
+
+/** Vrai si un lien du texte rapporte une commission (code d'affiliation pose au build). */
+function porteCommission(texte) {
+  return liensBoutique(texte).some((a) => lienMarchand(a).href !== new URL(a).toString());
 }
 
 // -------------------------------------------------------------------- ecriture
@@ -688,7 +705,11 @@ if (!DRY_RUN && !ancien) {
   }
 }
 
-const contenu = construitFichier(meta, blocCorps, sujet, aujourdhui, cover, ancien, Boolean(meta.liens));
+// La mention de transparence suit les liens, quel que soit le mode. Le 05/10/2026, un
+// article enrichi a garde 5 liens Amazon et perdu sa mention : elle ne dependait que
+// des liens poses par le robot lui-meme (comparatifs).
+const contenu = construitFichier(meta, blocCorps, sujet, aujourdhui, cover, ancien,
+  Boolean(meta.liens) || porteCommission(blocCorps));
 const chemin = path.join(DOSSIER_ARTICLES, `${sujet.slug}.md`);
 
 if (DRY_RUN) {

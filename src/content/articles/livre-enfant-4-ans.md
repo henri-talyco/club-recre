@@ -24,6 +24,7 @@ faq:
     a: "Oui, 4 ans est un bon âge pour introduire les premières bandes dessinées. Les BD adaptées aux 4-6 ans : les Schtroumpfs (histoires simples, personnages bien différenciés), Titeuf (humour accessible, situations de cour d'école), Yakari (aventures, nature, amitié avec les animaux), et les collections de petites BD Nathan ou Fleurus. La BD développe la lecture d'image séquentielle, la capacité à reconstituer une action entre deux vignettes. Un excellent complément aux albums classiques."
   - q: "Comment savoir si un livre est adapté au niveau d'un enfant de 4 ans ?"
     a: "Pour évaluer l'adéquation d'un livre à un enfant de 4 ans : regarder le nombre de mots par page (entre 100 et 400 mots par album est la bonne fourchette), vérifier la complexité de l'intrigue (un seul fil narratif, maximum 3-4 personnages principaux), et évaluer les illustrations (toujours présentes, servir l'histoire plutôt que la déco). Le meilleur test : lire les deux premières pages à l'enfant. S'il pose des questions et veut continuer, le livre est adapté. Si ses yeux décrochent rapidement, c'est probablement trop complexe ou pas assez engageant."
+affiliation: true
 ---
 
 Le livre enfant 4 ans, c'est un âge charnière dans la relation aux histoires. L'enfant de 4 ans commence à pouvoir suivre des récits plus complexes, à se souvenir d'un livre d'un soir à l'autre, à poser des questions sur les personnages et leurs motivations. C'est le début d'une vraie vie littéraire.
@@ -70,6 +71,16 @@ Deux autres titres de L'école des loisirs méritent leur place dans n'importe q
 **Yakari** : le jeune indien sioux et son ami le cheval Petit-Tonnerre. Des histoires courtes avec des animaux, une connexion à la nature, une transmission entre générations. Très accessible pour les 4-6 ans.
 
 **Astérix** : techniquement destiné aux enfants plus grands, mais les images suffisent à tenir un 4 ans captivé pendant des heures. L'humour se comprendra progressivement.
+
+## Les albums pour travailler les émotions
+
+À 4 ans, les émotions sont encore intenses et parfois débordantes. Les albums qui mettent des mots sur les émotions sont des outils précieux.
+
+**[Parfois je me sens...](https://www.amazon.fr/dp/2211220851) (Anthony Browne)** : un petit singe passe d'une émotion à l'autre, une par page, avec les images d'Anthony Browne. De quoi mettre des mots sur ce qu'on ressent, pour les parents aussi.
+
+**[Le monstre des couleurs va à l'école](https://www.amazon.fr/dp/B07M6RTGTY) (Anna Llenas)** : la suite du monstre des couleurs, spécifiquement autour de l'école maternelle et de la transition vers le primaire.
+
+**Les albums de Thierry Lenain** : des albums courageux qui traitent des émotions difficiles (la peur, le deuil, l'injustice) avec une grande sensibilité.
 
 ## Livre garçon 4 ans : ce que cherche vraiment cette recherche
 
