@@ -33,16 +33,6 @@
       "source": "gagnant-livre-enfant-4-ans-s41"
     },
     {
-      "slug": "activite-bebe-bordeaux",
-      "titre": "Activité bébé bordeaux : le guide complet",
-      "keyword": "activité bébé bordeaux",
-      "pillar": "activites",
-      "type": "ville",
-      "source": "gsc-s41",
-      "impressions": 52,
-      "position": 10.2
-    },
-    {
       "slug": "gateau-anniversaire-enfant",
       "mode": "enrichir",
       "titre": "Enrichir gateau-anniversaire-enfant",
@@ -635,5 +625,8 @@
     "activite-enfant-3-ans-paris": "2026-10-02",
     "jeux-cour-recre-transmettre": "2026-10-02",
     "polly-pocket-1990-prix": "2026-10-05"
+  },
+  "refuses": {
+    "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
   }
 }

@@ -116,6 +116,6 @@ Une fois le téléphone reçu, active la fonction (Appels 4G, VoLTE ou Voix 4G s
 
 ## Et pour un premier téléphone d'enfant ?
 
-C'est l'autre grande raison d'acheter un téléphone sans internet. La commission « Enfants et écrans » recommandait en 2024 pas de téléphone avant 11 ans, puis un téléphone sans accès à internet jusqu'à 13 ans. On a consacré un guide entier à la question, avec les repères officiels, les forfaits à deux euros et les solutions sans écran : [téléphone sans écran pour enfant, les alternatives en 2026](/journal/telephone-sans-ecran-enfant).
+C'est l'autre grande raison d'acheter un téléphone sans internet. La commission « Enfants et écrans » recommandait en 2024 pas de téléphone avant 11 ans, puis un téléphone sans accès à internet jusqu'à 13 ans. On a consacré un guide entier à la question, avec les repères officiels, les forfaits à deux euros et les solutions sans écran : [téléphone sans écran pour enfant, les alternatives en 2026](/journal/telephone-sans-ecran-enfant/).
 
-Et si c'est le vieux portable de tes parents qui t'inquiète, on a aussi fait le point sur [la fin de la 2G, les dates et quoi faire](/journal/fin-2g-vieux-portable).
+Et si c'est le vieux portable de tes parents qui t'inquiète, on a aussi fait le point sur [la fin de la 2G, les dates et quoi faire](/journal/fin-2g-vieux-portable/).

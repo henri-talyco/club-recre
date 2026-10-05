@@ -4,6 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import { rehypeMarchands } from "./src/lib/marchands.mjs";
+import { rehypeLiensInternes } from "./src/lib/liens-internes.mjs";
 import fs from "node:fs";
 
 // slug -> date de derniere modification, lue dans le frontmatter des articles.
@@ -41,7 +42,7 @@ export default defineConfig({
     mdx(),
   ],
   markdown: {
-    rehypePlugins: [rehypeMarchands],
+    rehypePlugins: [rehypeMarchands, rehypeLiensInternes],
   },
   build: {
     inlineStylesheets: "auto",

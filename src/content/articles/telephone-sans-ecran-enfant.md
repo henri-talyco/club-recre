@@ -44,11 +44,11 @@ L'intérêt d'un pacte, c'est de casser l'argument numéro un des enfants, « to
 
 Entre 11 et 13 ans, la solution qui colle aux recommandations, c'est le téléphone à touches. Il appelle, il envoie des SMS, il tient plusieurs jours sans recharge, et il n'ouvre aucune application. L'enfant apprend à gérer un téléphone, à ne pas le perdre, à le recharger, sans le fil infini.
 
-Le réflexe nostalgique, c'est de ressortir le vieux Nokia du tiroir. Mauvaise idée cette année. La 2G s'arrête le 6 et le 20 octobre 2026 chez Orange et Free, le 15 novembre chez SFR, le 15 décembre chez Bouygues Telecom. Un Nokia 3310 d'origine, ou tout autre téléphone uniquement 2G, n'aura plus de réseau du tout. On a détaillé les dates et les vérifications dans notre article sur [la fin de la 2G](/journal/fin-2g-vieux-portable).
+Le réflexe nostalgique, c'est de ressortir le vieux Nokia du tiroir. Mauvaise idée cette année. La 2G s'arrête le 6 et le 20 octobre 2026 chez Orange et Free, le 15 novembre chez SFR, le 15 décembre chez Bouygues Telecom. Un Nokia 3310 d'origine, ou tout autre téléphone uniquement 2G, n'aura plus de réseau du tout. On a détaillé les dates et les vérifications dans notre article sur [la fin de la 2G](/journal/fin-2g-vieux-portable/).
 
 Le piège suivant est plus discret. Un téléphone neuf marqué « 4G » peut repasser en 2G ou en 3G dès qu'il passe un appel. Pour téléphoner sur la 4G, il lui faut la fonction VoLTE, validée par l'opérateur pour ce modèle précis. Sinon il deviendra muet à la fin de la 3G, en 2028 ou 2029, soit pile au moment où ton enfant de 11 ans entrera au lycée. Le fabricant français The Phone l'écrit lui-même dans sa FAQ : son premier modèle, la référence H101, y compris en reconditionné, ne fonctionne qu'en 2G et en 3G.
 
-Avant d'acheter, cherche donc la référence exacte du modèle sur la liste des mobiles compatibles avec les appels 4G de ton opérateur. Free, Bouygues Telecom et Orange publient la leur, SFR n'en a pas publié depuis 2022. Notre [guide des dumbphones](/journal/dumbphone-telephone-sans-internet) indique, modèle par modèle, chez quel opérateur chacun est confirmé.
+Avant d'acheter, cherche donc la référence exacte du modèle sur la liste des mobiles compatibles avec les appels 4G de ton opérateur. Free, Bouygues Telecom et Orange publient la leur, SFR n'en a pas publié depuis 2022. Notre [guide des dumbphones](/journal/dumbphone-telephone-sans-internet/) indique, modèle par modèle, chez quel opérateur chacun est confirmé.
 
 ## La montre-téléphone, pour les plus jeunes qui sortent seuls
 

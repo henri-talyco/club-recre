@@ -38,7 +38,7 @@ const pillarLabels: Record<string, string> = {
   <section class="container-narrow pb-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {sorted.map((article) => (
-        <a href={`/journal/${article.slug}`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
+        <a href={`/journal/${article.slug}/`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
           {article.data.cover ? (
             <div class="aspect-[4/3] overflow-hidden">
               <img src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />

@@ -86,7 +86,7 @@ La règle tient en une ligne. Le nouveau téléphone doit figurer sur la liste d
 
 **Chez SFR**, aucune liste récente n'est publiée, la dernière date de mai 2022. Le plus sûr est d'acheter en boutique SFR et de faire confirmer la référence exacte.
 
-Le Nokia 3210 de 2024, qui fait tant envie, fonctionne aujourd'hui mais ne figure sur la liste d'aucun opérateur. Pour un téléphone qu'on garde cinq ans, ce n'est pas le meilleur choix. On a passé onze modèles au crible, avec leurs prix et leur compatibilité opérateur par opérateur, dans notre [guide des dumbphones qui marcheront encore après la 2G](/journal/dumbphone-telephone-sans-internet).
+Le Nokia 3210 de 2024, qui fait tant envie, fonctionne aujourd'hui mais ne figure sur la liste d'aucun opérateur. Pour un téléphone qu'on garde cinq ans, ce n'est pas le meilleur choix. On a passé onze modèles au crible, avec leurs prix et leur compatibilité opérateur par opérateur, dans notre [guide des dumbphones qui marcheront encore après la 2G](/journal/dumbphone-telephone-sans-internet/).
 
 Un dernier conseil, n'achète pas un « petit téléphone pas cher » au hasard en ligne. Des modèles uniquement 2G sont encore en vente au 2 octobre 2026, dont le Nokia 5310 et le Nokia 105 en version GSM. Ils ne capteront plus rien.
 

@@ -96,8 +96,8 @@ Exactement le même look. La salopette OshKosh est totalement mixte. On peut jus
 
 Si ce look vous parle, voici 3 articles qui vont compléter votre démarche :
 
-- [Comment habiller son enfant en vintage 90s sans tomber dans le déguisement](/journal/comment-habiller-enfant-vintage-90s)
-- [OshKosh B'Gosh : guide complet du graal du vintage enfant](/journal/oshkosh-bgosh-guide-vintage-enfant)
-- [Les 10 marques vintage enfant à connaître absolument en 2026](/journal/10-marques-vintage-enfant-incontournables)
+- [Comment habiller son enfant en vintage 90s sans tomber dans le déguisement](/journal/comment-habiller-enfant-vintage-90s/)
+- [OshKosh B'Gosh : guide complet du graal du vintage enfant](/journal/oshkosh-bgosh-guide-vintage-enfant/)
+- [Les 10 marques vintage enfant à connaître absolument en 2026](/journal/10-marques-vintage-enfant-incontournables/)
 
 Et pour les pièces : on en source régulièrement sur le drop Club Récré. Inscris-toi à la newsletter pour être prévenu·e.

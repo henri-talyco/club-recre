@@ -99,11 +99,12 @@ const pillarLabels: Record<string, string> = {
       {data.tags.length > 0 && (
         <div class="mt-12 pt-6 border-t border-vert-recre/20">
           <p class="text-xs uppercase tracking-[0.2em] text-gris-cartable mb-3">Mots-clés</p>
+          {/* Simples etiquettes, pas des liens : les pages /tags/ n'ont jamais existe.
+              Jusqu'au 05/10/2026, 634 liens menaient Google vers 271 adresses en 404,
+              plus que le site n'a de vraies pages. */}
           <div class="flex flex-wrap gap-2">
             {data.tags.map((tag) => (
-              <a href={`/tags/${tag}`} class="badge badge-outline hover:bg-vert-recre hover:text-cream-gouter transition-colors">
-                {tag}
-              </a>
+              <span class="badge badge-outline">{tag}</span>
             ))}
           </div>
         </div>

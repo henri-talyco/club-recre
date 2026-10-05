@@ -15,10 +15,13 @@ const marques = [
   { slug: "kookai-kids", name: "Kookaï Kids", country: "France", years: "années 90", peak: "1995-2005", style: "Mode girly 90s" },
   { slug: "marese", name: "Marèse", country: "France", years: "1957-aujourd'hui", peak: "1985-2000", style: "Couture enfant" },
 ];
+// Seules ces marques ont une fiche (cf getStaticPaths de [slug].astro). Les autres
+// s'affichent sans lien : jusqu'au 05/10/2026, 9 cartes menaient a une page en 404.
+const AVEC_FICHE = new Set(["oshkosh-bgosh", "petit-bateau", "catimini"]);
 ---
 
 <BaseLayout
-  title="Marques vintage enfant — encyclopédie Club Récré"
+  title="Marques vintage enfant, l'encyclopédie"
   description="L'encyclopédie complète des marques vintage enfant des années 80-90 : OshKosh, Petit Bateau, Catimini, Cyrillus, Lacoste enfant... Histoire, époque dorée, pièces signatures."
 >
   <header class="container-narrow py-16 text-center">
@@ -33,8 +36,10 @@ const marques = [
 
   <section class="container-narrow pb-20">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {marques.map((m) => (
-        <a href={`/marques/${m.slug}`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
+      {marques.map((m) => {
+        const Carte = AVEC_FICHE.has(m.slug) ? "a" : "div";
+        return (
+        <Carte href={AVEC_FICHE.has(m.slug) ? `/marques/${m.slug}/` : undefined} class={`${AVEC_FICHE.has(m.slug) ? "card-hover " : ""}bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block`}>
           <div class="aspect-[4/3] flex items-center justify-center font-bagel text-2xl text-center p-6 leading-tight"
                style="background: linear-gradient(135deg, #F0C14B, #E87A3C); color: #1F3D2E;">
             {m.name}
@@ -48,8 +53,9 @@ const marques = [
               Fondée en {m.years.split("-")[0]} · Époque dorée {m.peak}
             </p>
           </div>
-        </a>
-      ))}
+        </Carte>
+        );
+      })}
     </div>
   </section>
 </BaseLayout>

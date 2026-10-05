@@ -78,7 +78,7 @@ const { slug } = Astro.params;
 const marque = marquesData[slug as keyof typeof marquesData];
 
 if (!marque) {
-  return Astro.redirect("/marques");
+  return Astro.redirect("/marques/");
 }
 
 const articles = await getCollection("articles");
@@ -93,7 +93,7 @@ const relatedArticles = articles
 >
   <!-- BREADCRUMB -->
   <nav class="container-narrow pt-6 text-sm text-gris-cartable">
-    <a href="/" class="text-orange-sirop font-semibold hover:underline">Accueil</a> · <a href="/marques" class="text-orange-sirop font-semibold hover:underline">Marques</a> · <span>{marque.name}</span>
+    <a href="/" class="text-orange-sirop font-semibold hover:underline">Accueil</a> · <a href="/marques/" class="text-orange-sirop font-semibold hover:underline">Marques</a> · <span>{marque.name}</span>
   </nav>
 
   <!-- HERO -->
@@ -173,7 +173,7 @@ const relatedArticles = articles
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         {relatedArticles.map((article) => (
-          <a href={`/journal/${article.slug}`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
+          <a href={`/journal/${article.slug}/`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
             <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-sm text-center p-5"
                  style="background: linear-gradient(135deg, #1F3D2E, #5FA68B);">
               {article.data.title}

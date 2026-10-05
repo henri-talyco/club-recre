@@ -200,7 +200,7 @@ const activityMatrix = activityCities.map((city) => ({
                   {group.articles.map(({ age, match }) => (
                     match ? (
                       <a
-                        href={`/journal/${match.article.slug}`}
+                        href={`/journal/${match.article.slug}/`}
                         class="badge badge-outline hover:bg-vert-recre hover:text-cream-gouter transition-colors"
                       >
                         {age}
@@ -232,7 +232,7 @@ const activityMatrix = activityCities.map((city) => ({
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {cards.map(({ article, city, age }) => (
         <a
-          href={`/journal/${article.slug}`}
+          href={`/journal/${article.slug}/`}
           class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block"
           data-activity-card={isActivities ? "true" : undefined}
           data-city={city}

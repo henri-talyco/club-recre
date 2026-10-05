@@ -3,10 +3,10 @@ const pathname = Astro.url.pathname;
 const isActive = (path: string) => pathname.startsWith(path);
 
 const links = [
-  { href: "/activites", label: "Activités" },
-  { href: "/lifestyle", label: "Lifestyle" },
-  { href: "/vintage", label: "Vintage" },
-  { href: "/education", label: "Conseils" },
+  { href: "/activites/", label: "Activités" },
+  { href: "/lifestyle/", label: "Lifestyle" },
+  { href: "/vintage/", label: "Vintage" },
+  { href: "/education/", label: "Conseils" },
 ];
 
 ---
@@ -39,7 +39,7 @@ const links = [
 
       <!-- Le Club est un magazine : le seul appel a l'action est la newsletter -->
       <a
-        href="/newsletter"
+        href="/newsletter/"
         class="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-btn bg-orange-sirop text-cream-gouter text-[11px] lg:text-sm font-bold uppercase tracking-[0.1em] border-2 border-orange-sirop hover:bg-jaune-cassette hover:text-vert-recre hover:border-jaune-cassette transition-all duration-200 whitespace-nowrap"
       >
         Newsletter

@@ -1,13 +1,13 @@
 /**
- * Sert le site statique en reproduisant le comportement de Vercel sur les URLs
- * sans slash final.
+ * Sert le site statique, avec UNE adresse par page : celle qui finit par une barre.
  *
- * Pourquoi : une partie des pages est indexée par Google SANS slash final
- * (/journal/activites-marseille-enfant-2-ans, 66 clics par mois), une autre
- * partie AVEC. Vercel rendait les deux formes en 200. Les assets Workers
- * redirigent en 307, ce qui ajoute un saut sur des pages qui rapportent et
- * n'transfere pas proprement le signal SEO. On resout donc l'index.html
- * nous-memes, sans redirection.
+ * Histoire : Vercel rendait chaque page aux deux adresses (avec et sans barre finale)
+ * et Google en a range une partie sous l'une, une partie sous l'autre. Les assets
+ * Workers, eux, redirigent en 307 (temporaire), qui ne transmet pas proprement le
+ * classement. Du 25/08 au 05/10/2026 ce worker rendait donc la page aux deux adresses.
+ * Depuis le 05/10/2026 il redirige en 301 (permanent) vers l'adresse avec barre, celle
+ * du plan du site et de la balise canonique : Google ne lit plus chaque page deux fois.
+ * Ne pas retirer ce worker : sans lui, c'est la 307 de Cloudflare qui revient.
  */
 // Pages retirees le 28/08/2026 avec l'arret de la vente. Elles etaient
 // indexees : une 301 vaut mieux qu'une 404, le signal SEO passe a la cible.
@@ -59,9 +59,13 @@ export default {
       const avecSlash = new URL(url);
       avecSlash.pathname += "/";
       const reponse = await env.ASSETS.fetch(new Request(avecSlash, request));
-      // Si la page existe, on la rend telle quelle a l'URL demandee.
+      // Si la page existe : 301 vers l'adresse avec barre finale, la seule que le plan
+      // du site, la balise canonique et les liens internes annoncent. Jusqu'au
+      // 05/10/2026 on rendait la page aux deux adresses : Google lisait chaque article
+      // deux fois et choisissait tantot l'une, tantot l'autre. Une 301 est permanente
+      // et transmet le classement, contrairement a la 307 par defaut de Cloudflare.
       // Sinon on laisse le traitement normal repondre (404).
-      if (reponse.status === 200) return reponse;
+      if (reponse.status === 200) return Response.redirect(avecSlash.toString(), 301);
     }
 
     return env.ASSETS.fetch(request);
