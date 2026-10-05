@@ -15,13 +15,13 @@
     },
     {
       "date": "2026-10-05",
-      "mesurees": 30,
-      "indexees": 2,
-      "part": 0.07,
+      "mesurees": 53,
+      "indexees": 18,
+      "part": 0.34,
       "etats": {
-        "Google ne reconnaît pas cette URL": 19,
-        "Détectée, actuellement non indexée": 9,
-        "Envoyée et indexée": 2
+        "Détectée, actuellement non indexée": 15,
+        "Google ne reconnaît pas cette URL": 20,
+        "Envoyée et indexée": 18
       }
     }
   ]
