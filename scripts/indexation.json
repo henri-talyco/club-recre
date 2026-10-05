@@ -12,6 +12,17 @@
         "Envoyée et indexée": 1,
         "Explorée, actuellement non indexée": 1
       }
+    },
+    {
+      "date": "2026-10-05",
+      "mesurees": 30,
+      "indexees": 2,
+      "part": 0.07,
+      "etats": {
+        "Google ne reconnaît pas cette URL": 19,
+        "Détectée, actuellement non indexée": 9,
+        "Envoyée et indexée": 2
+      }
     }
   ]
 }
