@@ -3,6 +3,46 @@
   "_maj": "2026-10-05",
   "sujets": [
     {
+      "slug": "polly-pocket-1990-prix",
+      "mode": "enrichir",
+      "titre": "Enrichir polly-pocket-1990-prix",
+      "keyword": "maison polly pocket année 90",
+      "requetes": [
+        "maison polly pocket année 90",
+        "prix polly pocket vintage"
+      ],
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-enrichir-s41",
+      "impressions": 117
+    },
+    {
+      "slug": "livre-enfant-8-ans",
+      "titre": "Livre enfant 8 ans : le guide complet",
+      "keyword": "livre enfant 8 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gagnant-livre-enfant-4-ans-s41"
+    },
+    {
+      "slug": "livre-enfant-10-ans",
+      "titre": "Livre enfant 10 ans : le guide complet",
+      "keyword": "livre enfant 10 ans",
+      "pillar": "education",
+      "type": "guide",
+      "source": "gagnant-livre-enfant-4-ans-s41"
+    },
+    {
+      "slug": "activite-bebe-bordeaux",
+      "titre": "Activité bébé bordeaux : le guide complet",
+      "keyword": "activité bébé bordeaux",
+      "pillar": "activites",
+      "type": "ville",
+      "source": "gsc-s41",
+      "impressions": 52,
+      "position": 10.2
+    },
+    {
       "slug": "gateau-anniversaire-enfant",
       "mode": "enrichir",
       "titre": "Enrichir gateau-anniversaire-enfant",
@@ -593,6 +633,7 @@
     "gateau-anniversaire-enfant": "2026-10-02",
     "activites-paris-enfant-1-an": "2026-10-02",
     "activite-enfant-3-ans-paris": "2026-10-02",
-    "jeux-cour-recre-transmettre": "2026-10-02"
+    "jeux-cour-recre-transmettre": "2026-10-02",
+    "polly-pocket-1990-prix": "2026-10-05"
   }
 }
