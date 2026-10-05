@@ -62,5 +62,50 @@
     "chambre-enfant-rangement",
     "bureau-enfant-vintage",
     "etabli-bricolage-enfant"
+  ],
+  "vetements-chaussures": [
+    "manteau-hiver-enfant",
+    "chaussure-enfant-choisir",
+    "chaussures-enfant-premiers-pas",
+    "pyjama-enfant-choisir",
+    "cartable-rentree-enfant"
+  ],
+  "fetes-deguisements": [
+    "deguisement-halloween-enfant",
+    "deguisement-animaux-enfant",
+    "deguisement-enfant-4-ans",
+    "calendrier-avent-enfant",
+    "bricolage-noel-enfant",
+    "cadeau-noel-enfant-3-ans",
+    "cadeau-noel-enfant-5-ans",
+    "cadeau-noel-enfant-7-ans"
+  ],
+  "jouets-cadeaux-age": [
+    "jouet-enfant-1-an",
+    "cadeau-enfant-2-ans",
+    "jouet-enfant-3-ans",
+    "cadeau-enfant-3-ans",
+    "cadeau-fille-5-ans",
+    "cadeau-fille-8-ans",
+    "idee-cadeau-fille-10-ans",
+    "jouet-en-bois-enfant",
+    "jouets-pour-fillettes"
+  ],
+  "quotidien": [
+    "routine-du-soir-enfant",
+    "sommeil-enfant-2-ans",
+    "coucher-enfant-3-ans",
+    "colere-enfant-2-ans",
+    "enfant-timide-socialisation",
+    "argent-de-poche-enfant",
+    "avion-avec-bebe"
+  ],
+  "idees-activites": [
+    "jeux-cour-recre-transmettre",
+    "10-activites-mercredi-90s",
+    "activite-enfant-autour-de-moi",
+    "activite-interieur-enfant",
+    "activite-bebe-1-an",
+    "activite-bebe-1-an-exterieur"
   ]
 }

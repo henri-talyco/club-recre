@@ -30,7 +30,18 @@ const themes = [
   { titre: "Anniversaires", cle: "anniversaire" },
   { titre: "Goûters et cuisine", cle: "gouter-cuisine" },
   { titre: "Mode vintage", cle: "vintage-mode" },
+  { titre: "Vêtements et chaussures", cle: "vetements-chaussures" },
+  { titre: "Fêtes et déguisements", cle: "fetes-deguisements" },
+  { titre: "Jouets et cadeaux par âge", cle: "jouets-cadeaux-age" },
+  { titre: "Le quotidien", cle: "quotidien" },
+  { titre: "Idées d'activités", cle: "idees-activites" },
+  { titre: "La chambre", cle: "chambre" },
 ].map((t) => ({ ...t, pages: ((grappes as Record<string, unknown>)[t.cle] as string[] ?? []).map((s) => parSlug.get(s)).filter(Boolean) }));
+// Aucun article hors de l'accueil. Relevé du 05/10/2026 : 34 articles n'y figuraient pas
+// (ni ville, ni âge, ni thème), et 26 d'entre eux n'avaient jamais été montrés par Google.
+// Tout article qu'aucune liste ne prend tombe ici, donc un article neuf du robot aussi.
+const dejaListes = new Set([...parVille.flatMap((v) => v.pages), ...parAge, ...themes.flatMap((t) => t.pages)].map((a) => a!.slug));
+const etAussi = articles.filter((a) => !dejaListes.has(a.slug)).sort((x, y) => x.data.title.localeCompare(y.data.title, "fr"));
 
 // Les rubriques mises en avant, avec photo. Ajoutées le 02/10/2026 à la demande d'Henri
 // (« plus de contenu sur l'accueil ») : les deux niches qui montent dans Google, moins
@@ -258,6 +269,14 @@ const piliers = [
           </ul>
         </div>
       ))}
+      {etAussi.length > 0 && (
+        <div>
+          <h3 class="font-fraunces text-xl font-bold mb-3">Et aussi</h3>
+          <ul class="space-y-1">
+            {etAussi.map((a) => (<li><a href={`/journal/${a.slug}/`} class="underline underline-offset-2 hover:text-orange-sirop">{a.data.title.split(":")[0]}</a></li>))}
+          </ul>
+        </div>
+      )}
     </div>
   </section>
 
