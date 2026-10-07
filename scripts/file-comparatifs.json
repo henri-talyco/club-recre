@@ -1,23 +1,174 @@
 {
   "_lisezmoi": "File des comparatifs de produits, tenue à la main (02/10/2026). Le robot y prend son sujet les jours JOURS_COMPARATIF (article-quotidien.yml), dans l'ordre. Chaque produit cité reçoit un lien Amazon après vérification de sa page (scripts/liens-amazon.mjs). public: enfant interdit les téléphones (art. L. 5231-3 du code de la santé publique). Volumes Semrush France, recherches par mois, relevés le 02/10/2026.",
-  "_maj": "2026-10-02",
+  "_maj": "2026-10-07",
   "sujets": [
-    { "slug": "telephone-portable-senior", "titre": "Téléphone portable senior : les modèles simples qui marcheront après la 2G", "keyword": "téléphone portable senior", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 4400, "kd": 38, "voisins": "telephone senior 3600, telephone portable personne agee 1300, telephone grosse touche 590, telephone clapet senior 390" },
-    { "slug": "telephone-a-clapet", "titre": "Téléphone à clapet : les modèles 4G à acheter en 2026", "keyword": "téléphone à clapet", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 6600, "kd": 25 },
-    { "slug": "tamagotchi", "titre": "Tamagotchi : quel modèle acheter aujourd'hui pour revivre 1997", "keyword": "tamagotchi", "pillar": "jouets-vintage", "type": "comparatif", "public": "enfant", "volume": 33100, "kd": 35, "voisins": "tamagotchi original 1300" },
-    { "slug": "nokia-3310-aujourdhui", "titre": "Nokia 3310 en 2026 : marche-t-il encore, et par quoi le remplacer", "keyword": "nokia 3310", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 33100, "kd": 32 },
-    { "slug": "lecteur-mp3-enfant", "titre": "Lecteur MP3 enfant : les baladeurs sans écran ni internet", "keyword": "lecteur mp3 enfant", "pillar": "education", "type": "comparatif", "public": "enfant", "volume": 2900, "kd": 23, "voisins": "lecteur mp3 12100" },
-    { "slug": "telephone-fixe-sans-fil", "titre": "Téléphone fixe sans fil : le retour du téléphone de la maison", "keyword": "téléphone fixe sans fil", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 6600, "kd": 31, "voisins": "telephone fixe vintage 880, telephone fixe sans fil avec repondeur 720" },
-    { "slug": "appareil-photo-jetable", "titre": "Appareil photo jetable : lequel choisir et combien coûte le développement", "keyword": "appareil photo jetable", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 27100, "kd": 30, "voisins": "kodak jetable 3600" },
-    { "slug": "telephone-doro", "titre": "Téléphone Doro : quel modèle choisir pour un parent ou un grand-parent", "keyword": "téléphone Doro", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 8100, "kd": 31 },
-    { "slug": "telephone-incassable", "titre": "Téléphone incassable : les mobiles qui survivent au chantier et à la randonnée", "keyword": "téléphone incassable", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 3600, "kd": 26, "voisins": "telephone de chantier 1600" },
-    { "slug": "walkman-baladeur-cassette", "titre": "Walkman et baladeur cassette : lesquels acheter neufs en 2026", "keyword": "baladeur cassette", "pillar": "jouets-vintage", "type": "comparatif", "public": "adulte", "volume": 1300, "kd": 29, "voisins": "walkman 12100, radio cassette 1900" },
-    { "slug": "montre-enfant-apprendre-heure", "titre": "Montre enfant : les montres à aiguilles pour apprendre l'heure, sans écran", "keyword": "montre enfant", "pillar": "education", "type": "comparatif", "public": "enfant", "volume": 12100, "kd": 30 },
-    { "slug": "telephone-a-touche", "titre": "Téléphone à touches : les modèles 4G simples et fiables", "keyword": "téléphone à touche", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 3600, "kd": 20 },
-    { "slug": "nokia-3210-avis", "titre": "Nokia 3210 (2024) : notre avis, et ce qu'il faut savoir avant de l'acheter", "keyword": "nokia 3210", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 6600, "kd": 28 },
-    { "slug": "appareil-photo-instantane", "titre": "Appareil photo instantané : Instax, Polaroid, Kodak comparés", "keyword": "appareil photo instantané", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 22200, "kd": 35 },
-    { "slug": "radio-reveil", "titre": "Radio-réveil : dormir sans téléphone dans la chambre", "keyword": "radio réveil", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 4400, "kd": 31 },
-    { "slug": "light-phone-mudita-kompakt", "titre": "Light Phone III ou Mudita Kompakt : quel téléphone minimaliste choisir", "keyword": "light phone 3", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 1000, "kd": 22, "voisins": "mudita kompakt 720, smartphone minimaliste 170" },
-    { "slug": "nokia-105-110-4g", "titre": "Nokia 105 ou Nokia 110 4G : lequel choisir comme téléphone simple", "keyword": "nokia 105", "pillar": "lifestyle", "type": "comparatif", "public": "adulte", "volume": 1900, "kd": 21, "voisins": "nokia 110 1000" }
+    {
+      "slug": "telephone-a-clapet",
+      "titre": "Téléphone à clapet : les modèles 4G à acheter en 2026",
+      "keyword": "téléphone à clapet",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 6600,
+      "kd": 25
+    },
+    {
+      "slug": "tamagotchi",
+      "titre": "Tamagotchi : quel modèle acheter aujourd'hui pour revivre 1997",
+      "keyword": "tamagotchi",
+      "pillar": "jouets-vintage",
+      "type": "comparatif",
+      "public": "enfant",
+      "volume": 33100,
+      "kd": 35,
+      "voisins": "tamagotchi original 1300"
+    },
+    {
+      "slug": "nokia-3310-aujourdhui",
+      "titre": "Nokia 3310 en 2026 : marche-t-il encore, et par quoi le remplacer",
+      "keyword": "nokia 3310",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 33100,
+      "kd": 32
+    },
+    {
+      "slug": "lecteur-mp3-enfant",
+      "titre": "Lecteur MP3 enfant : les baladeurs sans écran ni internet",
+      "keyword": "lecteur mp3 enfant",
+      "pillar": "education",
+      "type": "comparatif",
+      "public": "enfant",
+      "volume": 2900,
+      "kd": 23,
+      "voisins": "lecteur mp3 12100"
+    },
+    {
+      "slug": "telephone-fixe-sans-fil",
+      "titre": "Téléphone fixe sans fil : le retour du téléphone de la maison",
+      "keyword": "téléphone fixe sans fil",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 6600,
+      "kd": 31,
+      "voisins": "telephone fixe vintage 880, telephone fixe sans fil avec repondeur 720"
+    },
+    {
+      "slug": "appareil-photo-jetable",
+      "titre": "Appareil photo jetable : lequel choisir et combien coûte le développement",
+      "keyword": "appareil photo jetable",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 27100,
+      "kd": 30,
+      "voisins": "kodak jetable 3600"
+    },
+    {
+      "slug": "telephone-doro",
+      "titre": "Téléphone Doro : quel modèle choisir pour un parent ou un grand-parent",
+      "keyword": "téléphone Doro",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 8100,
+      "kd": 31
+    },
+    {
+      "slug": "telephone-incassable",
+      "titre": "Téléphone incassable : les mobiles qui survivent au chantier et à la randonnée",
+      "keyword": "téléphone incassable",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 3600,
+      "kd": 26,
+      "voisins": "telephone de chantier 1600"
+    },
+    {
+      "slug": "walkman-baladeur-cassette",
+      "titre": "Walkman et baladeur cassette : lesquels acheter neufs en 2026",
+      "keyword": "baladeur cassette",
+      "pillar": "jouets-vintage",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 1300,
+      "kd": 29,
+      "voisins": "walkman 12100, radio cassette 1900"
+    },
+    {
+      "slug": "montre-enfant-apprendre-heure",
+      "titre": "Montre enfant : les montres à aiguilles pour apprendre l'heure, sans écran",
+      "keyword": "montre enfant",
+      "pillar": "education",
+      "type": "comparatif",
+      "public": "enfant",
+      "volume": 12100,
+      "kd": 30
+    },
+    {
+      "slug": "telephone-a-touche",
+      "titre": "Téléphone à touches : les modèles 4G simples et fiables",
+      "keyword": "téléphone à touche",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 3600,
+      "kd": 20
+    },
+    {
+      "slug": "nokia-3210-avis",
+      "titre": "Nokia 3210 (2024) : notre avis, et ce qu'il faut savoir avant de l'acheter",
+      "keyword": "nokia 3210",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 6600,
+      "kd": 28
+    },
+    {
+      "slug": "appareil-photo-instantane",
+      "titre": "Appareil photo instantané : Instax, Polaroid, Kodak comparés",
+      "keyword": "appareil photo instantané",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 22200,
+      "kd": 35
+    },
+    {
+      "slug": "radio-reveil",
+      "titre": "Radio-réveil : dormir sans téléphone dans la chambre",
+      "keyword": "radio réveil",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 4400,
+      "kd": 31
+    },
+    {
+      "slug": "light-phone-mudita-kompakt",
+      "titre": "Light Phone III ou Mudita Kompakt : quel téléphone minimaliste choisir",
+      "keyword": "light phone 3",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 1000,
+      "kd": 22,
+      "voisins": "mudita kompakt 720, smartphone minimaliste 170"
+    },
+    {
+      "slug": "nokia-105-110-4g",
+      "titre": "Nokia 105 ou Nokia 110 4G : lequel choisir comme téléphone simple",
+      "keyword": "nokia 105",
+      "pillar": "lifestyle",
+      "type": "comparatif",
+      "public": "adulte",
+      "volume": 1900,
+      "kd": 21,
+      "voisins": "nokia 110 1000"
+    }
   ]
 }
