@@ -3,6 +3,19 @@
   "_maj": "2026-10-12",
   "sujets": [
     {
+      "slug": "playmobil-western-vintage",
+      "mode": "enrichir",
+      "titre": "Enrichir playmobil-western-vintage",
+      "keyword": "playmobil western vintage",
+      "requetes": [
+        "playmobil western vintage"
+      ],
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-enrichir-s42",
+      "impressions": 37
+    },
+    {
       "slug": "livre-enfant-10-ans",
       "titre": "Livre enfant 10 ans : le guide complet",
       "keyword": "livre enfant 10 ans",
@@ -593,6 +606,16 @@
       "source": "semrush-s40",
       "volume": 590,
       "kd": 35
+    },
+    {
+      "slug": "sortie-enfant-paris",
+      "titre": "Sortie enfant paris : le guide complet",
+      "keyword": "sortie enfant paris",
+      "pillar": "activites",
+      "type": "guide",
+      "source": "semrush-s42",
+      "volume": 1300,
+      "kd": 23
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush.",
@@ -602,7 +625,8 @@
     "activites-paris-enfant-1-an": "2026-10-02",
     "activite-enfant-3-ans-paris": "2026-10-02",
     "jeux-cour-recre-transmettre": "2026-10-02",
-    "polly-pocket-1990-prix": "2026-10-05"
+    "polly-pocket-1990-prix": "2026-10-05",
+    "playmobil-western-vintage": "2026-10-12"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
