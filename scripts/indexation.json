@@ -23,6 +23,18 @@
         "Google ne reconnaît pas cette URL": 20,
         "Envoyée et indexée": 18
       }
+    },
+    {
+      "date": "2026-10-12",
+      "mesurees": 50,
+      "indexees": 15,
+      "part": 0.3,
+      "etats": {
+        "Google ne reconnaît pas cette URL": 17,
+        "erreur": 14,
+        "Envoyée et indexée": 15,
+        "Détectée, actuellement non indexée": 4
+      }
     }
   ]
 }
