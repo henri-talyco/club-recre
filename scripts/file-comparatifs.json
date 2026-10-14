@@ -1,17 +1,7 @@
 {
   "_lisezmoi": "File des comparatifs de produits, tenue à la main (02/10/2026). Le robot y prend son sujet les jours JOURS_COMPARATIF (article-quotidien.yml), dans l'ordre. Chaque produit cité reçoit un lien Amazon après vérification de sa page (scripts/liens-amazon.mjs). public: enfant interdit les téléphones (art. L. 5231-3 du code de la santé publique). Volumes Semrush France, recherches par mois, relevés le 02/10/2026.",
-  "_maj": "2026-10-07",
+  "_maj": "2026-10-14",
   "sujets": [
-    {
-      "slug": "telephone-a-clapet",
-      "titre": "Téléphone à clapet : les modèles 4G à acheter en 2026",
-      "keyword": "téléphone à clapet",
-      "pillar": "lifestyle",
-      "type": "comparatif",
-      "public": "adulte",
-      "volume": 6600,
-      "kd": 25
-    },
     {
       "slug": "tamagotchi",
       "titre": "Tamagotchi : quel modèle acheter aujourd'hui pour revivre 1997",
