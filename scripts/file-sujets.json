@@ -3,6 +3,20 @@
   "_maj": "2026-10-19",
   "sujets": [
     {
+      "slug": "recette-enfant-2-ans",
+      "mode": "enrichir",
+      "titre": "Enrichir recette-enfant-2-ans",
+      "keyword": "recette bebe 2 ans",
+      "requetes": [
+        "recette bebe 2 ans",
+        "recette enfant 2 ans"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s43",
+      "impressions": 47
+    },
+    {
       "slug": "gateau-anniversaire-enfant",
       "mode": "enrichir",
       "titre": "Enrichir gateau-anniversaire-enfant",
@@ -595,6 +609,16 @@
       "source": "semrush-s42",
       "volume": 1300,
       "kd": 23
+    },
+    {
+      "slug": "anniversaire-10-ans",
+      "titre": "Anniversaire 10 ans : le guide complet",
+      "keyword": "anniversaire 10 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "semrush-s43",
+      "volume": 1000,
+      "kd": 13
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush.",
@@ -605,7 +629,8 @@
     "activite-enfant-3-ans-paris": "2026-10-02",
     "jeux-cour-recre-transmettre": "2026-10-02",
     "polly-pocket-1990-prix": "2026-10-05",
-    "playmobil-western-vintage": "2026-10-12"
+    "playmobil-western-vintage": "2026-10-12",
+    "recette-enfant-2-ans": "2026-10-19"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
