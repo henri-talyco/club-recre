@@ -9,21 +9,28 @@
  *   2. fabrique la photo avec scripts/genere-image.mjs (meme style Kodak 1995) ;
  *   3. ecrit `cover` et `coverAlt` dans l'en-tete de l'article.
  *
+ * Fait aussi la photo de chaque marque (public/img/marques/<slug>.jpg) qui n'en a
+ * pas encore : la scene vient de src/data/marques-photos.json (ecrite a la main,
+ * aucune marque ni texte dans l'image). Rien a ecrire dans une page : les pages
+ * marques affichent la photo des que le fichier existe.
+ *
  * Meme esprit que genere-image.mjs : jamais bloquant. Sans cle ou en cas
  * d'echec, l'article reste comme il est et sera retente au passage suivant.
  * Sans --strict le code de sortie est toujours 0.
  *
  * Appele par :
  *   - .github/workflows/photos-manquantes.yml (a lancer a la main)
- *   - .github/workflows/article-quotidien.yml (apres chaque article, --max 3)
+ *   - .github/workflows/article-quotidien.yml (apres chaque article, --max 3 --sans-marques)
  *
  * Usage :
  *   node scripts/photos-manquantes.mjs               tous les articles sans photo
  *   node scripts/photos-manquantes.mjs --liste       montre le travail, n'ecrit rien
  *   node scripts/photos-manquantes.mjs --max 3       s'arrete apres 3 tentatives
+ *   node scripts/photos-manquantes.mjs --sans-marques  ne touche pas aux photos de marques
+ *   node scripts/photos-manquantes.mjs --marques     seulement les photos de marques
  *   node scripts/photos-manquantes.mjs --strict      code 1 si une photo a echoue
- *   node scripts/photos-manquantes.mjs <slug>...     refait la photo de ces articles,
- *                                                    meme s'ils en ont deja une
+ *   node scripts/photos-manquantes.mjs <slug>...     refait la photo de ces articles
+ *                                                    (ou marques), meme s'ils en ont deja une
  *
  * Variable : GEMINI_API_KEY (secret GitHub), la meme que le robot d'articles.
  */
@@ -34,6 +41,7 @@ import { genereImage } from "./genere-image.mjs";
 
 const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ARTICLES = path.join(RACINE, "src", "content", "articles");
+const MARQUES = path.join(RACINE, "src", "data", "marques-photos.json");
 const MODELE_SCENE = process.env.MODELE_SCENE || "gemini-3.1-flash-lite";
 
 const log = (...a) => console.log(...a);
@@ -81,6 +89,22 @@ function photoPresente(a) {
   if (!a.cover) return false;
   if (/^https?:\/\//.test(a.cover)) return true;
   return fs.existsSync(path.join(RACINE, "public", a.cover.replace(/^\/+/, "")));
+}
+
+// -------------------------------------------------------------------- marques
+
+function lisMarques() {
+  return JSON.parse(fs.readFileSync(MARQUES, "utf8")).map((m) => ({
+    slug: m.slug,
+    scene: m.scenePhoto,
+    fichier: path.join(RACINE, "public", "img", "marques", `${m.slug}.jpg`),
+  }));
+}
+
+/** Date du tampon argentique: fixe pour une marque donnee, repartie sur l'annee. */
+function dateMarque(slug) {
+  const h = [...slug].reduce((n, c) => (n * 31 + c.charCodeAt(0)) % 336, 7);
+  return `1995-${String(1 + Math.floor(h / 28)).padStart(2, "0")}-${String(1 + (h % 28)).padStart(2, "0")}`;
 }
 
 // ------------------------------------------------------------- scene (texte)
@@ -148,6 +172,8 @@ function ecritScene(a, scene) {
 const args = process.argv.slice(2);
 const LISTER = args.includes("--liste");
 const STRICT = args.includes("--strict");
+const SANS_MARQUES = args.includes("--sans-marques");
+const SEULEMENT_MARQUES = args.includes("--marques");
 const iMax = args.indexOf("--max");
 const max = iMax !== -1 ? Number(args[iMax + 1]) : Infinity;
 const slugsVoulus = args.filter((x, i) => !x.startsWith("--") && !(iMax !== -1 && i === iMax + 1));
@@ -155,24 +181,42 @@ const slugsVoulus = args.filter((x, i) => !x.startsWith("--") && !(iMax !== -1 &
 const tous = fs.readdirSync(ARTICLES).filter((f) => f.endsWith(".md")).sort()
   .map((f) => f.replace(/\.md$/, ""));
 
+const toutesMarques = SANS_MARQUES ? [] : lisMarques();
+const slugsMarques = toutesMarques.map((m) => m.slug);
+
 for (const s of slugsVoulus) {
-  if (!tous.includes(s)) { console.error(`Article inconnu : ${s}`); process.exit(2); }
+  if (!tous.includes(s) && !slugsMarques.includes(s)) { console.error(`Article ou marque inconnu : ${s}`); process.exit(2); }
 }
 
-const cibles = (slugsVoulus.length ? slugsVoulus : tous)
+// Un slug donne en argument designe l'article ou la marque du meme nom.
+const voulusArticles = slugsVoulus.filter((s) => tous.includes(s));
+const voulusMarques = slugsVoulus.filter((s) => slugsMarques.includes(s));
+
+const cibles = SEULEMENT_MARQUES ? [] : (slugsVoulus.length ? voulusArticles : tous)
   .map(lisArticle)
   .filter((a) => slugsVoulus.length || !photoPresente(a));
 
-if (!cibles.length) {
-  log("Tous les articles ont leur photo, rien a faire.");
+const ciblesMarques = SANS_MARQUES ? [] : toutesMarques
+  .filter((m) => slugsVoulus.length ? voulusMarques.includes(m.slug) : !fs.existsSync(m.fichier));
+
+if (!cibles.length && !ciblesMarques.length) {
+  log(SANS_MARQUES ? "Tous les articles ont leur photo, rien a faire." : "Tous les articles et toutes les marques ont leur photo, rien a faire.");
   process.exit(0);
 }
 
 if (LISTER) {
-  log(`${cibles.length} article(s) sans photo :`);
-  for (const a of cibles) {
-    const etat = !a.cover ? "pas de cover" : photoPresente(a) ? "refaire la photo" : `fichier introuvable (${a.cover})`;
-    log(`  ${a.slug.padEnd(48)} ${etat}${a.scene ? ", scene deja ecrite" : ""}`);
+  if (!SEULEMENT_MARQUES) {
+    log(`${cibles.length} article(s) sans photo :`);
+    for (const a of cibles) {
+      const etat = !a.cover ? "pas de cover" : photoPresente(a) ? "refaire la photo" : `fichier introuvable (${a.cover})`;
+      log(`  ${a.slug.padEnd(48)} ${etat}${a.scene ? ", scene deja ecrite" : ""}`);
+    }
+  }
+  if (!SANS_MARQUES) {
+    log(`${ciblesMarques.length} marque(s) sans photo :`);
+    for (const m of ciblesMarques) {
+      log(`  ${m.slug.padEnd(48)} ${fs.existsSync(m.fichier) ? "refaire la photo" : "public/img/marques/" + m.slug + ".jpg a fabriquer"}`);
+    }
   }
   process.exit(0);
 }
@@ -211,6 +255,27 @@ for (const [i, a] of cibles.entries()) {
     }
     ecritEntete(a, scene);
     log(`    ok, ${photo.poids} Ko -> public/img/articles/${a.slug}.jpg\n`);
+    faits++;
+  } catch (e) {
+    log(`    echec : ${e.message}\n`);
+    rates++;
+  }
+}
+
+// ------------------------------------------------------------ photos de marques
+
+for (const [i, m] of ciblesMarques.entries()) {
+  log(`[marque ${i + 1}/${ciblesMarques.length}] ${m.slug}`);
+  if (tentatives >= max) { restes++; log("    reporte (limite --max atteinte)\n"); continue; }
+  tentatives++;
+  if (!cle) { log("    echec : GEMINI_API_KEY absente\n"); rates++; continue; }
+  try {
+    const photo = await genereImage({
+      slug: m.slug, scene: m.scene, aujourdhui: dateMarque(m.slug), racine: RACINE,
+      dossier: "marques", ratio: "1:1", strict: true,
+    });
+    if (!photo.ok) throw new Error(photo.raison);
+    log(`    ok, ${photo.poids} Ko -> public/img/marques/${m.slug}.jpg\n`);
     faits++;
   } catch (e) {
     log(`    echec : ${e.message}\n`);

@@ -227,7 +227,7 @@ jobs:
         timeout-minutes: 12
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/photos-manquantes.mjs --max 3
+        run: node scripts/photos-manquantes.mjs --max 3 --sans-marques
 
       - name: Verifier que le site build
         if: steps.redaction.outputs.vide != '1'

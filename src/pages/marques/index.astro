@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { photoMarque } from "../../lib/couverture";
 
 const marques = [
   { slug: "oshkosh-bgosh", name: "OshKosh B'Gosh", country: "USA", years: "1895-aujourd'hui", peak: "1980-1995", style: "Workwear américain" },
@@ -40,10 +41,16 @@ const AVEC_FICHE = new Set(["oshkosh-bgosh", "petit-bateau", "catimini"]);
         const Carte = AVEC_FICHE.has(m.slug) ? "a" : "div";
         return (
         <Carte href={AVEC_FICHE.has(m.slug) ? `/marques/${m.slug}/` : undefined} class={`${AVEC_FICHE.has(m.slug) ? "card-hover " : ""}bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block`}>
-          <div class="aspect-[4/3] flex items-center justify-center font-bagel text-2xl text-center p-6 leading-tight"
-               style="background: linear-gradient(135deg, #F0C14B, #E87A3C); color: #1F3D2E;">
-            {m.name}
-          </div>
+          {photoMarque(m.slug) ? (
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src={photoMarque(m.slug)!.src} alt={photoMarque(m.slug)!.alt} class="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ) : (
+            <div class="aspect-[4/3] flex items-center justify-center font-bagel text-2xl text-center p-6 leading-tight"
+                 style="background: linear-gradient(135deg, #F0C14B, #E87A3C); color: #1F3D2E;">
+              {m.name}
+            </div>
+          )}
           <div class="p-6">
             <div class="text-[11px] uppercase tracking-[0.25em] text-orange-sirop font-bold mb-2">
               {m.country} · {m.style}

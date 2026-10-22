@@ -22,7 +22,7 @@ const BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
 // Le modele glisse volontiers un logo ou une legende quand on ne l'interdit
 // pas explicitement, et la memoire du projet garde la trace de ces derapages.
-function styleKodak(aujourdhui) {
+function styleKodak(aujourdhui, strict = false) {
   const [, mois, jour] = aujourdhui.split("-");
   return [
     "AUTHENTIC AMATEUR KODAK GOLD 200 FILM SNAPSHOT, 1995.",
@@ -33,18 +33,26 @@ function styleKodak(aujourdhui) {
     "NOT instagram-worthy, NOT a product shot, NOT a studio photo.",
     "NO watermark, NO logo, NO caption, NO handwriting.",
     `No text anywhere in the image except a small orange film date stamp reading '95 ${mois} ${jour} in the bottom right corner.`,
+    // Photos de marques: aucun signe qui permette de reconnaitre une marque ou une personne.
+    ...(strict ? [
+      "ABSOLUTELY NO brand name, NO logo, NO label, NO tag, NO lettering or printed words on any garment, shoe or object.",
+      "Generic unbranded clothing only, never a reproduction of an identifiable real product, never a famous person or a recognisable character.",
+    ] : []),
   ].join(" ");
 }
 
 /**
  * @param {object} o
- * @param {string} o.slug         nom du fichier ecrit dans public/img/articles
+ * @param {string} o.slug         nom du fichier ecrit dans public/img/<dossier>
  * @param {string} o.scene        description de scene, en anglais, sans style
  * @param {string} o.aujourdhui   AAAA-MM-JJ, sert au tampon de date
  * @param {string} o.racine       racine du depot
+ * @param {string} [o.dossier]    sous-dossier de public/img (defaut "articles", "marques" pour les marques)
+ * @param {string} [o.ratio]      format de l'image (defaut "4:3"; "1:1" pour les marques, recadrees en 4/3 et 4/5)
+ * @param {boolean} [o.strict]    interdit marque, logo et texte sur les vetements (photos de marques)
  * @returns {Promise<{ok: boolean, chemin?: string, poids?: number, raison?: string}>}
  */
-export async function genereImage({ slug, scene, aujourdhui, racine }) {
+export async function genereImage({ slug, scene, aujourdhui, racine, dossier: sousDossier = "articles", ratio = "4:3", strict = false }) {
   const cle = process.env.GEMINI_API_KEY;
   if (!cle) return { ok: false, raison: "GEMINI_API_KEY absente" };
   if (!scene || scene.trim().length < 20) {
@@ -52,10 +60,10 @@ export async function genereImage({ slug, scene, aujourdhui, racine }) {
   }
 
   const corps = {
-    contents: [{ parts: [{ text: `Scene: ${scene.trim()}\n\n${styleKodak(aujourdhui)}` }] }],
+    contents: [{ parts: [{ text: `Scene: ${scene.trim()}\n\n${styleKodak(aujourdhui, strict)}` }] }],
     generationConfig: {
       responseModalities: ["IMAGE"],
-      imageConfig: { aspectRatio: "4:3" },
+      imageConfig: { aspectRatio: ratio },
     },
   };
 
@@ -86,7 +94,7 @@ export async function genereImage({ slug, scene, aujourdhui, racine }) {
   }
 
   const brut = Buffer.from(image.data, "base64");
-  const dossier = path.join(racine, "public", "img", "articles");
+  const dossier = path.join(racine, "public", "img", sousDossier);
   fs.mkdirSync(dossier, { recursive: true });
   const chemin = path.join(dossier, `${slug}.jpg`);
 
@@ -103,7 +111,7 @@ export async function genereImage({ slug, scene, aujourdhui, racine }) {
 
   return {
     ok: true,
-    chemin: `/img/articles/${slug}.jpg`,
+    chemin: `/img/${sousDossier}/${slug}.jpg`,
     poids: Math.round(fs.statSync(chemin).size / 1024),
   };
 }
