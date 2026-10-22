@@ -2,7 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Newsletter from "../../components/Newsletter.astro";
 import { getCollection } from "astro:content";
-import { photoDe, photoMarque } from "../../lib/couverture";
+import { logoMarque, photoDe, photoMarque } from "../../lib/couverture";
 
 // Programmatic SEO : 1 page par marque vintage
 // Données structurées : nom, pays, époque dorée, pièce signature, etc.
@@ -83,6 +83,7 @@ if (!marque) {
 }
 
 const photo = photoMarque(slug as string);
+const logo = photo ? logoMarque(slug as string) : undefined;
 
 const articles = await getCollection("articles");
 const relatedArticles = articles
@@ -116,6 +117,11 @@ const relatedArticles = articles
         <>
           <img src={photo.src} alt={photo.alt} class="absolute inset-0 w-full h-full object-cover" />
           <div class="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-vert-recre/90 to-transparent" aria-hidden="true"></div>
+          {logo && (
+            <div class="absolute top-6 left-6 rounded-xl bg-cream-gouter/90 px-4 py-3 shadow-md">
+              <img src={logo} alt={`Logo ${marque.name}`} class="block h-10 w-auto max-w-[140px] object-contain" />
+            </div>
+          )}
         </>
       )}
       <div class="absolute top-6 right-6 w-[110px] h-[110px] rounded-full bg-jaune-cassette text-vert-recre flex items-center justify-center font-bagel text-sm text-center leading-tight p-3 transform -rotate-12">

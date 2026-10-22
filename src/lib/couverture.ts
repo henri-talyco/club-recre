@@ -33,3 +33,16 @@ export function photoMarque(slug: string): { src: string; alt: string } | undefi
   const alt = marquesPhotos.find((m) => m.slug === slug)?.alt ?? "Vêtements d'enfant vintage";
   return { src, alt };
 }
+
+/**
+ * Logo officiel d'une marque (public/img/marques/logos/<slug>.svg ou .png),
+ * pose en calque par-dessus la photo. Chemin seulement si le fichier existe,
+ * sinon `undefined` et rien ne s'affiche. Les photos generees restent sans logo.
+ */
+export function logoMarque(slug: string): string | undefined {
+  for (const ext of ["svg", "png"]) {
+    const src = `/img/marques/logos/${slug}.${ext}`;
+    if (fs.existsSync(path.join(PUBLIC, src.slice(1)))) return src;
+  }
+  return undefined;
+}

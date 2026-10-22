@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { photoMarque } from "../../lib/couverture";
+import { logoMarque, photoMarque } from "../../lib/couverture";
 
 const marques = [
   { slug: "oshkosh-bgosh", name: "OshKosh B'Gosh", country: "USA", years: "1895-aujourd'hui", peak: "1980-1995", style: "Workwear américain" },
@@ -42,8 +42,13 @@ const AVEC_FICHE = new Set(["oshkosh-bgosh", "petit-bateau", "catimini"]);
         return (
         <Carte href={AVEC_FICHE.has(m.slug) ? `/marques/${m.slug}/` : undefined} class={`${AVEC_FICHE.has(m.slug) ? "card-hover " : ""}bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block`}>
           {photoMarque(m.slug) ? (
-            <div class="aspect-[4/3] overflow-hidden">
+            <div class="aspect-[4/3] overflow-hidden relative">
               <img src={photoMarque(m.slug)!.src} alt={photoMarque(m.slug)!.alt} class="w-full h-full object-cover" loading="lazy" />
+              {logoMarque(m.slug) && (
+                <div class="absolute top-3 left-3 rounded-lg bg-cream-gouter/90 px-3 py-2 shadow">
+                  <img src={logoMarque(m.slug)} alt={`Logo ${m.name}`} class="block h-7 w-auto max-w-[100px] object-contain" loading="lazy" />
+                </div>
+              )}
             </div>
           ) : (
             <div class="aspect-[4/3] flex items-center justify-center font-bagel text-2xl text-center p-6 leading-tight"
