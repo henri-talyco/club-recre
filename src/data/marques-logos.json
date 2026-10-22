@@ -1,0 +1,14 @@
+[
+  { "slug": "oshkosh-bgosh", "name": "OshKosh B'Gosh", "pageOfficielle": "https://www.oshkosh.com/", "verifiee": false },
+  { "slug": "petit-bateau", "name": "Petit Bateau", "pageOfficielle": "https://www.petit-bateau.fr/", "verifiee": false },
+  { "slug": "catimini", "name": "Catimini", "pageOfficielle": "https://www.catimini.com/", "verifiee": false },
+  { "slug": "cyrillus", "name": "Cyrillus", "pageOfficielle": "https://www.cyrillus.fr/", "verifiee": false },
+  { "slug": "sergent-major", "name": "Sergent Major", "pageOfficielle": "https://www.sergent-major.com/", "verifiee": false },
+  { "slug": "jacadi", "name": "Jacadi", "pageOfficielle": "https://www.jacadi.fr/", "verifiee": false },
+  { "slug": "dpam", "name": "DPAM", "pageOfficielle": "https://www.dpam.com/", "verifiee": false },
+  { "slug": "naf-naf-kids", "name": "Naf Naf Kids", "pageOfficielle": "https://www.naf-naf.com/", "verifiee": false },
+  { "slug": "lacoste-enfant", "name": "Lacoste Enfant", "pageOfficielle": "https://www.lacoste.com/fr/", "verifiee": false },
+  { "slug": "disney-vintage", "name": "Disney Vintage", "pageOfficielle": "https://www.disney.fr/", "verifiee": false },
+  { "slug": "kookai-kids", "name": "Kookaï Kids", "pageOfficielle": "https://www.kookai.fr/", "verifiee": false },
+  { "slug": "marese", "name": "Marèse", "pageOfficielle": "https://www.marese.com/", "verifiee": false }
+]

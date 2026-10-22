@@ -115,6 +115,11 @@ const relatedArticles = articles
       {photo && (
         <>
           <img src={photo.src} alt={photo.alt} class="absolute inset-0 w-full h-full object-cover" />
+          {photo.logo && (
+            <div class="absolute top-6 left-6 rounded-xl bg-cream-gouter/90 px-3 py-2 shadow-sm">
+              <img src={photo.logo.src} alt={photo.logo.alt} class="block h-9 w-auto max-w-[140px] object-contain" />
+            </div>
+          )}
           <div class="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-vert-recre/90 to-transparent" aria-hidden="true"></div>
         </>
       )}
