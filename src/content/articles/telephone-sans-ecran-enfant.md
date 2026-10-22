@@ -9,8 +9,8 @@ cover: "/img/articles/telephone-sans-ecran-enfant.jpg"
 coverAlt: "Photo d'illustration, Téléphone sans écran pour enfant : les meilleures alternatives en 2026"
 author: "Club Récré"
 readingTime: 10
-seoTitle: "Téléphone sans écran enfant : les alternatives en 2026"
-seoDescription: "Téléphone sans écran pour enfant : quel âge selon les recommandations officielles, dumbphone, montre ou walkie-talkie, le piège de la fin de la 2G et les forfaits."
+seoTitle: "Téléphone sans écran enfant : 8 alternatives testées 2026"
+seoDescription: "Dumbphone, montre GPS, walkie-talkie : les meilleurs téléphones sans écran pour enfant. Guide complet 2026 avec prix et avis."
 faq:
   - q: "À quel âge donner un premier téléphone à un enfant ?"
     a: "La commission « Enfants et écrans », dont le rapport a été remis au président de la République le 30 avril 2024, estime qu'il n'est pas opportun qu'un enfant ait un téléphone portable avant 11 ans, l'âge de l'entrée au collège. De 11 à 13 ans, elle recommande un téléphone qui ne permet pas d'aller sur internet. À partir de 13 ans, un téléphone connecté peut se discuter, mais sans réseaux sociaux. En pratique, les enfants français reçoivent leur premier smartphone à 11 ans et 4 mois en moyenne, selon l'Observatoire de la parentalité et de l'éducation numérique et Ipsos en 2024."

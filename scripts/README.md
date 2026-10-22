@@ -56,6 +56,28 @@ Le `type` compte. Un article `ville` va chercher de vraies adresses sur le web. 
 
 Quand il reste moins de 10 sujets, le robot ouvre une issue pour prévenir. Pour réalimenter la file, le bon réflexe est de partir de la Search Console, en cherchant les requêtes en position 8 à 30 qui ont des impressions et pas encore d'article dédié.
 
+## Rythme des six semaines (22/10 au 03/12/2026)
+
+Décision d'Henri : moins d'articles neufs, on enrichit ce que Google lit déjà. La variable `RYTHME` de `.github/workflows/article-quotidien.yml` règle cela :
+
+- `enrichir-seul` (actuel) : lundi et vendredi, un enrichissement (entrée `mode: "enrichir"` de `file-sujets.json`) et rien d'autre ; mercredi, le comparatif seul. S'il n'y a pas d'entrée adéquate, le robot ne publie rien ce jour-là, le dit dans le journal (« Rien a publier aujourd'hui »), et ne prend pas de sujet neuf à la place.
+- `normal` : le fonctionnement d'avant. Pour y revenir, c'est cette seule ligne à changer.
+
+`pages-protegees.json` liste les meilleures pages (clics Google sur 90 jours). Le robot ne les enrichit ni ne les réécrit : l'entrée « enrichir » qui les vise est retirée de la file (note dans `_retires`) et il passe à la suivante. Pour lever la protection d'une page, retirer son bloc du fichier.
+
+Essayer le choix du sujet sans appeler Claude et sans rien écrire :
+
+```bash
+npm test                                                    # essais automatiques du choix
+CHOIX_SEUL=1 JOUR_SIMULE=1 RYTHME=enrichir-seul JOURS_ENRICHISSEMENT="1 5" JOURS_COMPARATIF=3 node scripts/redige-article.mjs
+```
+
+`JOUR_SIMULE` (1 = lundi ... 7 = dimanche) simule un autre jour.
+
+## Liens internes vers les pages non lues
+
+`src/data/pages-non-lues.json` liste les pages que Google n'a pas lues. Le bloc « À lire aussi » (gabarit, `src/lib/maillage.ts`) leur donne la priorité. Quand Google les a lues, vider les listes `jamais_vues` et `vues_pas_lues`. Mesure sur le site construit : `npm run build && npm run mesure-liens`.
+
 ## Ce qui bloque un article
 
 Le robot refuse de publier et sort en erreur si l'un de ces points n'est pas respecté.

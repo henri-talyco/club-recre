@@ -202,6 +202,19 @@ const piliers = [
     </div>
   </section>
 
+  <!-- Les fiches marques : lien direct depuis l'accueil (22/10/2026, Google n'avait jamais vu ces trois pages) -->
+  <section class="container-narrow pb-16">
+    <div class="section-label">Marques vintage</div>
+    <h2 class="section-title">Les fiches marques.</h2>
+    <p class="section-sub">Histoire, époque dorée, pièce signature et comment reconnaître une vraie pièce vintage.</p>
+    <ul class="flex flex-wrap gap-3 mt-8">
+      <li><a href="/marques/oshkosh-bgosh/" class="btn btn-secondary">OshKosh B'Gosh</a></li>
+      <li><a href="/marques/petit-bateau/" class="btn btn-secondary">Petit Bateau</a></li>
+      <li><a href="/marques/catimini/" class="btn btn-secondary">Catimini</a></li>
+      <li><a href="/marques/" class="btn btn-secondary">Toutes les marques</a></li>
+    </ul>
+  </section>
+
   <!-- Rubriques mises en avant, avec photo -->
   {rubriques.map((r, i) => (
     <section class={`py-16 px-6 ${i % 2 === 0 ? "bg-cream-clair border-y border-vert-recre/10" : ""}`}>

@@ -1,0 +1,55 @@
+{
+  "_lisezmoi": "Les meilleures pages du site d'après les clics Google (Search Console, 90 jours, relevé du 22/10/2026). Le robot (scripts/redige-article.mjs) ne les enrichit ni ne les réécrit : une entrée « enrichir » qui les vise est retirée de scripts/file-sujets.json avec une note (champ _retires), et il passe à l'entrée suivante. Décision d'Henri du 22/10/2026 pour six semaines, jusqu'au 03/12/2026 : une réécriture risquée sur une page qui rapporte coûte plus cher qu'elle ne rapporte. Pour lever la protection d'une page : retirer son bloc de ce fichier. Seul le robot est concerné ; le gabarit du site peut toujours leur ajouter des liens (bloc « À lire aussi »).",
+  "_maj": "2026-10-22",
+  "_jusqu_au": "2026-12-03",
+  "pages": [
+    {
+      "slug": "10-marques-vintage-enfant-incontournables",
+      "clics_90_jours": 468,
+      "pourquoi": "468 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "polly-pocket-1990-prix",
+      "clics_90_jours": 305,
+      "pourquoi": "305 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "telephone-sans-ecran-enfant",
+      "clics_90_jours": 118,
+      "pourquoi": "118 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "activites-marseille-enfant-1-an",
+      "clics_90_jours": 110,
+      "pourquoi": "110 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "activites-marseille-enfant-2-ans",
+      "clics_90_jours": 108,
+      "pourquoi": "108 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "activites-paris-enfant-1-an",
+      "clics_90_jours": 106,
+      "pourquoi": "106 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "activites-bordeaux-enfant-1-an",
+      "clics_90_jours": 105,
+      "pourquoi": "105 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    },
+    {
+      "slug": "activites-lyon-enfant-1-an",
+      "clics_90_jours": 87,
+      "pourquoi": "87 clics Google sur 90 jours (Search Console, relevé du 22/10/2026)",
+      "date": "2026-10-22"
+    }
+  ]
+}

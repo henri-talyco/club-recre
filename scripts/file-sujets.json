@@ -33,22 +33,6 @@
       "source": "correction-site-02-10"
     },
     {
-      "slug": "activites-paris-enfant-1-an",
-      "mode": "enrichir",
-      "titre": "Enrichir activites-paris-enfant-1-an",
-      "keyword": "sortie bebe 1 an",
-      "requetes": [
-        "sortie bebe 1 an",
-        "activité bébé 1 an",
-        "activité bébé 1 an extérieur autour de moi",
-        "activités bébé paris",
-        "activite bebe 1 an"
-      ],
-      "pillar": "activites",
-      "type": "ville",
-      "source": "correction-site-02-10"
-    },
-    {
       "slug": "activite-enfant-3-ans-paris",
       "mode": "enrichir",
       "titre": "Enrichir activite-enfant-3-ans-paris",
@@ -634,5 +618,12 @@
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
-  }
+  },
+  "_retires": [
+    {
+      "slug": "activites-paris-enfant-1-an",
+      "date": "2026-10-22",
+      "raison": "page protégée (106 clics Google sur 90 jours, scripts/pages-protegees.json) : le robot ne l'enrichit ni ne la réécrit jusqu'au 03/12/2026"
+    }
+  ]
 }

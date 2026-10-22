@@ -9,6 +9,7 @@
  * Sortie:
  *   0  article ecrit
  *   3  rien a faire (file vide), ce n'est pas une erreur
+ *   4  rien a publier aujourd'hui PAR CHOIX DU RYTHME (cf RYTHME ci-dessous), pas une erreur
  *   1  echec (aucun fichier ecrit)
  *
  * La redaction passe par le CLI Claude Code, pas par l'API payante: le token
@@ -23,6 +24,16 @@
  *   SUJET                    force un slug precis au lieu du premier de la file
  *   EXCLUS                   slugs a ignorer, separes par des virgules
  *   DRY_RUN                  "1" pour afficher sans ecrire ni modifier la file
+ *   RYTHME                   "enrichir-seul" (22/10/2026 au 03/12/2026) : lundi et vendredi
+ *                            un enrichissement et rien d'autre, mercredi le comparatif seul ;
+ *                            tout autre jour, ou sans entree adequate, rien n'est publie.
+ *                            Vide ou "normal" : le fonctionnement d'avant.
+ *   JOURS_ENRICHISSEMENT     jours des enrichissements sous ce rythme (defaut du workflow : "1 5")
+ *   CHOIX_SEUL               "1" : affiche le sujet qui serait choisi puis s'arrete, SANS appeler
+ *                            Claude et sans toucher a aucun fichier (essai du choix du sujet)
+ *   JOUR_SIMULE              1 a 7, pour essayer le choix un autre jour que le jour courant
+ *
+ * Les pages de scripts/pages-protegees.json ne sont jamais enrichies ni reecrites.
  */
 
 import fs from "node:fs";
@@ -33,6 +44,7 @@ import { genereImage } from "./genere-image.mjs";
 import { repete } from "./doublons.mjs";
 import { verifieAsin, poseLien, prixAmazonEnDur } from "./liens-amazon.mjs";
 import { lienMarchand } from "../src/lib/marchands.mjs";
+import { chargeProtegees, choisitSujet, jourParis, rythmeDuJour } from "./choix-sujet.mjs";
 
 const ICI = path.dirname(fileURLToPath(import.meta.url));
 const RACINE = path.resolve(ICI, "..");
@@ -42,6 +54,9 @@ const FICHIER_FILE = path.join(ICI, "file-sujets.json");
 // listes dans JOURS_COMPARATIF (heure de Paris, 1 = lundi), le robot y prend
 // son sujet, et retombe sur la file normale si elle est vide.
 const FICHIER_COMPARATIFS = path.join(ICI, "file-comparatifs.json");
+// Les meilleures pages du site (clics Google sur 90 jours) : jamais enrichies ni reecrites
+// jusqu'au 03/12/2026, une mauvaise reecriture leur couterait leur classement.
+const FICHIER_PROTEGEES = path.join(ICI, "pages-protegees.json");
 const PRODUITS_MINIMUM = 3;
 
 // Nom complet et non l'alias "opus" : l'alias suit la version courante du CLI,
@@ -49,6 +64,7 @@ const PRODUITS_MINIMUM = 3;
 const MODELE = process.env.MODELE || "claude-opus-5";
 const EFFORT = process.env.EFFORT || "high";
 const DRY_RUN = process.env.DRY_RUN === "1";
+const CHOIX_SEUL = process.env.CHOIX_SEUL === "1";
 
 const PILIERS = [
   "activites", "education", "lifestyle", "jouets-vintage", "selections",
@@ -105,12 +121,6 @@ function chargeFile(fichier = FICHIER_FILE) {
   return JSON.parse(fs.readFileSync(fichier, "utf8"));
 }
 
-/** Le jour de la semaine a Paris, 1 = lundi ... 7 = dimanche. */
-function jourParis() {
-  const j = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Paris", weekday: "short" }).format(new Date());
-  return ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].indexOf(j) + 1;
-}
-
 /**
  * Slugs a ne pas retraiter: ceux deja publies, plus ceux passes dans EXCLUS
  * (le workflow y met les articles qui attendent deja dans une pull request
@@ -129,32 +139,6 @@ function slugsPublies() {
   const retires = [...worker.matchAll(/"\/journal\/([a-z0-9-]+)\/?":/g)].map((m) => m[1]);
   if (exclus.length) log(`Deja en attente de relecture, ignores : ${exclus.join(", ")}`);
   return new Set([...publies, ...exclus, ...retires]);
-}
-
-function choisitSujet(file, publies) {
-  // Un enrichissement porte le slug d'un article DEJA publie (c'est lui qu'on
-  // reecrit) ; un nouveau sujet, jamais. Depuis le 28/09/2026, Taly (robot SEO)
-  // met en file des deux sortes, au meme rythme de publication.
-  const restants = file.sujets.filter((s) => (s.mode === "enrichir" ? publies.has(s.slug) : !publies.has(s.slug)));
-  if (process.env.SUJET) {
-    const force = restants.find((s) => s.slug === process.env.SUJET);
-    if (!force) echec(`sujet "${process.env.SUJET}" absent de la file ou deja publie`);
-    return { sujet: force, restants: restants.length };
-  }
-  // Un sujet qui repete un article deja publie est retire de la file sans etre
-  // ecrit : Google garderait l'ancien et ignorerait le nouveau (releve du
-  // 28/09/2026, cf scripts/doublons.mjs). Retire de l'objet `file`, il sort du
-  // fichier au prochain article enregistre.
-  const deja = [...publies];
-  const doublons = new Set();
-  const utiles = restants.filter((s) => {
-    if (s.mode === "enrichir") return true;
-    const r = repete(s.keyword, deja) || repete(s.slug, deja);
-    if (r) { log(`Ecarte, repete un article publie : ${s.slug} (deja ecrit : ${r})`); doublons.add(s.slug); }
-    return !r;
-  });
-  if (doublons.size) file.sujets = file.sujets.filter((s) => !doublons.has(s.slug));
-  return { sujet: utiles[0] || null, restants: utiles.length };
 }
 
 // ------------------------------------------------------------------- consigne
@@ -598,24 +582,70 @@ const aujourdhui = new Intl.DateTimeFormat("fr-CA", { timeZone: "Europe/Paris" }
 const publies = slugsPublies();
 const joursComparatif = (process.env.JOURS_COMPARATIF || "").split(/\s+/).filter(Boolean).map(Number);
 const comparatifs = chargeFile(FICHIER_COMPARATIFS);
+const protegees = chargeProtegees(FICHIER_PROTEGEES);
+const rythme = rythmeDuJour();
+const optionsChoix = { protegees, repete, aujourdhui, log };
 let file = chargeFile();
 let fichierFile = FICHIER_FILE;
-let choix = { sujet: null, restants: 0 };
-// Un slug force se cherche dans les deux files ; sinon les jours de comparatif
-// passent d'abord par la file des comparatifs.
-// Un seul comparatif par jour : si la file des comparatifs a deja servi aujourd'hui,
-// le second article du jour vient de la file normale (celle de Taly).
-const comparatifDuJourFait = comparatifs._maj === aujourdhui;
-if (process.env.SUJET ? comparatifs.sujets.some((s) => s.slug === process.env.SUJET) : (joursComparatif.includes(jourParis()) && !comparatifDuJourFait)) {
-  choix = choisitSujet(comparatifs, publies);
-  if (choix.sujet) { file = comparatifs; fichierFile = FICHIER_COMPARATIFS; }
+let choix = { sujet: null, restants: 0, retires: [] };
+
+/** Ecrit la file telle quelle (retraits d'entrees protegees) sans la marquer comme servie. */
+function enregistreRetraits() {
+  if (DRY_RUN || CHOIX_SEUL || !choix.retires.length) return;
+  fs.writeFileSync(fichierFile, JSON.stringify(file, null, 2) + "\n", "utf8");
 }
-if (!choix.sujet) choix = choisitSujet(file, publies);
+
+/** Rien a publier par choix du rythme (code 4) : on le dit dans le journal, sans erreur. */
+function reposDuRythme(raison) {
+  enregistreRetraits();
+  log(`Rien a publier aujourd'hui : ${raison}`);
+  log("Le robot ne prend pas de sujet neuf a la place (decision d'Henri du 22/10/2026, jusqu'au 03/12/2026).");
+  process.exit(4);
+}
+
+// Un seul comparatif par jour : si la file des comparatifs a deja servi aujourd'hui,
+// le second article du jour vient de la file normale (celle de Taly) hors rythme enrichir-seul.
+const comparatifDuJourFait = comparatifs._maj === aujourdhui;
+if (process.env.SUJET) {
+  // Sujet force : se cherche dans les deux files, mais jamais une page protegee.
+  const dansComparatifs = comparatifs.sujets.some((s) => s.slug === process.env.SUJET);
+  const f = dansComparatifs ? comparatifs : file;
+  choix = choisitSujet(f, publies, { ...optionsChoix, sujetForce: process.env.SUJET });
+  if (choix.erreur) echec(choix.erreur);
+  file = f;
+  if (dansComparatifs) fichierFile = FICHIER_COMPARATIFS;
+} else if (rythme.mode === "repos") {
+  reposDuRythme(rythme.raison);
+} else if (rythme.mode === "comparatif") {
+  if (comparatifDuJourFait) reposDuRythme("le comparatif de la semaine est deja sorti aujourd'hui");
+  choix = choisitSujet(comparatifs, publies, optionsChoix);
+  file = comparatifs; fichierFile = FICHIER_COMPARATIFS;
+  if (!choix.sujet) reposDuRythme("mercredi, mais la file des comparatifs (scripts/file-comparatifs.json) est vide");
+} else if (rythme.mode === "enrichir") {
+  choix = choisitSujet(file, publies, { ...optionsChoix, mode: "enrichir" });
+  if (!choix.sujet) reposDuRythme(`jour d'enrichissement (jour ${jourParis()}), mais aucune entree « enrichir » utilisable dans scripts/file-sujets.json (les pages protegees en sont ecartees)`);
+} else {
+  // Fonctionnement d'avant le 22/10/2026 : les jours de comparatif, la file des
+  // comparatifs d'abord ; sinon (ou file vide) le premier sujet de la file normale.
+  if (joursComparatif.includes(jourParis()) && !comparatifDuJourFait) {
+    choix = choisitSujet(comparatifs, publies, optionsChoix);
+    if (choix.sujet) { file = comparatifs; fichierFile = FICHIER_COMPARATIFS; }
+  }
+  if (!choix.sujet) choix = choisitSujet(file, publies, optionsChoix);
+}
 const { sujet, restants } = choix;
 
 if (!sujet) {
+  enregistreRetraits();
   log("File de sujets vide, aucun article a ecrire aujourd'hui.");
   process.exit(3);
+}
+
+if (CHOIX_SEUL) {
+  log(`Rythme : ${rythme.mode} (jour ${jourParis()})`);
+  log(`CHOIX_SEUL : le robot prendrait ${sujet.slug} (${sujet.mode === "enrichir" ? "enrichissement" : "article neuf"}, type ${sujet.type}). Rien n'est ecrit, Claude n'est pas appele.`);
+  choix.retires.forEach((r) => log(`CHOIX_SEUL : ${r.slug} serait retire de la file (${r.raison}).`));
+  process.exit(0);
 }
 
 log(`Sujet du jour : ${sujet.slug}`);

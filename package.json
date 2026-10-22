@@ -10,7 +10,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "article": "node scripts/redige-article.mjs"
+    "article": "node scripts/redige-article.mjs",
+    "test": "node --test scripts/choix-sujet.test.mjs",
+    "mesure-liens": "node scripts/mesure-liens-internes.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
