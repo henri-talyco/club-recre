@@ -3,6 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 import Newsletter from "../components/Newsletter.astro";
 import MemeSerie from "../components/MemeSerie.astro";
 import type { CollectionEntry } from "astro:content";
+import { photoDe } from "../lib/couverture";
 
 interface Props {
   entry: CollectionEntry<"articles">;
@@ -57,10 +58,10 @@ const pillarLabels: Record<string, string> = {
       </p>
     </header>
 
-    {data.cover && (
+    {photoDe(entry) && (
       <div class="container-narrow max-w-[1100px] mb-12">
         <img
-          src={data.cover}
+          src={photoDe(entry)}
           alt={data.coverAlt ?? data.title}
           class="w-full aspect-[16/9] object-cover rounded-card shadow-[0_24px_48px_rgba(31,61,46,0.18)]"
           loading="eager"

@@ -1,0 +1,105 @@
+name: Photos manquantes
+
+# Lancement a la main uniquement. Cherche les articles sans photo (champ cover
+# absent, ou pointant vers un fichier qui n'existe pas), leur fabrique une photo
+# avec scripts/genere-image.mjs (style Kodak 1995, comme le robot d'articles),
+# depose les images et l'en-tete mis a jour sur main, puis relance la mise en ligne.
+#
+# Ecrit le 22/10/2026 (demande d'Henri : « il doit y avoir une photo sur chaque
+# article »). Le meme rattrapage tourne aussi a la fin de chaque article du robot
+# nocturne (article-quotidien.yml), pour que ca ne se reproduise pas.
+#
+# Prerequis : le secret GEMINI_API_KEY, deja utilise par le robot d'articles.
+# Cout : environ 0,03 $ par photo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Articles dont il faut refaire la photo, separes par des espaces (vide = seulement ceux qui n'en ont aucune)"
+        required: false
+        default: ""
+      max:
+        description: "Nombre maximum de photos a fabriquer dans ce lancement"
+        required: false
+        default: "20"
+      essai:
+        description: "Essai a blanc : liste les articles concernes, ne fabrique rien"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+  actions: write # pour relancer deploy-cloudflare.yml apres le depot
+
+concurrency:
+  group: photos-manquantes
+  cancel-in-progress: false
+
+jobs:
+  rattraper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Lister les articles concernes
+        env:
+          SLUGS: ${{ inputs.slugs }}
+        run: node scripts/photos-manquantes.mjs --liste $SLUGS
+
+      - name: Fabriquer les photos
+        if: ${{ !inputs.essai }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SLUGS: ${{ inputs.slugs }}
+          MAX: ${{ inputs.max }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::Le secret GEMINI_API_KEY est absent. Ajoute-le dans Settings, Secrets and variables, Actions (c'est la cle deja utilisee par le robot d'articles)."
+            exit 1
+          fi
+          node scripts/photos-manquantes.mjs --strict --max "${MAX:-20}" $SLUGS
+
+      - name: Verifier que le site build
+        if: ${{ !inputs.essai }}
+        run: npm run build
+
+      - name: Deposer sur main
+        id: depot
+        if: ${{ !inputs.essai }}
+        run: |
+          git config user.name "Robot Club Récré"
+          git config user.email "actions@github.com"
+          git add src/content/articles public/img/articles
+          if git diff --cached --quiet; then
+            echo "Rien a deposer."
+            echo "change=non" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          n=$(git diff --cached --name-only -- public/img/articles | wc -l | tr -d ' ')
+          git commit -m "photos: $n image(s) ajoutee(s) aux articles qui n'en avaient pas"
+          for essai in 1 2 3; do
+            git pull --rebase --quiet origin main
+            git push origin HEAD:main && break
+            sleep $((essai * 5))
+          done
+          echo "change=oui" >> "$GITHUB_OUTPUT"
+
+      # Un push fait par un workflow ne declenche pas deploy-cloudflare.yml
+      # (garde-fou anti-boucle de GitHub), mais un lancement manuel, si.
+      - name: Relancer la mise en ligne
+        if: ${{ steps.depot.outputs.change == 'oui' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-cloudflare.yml --ref main

@@ -26,6 +26,8 @@ const articles = defineCollection({
     tags: z.array(z.string()).default([]),
     cover: z.string().optional(),
     coverAlt: z.string().optional(),
+    // Scene (en anglais) qui sert a fabriquer la photo; posee quand la photo manque.
+    scenePhoto: z.string().optional(),
     author: z.string().default("Club Récré"),
     readingTime: z.number().int().positive().optional(),
     featured: z.boolean().default(false),

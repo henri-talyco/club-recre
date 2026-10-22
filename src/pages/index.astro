@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Newsletter from "../components/Newsletter.astro";
 import { getCollection } from "astro:content";
+import { photoDe } from "../lib/couverture";
 
 const articles = await getCollection("articles");
 const sortedArticles = articles.sort(
@@ -133,9 +134,9 @@ const piliers = [
 
       {aLaUne && (
         <a href={`/journal/${aLaUne.slug}/`} class="card-hover block rounded-card overflow-hidden bg-cream-gouter text-vert-recre shadow-[0_24px_48px_rgba(0,0,0,0.3)]">
-          {aLaUne.data.cover ? (
+          {photoDe(aLaUne) ? (
             <div class="aspect-[4/3] overflow-hidden">
-              <img src={aLaUne.data.cover} alt={aLaUne.data.coverAlt ?? aLaUne.data.title} class="w-full h-full object-cover" />
+              <img src={photoDe(aLaUne)} alt={aLaUne.data.coverAlt ?? aLaUne.data.title} class="w-full h-full object-cover" />
             </div>
           ) : (
             <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-lg text-center p-6"
@@ -211,9 +212,14 @@ const piliers = [
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
           {r.pages.map((a) => (
             <a href={`/journal/${a.slug}/`} class="card-hover bg-cream-gouter rounded-card overflow-hidden border border-vert-recre/10 block">
-              {a.data.cover && (
+              {photoDe(a) ? (
                 <div class="aspect-[4/3] overflow-hidden">
-                  <img src={a.data.cover} alt={a.data.coverAlt ?? a.data.title} class="w-full h-full object-cover" loading="lazy" />
+                  <img src={photoDe(a)} alt={a.data.coverAlt ?? a.data.title} class="w-full h-full object-cover" loading="lazy" />
+                </div>
+              ) : (
+                <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"
+                     style={`background: ${pillarBg[a.data.pillar] ?? "linear-gradient(135deg, #5FA68B, #1F3D2E)"};`}>
+                  {a.data.coverAlt ?? a.data.title}
                 </div>
               )}
               <div class="p-5">
@@ -236,7 +242,12 @@ const piliers = [
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
         {guidesAchat.map((a) => (
           <a href={`/journal/${a.slug}/`} class="card-hover flex gap-4 items-center bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 p-3">
-            {a.data.cover && <img src={a.data.cover} alt={a.data.coverAlt ?? a.data.title} class="w-24 h-24 object-cover rounded-lg flex-shrink-0" loading="lazy" />}
+            {photoDe(a) ? (
+              <img src={photoDe(a)} alt={a.data.coverAlt ?? a.data.title} class="w-24 h-24 object-cover rounded-lg flex-shrink-0" loading="lazy" />
+            ) : (
+              <div class="w-24 h-24 rounded-lg flex-shrink-0"
+                   style={`background: ${pillarBg[a.data.pillar] ?? "linear-gradient(135deg, #5FA68B, #1F3D2E)"};`} aria-hidden="true"></div>
+            )}
             <h3 class="font-fraunces text-base font-semibold leading-tight">{a.data.title.split(":")[0]}</h3>
           </a>
         ))}
@@ -291,9 +302,9 @@ const piliers = [
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
       {recent.map((article) => (
         <a href={`/journal/${article.slug}/`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
-          {article.data.cover ? (
+          {photoDe(article) ? (
             <div class="aspect-[4/3] overflow-hidden">
-              <img src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
+              <img src={photoDe(article)} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
             </div>
           ) : (
             <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"

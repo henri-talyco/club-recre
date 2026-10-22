@@ -190,6 +190,19 @@ jobs:
           fi
           exit $code
 
+      # Photo ratee ou manquante: on retente ici, pour ce nouvel article comme pour
+      # tout article reste sans photo les jours precedents (3 au maximum par passage).
+      # Jamais bloquant: sans cle ou en cas d'echec, la publication continue et le
+      # prochain passage reessaie. Le script ne touche qu'a cover, coverAlt et
+      # scenePhoto, jamais a pubDate ni updatedDate (la garde du jour les compte).
+      - name: Rattraper les photos manquantes
+        if: steps.redaction.outputs.vide != '1'
+        continue-on-error: true
+        timeout-minutes: 12
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/photos-manquantes.mjs --max 3
+
       - name: Verifier que le site build
         if: steps.redaction.outputs.vide != '1'
         run: npm run build

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { photoDe } from "../../lib/couverture";
 
 const articles = await getCollection("articles");
 const sorted = articles.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -39,9 +40,9 @@ const pillarLabels: Record<string, string> = {
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {sorted.map((article) => (
         <a href={`/journal/${article.slug}/`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
-          {article.data.cover ? (
+          {photoDe(article) ? (
             <div class="aspect-[4/3] overflow-hidden">
-              <img src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
+              <img src={photoDe(article)} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
             </div>
           ) : (
             <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"

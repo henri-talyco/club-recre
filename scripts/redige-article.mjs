@@ -572,6 +572,9 @@ function construitFichier(meta, corps, sujet, aujourdhui, cover, ancien = null, 
     `author: "Club Récré"`,
     // Sans photo on n'ecrit pas le champ: le site sait afficher un degrade.
     ...(cover ? [`cover: ${yamlChaine(cover)}`, `coverAlt: ${yamlChaine(meta.coverAlt)}`] : []),
+    // ... mais on garde la scene prevue: le rattrapage (scripts/photos-manquantes.mjs)
+    // la reprend telle quelle au passage suivant au lieu d'en deduire une du titre.
+    ...(!cover && meta.scenePhoto && meta.scenePhoto !== "garder" ? [`scenePhoto: ${yamlChaine(meta.scenePhoto)}`] : []),
     `readingTime: ${meta.readingTime}`,
     `seoTitle: ${yamlChaine(meta.seoTitle)}`,
     `seoDescription: ${yamlChaine(meta.seoDescription)}`,

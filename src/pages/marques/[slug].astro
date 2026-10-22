@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Newsletter from "../../components/Newsletter.astro";
 import { getCollection } from "astro:content";
+import { photoDe } from "../../lib/couverture";
 
 // Programmatic SEO : 1 page par marque vintage
 // Données structurées : nom, pays, époque dorée, pièce signature, etc.
@@ -174,10 +175,16 @@ const relatedArticles = articles
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         {relatedArticles.map((article) => (
           <a href={`/journal/${article.slug}/`} class="card-hover bg-cream-clair rounded-card overflow-hidden border border-vert-recre/10 block">
-            <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-sm text-center p-5"
-                 style="background: linear-gradient(135deg, #1F3D2E, #5FA68B);">
-              {article.data.title}
-            </div>
+            {photoDe(article) ? (
+              <div class="aspect-[4/3] overflow-hidden">
+                <img src={photoDe(article)} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
+              </div>
+            ) : (
+              <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"
+                   style="background: linear-gradient(135deg, #1F3D2E, #5FA68B);">
+                {article.data.coverAlt ?? article.data.title}
+              </div>
+            )}
             <div class="p-6">
               <div class="text-[11px] uppercase tracking-[0.25em] text-orange-sirop font-bold mb-2">
                 {article.data.pillar}

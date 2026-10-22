@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { photoDe } from "../lib/couverture";
 
 export async function getStaticPaths() {
   const categories = [
@@ -238,9 +239,9 @@ const activityMatrix = activityCities.map((city) => ({
           data-city={city}
           data-age={age}
         >
-          {article.data.cover ? (
+          {photoDe(article) ? (
             <div class="aspect-[4/3] overflow-hidden">
-              <img src={article.data.cover} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
+              <img src={photoDe(article)} alt={article.data.coverAlt ?? article.data.title} class="w-full h-full object-cover" loading="lazy" />
             </div>
           ) : (
             <div class="aspect-[4/3] flex items-center justify-center text-cream-gouter font-fraunces italic text-base text-center p-5"
