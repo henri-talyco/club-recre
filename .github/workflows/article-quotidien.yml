@@ -81,6 +81,7 @@ env:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 concurrency:
   group: article-quotidien
