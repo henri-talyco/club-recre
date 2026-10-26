@@ -3,6 +3,33 @@
   "_maj": "2026-10-26",
   "sujets": [
     {
+      "slug": "chambre-enfant-90s-vintage",
+      "mode": "enrichir",
+      "titre": "Enrichir chambre-enfant-90s-vintage",
+      "keyword": "chambre année 90",
+      "requetes": [
+        "chambre année 90"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s44",
+      "impressions": 63
+    },
+    {
+      "slug": "anniversaire-enfant-paris",
+      "mode": "enrichir",
+      "titre": "Enrichir anniversaire-enfant-paris",
+      "keyword": "anniversaire enfant 6 8 ans paris",
+      "requetes": [
+        "anniversaire enfant 6 8 ans paris",
+        "anniversaire enfant 4 5 ans paris"
+      ],
+      "pillar": "activites",
+      "type": "ville",
+      "source": "gsc-enrichir-s44",
+      "impressions": 61
+    },
+    {
       "slug": "activite-enfant-3-ans-paris",
       "mode": "enrichir",
       "titre": "Enrichir activite-enfant-3-ans-paris",
@@ -573,6 +600,16 @@
       "source": "semrush-s43",
       "volume": 1000,
       "kd": 13
+    },
+    {
+      "slug": "jeu-de-societe",
+      "titre": "Jeu de societe : le guide complet",
+      "keyword": "jeu de societe",
+      "pillar": "education",
+      "type": "guide",
+      "source": "semrush-s44",
+      "volume": 8100,
+      "kd": 26
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush.",
@@ -584,7 +621,9 @@
     "jeux-cour-recre-transmettre": "2026-10-02",
     "polly-pocket-1990-prix": "2026-10-05",
     "playmobil-western-vintage": "2026-10-12",
-    "recette-enfant-2-ans": "2026-10-19"
+    "recette-enfant-2-ans": "2026-10-19",
+    "chambre-enfant-90s-vintage": "2026-10-26",
+    "anniversaire-enfant-paris": "2026-10-26"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
