@@ -1,17 +1,7 @@
 {
   "_lisezmoi": "File des comparatifs de produits, tenue à la main (02/10/2026). Le robot y prend son sujet les jours JOURS_COMPARATIF (article-quotidien.yml), dans l'ordre. Chaque produit cité reçoit un lien Amazon après vérification de sa page (scripts/liens-amazon.mjs). public: enfant interdit les téléphones (art. L. 5231-3 du code de la santé publique). Volumes Semrush France, recherches par mois, relevés le 02/10/2026.",
-  "_maj": "2026-10-21",
+  "_maj": "2026-10-28",
   "sujets": [
-    {
-      "slug": "nokia-3310-aujourdhui",
-      "titre": "Nokia 3310 en 2026 : marche-t-il encore, et par quoi le remplacer",
-      "keyword": "nokia 3310",
-      "pillar": "lifestyle",
-      "type": "comparatif",
-      "public": "adulte",
-      "volume": 33100,
-      "kd": 32
-    },
     {
       "slug": "lecteur-mp3-enfant",
       "titre": "Lecteur MP3 enfant : les baladeurs sans écran ni internet",
