@@ -3,6 +3,32 @@
   "_maj": "2026-11-02",
   "sujets": [
     {
+      "slug": "kit-patisserie-enfant",
+      "mode": "enrichir",
+      "titre": "Enrichir kit-patisserie-enfant",
+      "keyword": "kit patisserie enfant",
+      "requetes": [
+        "kit patisserie enfant"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s45",
+      "impressions": 49
+    },
+    {
+      "slug": "livre-cuisine-enfant",
+      "mode": "enrichir",
+      "titre": "Enrichir livre-cuisine-enfant",
+      "keyword": "livre cuisine enfant",
+      "requetes": [
+        "livre cuisine enfant"
+      ],
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-enrichir-s45",
+      "impressions": 32
+    },
+    {
       "slug": "activite-enfant-3-ans-paris",
       "mode": "enrichir",
       "titre": "Enrichir activite-enfant-3-ans-paris",
@@ -583,6 +609,16 @@
       "source": "semrush-s44",
       "volume": 8100,
       "kd": 26
+    },
+    {
+      "slug": "un-petit-truc-en-plus",
+      "titre": "Un petit truc en plus : le guide complet",
+      "keyword": "un petit truc en plus",
+      "pillar": "marques",
+      "type": "mode",
+      "source": "semrush-s45",
+      "volume": 14800,
+      "kd": 29
     }
   ],
   "_volumes": "Semrush, base fr. Les sujets sans volume sont de la longue traine vue en Search Console, sous le seuil de mesure Semrush.",
@@ -596,7 +632,9 @@
     "playmobil-western-vintage": "2026-10-12",
     "recette-enfant-2-ans": "2026-10-19",
     "chambre-enfant-90s-vintage": "2026-10-26",
-    "anniversaire-enfant-paris": "2026-10-26"
+    "anniversaire-enfant-paris": "2026-10-26",
+    "kit-patisserie-enfant": "2026-11-02",
+    "livre-cuisine-enfant": "2026-11-02"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
