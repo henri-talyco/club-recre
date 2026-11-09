@@ -3,6 +3,42 @@
   "_maj": "2026-11-09",
   "sujets": [
     {
+      "slug": "livre-enfant-3-ans",
+      "mode": "enrichir",
+      "titre": "Enrichir livre-enfant-3-ans",
+      "keyword": "livre enfant 3 ans",
+      "requetes": [
+        "livre enfant 3 ans"
+      ],
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-enrichir-s46",
+      "impressions": 52
+    },
+    {
+      "slug": "cadeau-fille-8-ans",
+      "mode": "enrichir",
+      "titre": "Enrichir cadeau-fille-8-ans",
+      "keyword": "cadeau fille 8 ans",
+      "requetes": [
+        "cadeau fille 8 ans"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s46",
+      "impressions": 28
+    },
+    {
+      "slug": "game-boy-enfant",
+      "titre": "Game boy enfant : le guide complet",
+      "keyword": "game boy enfant",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-s46",
+      "impressions": 147,
+      "position": 8.8
+    },
+    {
       "slug": "activite-enfant-3-ans-paris",
       "mode": "enrichir",
       "titre": "Enrichir activite-enfant-3-ans-paris",
@@ -608,7 +644,9 @@
     "chambre-enfant-90s-vintage": "2026-10-26",
     "anniversaire-enfant-paris": "2026-10-26",
     "kit-patisserie-enfant": "2026-11-02",
-    "livre-cuisine-enfant": "2026-11-02"
+    "livre-cuisine-enfant": "2026-11-02",
+    "livre-enfant-3-ans": "2026-11-09",
+    "cadeau-fille-8-ans": "2026-11-09"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
