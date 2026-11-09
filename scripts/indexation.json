@@ -69,6 +69,15 @@
         "Google ne reconnaît pas cette URL": 6,
         "Détectée, actuellement non indexée": 1
       }
+    },
+    {
+      "date": "2026-11-09",
+      "mesurees": 13,
+      "indexees": 13,
+      "part": 1.0,
+      "etats": {
+        "Envoyée et indexée": 13
+      }
     }
   ]
 }
