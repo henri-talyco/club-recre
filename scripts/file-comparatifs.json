@@ -1,18 +1,7 @@
 {
   "_lisezmoi": "File des comparatifs de produits, tenue à la main (02/10/2026). Le robot y prend son sujet les jours JOURS_COMPARATIF (article-quotidien.yml), dans l'ordre. Chaque produit cité reçoit un lien Amazon après vérification de sa page (scripts/liens-amazon.mjs). public: enfant interdit les téléphones (art. L. 5231-3 du code de la santé publique). Volumes Semrush France, recherches par mois, relevés le 02/10/2026.",
-  "_maj": "2026-11-04",
+  "_maj": "2026-11-11",
   "sujets": [
-    {
-      "slug": "telephone-fixe-sans-fil",
-      "titre": "Téléphone fixe sans fil : le retour du téléphone de la maison",
-      "keyword": "téléphone fixe sans fil",
-      "pillar": "lifestyle",
-      "type": "comparatif",
-      "public": "adulte",
-      "volume": 6600,
-      "kd": 31,
-      "voisins": "telephone fixe vintage 880, telephone fixe sans fil avec repondeur 720"
-    },
     {
       "slug": "appareil-photo-jetable",
       "titre": "Appareil photo jetable : lequel choisir et combien coûte le développement",
