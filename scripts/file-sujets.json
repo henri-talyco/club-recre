@@ -3,6 +3,43 @@
   "_maj": "2026-11-16",
   "sujets": [
     {
+      "slug": "deguisement-enfant-4-ans",
+      "mode": "enrichir",
+      "titre": "Enrichir deguisement-enfant-4-ans",
+      "keyword": "cadeaux pour enfants de 4 à 7 ans déguisements",
+      "requetes": [
+        "cadeaux pour enfants de 4 à 7 ans déguisements",
+        "deguisement garcon 4 ans",
+        "déguisement 4 ans"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s47",
+      "impressions": 77
+    },
+    {
+      "slug": "invitation-anniversaire-enfant",
+      "mode": "enrichir",
+      "titre": "Enrichir invitation-anniversaire-enfant",
+      "keyword": "invitation anniversaire enfant",
+      "requetes": [
+        "invitation anniversaire enfant",
+        "modele de carte d invitation anniversaire garcon"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s47",
+      "impressions": 73
+    },
+    {
+      "slug": "my-little-pony",
+      "titre": "My little pony : le guide complet",
+      "keyword": "my little pony",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gagnant-tamagotchi-s47"
+    },
+    {
       "slug": "game-boy-enfant",
       "titre": "Game boy enfant : le guide complet",
       "keyword": "game boy enfant",
@@ -620,7 +657,9 @@
     "kit-patisserie-enfant": "2026-11-02",
     "livre-cuisine-enfant": "2026-11-02",
     "livre-enfant-3-ans": "2026-11-09",
-    "cadeau-fille-8-ans": "2026-11-09"
+    "cadeau-fille-8-ans": "2026-11-09",
+    "deguisement-enfant-4-ans": "2026-11-16",
+    "invitation-anniversaire-enfant": "2026-11-16"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
