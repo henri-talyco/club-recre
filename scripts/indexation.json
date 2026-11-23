@@ -87,6 +87,15 @@
       "etats": {
         "Envoyée et indexée": 13
       }
+    },
+    {
+      "date": "2026-11-23",
+      "mesurees": 13,
+      "indexees": 13,
+      "part": 1.0,
+      "etats": {
+        "Envoyée et indexée": 13
+      }
     }
   ]
 }
