@@ -3,6 +3,44 @@
   "_maj": "2026-11-23",
   "sujets": [
     {
+      "slug": "lecteur-mp3-enfant",
+      "mode": "enrichir",
+      "titre": "Enrichir lecteur-mp3-enfant",
+      "keyword": "lecteur mp3 enfant",
+      "requetes": [
+        "lecteur mp3 enfant"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s48",
+      "impressions": 94
+    },
+    {
+      "slug": "jeux-societe-enfant-4-ans",
+      "mode": "enrichir",
+      "titre": "Enrichir jeux-societe-enfant-4-ans",
+      "keyword": "jeux de société 4 ans",
+      "requetes": [
+        "jeux de société 4 ans",
+        "jeu de société 4 ans",
+        "meilleurs jeux de société 4 ans"
+      ],
+      "pillar": "education",
+      "type": "guide",
+      "source": "gsc-enrichir-s48",
+      "impressions": 86
+    },
+    {
+      "slug": "game-boy-2026",
+      "titre": "Game boy 2026 : le guide complet",
+      "keyword": "game boy 2026",
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-s48",
+      "impressions": 146,
+      "position": 8.3
+    },
+    {
       "slug": "my-little-pony",
       "titre": "My little pony : le guide complet",
       "keyword": "my little pony",
@@ -630,7 +668,9 @@
     "livre-enfant-3-ans": "2026-11-09",
     "cadeau-fille-8-ans": "2026-11-09",
     "deguisement-enfant-4-ans": "2026-11-16",
-    "invitation-anniversaire-enfant": "2026-11-16"
+    "invitation-anniversaire-enfant": "2026-11-16",
+    "lecteur-mp3-enfant": "2026-11-23",
+    "jeux-societe-enfant-4-ans": "2026-11-23"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
