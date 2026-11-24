@@ -1,7 +1,62 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-11-23",
+  "_maj": "2026-11-24",
   "sujets": [
+    {
+      "slug": "fin-2g-vieux-portable",
+      "mode": "enrichir",
+      "titre": "Enrichir fin-2g-vieux-portable",
+      "keyword": "comment savoir si mon téléphone est en 2g",
+      "requetes": [
+        "comment savoir si mon téléphone est en 2g",
+        "nokia 3310",
+        "comment savoir si mon telephone est en 2 g",
+        "comment savoir si mon téléphone est 2g",
+        "date fin 2g"
+      ],
+      "raison": "en baisse, de 494 à 306 affichages (3 dernières semaines contre les 3 d'avant), position 5,7 puis 7,6",
+      "verdict": "baisse",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "suivi-baisse-s48"
+    },
+    {
+      "slug": "decoration-gateau-anniversaire-enfant",
+      "mode": "enrichir",
+      "titre": "Enrichir decoration-gateau-anniversaire-enfant",
+      "keyword": "décoration gâteau anniversaire fait maison enfant",
+      "requetes": [
+        "décoration gâteau anniversaire fait maison enfant",
+        "decoration gateau anniversaire enfant"
+      ],
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-enrichir-s48",
+      "impressions": 67
+    },
+    {
+      "slug": "playmobil-vintage",
+      "mode": "enrichir",
+      "titre": "Enrichir playmobil-vintage",
+      "keyword": "playmobil vintage",
+      "requetes": [
+        "playmobil vintage"
+      ],
+      "pillar": "jouets-vintage",
+      "type": "jouet",
+      "source": "gsc-enrichir-s48",
+      "impressions": 43
+    },
+    {
+      "slug": "idee-repas-bebe-2-ans",
+      "titre": "Idée repas bébé 2 ans : le guide complet",
+      "keyword": "idée repas bébé 2 ans",
+      "pillar": "lifestyle",
+      "type": "guide",
+      "source": "gsc-s48",
+      "impressions": 87,
+      "position": 26.3
+    },
     {
       "slug": "lecteur-mp3-enfant",
       "mode": "enrichir",
@@ -670,7 +725,10 @@
     "deguisement-enfant-4-ans": "2026-11-16",
     "invitation-anniversaire-enfant": "2026-11-16",
     "lecteur-mp3-enfant": "2026-11-23",
-    "jeux-societe-enfant-4-ans": "2026-11-23"
+    "jeux-societe-enfant-4-ans": "2026-11-23",
+    "fin-2g-vieux-portable": "2026-11-24",
+    "decoration-gateau-anniversaire-enfant": "2026-11-24",
+    "playmobil-vintage": "2026-11-24"
   },
   "refuses": {
     "activité bébé bordeaux": "2026-10-05, Henri : doublon de visiter-bordeaux-avec-bebe (30/09) et activites-bordeaux-enfant-1-an"
