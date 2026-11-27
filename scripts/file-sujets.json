@@ -1,25 +1,7 @@
 {
   "_lisezmoi": "File d'attente du robot d'articles. Le premier sujet non publie est traite chaque matin, puis retire de la liste. Champs: slug (nom du fichier .md), titre (indicatif, le modele peut l'affiner), keyword (expression exacte a placer dans title/seoTitle/seoDescription), pillar (valeur du schema Zod), type (ville|guide|jouet|mode|saison, pilote les consignes de redaction), source (d'ou vient le sujet), volume et kd viennent de Semrush quand ils existent, sinon absents.",
-  "_maj": "2026-11-24",
+  "_maj": "2026-11-27",
   "sujets": [
-    {
-      "slug": "fin-2g-vieux-portable",
-      "mode": "enrichir",
-      "titre": "Enrichir fin-2g-vieux-portable",
-      "keyword": "comment savoir si mon téléphone est en 2g",
-      "requetes": [
-        "comment savoir si mon téléphone est en 2g",
-        "nokia 3310",
-        "comment savoir si mon telephone est en 2 g",
-        "comment savoir si mon téléphone est 2g",
-        "date fin 2g"
-      ],
-      "raison": "en baisse, de 494 à 306 affichages (3 dernières semaines contre les 3 d'avant), position 5,7 puis 7,6",
-      "verdict": "baisse",
-      "pillar": "lifestyle",
-      "type": "guide",
-      "source": "suivi-baisse-s48"
-    },
     {
       "slug": "decoration-gateau-anniversaire-enfant",
       "mode": "enrichir",
